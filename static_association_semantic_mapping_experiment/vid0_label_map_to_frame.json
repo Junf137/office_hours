@@ -1,0 +1,1751 @@
+{
+  "000000": {
+    "robot_location": "Jack. J's cubicle",
+    "viewed_locations": [{ "label": "Jack. J's cubicle" }]
+  },
+  "000032": {
+    "robot_location": "Jack. J's cubicle",
+    "viewed_locations": [
+      { "label": "Jack. J's cubicle" },
+      {
+        "label": "Cubicle 2038U",
+        "alias": "Emily's cubicle"
+      }
+    ]
+  },
+  "000062": {
+    "robot_location": "Jack. J's cubicle",
+    "viewed_locations": [
+      { "label": "Jack. J's cubicle" },
+      {
+        "label": "Cubicle 2038U",
+        "alias": "Emily's cubicle"
+      },
+      {
+        "label": "Cubicle 2038W",
+        "alias": "Jessica's cubicle"
+      }
+    ],
+    "landmarks": ["Jessica's trashcan"]
+  },
+  "000072": {
+    "robot_location": "Jack. J's cubicle",
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038W",
+        "alias": "Jessica's cubicle"
+      },
+      { "label": "Cubicle 2038U", "alias": "Emily's cubicle" },
+      { "label": "Exit Door" }
+    ],
+    "landmarks": ["Exit Door", "Jessica's trashcan", "Exit Map"]
+  },
+  "000086": {
+    "robot_location": "Jack. J's cubicle",
+    "viewed_locations": [
+      { "label": "Jack. J's cubicle" },
+      {
+        "label": "Cubicle 2038U",
+        "alias": "Emily's cubicle"
+      },
+      {
+        "label": "Cubicle 2038W",
+        "alias": "Jessica's cubicle"
+      }
+    ],
+    "landmarks": ["Jessica's trashcan"]
+  },
+  "000130": {
+    "robot_location": "Jack. J's cubicle",
+    "viewed_locations": [
+      { "label": "Jack. J's cubicle" },
+      {
+        "label": "Cubicle 2038U",
+        "alias": "Emily's cubicle"
+      },
+      {
+        "label": "Cubicle 2038W",
+        "alias": "Jessica's cubicle"
+      }
+    ],
+    "landmarks": ["Jessica's trashcan", "Emily's trashcan"]
+  },
+  "000166": {
+    "robot_location": "Jack. J's cubicle",
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038U",
+        "alias": "Emily's cubicle"
+      },
+      {
+        "label": "Cubicle 2038W",
+        "alias": "Jessica's cubicle"
+      }
+    ],
+    "landmarks": ["Emily's trashcan"]
+  },
+  "000186": {
+    "robot_location": "Jack. J's cubicle",
+    "viewed_locations": [
+      { "label": "Jack. J's cubicle" },
+      {
+        "label": "Cubicle 2038U",
+        "alias": "Emily's cubicle"
+      }
+    ],
+    "landmarks": ["Emily's trashcan"]
+  },
+  "000198": {
+    "robot_location": "Jack. J's cubicle",
+    "viewed_locations": [{ "label": "Jack. J's cubicle" }]
+  },
+  "000298": {
+    "robot_location": "Jack. J's cubicle",
+    "viewed_locations": [
+      { "label": "Jack. J's cubicle" },
+      {
+        "label": "Cubicle 2038U",
+        "alias": "Emily's cubicle"
+      }
+    ],
+    "landmarks": ["Emily's trashcan"]
+  },
+  "000304": {
+    "robot_location": "Jack. J's cubicle",
+    "viewed_locations": [
+      { "label": "Jack. J's cubicle" },
+      {
+        "label": "Cubicle 2038U",
+        "alias": "Emily's cubicle"
+      },
+      {
+        "label": "Cubicle 2038W",
+        "alias": "Jessica's cubicle"
+      }
+    ],
+    "landmarks": ["Emily's trashcan"]
+  },
+  "000358": {
+    "robot_location": "Emily's cubicle",
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038U",
+        "alias": "Emily's cubicle"
+      },
+      {
+        "label": "Cubicle 2038W",
+        "alias": "Jessica's cubicle"
+      }
+    ],
+    "landmarks": ["Emily's trashcan"]
+  },
+  "000398": {
+    "robot_location": "Emily's cubicle",
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038U",
+        "alias": "Emily's cubicle"
+      },
+      {
+        "label": "Cubicle 2038W",
+        "alias": "Jessica's cubicle"
+      }
+    ]
+  },
+  "000436": {
+    "robot_location": "Jessica's cubicle",
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038W",
+        "alias": "Jessica's cubicle"
+      },
+      {
+        "label": "Cubicle 2038X",
+        "alias": "Jerry's cubicle"
+      }
+    ],
+    "landmarks": ["Jerry's trashcan"]
+  },
+  "000446": {
+    "robot_location": "Jessica's cubicle",
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038W",
+        "alias": "Jessica's cubicle"
+      },
+      {
+        "label": "Cubicle 2038X",
+        "alias": "Jerry's cubicle"
+      }
+    ]
+  },
+  "000508": {
+    "robot_location": "Jessica's cubicle",
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038W",
+        "alias": "Jessica's cubicle"
+      },
+      {
+        "label": "Cubicle 2038X",
+        "alias": "Jerry's cubicle"
+      }
+    ]
+  },
+  "000522": {
+    "robot_location": "Emily's cubicle",
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038U",
+        "alias": "Emily's cubicle"
+      },
+      {
+        "label": "Cubicle 2038T",
+        "alias": "Jack. S's cubicle"
+      }
+    ],
+    "landmarks": ["Jack. S's trashcan"]
+  },
+  "000534": {
+    "robot_location": "Emily's cubicle",
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038U",
+        "alias": "Emily's cubicle"
+      },
+      {
+        "label": "Cubicle 2038T",
+        "alias": "Jack. S's cubicle"
+      }
+    ]
+  },
+  "000542": {
+    "robot_location": "Emily's cubicle",
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038U",
+        "alias": "Emily's cubicle"
+      }
+    ]
+  },
+  "000608": {
+    "robot_location": "Emily's cubicle",
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038U",
+        "alias": "Emily's cubicle"
+      },
+      {
+        "label": "Cubicle 2038T",
+        "alias": "Jack. S's cubicle"
+      }
+    ]
+  },
+  "000616": {
+    "robot_location": "Emily's cubicle",
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038U",
+        "alias": "Emily's cubicle"
+      },
+      {
+        "label": "Cubicle 2038T",
+        "alias": "Jack. S's cubicle"
+      }
+    ],
+    "landmarks": ["Jack. S's trashcan"]
+  },
+  "000636": {
+    "robot_location": "Jessica's cubicle",
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038W",
+        "alias": "Jessica's cubicle"
+      },
+      {
+        "label": "Cubicle 2038X",
+        "alias": "Jerry's cubicle"
+      }
+    ],
+    "landmarks": ["Jerry's trashcan"]
+  },
+  "000676": {
+    "robot_location": "Jack. S's cubicle",
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038T",
+        "alias": "Jack. S's cubicle"
+      },
+      {
+        "label": "Cubicle 2038X",
+        "alias": "Jerry's cubicle"
+      }
+    ]
+  },
+  "000724": {
+    "robot_location": "Jack. S's cubicle",
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038T",
+        "alias": "Jack. S's cubicle"
+      },
+      {
+        "label": "Cubicle 2038X",
+        "alias": "Jerry's cubicle"
+      }
+    ]
+  },
+  "000772": {
+    "robot_location": "Jerry's cubicle",
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038X",
+        "alias": "Jerry's cubicle"
+      },
+      {
+        "label": "Cubicle 2038Y",
+        "alias": "Daniel's cubicle"
+      }
+    ],
+    "landmarks": ["Daniel's trashcan"]
+  },
+  "000780": {
+    "robot_location": "Jerry's cubicle",
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038X",
+        "alias": "Jerry's cubicle"
+      },
+      {
+        "label": "Cubicle 2038Y",
+        "alias": "Daniel's cubicle"
+      }
+    ],
+    "landmarks": ["Daniel's trashcan"]
+  },
+  "000832": {
+    "robot_location": "Jerry's cubicle",
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038Y",
+        "alias": "Daniel's cubicle"
+      }
+    ],
+    "landmarks": ["Daniel's trashcan"]
+  },
+  "000846": {
+    "robot_location": "Jack. S's cubicle",
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038T",
+        "alias": "Jack. S's cubicle"
+      },
+      {
+        "label": "Cubicle 2038S",
+        "alias": "Frank's cubicle"
+      }
+    ]
+  },
+  "000856": {
+    "robot_location": "Jack. S's cubicle",
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038T",
+        "alias": "Jack. S's cubicle"
+      }
+    ]
+  },
+  "000868": {
+    "robot_location": ["Jack. S's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038T",
+        "alias": "Jack. S's cubicle"
+      }
+    ],
+    "landmarks": ["Jack. S's duck"]
+  },
+  "000894": {
+    "robot_location": ["Jack. S's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038T",
+        "alias": "Jack. S's cubicle"
+      },
+      {
+        "label": "Cubicle 2038S",
+        "alias": "Frank's cubicle"
+      }
+    ]
+  },
+  "000944": {
+    "robot_location": ["Jack. S's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038T",
+        "alias": "Jack. S's cubicle"
+      },
+      {
+        "label": "Cubicle 2038S",
+        "alias": "Frank's cubicle"
+      }
+    ]
+  },
+  "001014": {
+    "robot_location": ["Frank's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038S",
+        "alias": "Frank's cubicle"
+      },
+      {
+        "label": "Cubicle 2038Y",
+        "alias": "Daniel's cubicle"
+      }
+    ],
+    "landmarks": ["Daniel's trashcan", "Door 2033", "Door 2035"]
+  },
+  "001068": {
+    "robot_location": ["Daniel's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038Y",
+        "alias": "Daniel's cubicle"
+      }
+    ]
+  },
+  "001078": {
+    "robot_location": ["Daniel's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038Y",
+        "alias": "Daniel's cubicle"
+      }
+    ]
+  },
+  "001124": {
+    "robot_location": ["Daniel's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038Y",
+        "alias": "Daniel's cubicle"
+      }
+    ]
+  },
+  "001138": {
+    "robot_location": ["Frank's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038S",
+        "alias": "Frank's cubicle"
+      }
+    ],
+    "landmarks": ["Door 2033", "Door 2035"]
+  },
+  "001150": {
+    "robot_location": ["Frank's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038S",
+        "alias": "Frank's cubicle"
+      }
+    ],
+    "landmarks": ["Door 2033", "Door 2035"]
+  },
+  "001244": {
+    "robot_location": ["Frank's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038S",
+        "alias": "Frank's cubicle"
+      }
+    ],
+    "landmarks": ["Door 2033", "Door 2037", "White box"]
+  },
+  "001292": {
+    "robot_location": ["Frank's cubicle"],
+    "viewed_locations": [],
+    "landmarks": ["Door 2033"]
+  },
+  "001320": {
+    "robot_location": ["Frank's cubicle"],
+    "viewed_locations": [],
+    "landmarks": ["Door 2033", "Door 2035", "Door 2037"]
+  },
+  "001358": {
+    "robot_location": ["Frank's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038S",
+        "alias": "Frank's cubicle"
+      },
+      {
+        "label": "Cubicle 2038R",
+        "alias": "Amy's cubicle"
+      }
+    ],
+    "landmarks": ["Door 2033", "Door 2035"]
+  },
+  "001402": {
+    "robot_location": ["Frank's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038S",
+        "alias": "Frank's cubicle"
+      },
+      {
+        "label": "Cubicle 2038R",
+        "alias": "Amy's cubicle"
+      }
+    ],
+    "landmarks": ["Door 2035"]
+  },
+  "001446": {
+    "robot_location": ["Frank's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038R",
+        "alias": "Amy's cubicle"
+      }
+    ],
+    "landmarks": ["Door 2035"]
+  },
+  "001466": {
+    "robot_location": ["Frank's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038R",
+        "alias": "Amy's cubicle"
+      }
+    ],
+    "landmarks": ["Door 2035"]
+  },
+  "001520": {
+    "robot_location": ["Amy's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038K",
+        "alias": "Alex's cubicle"
+      }
+    ],
+    "landmarks": ["Door 2037"]
+  },
+  "001562": {
+    "robot_location": ["Amy's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038K",
+        "alias": "Alex's cubicle"
+      }
+    ],
+    "landmarks": ["Door 2037"]
+  },
+  "001608": {
+    "robot_location": ["Amy's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038K",
+        "alias": "Alex's cubicle"
+      }
+    ],
+    "landmarks": ["Door 2037"]
+  },
+  "001650": {
+    "robot_location": ["Alex's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038K",
+        "alias": "Alex's cubicle"
+      }
+    ]
+  },
+  "001662": {
+    "robot_location": ["Amy's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038R",
+        "alias": "Amy's cubicle"
+      },
+      {
+        "label": "Cubicle 2038K",
+        "alias": "Alex's cubicle"
+      }
+    ]
+  },
+  "001706": {
+    "robot_location": ["Amy's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038R",
+        "alias": "Amy's cubicle"
+      },
+      {
+        "label": "Cubicle 2038K",
+        "alias": "Alex's cubicle"
+      }
+    ]
+  },
+  "001740": {
+    "robot_location": ["Amy's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038R",
+        "alias": "Amy's cubicle"
+      },
+      {
+        "label": "Cubicle 2038K",
+        "alias": "Alana's cubicle"
+      }
+    ]
+  },
+  "001766": {
+    "robot_location": ["Amy's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038Q",
+        "alias": "Alana's cubicle"
+      }
+    ]
+  },
+  "001778": {
+    "robot_location": ["Amy's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038K",
+        "alias": "Alex's cubicle"
+      },
+      {
+        "label": "Cubicle 2038Q",
+        "alias": "Alana's cubicle"
+      }
+    ]
+  },
+  "001790": {
+    "robot_location": ["Amy's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038K",
+        "alias": "Alex's cubicle"
+      }
+    ]
+  },
+  "001868": {
+    "robot_location": ["Amy's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038K",
+        "alias": "Alex's cubicle"
+      }
+    ]
+  },
+  "001874": {
+    "robot_location": ["Amy's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038Q",
+        "alias": "Alana's cubicle"
+      }
+    ]
+  },
+  "001884": {
+    "robot_location": ["Amy's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038R",
+        "alias": "Amy's cubicle"
+      },
+      {
+        "label": "Cubicle 2038Q",
+        "alias": "Alana's cubicle"
+      }
+    ]
+  },
+  "001896": {
+    "robot_location": ["Amy's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038R",
+        "alias": "Amy's cubicle"
+      },
+      {
+        "label": "Cubicle 2038Q",
+        "alias": "Alana's cubicle"
+      }
+    ]
+  },
+  "001902": {
+    "robot_location": ["Amy's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038R",
+        "alias": "Amy's cubicle"
+      }
+    ]
+  },
+  "001964": {
+    "robot_location": ["Amy's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038R",
+        "alias": "Amy's cubicle"
+      },
+      {
+        "label": "Cubicle 2038Q",
+        "alias": "Alana's cubicle"
+      }
+    ]
+  },
+  "001972": {
+    "robot_location": ["Amy's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038R",
+        "alias": "Amy's cubicle"
+      },
+      {
+        "label": "Cubicle 2038Q",
+        "alias": "Alana's cubicle"
+      }
+    ]
+  },
+  "002000": {
+    "robot_location": ["Amy's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038Q",
+        "alias": "Alana's cubicle"
+      }
+    ]
+  },
+  "002028": {
+    "robot_location": ["Alana's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038Q",
+        "alias": "Alana's cubicle"
+      },
+      {
+        "label": "Cubicle 2038P",
+        "alias": "Roberto's cubicle"
+      }
+    ]
+  },
+  "002064": {
+    "robot_location": ["Alana's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038Q",
+        "alias": "Alana's cubicle"
+      },
+      {
+        "label": "Cubicle 2038P",
+        "alias": "Roberto's cubicle"
+      }
+    ]
+  },
+  "002070": {
+    "robot_location": ["Alana's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038Q",
+        "alias": "Alana's cubicle"
+      }
+    ]
+  },
+  "002170": {
+    "robot_location": ["Alana's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038Q",
+        "alias": "Alana's cubicle"
+      },
+      {
+        "label": "Cubicle 2038P",
+        "alias": "Roberto's cubicle"
+      }
+    ]
+  },
+  "002220": {
+    "robot_location": ["Alana's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038Q",
+        "alias": "Alana's cubicle"
+      },
+      {
+        "label": "Cubicle 2038P",
+        "alias": "Roberto's cubicle"
+      }
+    ]
+  },
+  "002252": {
+    "robot_location": ["Alana's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038P",
+        "alias": "Roberto's cubicle"
+      },
+      {
+        "label": "Cubicle 2038L",
+        "alias": "Eddie's cubicle"
+      }
+    ]
+  },
+  "002276": {
+    "robot_location": ["Roberto's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038P",
+        "alias": "Roberto's cubicle"
+      },
+      {
+        "label": "Cubicle 2038L",
+        "alias": "Eddie's cubicle"
+      }
+    ]
+  },
+  "002310": {
+    "robot_location": ["Roberto's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038P",
+        "alias": "Roberto's cubicle"
+      },
+      {
+        "label": "Cubicle 2038L",
+        "alias": "Eddie's cubicle"
+      }
+    ]
+  },
+  "002346": {
+    "robot_location": ["Roberto's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038L",
+        "alias": "Eddie's cubicle"
+      }
+    ]
+  },
+  "002388": {
+    "robot_location": ["Eddie's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038L",
+        "alias": "Eddie's cubicle"
+      },
+      {
+        "label": "Cubicle 2038M",
+        "alias": "Cecilia's cubicle"
+      }
+    ]
+  },
+  "002408": {
+    "robot_location": ["Roberto's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038P",
+        "alias": "Roberto's cubicle"
+      },
+      {
+        "label": "Cubicle 2038N",
+        "alias": "Kristine's cubicle"
+      }
+    ]
+  },
+  "002418": {
+    "robot_location": ["Roberto's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038P",
+        "alias": "Roberto's cubicle"
+      },
+      {
+        "label": "Cubicle 2038N",
+        "alias": "Kristine's cubicle"
+      }
+    ]
+  },
+  "002486": {
+    "robot_location": ["Roberto's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038P",
+        "alias": "Roberto's cubicle"
+      },
+      {
+        "label": "Cubicle 2038N",
+        "alias": "Kristine's cubicle"
+      }
+    ]
+  },
+  "002506": {
+    "robot_location": ["Roberto's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038P",
+        "alias": "Roberto's cubicle"
+      },
+      {
+        "label": "Cubicle 2038N",
+        "alias": "Kristine's cubicle"
+      }
+    ]
+  },
+  "002524": {
+    "robot_location": ["Eddie's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038L",
+        "alias": "Eddie's cubicle"
+      },
+      {
+        "label": "Cubicle 2038M",
+        "alias": "Cecilia's cubicle"
+      }
+    ]
+  },
+  "002534": {
+    "robot_location": ["Eddie's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038L",
+        "alias": "Eddie's cubicle"
+      }
+    ]
+  },
+  "002578": {
+    "robot_location": ["Eddie's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038L",
+        "alias": "Eddie's cubicle"
+      },
+      {
+        "label": "Cubicle 2038M",
+        "alias": "Cecilia's cubicle"
+      }
+    ]
+  },
+  "002592": {
+    "robot_location": ["Eddie's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038L",
+        "alias": "Eddie's cubicle"
+      },
+      {
+        "label": "Cubicle 2038M",
+        "alias": "Cecilia's cubicle"
+      }
+    ],
+    "landmarks": ["Cecilia's trashcan"]
+  },
+  "002634": {
+    "robot_location": ["Cecilia's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038M",
+        "alias": "Cecilia's cubicle"
+      }
+    ]
+  },
+  "002680": {
+    "robot_location": ["Cecilia's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038M",
+        "alias": "Cecilia's cubicle"
+      }
+    ]
+  },
+  "002724": {
+    "robot_location": ["Kristine's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038N",
+        "alias": "Kristine's cubicle"
+      }
+    ]
+  },
+  "002734": {
+    "robot_location": ["Kristine's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038N",
+        "alias": "Kristine's cubicle"
+      }
+    ]
+  },
+  "002750": {
+    "robot_location": ["Kristine's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038N",
+        "alias": "Kristine's cubicle"
+      }
+    ]
+  },
+  "002780": {
+    "robot_location": ["Kristine's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038N",
+        "alias": "Kristine's cubicle"
+      }
+    ]
+  },
+  "002792": {
+    "robot_location": ["Kristine's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038N",
+        "alias": "Kristine's cubicle"
+      }
+    ]
+  },
+  "002802": {
+    "robot_location": ["Cecilia's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038N",
+        "alias": "Cecilia's cubicle"
+      }
+    ]
+  },
+  "002808": {
+    "robot_location": ["Cecilia's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038M",
+        "alias": "Cecilia's cubicle"
+      }
+    ]
+  },
+  "002816": {
+    "robot_location": ["Cecilia's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038M",
+        "alias": "Cecilia's cubicle"
+      }
+    ]
+  },
+  "002912": {
+    "robot_location": ["Cecilia's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038M",
+        "alias": "Cecilia's cubicle"
+      }
+    ]
+  },
+  "002918": {
+    "robot_location": ["Cecilia's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2038M",
+        "alias": "Cecilia's cubicle"
+      }
+    ]
+  },
+  "003054": {
+    "robot_location": ["Kristine's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008P",
+        "alias": "Sherlock Homes's cubicle"
+      },
+      {
+        "label": "Exit Door"
+      }
+    ]
+  },
+  "003088": {
+    "robot_location": ["Jack. J's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008P",
+        "alias": "Sherlock Homes's cubicle"
+      },
+      {
+        "label": "Exit Door"
+      }
+    ]
+  },
+  "003140": {
+    "robot_location": ["Jack. J's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008P",
+        "alias": "Sherlock Homes's cubicle"
+      },
+      {
+        "label": "Exit Door"
+      }
+    ]
+  },
+  "003194": {
+    "robot_location": ["Jack. J's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008P",
+        "alias": "Sherlock Homes's cubicle"
+      }
+    ]
+  },
+  "003206": {
+    "robot_location": ["Sherlock Homes's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008P",
+        "alias": "Sherlock Homes's cubicle"
+      },
+      {
+        "label": "Cubicle 2008J",
+        "alias": "Lauren's cubicle"
+      }
+    ]
+  },
+  "003256": {
+    "robot_location": ["Sherlock Homes's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008P",
+        "alias": "Sherlock Homes's cubicle"
+      },
+      {
+        "label": "Cubicle 2008J",
+        "alias": "Lauren's cubicle"
+      }
+    ]
+  },
+  "003292": {
+    "robot_location": ["Sherlock Homes's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008P",
+        "alias": "Sherlock Homes's cubicle"
+      }
+    ]
+  },
+  "003316": {
+    "robot_location": ["Sherlock Homes's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008J",
+        "alias": "Lauren's cubicle"
+      }
+    ]
+  },
+  "003330": {
+    "robot_location": ["Lauren's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008J",
+        "alias": "Lauren's cubicle"
+      }
+    ]
+  },
+  "003352": {
+    "robot_location": ["Lauren's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008J",
+        "alias": "Lauren's cubicle"
+      }
+    ]
+  },
+  "003384": {
+    "robot_location": ["Lauren's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008J",
+        "alias": "Lauren's cubicle"
+      },
+      {
+        "label": "Jason's cubicle"
+      }
+    ]
+  },
+  "003402": {
+    "robot_location": ["Lauren's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008J",
+        "alias": "Lauren's cubicle"
+      },
+      {
+        "label": "Jason's cubicle"
+      }
+    ]
+  },
+  "003408": {
+    "robot_location": ["Sherlock Homes's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008P",
+        "alias": "Sherlock Homes's cubicle"
+      },
+      {
+        "label": "Cubicle 2008J",
+        "alias": "Lauren's cubicle"
+      }
+    ]
+  },
+  "003430": {
+    "robot_location": ["Sherlock Homes's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008P",
+        "alias": "Sherlock Homes's cubicle"
+      }
+    ]
+  },
+  "003436": {
+    "robot_location": ["Sherlock Homes's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008P",
+        "alias": "Sherlock Homes's cubicle"
+      }
+    ]
+  },
+  "003446": {
+    "robot_location": ["Sherlock Homes's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008P",
+        "alias": "Sherlock Homes's cubicle"
+      }
+    ]
+  },
+  "003514": {
+    "robot_location": ["Sherlock Homes's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008P",
+        "alias": "Sherlock Homes's cubicle"
+      },
+      {
+        "label": "James's cubicle"
+      }
+    ]
+  },
+  "003560": {
+    "robot_location": ["Sherlock Homes's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "James's cubicle"
+      },
+      {
+        "label": "Jason's cubicle"
+      }
+    ]
+  },
+  "003600": {
+    "robot_location": ["James's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "James's cubicle"
+      }
+    ]
+  },
+  "003640": {
+    "robot_location": ["James's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "James's cubicle"
+      }
+    ]
+  },
+  "003664": {
+    "robot_location": ["James's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Jason's cubicle"
+      },
+      {
+        "label": "Cubicle 2008L",
+        "alias": "Carleton's cubicle"
+      }
+    ]
+  },
+  "003680": {
+    "robot_location": ["James's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Jason's cubicle"
+      },
+      {
+        "label": "Cubicle 2008L",
+        "alias": "Carleton's cubicle"
+      }
+    ]
+  },
+  "003692": {
+    "robot_location": ["James's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Jason's cubicle"
+      }
+    ]
+  },
+  "003724": {
+    "robot_location": ["James's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Jason's cubicle"
+      }
+    ]
+  },
+  "003730": {
+    "robot_location": ["James's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Jason's cubicle"
+      },
+      {
+        "label": "Cubicle 2008L",
+        "alias": "Carleton's cubicle"
+      }
+    ]
+  },
+  "003744": {
+    "robot_location": ["Jason's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Jason's cubicle"
+      },
+      {
+        "label": "Cubicle 2008L",
+        "alias": "Carleton's cubicle"
+      }
+    ]
+  },
+  "003752": {
+    "robot_location": ["Jason's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Jason's cubicle"
+      }
+    ]
+  },
+  "003806": {
+    "robot_location": ["Jason's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Jason's cubicle"
+      }
+    ]
+  },
+  "003816": {
+    "robot_location": ["Jason's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Jason's cubicle"
+      },
+      {
+        "label": "Cubicle 2008L",
+        "alias": "Carleton's cubicle"
+      }
+    ]
+  },
+  "003838": {
+    "robot_location": ["James's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "James's cubicle"
+      },
+      {
+        "label": "Cubicle 2008M",
+        "alias": "Alexandria's cubicle"
+      }
+    ]
+  },
+  "003848": {
+    "robot_location": ["James's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "James's cubicle"
+      }
+    ]
+  },
+  "003882": {
+    "robot_location": ["James's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "James's cubicle"
+      },
+      {
+        "label": "Cubicle 2008M",
+        "alias": "Alexandria's cubicle"
+      }
+    ]
+  },
+  "003926": {
+    "robot_location": ["James's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008M",
+        "alias": "Alexandria's cubicle"
+      },
+      {
+        "label": "Cubicle 2008L",
+        "alias": "Carleton's cubicle"
+      }
+    ]
+  },
+  "003972": {
+    "robot_location": ["Alexandria's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008M",
+        "alias": "Alexandria's cubicle"
+      },
+      {
+        "label": "Cubicle 2008L",
+        "alias": "Carleton's cubicle"
+      }
+    ],
+    "landmarks": ["Door 2011"]
+  },
+  "004008": {
+    "robot_location": ["Alexandria's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008M",
+        "alias": "Alexandria's cubicle"
+      }
+    ],
+    "landmarks": ["Door 2011", "Conference Room 2013"]
+  },
+  "004026": {
+    "robot_location": ["Carleton's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008L",
+        "alias": "Carleton's cubicle"
+      }
+    ],
+    "landmarks": ["Door 2011"]
+  },
+  "004036": {
+    "robot_location": ["Carleton's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008L",
+        "alias": "Carleton's cubicle"
+      }
+    ],
+    "landmarks": ["Door 2011"]
+  },
+  "004126": {
+    "robot_location": ["Carleton's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008L",
+        "alias": "Carleton's cubicle"
+      }
+    ]
+  },
+  "004138": {
+    "robot_location": ["Carleton's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008L",
+        "alias": "Carleton's cubicle"
+      }
+    ]
+  },
+  "004174": {
+    "robot_location": ["Alexandria's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008M",
+        "alias": "Alexandria's cubicle"
+      }
+    ],
+    "landmarks": ["Conference Room 2013", "Gaming chair"]
+  },
+  "004236": {
+    "robot_location": ["Alexandria's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008M",
+        "alias": "Alexandria's cubicle"
+      }
+    ],
+    "landmarks": ["Conference Room 2013"]
+  },
+  "004246": {
+    "robot_location": ["Alexandria's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008M",
+        "alias": "Alexandria's cubicle"
+      }
+    ],
+    "landmarks": ["Conference Room 2013"]
+  },
+  "004268": {
+    "robot_location": ["Alexandria's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008M",
+        "alias": "Alexandria's cubicle"
+      }
+    ],
+    "landmarks": ["Conference Room 2013"]
+  },
+  "004284": {
+    "robot_location": ["Alexandria's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008M",
+        "alias": "Alexandria's cubicle"
+      }
+    ],
+    "landmarks": ["Conference Room 2013"]
+  },
+  "004494": {
+    "robot_location": ["Josh's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008S",
+        "alias": "Josh's cubicle"
+      }
+    ],
+    "landmarks": ["Conference Room 2013", "Door 2017", "Door 2019", "Door 2021"]
+  },
+  "004538": {
+    "robot_location": ["Josh's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008S",
+        "alias": "Josh's cubicle"
+      }
+    ],
+    "landmarks": ["Conference Room 2013", "Door 2017", "Door 2019"]
+  },
+  "004722": {
+    "robot_location": ["Josh's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008S",
+        "alias": "Josh's cubicle"
+      }
+    ],
+    "landmarks": ["Door 2019", "Door 2021"]
+  },
+  "004752": {
+    "robot_location": ["Josh's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008S",
+        "alias": "Josh's cubicle"
+      }
+    ],
+    "landmarks": ["Door 2021"]
+  },
+  "004798": {
+    "robot_location": ["Josh's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008S",
+        "alias": "Josh's cubicle"
+      },
+      {
+        "label": "Cubicle 2008R",
+        "alias": "Cubicle 2008R"
+      }
+    ]
+  },
+  "004808": {
+    "robot_location": ["Josh's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008S",
+        "alias": "Josh's cubicle"
+      }
+    ]
+  },
+  "004866": {
+    "robot_location": ["Josh's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008S",
+        "alias": "Josh's cubicle"
+      },
+      {
+        "label": "Cubicle 2008R",
+        "alias": "Cubicle 2008R"
+      }
+    ]
+  },
+  "004874": {
+    "robot_location": ["Josh's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008S",
+        "alias": "Josh's cubicle"
+      },
+      {
+        "label": "Cubicle 2008R",
+        "alias": "Cubicle 2008R"
+      }
+    ],
+    "landmarks": ["Door 2023"]
+  },
+  "004892": {
+    "robot_location": ["Josh's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008R",
+        "alias": "Cubicle 2008R"
+      }
+    ],
+    "landmarks": ["Door 2023"]
+  },
+  "004914": {
+    "robot_location": ["Cubicle 2008R"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008R",
+        "alias": "Cubicle 2008R"
+      }
+    ],
+    "landmarks": ["Door 2023"]
+  },
+  "004934": {
+    "robot_location": ["Cubicle 2008R"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008R",
+        "alias": "Cubicle 2008R"
+      }
+    ],
+    "landmarks": ["Door 2023"]
+  },
+  "004954": {
+    "robot_location": ["Cubicle 2008R"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008R",
+        "alias": "Cubicle 2008R"
+      }
+    ],
+    "landmarks": ["Door 2023"]
+  },
+  "004998": {
+    "robot_location": ["Cubicle 2008R"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008R",
+        "alias": "Cubicle 2008R"
+      },
+      {
+        "label": "Cubicle 2008Q",
+        "alias": "Cubicle 2008Q"
+      }
+    ]
+  },
+  "005010": {
+    "robot_location": ["Cubicle 2008R"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008R",
+        "alias": "Cubicle 2008R"
+      }
+    ]
+  },
+  "005048": {
+    "robot_location": ["Cubicle 2008R"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008R",
+        "alias": "Cubicle 2008R"
+      },
+      {
+        "label": "Cubicle 2008Q",
+        "alias": "Cubicle 2008Q"
+      }
+    ]
+  },
+  "005054": {
+    "robot_location": ["Cubicle 2008R"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008R",
+        "alias": "Cubicle 2008R"
+      },
+      {
+        "label": "Cubicle 2008Q",
+        "alias": "Cubicle 2008Q"
+      }
+    ],
+    "landmarks": ["Door 2023"]
+  },
+  "005088": {
+    "robot_location": ["Cubicle 2008Q"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008Q",
+        "alias": "Cubicle 2008Q"
+      }
+    ],
+    "landmarks": ["Door 2023"]
+  },
+  "005130": {
+    "robot_location": ["Cubicle 2008Q"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008Q",
+        "alias": "Cubicle 2008Q"
+      }
+    ],
+    "landmarks": ["Door 2023"]
+  },
+  "005258": {
+    "robot_location": ["Cubicle 2008Q"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008Q",
+        "alias": "Cubicle 2008Q"
+      }
+    ]
+  },
+  "005366": {
+    "robot_location": ["Cubicle 2008Q"],
+    "viewed_locations": [
+      {
+        "label": "Cubicle 2008Q",
+        "alias": "Cubicle 2008Q"
+      },
+      {
+        "label": "Jack. J's cubicle",
+        "alias": "Jack. J's cubicle"
+      },
+      {
+        "label": "Exit Door"
+      }
+    ]
+  },
+  "005476": {
+    "robot_location": ["Exit Door"],
+    "viewed_locations": [
+      {
+        "label": "Jack. J's cubicle",
+        "alias": "Jack. J's cubicle"
+      }
+    ]
+  },
+  "005560": {
+    "robot_location": ["Jack. J's cubicle"],
+    "viewed_locations": [
+      {
+        "label": "Jack. J's cubicle",
+        "alias": "Jack. J's cubicle"
+      }
+    ]
+  }
+}
