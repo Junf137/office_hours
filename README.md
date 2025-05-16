@@ -1,5 +1,4 @@
-# Office Hours: A Multiday Office Cubicle Dataset for
-Associative Embodied VQA
+# Office Hours: A Multiday Office Cubicle Dataset for Associative Embodied VQA
 
 This repository contains a benchmark dataset and evaluation framework for video understanding tasks, focusing on both local and global temporal changes in videos.
 
