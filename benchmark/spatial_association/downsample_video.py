@@ -1,8 +1,11 @@
 import ffmpeg
+import os
+
+GLOBAL_VIDEOS_DIR = "./data/global_changes_videos"
 
 for i in range(6):  # episodes 0 to 5
-    input_file = f'global_changes_videos/episode_{i}.MOV'
-    output_file = f'global_changes_videos/episode_{i}_720p_10fps.mp4'
+    input_file = os.path.join(GLOBAL_VIDEOS_DIR, f'episode_{i}.mp4')
+    output_file = os.path.join(GLOBAL_VIDEOS_DIR, f'episode_{i}_720p_10fps.mp4')
 
     print(f'Processing {input_file} -> {output_file}')
 
