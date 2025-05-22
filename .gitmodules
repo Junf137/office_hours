@@ -1,3 +1,3 @@
-[submodule "keyframe_extaction/MASt3R-SLAM"]
-	path = keyframe_extaction/MASt3R-SLAM
+[submodule "keyframe_extraction/MASt3R-SLAM"]
+	path = keyframe_extraction/MASt3R-SLAM
 	url = https://github.com/adrian-ramlal/MASt3R-SLAM.git
