@@ -20,7 +20,11 @@ The benchmark dataset is designed to evaluate models' capabilities in understand
 │   └── video_understanding_local.py    # Local video understanding evaluation
 ├── question_gen/
 │   └── local_changes/                  # Question generation for local temporal changes
-└── utils/                             # Utility functions and helpers
+├── keyframe_extraction/
+|   ├── MASt3R-SLAM/                    # A fork of MASt3R-SLAM to allow full resolution saving of keyframes
+|   ├── split_videos.bash               # Script to split global videos into 5 minute segments with 30sec overlap
+|   └── run_videos.bash                 # Script to run MASt3R-SLAM on segmented videos
+└── utils/                              # Utility functions and helpers
 ```
 
 ## Features
