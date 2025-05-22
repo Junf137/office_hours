@@ -23,10 +23,18 @@ pip install -r requirements.txt
 ```
 .
 ├── benchmark/
-│   ├── local_temporal_evaluation.py    # Evaluation script for local temporal changes
-│   ├── video_understanding_global.py   # Global video understanding evaluation
-│   ├── video_understanding_global_with_map.py  # Global evaluation with mapping
-│   └── video_understanding_local.py    # Local video understanding evaluation
+│   ├── Change_Video.py                             # TODO
+│   ├── spatial_association/
+│   │   ├── downsample_video.py                     # TODO
+│   │   └── spatial_association_vqa_experiment.py   # TODO
+│   ├── static_association_semantic_mapping/
+│   │   ├── vid0_gemini_script.py                   # Generates visual reasoning questions from keyframes
+│   │   └── vid0_label_map_to_frame.json            # JSON mapping of keyframes to robot location and viewed cubicles
+│   ├── temporal_association/
+│   │   └── local_temporal_evaluation.py            # Evaluation script for local temporal changes
+│   ├── video_understanding_global.py               # Global video understanding evaluation
+│   ├── video_understanding_global_with_map.py      # Global evaluation with mapping
+│   └── video_understanding_local.py                # Local video understanding evaluation
 ├── question_gen/
 │   └── local_changes/                  # Question generation for local temporal changes
 ├── keyframe_extraction/
@@ -61,6 +69,20 @@ python benchmark/video_understanding_global.py
 
 ```python
 python benchmark/video_understanding_global_with_map.py
+```
+
+## Question Generation System
+
+### Static Association Semantic Mapping
+
+Implemented a system for generating visual reasoning questions from video keyframes. This system:
+```python
+# Configure paths in the script
+image_folder_path = "path/to/keyframes"
+label_data_path = "path/to/vid0_label_map_to_frame.json"
+
+# Run the script
+python benchmark/static_association_semantic_mapping/vid0_gemini_script.py
 ```
 
 ## Contributing
