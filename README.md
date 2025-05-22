@@ -73,4 +73,4 @@ Contributions to improve the benchmark dataset or evaluation framework are welco
 
 ## Contact
 
-For questions or suggestions, please contact Fernando J. Pena Cantu [fjpenaca@uwaterloo.ca] 
+For questions or suggestions, please contact [Fernando J. Pena Cantu](mailto:fjpenaca@uwaterloo.ca).
