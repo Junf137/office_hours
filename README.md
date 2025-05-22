@@ -9,6 +9,15 @@ The benchmark dataset is designed to evaluate models' capabilities in understand
 1. **Local Temporal Understanding**: Evaluates the model's ability to detect and understand specific changes within video segments.
 2. **Global Video Understanding**: Assesses the model's comprehension of overall video content and temporal relationships.
 
+
+## Dependencies
+Creating conda environment and installing required dependencies.
+```shell
+conda create -n office_hours python=3.11
+conda activate office_hours
+pip install -r requirements.txt
+```
+
 ## Directory Structure
 
 ```
@@ -53,11 +62,6 @@ python benchmark/video_understanding_global.py
 ```python
 python benchmark/video_understanding_global_with_map.py
 ```
-
-## Requirements
-
-- Python 3.x
-- Required packages (to be listed in requirements.txt)
 
 ## Contributing
 
