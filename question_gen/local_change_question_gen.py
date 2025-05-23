@@ -2,7 +2,8 @@ from google import genai
 from google.genai import types
 import os
 import re
-
+from dotenv import load_dotenv
+load_dotenv()
 
 def gemini_response(api_key: str, full_prompt: str) -> str:
     """
@@ -146,11 +147,10 @@ def process_all_csv_files(root_folder, api_key):
 
 
 if __name__ == "__main__":
-    with open("./data/gemini_api_key.txt", "r") as f:
-        api_key = f.read().strip()
+    api_key = os.getenv("GEMINI_API_KEY")
 
     # Set root folder to process (in this case, the csv_files folder)
-    root_folder = "./csv_files"
+    root_folder = "./data/csv_files"
 
     # Process all CSV files
     files_processed = process_all_csv_files(root_folder, api_key)
