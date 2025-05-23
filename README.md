@@ -20,10 +20,9 @@ pip install -r requirements.txt
 ```
 .
 ├── benchmark/
-│   ├── Change_Video.py                             # TODO
 │   ├── spatial_association/
-│   │   ├── downsample_video.py                     # TODO
-│   │   └── spatial_association_vqa_experiment.py   # TODO
+│   │   ├── downsample_video.py                     # Downsample global videos to 720p resolution
+│   │   └── spatial_association_vqa_experiment.py   # Evaluation script for global video spatial association experiment
 │   ├── static_association_semantic_mapping/
 │   │   ├── vid0_gemini_script.py                   # Generates visual reasoning questions from keyframes
 │   │   └── vid0_label_map_to_frame.json            # JSON mapping of keyframes to robot location and viewed cubicles
@@ -33,12 +32,12 @@ pip install -r requirements.txt
 │   ├── video_understanding_global_with_map.py      # Global evaluation with mapping
 │   └── video_understanding_local.py                # Local video understanding evaluation
 ├── question_gen/
-│   └── local_changes/                  # Question generation for local temporal changes
+│   └── local_changes/      # Question generation for local temporal changes
 ├── keyframe_extraction/
-|   ├── MASt3R-SLAM/                    # A fork of MASt3R-SLAM to allow full resolution saving of keyframes
-|   ├── split_videos.bash               # Script to split global videos into 5 minute segments with 30sec overlap
-|   └── run_videos.bash                 # Script to run MASt3R-SLAM on segmented videos
-└── utils/                              # Utility functions and helpers
+|   ├── MASt3R-SLAM/        # A fork of MASt3R-SLAM to allow full resolution saving of keyframes
+|   ├── split_videos.bash   # Script to split global videos into 5 minute segments with 30sec overlap
+|   └── run_videos.bash     # Script to run MASt3R-SLAM on segmented videos
+└── utils/                  # Utility functions and helpers
 ```
 
 ## Features
