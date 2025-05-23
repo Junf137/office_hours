@@ -95,6 +95,18 @@ python benchmark/video_understanding_global_with_map.py
 
 ## Question Generation
 
+### Local Change Videos Questions Generation
+```python
+python question_gen/local_change_question_gen.py
+```
+
+### Global Change Videos Questions Generation
+Used prompt:
+- Global_QA_Object_Count_Prompt.md
+- Global_QA_Object_Detection_Prompt.md
+- Global_QA_Object_Location_Change_Prompt.md
+- Global_QA_Object_State_Prompt.md
+
 
 ## Contributing
 Contributions to improve the benchmark dataset or evaluation framework are welcome. Please feel free to submit issues and pull requests.
