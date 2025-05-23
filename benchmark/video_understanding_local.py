@@ -1,5 +1,6 @@
 #%%
 import os
+import sys
 import time
 import json
 import logging
@@ -8,7 +9,9 @@ from google import genai
 from typing_extensions import List, TypedDict, Dict
 import tenacity
 from google.genai.types import HttpOptions, Part
-from utils import generate_content_with_retry, load_questions
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from utils.global_local_functions import generate_content_with_retry, load_questions
 
 # Set environment variables for Google Cloud and Vertex AI
 os.environ['GOOGLE_CLOUD_PROJECT'] = 'gen-lang-client-0982482224'  # Replace with your actual project ID

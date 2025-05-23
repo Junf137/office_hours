@@ -1,5 +1,6 @@
 #%%
 import os
+import sys
 import time
 import json
 from google import genai
@@ -8,7 +9,8 @@ from pathlib import PurePath
 from google.genai.types import HttpOptions, Part
 
 
-from utils import generate_content_with_retry, load_questions
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from utils.global_local_functions import generate_content_with_retry, load_questions
 
 
 # Set environment variables for Google Cloud and Vertex AI
