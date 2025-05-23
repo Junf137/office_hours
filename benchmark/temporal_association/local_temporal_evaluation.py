@@ -5,17 +5,18 @@ import base64
 import json
 import time
 import multiprocessing
-from typing import List, Tuple, Dict, Optional
+from typing import List, Tuple, Dict
 from google import genai
 from google.genai import types
+from dotenv import load_dotenv
+load_dotenv()
 
 # Constants
-VIDEOS_ROOT_DIR = "./data/Videos/Local Changes"
-CSV_ROOT_DIR = "./csv_files"
+VIDEOS_ROOT_DIR = "./data/local_changes_videos"
+CSV_ROOT_DIR = "./data/csv_files"
 PROMPT_TEMPLATE_PATH = "./prompt/Local Temporal.md"
 EVA_PROMPT = "./prompt/Local Temporal Evaluation.md"
-GEMINI_API_KEY_PATH = "./data/gemini_api_key.txt"
-OUTPUT_DIR = "./evaluation/local_temporal"
+OUTPUT_DIR = "./output/temporal_association"
 GEMINI_MODEL = "models/gemini-2.5-pro-preview-05-06"
 MAX_PROC = 10
 
@@ -281,7 +282,7 @@ def process_video_pairs(cubicle_videos: Dict[str, List[Tuple[int, str]]], prompt
 
 def gemini_output():
     # Load API key
-    api_key = load_api_key(GEMINI_API_KEY_PATH)
+    api_key = os.getenv("GEMINI_API_KEY")
 
     # Load prompt template
     prompt_template = load_prompt_template(PROMPT_TEMPLATE_PATH)
@@ -521,7 +522,7 @@ def change_match():
     change_pair_dir = os.path.join(OUTPUT_DIR, "change_pair")
 
     # Load API key
-    api_key = load_api_key(GEMINI_API_KEY_PATH)
+    api_key = os.getenv("GEMINI_API_KEY")
 
     # Load evaluation prompt template
     prompt_template = load_prompt_template(EVA_PROMPT)
