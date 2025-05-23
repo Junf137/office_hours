@@ -107,12 +107,8 @@ Used prompt:
 - Global_QA_Object_Location_Change_Prompt.md
 - Global_QA_Object_State_Prompt.md
 
-
 ## Contributing
 Contributions to improve the benchmark dataset or evaluation framework are welcome. Please feel free to submit issues and pull requests.
-
-## License
-[Specify your license here]
 
 ## Contact
 For questions or suggestions, please contact [Fernando J. Pena Cantu](mailto:fjpenaca@uwaterloo.ca).
