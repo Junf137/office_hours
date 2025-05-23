@@ -46,7 +46,7 @@ pip install -r requirements.txt
 - **Question Generation**: Tools for generating evaluation questions for local temporal changes
 - **Comprehensive Evaluation Metrics**: Multiple metrics to assess model performance
 
-## Usage
+## Benchmarking
 
 ### Setting Up Gemini API Key
 Before running scripts that requiring gemini API key, setting the api key in the environment variable.
@@ -54,33 +54,46 @@ Before running scripts that requiring gemini API key, setting the api key in the
 export GEMINI_API_KEY=YOUR_API_KEY
 ```
 
+### Spatial Association VQA Evaluation
+```python
+# Downsample videos
+python benchmark/spatial_association/downsample_video.py
+
+# evaluation
+python benchmark/spatial_association/spatial_association_vqa_experiment.py
+```
+
+### Static Association-Semantic Mapping VQA Evaluation
+Implemented a system for generating visual reasoning questions from video keyframes. This system:
+```python
+image_folder_path = "path/to/keyframes"
+label_data_path = "path/to/vid0_label_map_to_frame.json"
+
+python benchmark/static_association_semantic_mapping/vid0_gemini_script.py
+```
+
 ### Temporal Association VQA Evaluation
 ```python
 python benchmark/temporal_association/local_temporal_evaluation.py
 ```
 
-### Global Video Understanding
+### Single-Cubicle-Multi-Temporal VQA Evaluation
+```python
+python benchmark/video_understanding_local.py
+```
+
+### Multi-Cubicle-Multi-Temporal VQA Evaluation
 ```python
 python benchmark/video_understanding_global.py
 ```
 
-### Global Video Understanding with Mapping
+### Multi-Cubicle-Multi-Temporal VQA with Mapping Evaluation
 ```python
 python benchmark/video_understanding_global_with_map.py
 ```
 
-## Question Generation System
+## Question Generation
 
-### Static Association Semantic Mapping
-Implemented a system for generating visual reasoning questions from video keyframes. This system:
-```python
-# Configure paths in the script
-image_folder_path = "path/to/keyframes"
-label_data_path = "path/to/vid0_label_map_to_frame.json"
-
-# Run the script
-python benchmark/static_association_semantic_mapping/vid0_gemini_script.py
-```
 
 ## Contributing
 Contributions to improve the benchmark dataset or evaluation framework are welcome. Please feel free to submit issues and pull requests.
