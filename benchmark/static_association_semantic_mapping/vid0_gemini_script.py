@@ -5,7 +5,7 @@ import json
 import re
 import time
 
-# Fetch the API key from environment variable
+# Fetch Gemini API key from environment variable
 api_key = os.getenv("GEMINI_API_KEY")
 client = genai.Client(api_key=api_key)
 
@@ -13,7 +13,7 @@ client = genai.Client(api_key=api_key)
 image_folder_path = ""  # Replace with keyframe folder path
 label_data_path = "" # Replace with semantic map path
 
-# Load label data
+# Load semantic map data
 with open(label_data_path, 'r') as f:
     label_data = json.load(f)
 
@@ -26,10 +26,10 @@ CATEGORIES = [
     "Cubicle/room location"
 ]
 
-# Get image files
+# Get the keyframes
 image_files = sorted([f for f in os.listdir(image_folder_path) if f.endswith('.png')])
 
-# Output containers
+# Output containers for the categories
 all_questions = {}
 category_outputs = {cat: {} for cat in CATEGORIES}
 
@@ -53,7 +53,7 @@ def get_context_prefix(image_id):
 
     return "Context: " + "; ".join(context_description) + "." if context_description else ""
 
-# Main loop
+# Main loop (prompting Gemini)
 for image_file in image_files:
     image_path = os.path.join(image_folder_path, image_file)
     image_id = os.path.splitext(image_file)[0]
@@ -106,7 +106,7 @@ for image_file in image_files:
     Only use the categories listed. Do not invent new ones or return fewer/more than five total questions.
     """.strip()
 
-    # Read image and send it using types.Part
+    # Read keyframe image and send it using types.Part
     with open(image_path, "rb") as img_file:
         image_bytes = img_file.read()
 
@@ -126,7 +126,7 @@ for image_file in image_files:
     print(f"Response for {image_file}: {response.text}")
     time.sleep(1)
 
-    # Parse response
+    # Parse response from Gemini
     output = {cat: {} for cat in CATEGORIES}
     current_category = None
     question_block = ""
@@ -148,7 +148,6 @@ for image_file in image_files:
         else:
             question_block += line + "\n"
 
-    # Final block
     if current_category and question_block.strip():
         try:
             parsed_json = json.loads(question_block.strip())
@@ -159,7 +158,7 @@ for image_file in image_files:
 
     all_questions[image_file] = output
 
-# Save outputs
+# Save outputs to JSON files based on category
 for category, data in category_outputs.items():
     filename = category.lower().replace(" ", "_").replace("/", "_") + ".json"
     with open(filename, "w") as f:
