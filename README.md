@@ -41,12 +41,6 @@ pip install -r requirements.txt
 └── utils/                  # Utility functions and helpers
 ```
 
-## Features
-- **Local Temporal Evaluation**: Tests the model's ability to detect and understand specific changes within video segments
-- **Global Video Understanding**: Evaluates overall video comprehension and temporal relationships
-- **Question Generation**: Tools for generating evaluation questions for local temporal changes
-- **Comprehensive Evaluation Metrics**: Multiple metrics to assess model performance
-
 ## Benchmarking
 
 ### Setting Up Gemini API Key
