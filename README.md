@@ -56,7 +56,7 @@ export GEMINI_API_KEY=YOUR_API_KEY
 ```
 
 ### Spatial Association VQA Evaluation
-```python
+```shell
 # Downsample videos
 python benchmark/spatial_association/downsample_video.py
 
@@ -66,37 +66,38 @@ python benchmark/spatial_association/spatial_association_vqa_experiment.py
 
 ### Static Association-Semantic Mapping VQA Evaluation
 Implemented a system for generating visual reasoning questions from video keyframes. This system:
-```python
-image_folder_path = "path/to/keyframes"
-label_data_path = "path/to/vid0_label_map_to_frame.json"
+```shell
+# Config path in the python script
+# image_folder_path = "path/to/keyframes"
+# label_data_path = "path/to/vid0_label_map_to_frame.json"
 
 python benchmark/static_association_semantic_mapping/vid0_gemini_script.py
 ```
 
 ### Temporal Association VQA Evaluation
-```python
+```shell
 python benchmark/temporal_association/local_temporal_evaluation.py
 ```
 
 ### Single-Cubicle-Multi-Temporal VQA Evaluation
-```python
+```shell
 python benchmark/video_understanding_local.py
 ```
 
 ### Multi-Cubicle-Multi-Temporal VQA Evaluation
-```python
+```shell
 python benchmark/video_understanding_global.py
 ```
 
 ### Multi-Cubicle-Multi-Temporal VQA with Mapping Evaluation
-```python
+```shell
 python benchmark/video_understanding_global_with_map.py
 ```
 
 ## Question Generation
 
 ### Local Change Videos Questions Generation
-```python
+```shell
 python question_gen/local_change_question_gen.py
 ```
 
