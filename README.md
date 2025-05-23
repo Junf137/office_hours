@@ -105,5 +105,5 @@ Used prompt:
 ## Contributing
 Contributions to improve the benchmark dataset or evaluation framework are welcome. Please feel free to submit issues and pull requests.
 
-## Contact
-For questions or suggestions, please contact [Fernando J. Pena Cantu](mailto:fjpenaca@uwaterloo.ca).
+<!-- ## Contact
+For questions or suggestions, please contact [Fernando J. Pena Cantu](mailto:fjpenaca@uwaterloo.ca). -->
