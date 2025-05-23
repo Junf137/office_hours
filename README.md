@@ -48,9 +48,15 @@ pip install -r requirements.txt
 
 ## Usage
 
-### Local Temporal Evaluation
+### Setting Up Gemini API Key
+Before running scripts that requiring gemini API key, setting the api key in the environment variable.
+```shell
+export GEMINI_API_KEY=YOUR_API_KEY
+```
+
+### Temporal Association VQA Evaluation
 ```python
-python benchmark/local_temporal_evaluation.py
+python benchmark/temporal_association/local_temporal_evaluation.py
 ```
 
 ### Global Video Understanding
