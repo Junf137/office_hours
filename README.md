@@ -32,7 +32,8 @@ pip install -r requirements.txt
 │   ├── video_understanding_global_with_map.py      # Global evaluation with mapping
 │   └── video_understanding_local.py                # Local video understanding evaluation
 ├── question_gen/
-│   └── local_changes/      # Question generation for local temporal changes
+│   └── local_change_question_gen.py                # Question generation for local temporal changes
+├── prompt/                 # prompt used in benchmarking and question generation
 ├── keyframe_extraction/
 |   ├── MASt3R-SLAM/        # A fork of MASt3R-SLAM to allow full resolution saving of keyframes
 |   ├── split_videos.bash   # Script to split global videos into 5 minute segments with 30sec overlap
