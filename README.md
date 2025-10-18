@@ -54,8 +54,8 @@ export GEMINI_API_KEY=YOUR_API_KEY
 # Downsample videos
 python benchmark/spatial_association/downsample_video.py
 
-# evaluation
-python benchmark/spatial_association/spatial_association_vqa_experiment.py
+# Prompt Gemini model and run the evaluation
+python benchmark/spatial_association/spatial_association_vqa_experiment.py --num-episodes 1 --out-dir output
 ```
 
 ### Static Association-Semantic Mapping VQA Evaluation
