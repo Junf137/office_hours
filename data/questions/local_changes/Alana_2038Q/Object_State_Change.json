@@ -1,0 +1,377 @@
+{
+    "Q1": {
+        "Type": "Object State Change",
+        "Change Number": 1,
+        "Initial Video": 0,
+        "Final Video": 1,
+        "Question": "An object often used for storage changed its orientation significantly while remaining upright. What exactly was this change?",
+        "Multiple Choice": {
+            "A": "The cardboard box shifted from standing horizontally to standing vertically.",
+            "B": "The eyeglasses box was opened.",
+            "C": "The cups were stacked on top of each other.",
+            "D": "The books were arranged neatly from a messy pile.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q2": {
+        "Type": "Object State Change",
+        "Change Number": 2,
+        "Initial Video": 1,
+        "Final Video": 2,
+        "Question": "A set of writing tools transitioned from laying flat to an upright position. Which items were these?",
+        "Multiple Choice": {
+            "A": "Cardboard box",
+            "B": "Markers",
+            "C": "Heron poster",
+            "D": "Eyeglasses box",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q3": {
+        "Type": "Object State Change",
+        "Change Number": 3,
+        "Initial Video": 2,
+        "Final Video": 3,
+        "Question": "Something happened to the heron poster that was on the wall. What change did it undergo?",
+        "Multiple Choice": {
+            "A": "It was folded neatly.",
+            "B": "It was flipped from upside down to right side up.",
+            "C": "It was initially on the wall and then partially fell off.",
+            "D": "It was completely removed from the wall and hidden.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q4": {
+        "Type": "Object State Change",
+        "Change Number": 4,
+        "Initial Video": 3,
+        "Final Video": 4,
+        "Question": "Between these two scenes, an object's accessibility changed from being secured to being accessible. What exactly happened?",
+        "Multiple Choice": {
+            "A": "The purple marker had its cap put on.",
+            "B": "The laptop was closed.",
+            "C": "The keyboard holder was extended.",
+            "D": "The eyeglasses box was opened from a closed state.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "D"
+    },
+    "Q5": {
+        "Type": "Object State Change",
+        "Change Number": 5,
+        "Initial Video": 3,
+        "Final Video": 4,
+        "Question": "A specific marker was initially standing up with its cap on, but was later found lying down with its cap off. Which marker is this?",
+        "Multiple Choice": {
+            "A": "Purple marker",
+            "B": "Eyeglasses box",
+            "C": "Hand sanitizer",
+            "D": "Lip balm",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q6": {
+        "Type": "Object State Change",
+        "Change Number": 6,
+        "Initial Video": 4,
+        "Final Video": 5,
+        "Question": "The contents related to a small container were altered. What specific change involving this container and its contents occurred?",
+        "Multiple Choice": {
+            "A": "The glasses were initially inside the eyeglasses box and were then found outside of it.",
+            "B": "The purple marker had its cap removed.",
+            "C": "The keyboard holder was hidden from an extended state.",
+            "D": "The picture frame's photo holder was removed.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q7": {
+        "Type": "Object State Change",
+        "Change Number": 7,
+        "Initial Video": 4,
+        "Final Video": 5,
+        "Question": "An object went from being extended and usable to being hidden away. Which object was this?",
+        "Multiple Choice": {
+            "A": "Eyeglasses box",
+            "B": "Heron poster",
+            "C": "Keyboard holder",
+            "D": "Laptop",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q8": {
+        "Type": "Object State Change",
+        "Change Number": 8,
+        "Initial Video": 5,
+        "Final Video": 6,
+        "Question": "A decorative item, used for displaying images, had a component of it changed. What exactly was altered?",
+        "Multiple Choice": {
+            "A": "The picture frame's photo holder, initially on the frame, was removed.",
+            "B": "The heron poster partially fell off the wall.",
+            "C": "The headphone ear pads were flipped from facing down to facing up.",
+            "D": "The green jacket was folded.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q9": {
+        "Type": "Object State Change",
+        "Change Number": 9,
+        "Initial Video": 6,
+        "Final Video": 7,
+        "Question": "Regarding an item of clothing, its overall arrangement changed. Which of the following happened?",
+        "Multiple Choice": {
+            "A": "The white jacket was spread out on the chair.",
+            "B": "The cap was placed on the desk brim down.",
+            "C": "The bandana was tied around a bag handle.",
+            "D": "The green jacket was unzipped and laid flat.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "E"
+    },
+    "Q10": {
+        "Type": "Object State Change",
+        "Change Number": 10,
+        "Initial Video": 7,
+        "Final Video": 8,
+        "Question": "An audio accessory changed its orientation, specifically how its ear pads were positioned. Which item are we talking about?",
+        "Multiple Choice": {
+            "A": "Laptop",
+            "B": "Headphone",
+            "C": "Purple marker",
+            "D": "Badminton handle cover",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q11": {
+        "Type": "Object State Change",
+        "Change Number": 11,
+        "Initial Video": 8,
+        "Final Video": 9,
+        "Question": "The white jacket's state was altered. Which of these describes the change?",
+        "Multiple Choice": {
+            "A": "It was hung on a hanger.",
+            "B": "It had a stain removed.",
+            "C": "It was zipped up.",
+            "D": "It was unfolded from a folded state.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "E"
+    },
+    "Q12": {
+        "Type": "Object State Change",
+        "Change Number": 12,
+        "Initial Video": 9,
+        "Final Video": 10,
+        "Question": "A writing instrument previously had its cap off, but then it was found with its cap on. Which instrument was it?",
+        "Multiple Choice": {
+            "A": "Purple marker",
+            "B": "Lip balm",
+            "C": "Hand sanitizer",
+            "D": "Markers (plural)",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q13": {
+        "Type": "Object State Change",
+        "Change Number": 13,
+        "Initial Video": 9,
+        "Final Video": 10,
+        "Question": "An item used for hygiene was repositioned from a flat orientation to an upright one, with additional support. What was this change?",
+        "Multiple Choice": {
+            "A": "The hand sanitizer, previously laying down, was stood up and leaned against a tote bag.",
+            "B": "The lip balm had its cap removed.",
+            "C": "The purple marker was laid down with its cap off.",
+            "D": "The glasses were folded.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q14": {
+        "Type": "Object State Change",
+        "Change Number": 14,
+        "Initial Video": 10,
+        "Final Video": 11,
+        "Question": "A device's screen became more open and visible than before. What specific change in its state occurred?",
+        "Multiple Choice": {
+            "A": "The laptop was turned on from an off state.",
+            "B": "The laptop went from being half open to fully open.",
+            "C": "The picture frame had its photo holder reattached.",
+            "D": "The eyeglasses box was closed.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q15": {
+        "Type": "Object State Change",
+        "Change Number": 15,
+        "Initial Video": 11,
+        "Final Video": 12,
+        "Question": "There was a change regarding the laptop's screen position. What happened to its state?",
+        "Multiple Choice": {
+            "A": "It was fully open and then it was closed.",
+            "B": "It was put into sleep mode.",
+            "C": "It was rotated 90 degrees.",
+            "D": "Its brightness was increased.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q16": {
+        "Type": "Object State Change",
+        "Change Number": 16,
+        "Initial Video": 12,
+        "Final Video": 13,
+        "Question": "An item used for vision correction went from an opened, ready-to-use state to a folded, stored state. What was it?",
+        "Multiple Choice": {
+            "A": "Eyeglasses box",
+            "B": "Laptop",
+            "C": "Glasses",
+            "D": "Bandana",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q17": {
+        "Type": "Object State Change",
+        "Change Number": 17,
+        "Initial Video": 13,
+        "Final Video": 14,
+        "Question": "The bandana's configuration changed from being spread out to being more compact. How was it altered?",
+        "Multiple Choice": {
+            "A": "It was tied into a knot.",
+            "B": "It changed color.",
+            "C": "It was rolled up.",
+            "D": "It was unfolded and then became folded.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "D"
+    },
+    "Q18": {
+        "Type": "Object State Change",
+        "Change Number": 18,
+        "Initial Video": 13,
+        "Final Video": 14,
+        "Question": "A single writing tool was initially standing up, but was later found laying down. Which object is this?",
+        "Multiple Choice": {
+            "A": "Bandana",
+            "B": "Marker",
+            "C": "Lip balm",
+            "D": "Cardboard box",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q19": {
+        "Type": "Object State Change",
+        "Change Number": 19,
+        "Initial Video": 14,
+        "Final Video": 15,
+        "Question": "The lip balm's orientation was adjusted on a surface. What was the specific change?",
+        "Multiple Choice": {
+            "A": "It went from laying down to standing up.",
+            "B": "Its cap was removed.",
+            "C": "It was empty and then refilled.",
+            "D": "It was put into a container.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q20": {
+        "Type": "Object State Change",
+        "Change Number": 20,
+        "Initial Video": 15,
+        "Final Video": 16,
+        "Question": "A sports accessory, specifically a handle cover, was flipped from being upside down to right side up. What item was this?",
+        "Multiple Choice": {
+            "A": "Cap",
+            "B": "Headphone",
+            "C": "Badminton handle cover",
+            "D": "Heron poster",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q21": {
+        "Type": "Object State Change",
+        "Change Number": 21,
+        "Initial Video": 16,
+        "Final Video": 17,
+        "Question": "The bandana, which was already folded, had its folded shape altered further. How did its form change?",
+        "Multiple Choice": {
+            "A": "It changed from being folded as a rectangle to being folded as a triangle.",
+            "B": "It was unfolded completely.",
+            "C": "It was used to cover the keyboard.",
+            "D": "It was wrapped around the cups.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q22": {
+        "Type": "Object State Change",
+        "Change Number": 22,
+        "Initial Video": 17,
+        "Final Video": 18,
+        "Question": "A collection of items, typically used for reading or reference, went from being in a messy pile to a tidy stack. What were these items?",
+        "Multiple Choice": {
+            "A": "Cups",
+            "B": "Markers",
+            "C": "Books",
+            "D": "Bandana",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q23": {
+        "Type": "Object State Change",
+        "Change Number": 23,
+        "Initial Video": 17,
+        "Final Video": 18,
+        "Question": "Regarding the lip balm, a specific part of it that seals it changed its status. What was this alteration?",
+        "Multiple Choice": {
+            "A": "It was moved from laying down to standing up.",
+            "B": "Its cap was initially on, but then it was found off.",
+            "C": "It was placed inside the eyeglasses box.",
+            "D": "It melted slightly.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q24": {
+        "Type": "Object State Change",
+        "Change Number": 24,
+        "Initial Video": 18,
+        "Final Video": 19,
+        "Question": "An item of headwear was observed to be inverted, and then later it was oriented correctly for wearing. What specific change occurred?",
+        "Multiple Choice": {
+            "A": "The headphone ear pads were turned upwards.",
+            "B": "The badminton handle cover was set right side up.",
+            "C": "The bandana was refolded from a rectangle to a triangle.",
+            "D": "The cap was flipped from upside down to right side up.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "D"
+    },
+    "Q25": {
+        "Type": "Object State Change",
+        "Change Number": 25,
+        "Initial Video": 19,
+        "Final Video": 20,
+        "Question": "Multiple drinking vessels were rearranged. They were initially placed next to each other, but how were they found later?",
+        "Multiple Choice": {
+            "A": "They were stacked on top of each other.",
+            "B": "They were filled with water.",
+            "C": "They were moved to a shelf.",
+            "D": "One of them was found broken.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    }
+}

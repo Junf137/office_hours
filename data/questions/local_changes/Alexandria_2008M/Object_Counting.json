@@ -1,0 +1,377 @@
+{
+    "Q1": {
+        "Type": "Object Counting",
+        "Change Number": 1,
+        "Initial Video": 0,
+        "Final Video": 1,
+        "Question": "How did the quantity of RTX 2080 units change between these two scenes?",
+        "Multiple Choice": {
+            "A": "One RTX 2080 was added, resulting in two.",
+            "B": "One RTX 2080 was removed, leaving one.",
+            "C": "The number of Books increased.",
+            "D": "Two RTX 2080s were initially present, and one was removed.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q2": {
+        "Type": "Object Counting",
+        "Change Number": 2,
+        "Initial Video": 1,
+        "Final Video": 2,
+        "Question": "A new item appeared, increasing its count from zero. Which item was it?",
+        "Multiple Choice": {
+            "A": "Sanitizer bottles",
+            "B": "RTX 2080",
+            "C": "Books",
+            "D": "Pencils",
+            "E": "No new item appeared."
+        },
+        "Correct Choice": "A"
+    },
+    "Q3": {
+        "Type": "Object Counting",
+        "Change Number": 3,
+        "Initial Video": 2,
+        "Final Video": 3,
+        "Question": "Between these two scenes, was there any change in the number of hygiene-related items or common stationery?",
+        "Multiple Choice": {
+            "A": "Yes, one more Sanitizer bottle appeared.",
+            "B": "Yes, the number of Pencils decreased.",
+            "C": "No, the counts of such items were stable.",
+            "D": "Yes, a Book was added to the scene.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q4": {
+        "Type": "Object Counting",
+        "Change Number": 4,
+        "Initial Video": 3,
+        "Final Video": 4,
+        "Question": "Were there any changes in the number of items present? If so, what was one such change?",
+        "Multiple Choice": {
+            "A": "A Book appeared where there were none before.",
+            "B": "The number of Pencils decreased.",
+            "C": "An RTX 2080 was removed.",
+            "D": "The count of all items remained unchanged.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q5": {
+        "Type": "Object Counting",
+        "Change Number": 5,
+        "Initial Video": 3,
+        "Final Video": 4,
+        "Question": "Some items newly appeared in the scene, going from zero to two. What were these items?",
+        "Multiple Choice": {
+            "A": "Pencils",
+            "B": "Books",
+            "C": "RTX 2080",
+            "D": "Sanitizer bottles",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q6": {
+        "Type": "Object Counting",
+        "Change Number": 6,
+        "Initial Video": 4,
+        "Final Video": 5,
+        "Question": "Did you spot any items increasing in quantity by more than one unit in this transition? If so, what was it?",
+        "Multiple Choice": {
+            "A": "Yes, the number of Books went up from one to three.",
+            "B": "Yes, Pencils increased by two.",
+            "C": "No, no item increased by more than one unit.",
+            "D": "Yes, Sanitizer bottles increased from zero to two.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q7": {
+        "Type": "Object Counting",
+        "Change Number": 7,
+        "Initial Video": 5,
+        "Final Video": 6,
+        "Question": "Was there a significant reduction in the count of any item? If so, which one and how?",
+        "Multiple Choice": {
+            "A": "Yes, the number of Books dropped from three to one.",
+            "B": "Yes, all Pencils were removed.",
+            "C": "No, item counts mostly increased or stayed the same.",
+            "D": "Yes, an RTX 2080 was removed.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q8": {
+        "Type": "Object Counting",
+        "Change Number": 8,
+        "Initial Video": 6,
+        "Final Video": 7,
+        "Question": "The number of a certain item increased from two to four. Which item was it?",
+        "Multiple Choice": {
+            "A": "Pencils",
+            "B": "Books",
+            "C": "Sanitizer bottles",
+            "D": "RTX 2080",
+            "E": "No item increased by this amount."
+        },
+        "Correct Choice": "A"
+    },
+    "Q9": {
+        "Type": "Object Counting",
+        "Change Number": 9,
+        "Initial Video": 7,
+        "Final Video": 8,
+        "Question": "How did the count of RTX 2080 units change during this observation period?",
+        "Multiple Choice": {
+            "A": "One unit was removed, reducing the count from two to one.",
+            "B": "One unit was added, increasing the count from one to two.",
+            "C": "The count remained stable at two units.",
+            "D": "All RTX 2080 units were removed.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q10": {
+        "Type": "Object Counting",
+        "Change Number": 10,
+        "Initial Video": 8,
+        "Final Video": 9,
+        "Question": "There was an increase in the quantity of an item, from one to four. Which item are we talking about?",
+        "Multiple Choice": {
+            "A": "Books",
+            "B": "Pencils",
+            "C": "RTX 2080",
+            "D": "Sanitizer bottles",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q11": {
+        "Type": "Object Counting",
+        "Change Number": 11,
+        "Initial Video": 9,
+        "Final Video": 10,
+        "Question": "Were there any major shifts in item counts, like an item doubling or halving in quantity?",
+        "Multiple Choice": {
+            "A": "Yes, the number of Books doubled.",
+            "B": "Yes, the number of RTX 2080s halved.",
+            "C": "Yes, Sanitizer bottles count doubled.",
+            "D": "No, all item counts remained exactly the same.",
+            "E": "None of the above accurately describes the changes."
+        },
+        "Correct Choice": "E"
+    },
+    "Q12": {
+        "Type": "Object Counting",
+        "Change Number": 12,
+        "Initial Video": 10,
+        "Final Video": 11,
+        "Question": "What happened to the Pencils in the scene?",
+        "Multiple Choice": {
+            "A": "Their number significantly decreased from five to two.",
+            "B": "Their number increased from two to five.",
+            "C": "Two Pencils were added.",
+            "D": "The RTX 2080 count also decreased.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q13": {
+        "Type": "Object Counting",
+        "Change Number": 13,
+        "Initial Video": 10,
+        "Final Video": 11,
+        "Question": "An item's quantity changed from one to two. Can you identify this item?",
+        "Multiple Choice": {
+            "A": "RTX 2080",
+            "B": "Pencils",
+            "C": "Books",
+            "D": "Sanitizer bottles",
+            "E": "No item changed from one to two."
+        },
+        "Correct Choice": "A"
+    },
+    "Q14": {
+        "Type": "Object Counting",
+        "Change Number": 14,
+        "Initial Video": 11,
+        "Final Video": 12,
+        "Question": "Let's talk about the Sanitizer bottles. Was there any change in their number?",
+        "Multiple Choice": {
+            "A": "Yes, their count went down from two to one.",
+            "B": "Yes, their count went up from one to two.",
+            "C": "No, their number remained unchanged.",
+            "D": "Yes, they all disappeared.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q15": {
+        "Type": "Object Counting",
+        "Change Number": 15,
+        "Initial Video": 12,
+        "Final Video": 13,
+        "Question": "The quantity of an item was reduced by one, going from two to one. What was this item?",
+        "Multiple Choice": {
+            "A": "Pencils",
+            "B": "Sanitizer bottles",
+            "C": "Books",
+            "D": "RTX 2080",
+            "E": "No item count changed this way."
+        },
+        "Correct Choice": "A"
+    },
+    "Q16": {
+        "Type": "Object Counting",
+        "Change Number": 16,
+        "Initial Video": 12,
+        "Final Video": 13,
+        "Question": "Between these two episodes, was there a noticeable shift in the quantity of any particular item? If so, describe one.",
+        "Multiple Choice": {
+            "A": "The number of Sanitizer bottles increased from one to three.",
+            "B": "The number of Pencils increased.",
+            "C": "All items maintained their previous counts.",
+            "D": "An RTX 2080 was added.",
+            "E": "None of the above describes a change that occurred."
+        },
+        "Correct Choice": "A"
+    },
+    "Q17": {
+        "Type": "Object Counting",
+        "Change Number": 17,
+        "Initial Video": 13,
+        "Final Video": 14,
+        "Question": "There was a significant change in the number of Pencils. Can you describe it?",
+        "Multiple Choice": {
+            "A": "Yes, their count jumped from one to five.",
+            "B": "Yes, their count dropped from five to one.",
+            "C": "Yes, one Pencil was added, making it two.",
+            "D": "No, the number of Pencils stayed the same.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q18": {
+        "Type": "Object Counting",
+        "Change Number": 18,
+        "Initial Video": 14,
+        "Final Video": 15,
+        "Question": "The quantity of an item decreased, specifically from four to two. Which item are we referring to?",
+        "Multiple Choice": {
+            "A": "Books",
+            "B": "Pencils",
+            "C": "RTX 2080",
+            "D": "Sanitizer bottles",
+            "E": "This change did not happen."
+        },
+        "Correct Choice": "A"
+    },
+    "Q19": {
+        "Type": "Object Counting",
+        "Change Number": 19,
+        "Initial Video": 15,
+        "Final Video": 16,
+        "Question": "Did any high-value electronics change in number between these observations?",
+        "Multiple Choice": {
+            "A": "Yes, an RTX 2080 unit was removed, leaving one.",
+            "B": "No, all electronics counts remained stable.",
+            "C": "Yes, an RTX 2080 unit was added.",
+            "D": "Yes, the number of Pencils changed.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q20": {
+        "Type": "Object Counting",
+        "Change Number": 20,
+        "Initial Video": 15,
+        "Final Video": 16,
+        "Question": "What adjustment was made to the quantity of Pencils in the cubicle?",
+        "Multiple Choice": {
+            "A": "The number of Pencils decreased from five to two.",
+            "B": "The number of Pencils increased from two to five.",
+            "C": "Three Pencils were added.",
+            "D": "The number of Books also decreased.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q21": {
+        "Type": "Object Counting",
+        "Change Number": 21,
+        "Initial Video": 16,
+        "Final Video": 17,
+        "Question": "An item's count went down by one, from three to two. Which item was it?",
+        "Multiple Choice": {
+            "A": "Sanitizer bottles",
+            "B": "RTX 2080",
+            "C": "Pencils",
+            "D": "Books",
+            "E": "No item changed this way."
+        },
+        "Correct Choice": "A"
+    },
+    "Q22": {
+        "Type": "Object Counting",
+        "Change Number": 22,
+        "Initial Video": 17,
+        "Final Video": 18,
+        "Question": "Focusing on the RTX 2080s, what shift in their numbers occurred?",
+        "Multiple Choice": {
+            "A": "Their count increased, going from one to two.",
+            "B": "Their count decreased, going from two to one.",
+            "C": "One was removed, leaving none.",
+            "D": "Their count remained unchanged at one.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q23": {
+        "Type": "Object Counting",
+        "Change Number": 23,
+        "Initial Video": 18,
+        "Final Video": 19,
+        "Question": "The quantity of a certain item dropped from two to one. Which item experienced this change?",
+        "Multiple Choice": {
+            "A": "Books",
+            "B": "Pencils",
+            "C": "RTX 2080",
+            "D": "Sanitizer bottles",
+            "E": "This specific change did not occur."
+        },
+        "Correct Choice": "A"
+    },
+    "Q24": {
+        "Type": "Object Counting",
+        "Change Number": 24,
+        "Initial Video": 19,
+        "Final Video": 20,
+        "Question": "Considering all items, was there any observable fluctuation in quantities? If so, can you describe one?",
+        "Multiple Choice": {
+            "A": "Yes, the number of Sanitizer bottles went up from two to three.",
+            "B": "No, all item counts were static between these episodes.",
+            "C": "Yes, the number of Pencils decreased.",
+            "D": "Yes, a Book was removed.",
+            "E": "None of the above details a correct change."
+        },
+        "Correct Choice": "A"
+    },
+    "Q25": {
+        "Type": "Object Counting",
+        "Change Number": 25,
+        "Initial Video": 19,
+        "Final Video": 20,
+        "Question": "What happened with the Pencils between these two video observations?",
+        "Multiple Choice": {
+            "A": "Their number increased from two to four.",
+            "B": "Their number decreased from four to two.",
+            "C": "Two Pencils were removed.",
+            "D": "The count of Sanitizer bottles also decreased.",
+            "E": "The quantity of Pencils remained unchanged."
+        },
+        "Correct Choice": "A"
+    }
+}

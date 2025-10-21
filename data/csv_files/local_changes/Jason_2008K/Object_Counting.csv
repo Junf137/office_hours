@@ -1,0 +1,27 @@
+Episode,Non-unique Object,Initial Count,Final Count
+1,Dominos,4,2
+2,Pencils,0,5
+3,Dominos,2,3
+4,Pencils,5,3
+5,Dominos,3,0
+5,Pencils,3,1
+6,Jellies,0,3
+7,Dominos,0,4
+8,Pencils,1,5
+9,Jellies,3,8
+9,Dominos,4,2
+10,Pencils,5,3
+11,Jellies,8,7
+12,Pencils,3,0
+13,Jellies,7,6
+13,Dominos,2,0
+14,Pencils,0,2
+15,Dominos,0,1
+16,Pencils,2,3
+17,Dominos,1,2
+17,Jellies,6,5
+18,Pencils,3,4
+19,Jellies,5,4
+20,Jellies,4,0
+21,Jellies,0,6
+21,Pencils,4,0

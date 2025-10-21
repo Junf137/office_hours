@@ -1,0 +1,377 @@
+{
+    "Q1": {
+        "Type": "Object Detection",
+        "Change Number": 1,
+        "Initial Video": 0,
+        "Final Video": 1,
+        "Question": "Something disappeared from the top of the black PC. Which item was it?",
+        "Multiple Choice": {
+            "A": "Roman Head Toy",
+            "B": "GPU Nvidia RTX 4090 Box",
+            "C": "COUP board game / card game box",
+            "D": "Blue / Purple Jacket",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q2": {
+        "Type": "Object Detection",
+        "Change Number": 2,
+        "Initial Video": 1,
+        "Final Video": 2,
+        "Question": "A GPU Nvidia RTX 4090 Box appeared in the cubicle. Where can it be found?",
+        "Multiple Choice": {
+            "A": "Left side of cubical near the back",
+            "B": "Top of black PC",
+            "C": "Hanging on the chair",
+            "D": "On the whiteboard",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q3": {
+        "Type": "Object Detection",
+        "Change Number": 3,
+        "Initial Video": 1,
+        "Final Video": 2,
+        "Question": "What change concerning an object's presence was observed on the left side of the cubicle in this episode?",
+        "Multiple Choice": {
+            "A": "A COUP board game / card game box appeared.",
+            "B": "A Roman Head Toy disappeared.",
+            "C": "A Blue / Purple Jacket appeared.",
+            "D": "A GPU Nvidia RTX 4090 Box disappeared.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q4": {
+        "Type": "Object Detection",
+        "Change Number": 4,
+        "Initial Video": 2,
+        "Final Video": 3,
+        "Question": "An item that was hanging on the chair is now gone. What was this item?",
+        "Multiple Choice": {
+            "A": "Blue / Purple Jacket",
+            "B": "Painting",
+            "C": "Stack of Legos",
+            "D": "Metal water bottle (Brand YETI) / Tumbler water",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q5": {
+        "Type": "Object Detection",
+        "Change Number": 5,
+        "Initial Video": 3,
+        "Final Video": 4,
+        "Question": "A Painting has newly appeared in the scene. Where is it located?",
+        "Multiple Choice": {
+            "A": "On the whiteboard",
+            "B": "Left side of cubical near the back",
+            "C": "Hanging on the chair",
+            "D": "Top of black PC",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q6": {
+        "Type": "Object Detection",
+        "Change Number": 6,
+        "Initial Video": 3,
+        "Final Video": 4,
+        "Question": "Thinking about the area near the GPU Nvidia RTX 4090 box, did anything new show up there?",
+        "Multiple Choice": {
+            "A": "Yes, a stack of two phones appeared.",
+            "B": "Yes, a Painting appeared there.",
+            "C": "No, but a Blue / Purple Jacket disappeared from another location.",
+            "D": "No new items appeared there.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q7": {
+        "Type": "Object Detection",
+        "Change Number": 7,
+        "Initial Video": 4,
+        "Final Video": 5,
+        "Question": "A new object showed up on the right side of the cubicle, behind the PC. What is this object?",
+        "Multiple Choice": {
+            "A": "Stack of Legos",
+            "B": "Metal water bottle (Brand YETI) / Tumbler water",
+            "C": "GPU Nvidia RTX 4090 Box",
+            "D": "3D Printed Purple Glasses",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q8": {
+        "Type": "Object Detection",
+        "Change Number": 8,
+        "Initial Video": 4,
+        "Final Video": 5,
+        "Question": "The Metal water bottle (Brand YETI) / Tumbler water is no longer present. Where was it located before it disappeared?",
+        "Multiple Choice": {
+            "A": "Left side of cubical at the back",
+            "B": "Right side of cubical behind the PC",
+            "C": "On the whiteboard",
+            "D": "Hanging on the chair",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q9": {
+        "Type": "Object Detection",
+        "Change Number": 9,
+        "Initial Video": 5,
+        "Final Video": 6,
+        "Question": "What specific change involving computer hardware occurred on the *right* side of the cubicle during this episode?",
+        "Multiple Choice": {
+            "A": "The GPU Nvidia RTX 4090 Box disappeared from the right side near the back.",
+            "B": "The GPU Nvidia RTX 4090 Box appeared on the right side near the back.",
+            "C": "A Stack of Legos, often used with PCs, disappeared from the right side.",
+            "D": "The Roman Head Toy, previously on a PC, reappeared on the right side.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "E"
+    },
+    "Q10": {
+        "Type": "Object Detection",
+        "Change Number": 10,
+        "Initial Video": 6,
+        "Final Video": 7,
+        "Question": "An object appeared on the left side of the monitor, at the center of the cubicle. What was it?",
+        "Multiple Choice": {
+            "A": "Wheel",
+            "B": "Catan Board Game Extension Box",
+            "C": "Painting",
+            "D": "3D Printed Purple Glasses",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q11": {
+        "Type": "Object Detection",
+        "Change Number": 11,
+        "Initial Video": 7,
+        "Final Video": 8,
+        "Question": "A Catan Board Game Extension Box has shown up in the cubicle. Can you tell me its location?",
+        "Multiple Choice": {
+            "A": "Right side of the cubical besides the biggest PC",
+            "B": "Left side of the monitor at the center of the cubical",
+            "C": "On the whiteboard",
+            "D": "Top of black PC",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q12": {
+        "Type": "Object Detection",
+        "Change Number": 12,
+        "Initial Video": 8,
+        "Final Video": 9,
+        "Question": "Did any artwork or decorative item get removed from its previous spot? If so, what was it and where was it?",
+        "Multiple Choice": {
+            "A": "The Painting disappeared from on top of the backpack which is on the chair.",
+            "B": "The Roman Head Toy disappeared from the top of the black PC.",
+            "C": "The Wheel disappeared from the left side of the monitor.",
+            "D": "The 3D Printed Purple Glasses disappeared from the whiteboard eraser.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q13": {
+        "Type": "Object Detection",
+        "Change Number": 13,
+        "Initial Video": 8,
+        "Final Video": 9,
+        "Question": "A new item materialized at the center back of the cubicle, specifically on the whiteboard eraser. What is this new item?",
+        "Multiple Choice": {
+            "A": "3D Printed Purple Glasses",
+            "B": "Hard-shell Pecil Case",
+            "C": "Whiteboard eraser",
+            "D": "Painting",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q14": {
+        "Type": "Object Detection",
+        "Change Number": 14,
+        "Initial Video": 9,
+        "Final Video": 10,
+        "Question": "A Hard-shell Pencil Case has been introduced to the scene. Where can it be found?",
+        "Multiple Choice": {
+            "A": "Left side of cubical near the back",
+            "B": "Center back of the cubical on the whiteboard eraser",
+            "C": "On top of backpack which is on the chair",
+            "D": "Right side of the cubical besides the biggest PC",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q15": {
+        "Type": "Object Detection",
+        "Change Number": 15,
+        "Initial Video": 10,
+        "Final Video": 11,
+        "Question": "Regarding the items at the back of the cubicle near the center, specifically around the 3D printed glasses, did anything go missing?",
+        "Multiple Choice": {
+            "A": "Yes, the Whiteboard eraser disappeared.",
+            "B": "Yes, the 3D Printed Purple Glasses disappeared.",
+            "C": "No, a Hard-shell Pencil Case appeared there.",
+            "D": "No, nothing changed there.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q16": {
+        "Type": "Object Detection",
+        "Change Number": 16,
+        "Initial Video": 11,
+        "Final Video": 12,
+        "Question": "An object appeared on the right side of the cubicle, near the PC. What object was it?",
+        "Multiple Choice": {
+            "A": "Catan Board Game Extension Box",
+            "B": "Green Triceratops Dinosaur Toy",
+            "C": "GPU Nvidia RTX 2080 Ti",
+            "D": "Painting",
+            "E": "None of the above"
+        },
+        "Correct Choice": "E"
+    },
+    "Q17": {
+        "Type": "Object Detection",
+        "Change Number": 17,
+        "Initial Video": 12,
+        "Final Video": 13,
+        "Question": "A Green Triceratops Dinosaur Toy has popped up in the cubicle! Where is it now located?",
+        "Multiple Choice": {
+            "A": "Left side of cubical",
+            "B": "On the cubical chair",
+            "C": "Left side of the PC",
+            "D": "On top of the left side monitor",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q18": {
+        "Type": "Object Detection",
+        "Change Number": 18,
+        "Initial Video": 12,
+        "Final Video": 13,
+        "Question": "Focusing on the cubicle chair, did any new large items appear on it?",
+        "Multiple Choice": {
+            "A": "Yes, a Gian Cow Plush Stuffed Animal appeared on the chair.",
+            "B": "Yes, a Green Triceratops Dinosaur Toy appeared on the chair.",
+            "C": "No, but a Catan Board Game Extension Box disappeared from near the PC.",
+            "D": "No, the chair remained empty or unchanged.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q19": {
+        "Type": "Object Detection",
+        "Change Number": 19,
+        "Initial Video": 13,
+        "Final Video": 14,
+        "Question": "A new piece of computer hardware appeared on the left side of the PC. What is it?",
+        "Multiple Choice": {
+            "A": "GPU Nvidia RTX 2080 Ti",
+            "B": "Frisbee",
+            "C": "Wheel",
+            "D": "Roman Head Toy",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q20": {
+        "Type": "Object Detection",
+        "Change Number": 20,
+        "Initial Video": 14,
+        "Final Video": 15,
+        "Question": "The Green Triceratops Dinosaur Toy, which was seen earlier, has now vanished. From where did it disappear?",
+        "Multiple Choice": {
+            "A": "On top of the left side monitor",
+            "B": "Left side of cubical",
+            "C": "On the cubical chair",
+            "D": "Left side of the PC",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q21": {
+        "Type": "Object Detection",
+        "Change Number": 21,
+        "Initial Video": 15,
+        "Final Video": 16,
+        "Question": "Was there any notable disappearance from the left side of the cubicle during this period?",
+        "Multiple Choice": {
+            "A": "Yes, a Frisbee vanished from that area.",
+            "B": "Yes, the Green Triceratops Dinosaur Toy vanished from that area.",
+            "C": "No, but a Roman Head Toy appeared elsewhere.",
+            "D": "No, nothing disappeared from the left side.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q22": {
+        "Type": "Object Detection",
+        "Change Number": 22,
+        "Initial Video": 16,
+        "Final Video": 17,
+        "Question": "An object that was previously on the right side of the cubicle, specifically to the right of the PC, is now gone. What object was it?",
+        "Multiple Choice": {
+            "A": "Wheel",
+            "B": "Roman Head Toy",
+            "C": "Gian Cow Plush Stuffed Animal",
+            "D": "Frisbee",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q23": {
+        "Type": "Object Detection",
+        "Change Number": 23,
+        "Initial Video": 16,
+        "Final Video": 17,
+        "Question": "The Roman Head Toy has reappeared! Where can it be found now?",
+        "Multiple Choice": {
+            "A": "Besides the stack of legos on top of the smaller pc on the right side of the cubical",
+            "B": "Top of black PC",
+            "C": "Left side of cubical",
+            "D": "On the whiteboard",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q24": {
+        "Type": "Object Detection",
+        "Change Number": 24,
+        "Initial Video": 17,
+        "Final Video": 18,
+        "Question": "Regarding large, soft items, did any vanish from an area near the floor on the right side of the cubicle?",
+        "Multiple Choice": {
+            "A": "Yes, the Gian Cow Plush Stuffed Animal disappeared from below the cubical on the right.",
+            "B": "No, but a Yellow and Purple Plush appeared on a backpack.",
+            "C": "Yes, the Roman Head Toy disappeared from there.",
+            "D": "No such change occurred.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q25": {
+        "Type": "Object Detection",
+        "Change Number": 25,
+        "Initial Video": 18,
+        "Final Video": 19,
+        "Question": "A new plush toy, which looks like a yellow and purple pineapple, showed up. Where is it?",
+        "Multiple Choice": {
+            "A": "On top of the backpack at the left side of the cubical",
+            "B": "Below the cubical on the right",
+            "C": "On the cubical chair",
+            "D": "Besides the stack of legos on top of the smaller pc",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    }
+}

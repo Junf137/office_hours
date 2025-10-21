@@ -1,0 +1,392 @@
+{
+    "Q1": {
+        "Type": "Object Counting",
+        "Change Number": 1,
+        "Initial Video": 0,
+        "Final Video": 1,
+        "Question": "An item became less numerous in the scene. Which item was it?",
+        "Multiple Choice": {
+            "A": "mouse",
+            "B": "black mug",
+            "C": "keyboard",
+            "D": "post card box",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q2": {
+        "Type": "Object Counting",
+        "Change Number": 2,
+        "Initial Video": 1,
+        "Final Video": 2,
+        "Question": "Regarding the black mugs, what happened to their quantity between the two views?",
+        "Multiple Choice": {
+            "A": "Their number increased from 1 to 3.",
+            "B": "Their number decreased from 3 to 1.",
+            "C": "Their number increased from 1 to 2.",
+            "D": "Their number stayed the same at 1.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q3": {
+        "Type": "Object Counting",
+        "Change Number": 3,
+        "Initial Video": 2,
+        "Final Video": 3,
+        "Question": "Between these two scenes, what adjustment occurred in the count of items? Specifically, consider if any item became more numerous.",
+        "Multiple Choice": {
+            "A": "The count of keyboards increased from 2 to 3.",
+            "B": "The count of post card boxes decreased.",
+            "C": "The number of mice decreased.",
+            "D": "The number of black mugs stayed the same.",
+            "E": "No items became more numerous."
+        },
+        "Correct Choice": "A"
+    },
+    "Q4": {
+        "Type": "Object Counting",
+        "Change Number": 4,
+        "Initial Video": 2,
+        "Final Video": 3,
+        "Question": "An object that wasn't there before appeared in multiples. Which object are we talking about from this specific transition?",
+        "Multiple Choice": {
+            "A": "post card box",
+            "B": "keyboard",
+            "C": "mouse",
+            "D": "markers",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q5": {
+        "Type": "Object Counting",
+        "Change Number": 5,
+        "Initial Video": 3,
+        "Final Video": 4,
+        "Question": "Let's talk about the post card boxes. What happened to their number in this interval?",
+        "Multiple Choice": {
+            "A": "Their number increased from 2 to 3.",
+            "B": "Their number decreased from 3 to 2.",
+            "C": "Their number increased from 0 to 2.",
+            "D": "Their number remained at 2.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q6": {
+        "Type": "Object Counting",
+        "Change Number": 6,
+        "Initial Video": 4,
+        "Final Video": 5,
+        "Question": "Did the quantity of any item change between these two views? If so, describe one such change.",
+        "Multiple Choice": {
+            "A": "The quantity of black mugs decreased from 3 to 2.",
+            "B": "The quantity of post card boxes increased.",
+            "C": "The quantity of keyboards decreased.",
+            "D": "Markers appeared for the first time.",
+            "E": "No quantities changed."
+        },
+        "Correct Choice": "A"
+    },
+    "Q7": {
+        "Type": "Object Counting",
+        "Change Number": 7,
+        "Initial Video": 5,
+        "Final Video": 6,
+        "Question": "Some items that were present initially are now all gone. Which items are these?",
+        "Multiple Choice": {
+            "A": "post card box",
+            "B": "black mug",
+            "C": "keyboard",
+            "D": "markers",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q8": {
+        "Type": "Object Counting",
+        "Change Number": 8,
+        "Initial Video": 6,
+        "Final Video": 7,
+        "Question": "There's been a change concerning markers. What exactly happened with their count?",
+        "Multiple Choice": {
+            "A": "Markers appeared, now numbering 2.",
+            "B": "Markers were present and increased to 5.",
+            "C": "Markers disappeared completely.",
+            "D": "The number of markers decreased from 2 to 0.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q9": {
+        "Type": "Object Counting",
+        "Change Number": 9,
+        "Initial Video": 7,
+        "Final Video": 8,
+        "Question": "Looking at the items, was there any shift in how many of something was present?",
+        "Multiple Choice": {
+            "A": "Yes, the count of markers went up from 2 to 5.",
+            "B": "Yes, tissue boxes appeared for the first time.",
+            "C": "No, all item counts remained static.",
+            "D": "Yes, the count of markers decreased.",
+            "E": "Yes, post card boxes reappeared."
+        },
+        "Correct Choice": "A"
+    },
+    "Q10": {
+        "Type": "Object Counting",
+        "Change Number": 10,
+        "Initial Video": 8,
+        "Final Video": 9,
+        "Question": "A new type of item showed up in the scene. Which item was it?",
+        "Multiple Choice": {
+            "A": "tissue box",
+            "B": "markers",
+            "C": "black mug",
+            "D": "keyboard",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q11": {
+        "Type": "Object Counting",
+        "Change Number": 11,
+        "Initial Video": 9,
+        "Final Video": 10,
+        "Question": "Focusing on the tissue boxes, how did their quantity change in this segment?",
+        "Multiple Choice": {
+            "A": "They increased from 2 to 3.",
+            "B": "They decreased from 3 to 2.",
+            "C": "They appeared for the first time, numbering 2.",
+            "D": "Their count decreased significantly, similar to markers.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q12": {
+        "Type": "Object Counting",
+        "Change Number": 12,
+        "Initial Video": 9,
+        "Final Video": 10,
+        "Question": "Between these two points in time, did any group of items become less numerous? If so, what happened?",
+        "Multiple Choice": {
+            "A": "Yes, the count of markers dropped from 5 to 1.",
+            "B": "Yes, the count of tissue boxes decreased.",
+            "C": "No, all item counts either increased or stayed the same.",
+            "D": "Yes, the count of markers increased.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q13": {
+        "Type": "Object Counting",
+        "Change Number": 13,
+        "Initial Video": 10,
+        "Final Video": 11,
+        "Question": "Some items that were previously seen are now completely gone. Which items vanished?",
+        "Multiple Choice": {
+            "A": "tissue box",
+            "B": "markers",
+            "C": "robot arm",
+            "D": "black mug",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q14": {
+        "Type": "Object Counting",
+        "Change Number": 14,
+        "Initial Video": 11,
+        "Final Video": 12,
+        "Question": "What change occurred regarding the number of robot arms visible?",
+        "Multiple Choice": {
+            "A": "Their count decreased from 2 to 1.",
+            "B": "They appeared for the first time, numbering 2.",
+            "C": "Their count increased from 2 to 4.",
+            "D": "They were completely removed from the scene.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "E"
+    },
+    "Q15": {
+        "Type": "Object Counting",
+        "Change Number": 15,
+        "Initial Video": 12,
+        "Final Video": 13,
+        "Question": "Can you spot any alterations in the quantities of items present in the scene?",
+        "Multiple Choice": {
+            "A": "Yes, the number of robot arms increased from 2 to 4.",
+            "B": "Yes, red tim hortons cups appeared for the first time.",
+            "C": "No, the quantities of all items remained unchanged.",
+            "D": "Yes, the number of robot arms decreased.",
+            "E": "Yes, the number of tissue boxes increased."
+        },
+        "Correct Choice": "A"
+    },
+    "Q16": {
+        "Type": "Object Counting",
+        "Change Number": 16,
+        "Initial Video": 13,
+        "Final Video": 14,
+        "Question": "There was a reduction in the count of a particular item. Which item became less numerous?",
+        "Multiple Choice": {
+            "A": "robot arm",
+            "B": "red tim hortons cup",
+            "C": "black mug",
+            "D": "markers",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q17": {
+        "Type": "Object Counting",
+        "Change Number": 17,
+        "Initial Video": 14,
+        "Final Video": 15,
+        "Question": "What happened to the robot arms in this transition?",
+        "Multiple Choice": {
+            "A": "All of them were removed, count changing from 3 to 0.",
+            "B": "Their count decreased from 4 to 3.",
+            "C": "One was added, making the count 3.",
+            "D": "They remained unchanged at a count of 3.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q18": {
+        "Type": "Object Counting",
+        "Change Number": 18,
+        "Initial Video": 15,
+        "Final Video": 16,
+        "Question": "Were any new kinds of items introduced, or did existing items change in number significantly?",
+        "Multiple Choice": {
+            "A": "Yes, red tim hortons cups appeared, and there are now 4 of them.",
+            "B": "Yes, black mugs reappeared.",
+            "C": "No, no significant changes in item counts or types occurred.",
+            "D": "Yes, robot arms increased in number.",
+            "E": "Yes, markers were all removed."
+        },
+        "Correct Choice": "A"
+    },
+    "Q19": {
+        "Type": "Object Counting",
+        "Change Number": 19,
+        "Initial Video": 16,
+        "Final Video": 17,
+        "Question": "An item that was present in a pair is now completely gone. Which item vanished?",
+        "Multiple Choice": {
+            "A": "black mug",
+            "B": "red tim hortons cup",
+            "C": "keyboard",
+            "D": "post card box",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q20": {
+        "Type": "Object Counting",
+        "Change Number": 20,
+        "Initial Video": 17,
+        "Final Video": 18,
+        "Question": "Let's consider the red tim hortons cups. How did their count change this time?",
+        "Multiple Choice": {
+            "A": "The number of red tim hortons cups increased from 2 to 4.",
+            "B": "All red tim hortons cups were removed (their count went from 4 to 0).",
+            "C": "They appeared for the first time, numbering 4.",
+            "D": "Their count remained unchanged at 4.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "E"
+    },
+    "Q21": {
+        "Type": "Object Counting",
+        "Change Number": 21,
+        "Initial Video": 18,
+        "Final Video": 19,
+        "Question": "Observing the scene, what can you say about changes in item quantities, particularly items being removed?",
+        "Multiple Choice": {
+            "A": "All remaining red tim hortons cups were removed (count changed from 2 to 0).",
+            "B": "The number of keyboards decreased.",
+            "C": "White cup lids appeared in large numbers.",
+            "D": "No items were completely removed.",
+            "E": "The number of black mugs decreased."
+        },
+        "Correct Choice": "A"
+    },
+    "Q22": {
+        "Type": "Object Counting",
+        "Change Number": 22,
+        "Initial Video": 19,
+        "Final Video": 20,
+        "Question": "The count of one item significantly dropped, though it didn't disappear entirely. Which item was it?",
+        "Multiple Choice": {
+            "A": "keyboard",
+            "B": "red tim hortons cup",
+            "C": "white cup lid",
+            "D": "hand sanitizer gel",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q23": {
+        "Type": "Object Counting",
+        "Change Number": 23,
+        "Initial Video": 20,
+        "Final Video": 21,
+        "Question": "There's a new collection of items: white cup lids. What can you tell me about their appearance?",
+        "Multiple Choice": {
+            "A": "Eight white cup lids appeared (count changed from 0 to 8).",
+            "B": "Their count decreased from 8 to 3.",
+            "C": "One white cup lid appeared.",
+            "D": "They were already present and their count increased to 8.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q24": {
+        "Type": "Object Counting",
+        "Change Number": 24,
+        "Initial Video": 21,
+        "Final Video": 22,
+        "Question": "Considering all items, did any specific group see a reduction in their numbers?",
+        "Multiple Choice": {
+            "A": "Yes, the number of white cup lids decreased from 8 to 3.",
+            "B": "Yes, hand sanitizer gel appeared.",
+            "C": "No, all item counts increased or stayed the same.",
+            "D": "Yes, keyboards were removed entirely.",
+            "E": "Yes, white cup lids were completely removed."
+        },
+        "Correct Choice": "A"
+    },
+    "Q25": {
+        "Type": "Object Counting",
+        "Change Number": 25,
+        "Initial Video": 22,
+        "Final Video": 23,
+        "Question": "Several units of a new item appeared on the scene. What is this item?",
+        "Multiple Choice": {
+            "A": "hand sanitizer gel",
+            "B": "white cup lid",
+            "C": "keyboard",
+            "D": "mouse",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q26": {
+        "Type": "Object Counting",
+        "Change Number": 26,
+        "Initial Video": 23,
+        "Final Video": 24,
+        "Question": "What happened to the quantity of hand sanitizer gel bottles in this last observed change?",
+        "Multiple Choice": {
+            "A": "Their number went down from 3 to 2.",
+            "B": "Their number increased from 2 to 3.",
+            "C": "They appeared for the first time, numbering 3.",
+            "D": "All of them were removed.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    }
+}

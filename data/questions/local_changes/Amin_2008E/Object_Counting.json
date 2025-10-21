@@ -1,0 +1,377 @@
+{
+    "Q1": {
+        "Type": "Object Counting",
+        "Change Number": 1,
+        "Initial Video": 0,
+        "Final Video": 1,
+        "Question": "It seems the quantity of an item changed. Which item became more plentiful?",
+        "Multiple Choice": {
+            "A": "whitebaord markers",
+            "B": "books",
+            "C": "computer fan",
+            "D": "pencils",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q2": {
+        "Type": "Object Counting",
+        "Change Number": 2,
+        "Initial Video": 0,
+        "Final Video": 1,
+        "Question": "What happened to the books in the cubicle?",
+        "Multiple Choice": {
+            "A": "Their quantity decreased from 2 to 1.",
+            "B": "Their quantity increased from 1 to 2.",
+            "C": "Their quantity remained unchanged.",
+            "D": "All books were removed.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q3": {
+        "Type": "Object Counting",
+        "Change Number": 3,
+        "Initial Video": 1,
+        "Final Video": 2,
+        "Question": "Between these two views of the cubicle, did the number of any items change? If so, what was one of the changes?",
+        "Multiple Choice": {
+            "A": "A computer fan was added.",
+            "B": "A computer fan was removed.",
+            "C": "The number of books increased.",
+            "D": "No items were added or removed.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q4": {
+        "Type": "Object Counting",
+        "Change Number": 4,
+        "Initial Video": 2,
+        "Final Video": 3,
+        "Question": "One type of item became more numerous. Which one was it?",
+        "Multiple Choice": {
+            "A": "books",
+            "B": "table tenis racket",
+            "C": "computer fan",
+            "D": "pencils",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q5": {
+        "Type": "Object Counting",
+        "Change Number": 5,
+        "Initial Video": 3,
+        "Final Video": 4,
+        "Question": "I'm curious about the books. Was there any change in how many there were?",
+        "Multiple Choice": {
+            "A": "Yes, their number increased from 1 to 3.",
+            "B": "Yes, their number decreased from 3 to 1.",
+            "C": "No, the number of books stayed the same.",
+            "D": "One book was added, making a total of 2.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q6": {
+        "Type": "Object Counting",
+        "Change Number": 6,
+        "Initial Video": 4,
+        "Final Video": 5,
+        "Question": "Were there any adjustments to the quantities of items? What happened?",
+        "Multiple Choice": {
+            "A": "The number of pencils decreased.",
+            "B": "Some markers were added.",
+            "C": "The number of books remained the same.",
+            "D": "A new computer fan appeared.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "E"
+    },
+    "Q7": {
+        "Type": "Object Counting",
+        "Change Number": 7,
+        "Initial Video": 4,
+        "Final Video": 5,
+        "Question": "Some new items appeared in the scene. What were they?",
+        "Multiple Choice": {
+            "A": "markers",
+            "B": "pencils",
+            "C": "heat sink",
+            "D": "books",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q8": {
+        "Type": "Object Counting",
+        "Change Number": 8,
+        "Initial Video": 5,
+        "Final Video": 6,
+        "Question": "There's a heat sink now. What can you tell me about its appearance?",
+        "Multiple Choice": {
+            "A": "It was newly added; there was 0 and now there's 1.",
+            "B": "One was removed; there was 1 and now there's 0.",
+            "C": "Two heat sinks were added.",
+            "D": "It was already there.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q9": {
+        "Type": "Object Counting",
+        "Change Number": 9,
+        "Initial Video": 6,
+        "Final Video": 7,
+        "Question": "What, if anything, changed regarding the quantity of items in the cubicle?",
+        "Multiple Choice": {
+            "A": "A computer fan was added.",
+            "B": "The computer fan was removed.",
+            "C": "The number of pencils increased.",
+            "D": "No changes in item counts occurred.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q10": {
+        "Type": "Object Counting",
+        "Change Number": 10,
+        "Initial Video": 7,
+        "Final Video": 8,
+        "Question": "The count of a certain item went up. Which item are we talking about?",
+        "Multiple Choice": {
+            "A": "books",
+            "B": "computer fan",
+            "C": "pencils",
+            "D": "heat sink",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q11": {
+        "Type": "Object Counting",
+        "Change Number": 11,
+        "Initial Video": 8,
+        "Final Video": 9,
+        "Question": "What happened with the pencils this time?",
+        "Multiple Choice": {
+            "A": "More pencils were added, increasing the count from 3 to 5.",
+            "B": "All 5 pencils were removed.",
+            "C": "The number of pencils decreased from 5 to 2.",
+            "D": "Pencils were not present in either scene.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q12": {
+        "Type": "Object Counting",
+        "Change Number": 12,
+        "Initial Video": 9,
+        "Final Video": 10,
+        "Question": "Which of the following items saw a decrease in its quantity?",
+        "Multiple Choice": {
+            "A": "white board duster",
+            "B": "pencils",
+            "C": "computer fan",
+            "D": "markers",
+            "E": "None of the above"
+        },
+        "Correct Choice": "E"
+    },
+    "Q13": {
+        "Type": "Object Counting",
+        "Change Number": 13,
+        "Initial Video": 9,
+        "Final Video": 10,
+        "Question": "Were there any changes in the number of objects? Specifically, were any items added?",
+        "Multiple Choice": {
+            "A": "No, no items were added.",
+            "B": "Yes, some books were added.",
+            "C": "Yes, two white board dusters were added.",
+            "D": "Yes, one white board duster was removed.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q14": {
+        "Type": "Object Counting",
+        "Change Number": 14,
+        "Initial Video": 10,
+        "Final Video": 11,
+        "Question": "Some new items appeared that weren't there before. What are they?",
+        "Multiple Choice": {
+            "A": "books",
+            "B": "metal clamps",
+            "C": "white board duster",
+            "D": "pencils",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q15": {
+        "Type": "Object Counting",
+        "Change Number": 15,
+        "Initial Video": 11,
+        "Final Video": 12,
+        "Question": "Regarding the table tenis rackets, did their quantity change?",
+        "Multiple Choice": {
+            "A": "No, the quantity remained the same.",
+            "B": "Yes, one was added, so the count went from 1 to 2.",
+            "C": "Yes, one was removed, so the count went from 2 to 1.",
+            "D": "Yes, both table tenis rackets were removed.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q16": {
+        "Type": "Object Counting",
+        "Change Number": 16,
+        "Initial Video": 12,
+        "Final Video": 13,
+        "Question": "Did any items become more numerous in the cubicle? If so, which ones and by how much?",
+        "Multiple Choice": {
+            "A": "No, all item quantities remained stable or decreased.",
+            "B": "Yes, the number of heat sinks increased by one.",
+            "C": "Yes, two new heat sinks were added.",
+            "D": "Yes, the number of table tenis rackets increased.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q17": {
+        "Type": "Object Counting",
+        "Change Number": 17,
+        "Initial Video": 13,
+        "Final Video": 14,
+        "Question": "An item became less common. Which item saw its quantity reduce?",
+        "Multiple Choice": {
+            "A": "heat sink",
+            "B": "metal clamps",
+            "C": "duster",
+            "D": "Funko pops",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q18": {
+        "Type": "Object Counting",
+        "Change Number": 18,
+        "Initial Video": 14,
+        "Final Video": 15,
+        "Question": "What's the situation with the metal clamps now?",
+        "Multiple Choice": {
+            "A": "More were added, bringing the total to 3.",
+            "B": "There's one less; the count dropped from 3 to 2.",
+            "C": "All metal clamps were removed.",
+            "D": "Their quantity didn't change.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q19": {
+        "Type": "Object Counting",
+        "Change Number": 19,
+        "Initial Video": 15,
+        "Final Video": 16,
+        "Question": "Considering the items present, what numerical adjustments occurred?",
+        "Multiple Choice": {
+            "A": "Two Funko pops were removed.",
+            "B": "The number of heat sinks increased.",
+            "C": "No items changed in quantity.",
+            "D": "Metal clamps were added.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "E"
+    },
+    "Q20": {
+        "Type": "Object Counting",
+        "Change Number": 20,
+        "Initial Video": 15,
+        "Final Video": 16,
+        "Question": "A couple of new items have appeared. What are they?",
+        "Multiple Choice": {
+            "A": "heat sinks",
+            "B": "Funko pops",
+            "C": "paper cups",
+            "D": "dusters",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q21": {
+        "Type": "Object Counting",
+        "Change Number": 21,
+        "Initial Video": 16,
+        "Final Video": 17,
+        "Question": "I see some paper cups now. Were they there before, and how many are there?",
+        "Multiple Choice": {
+            "A": "They were already there, and two more were added, making it 4.",
+            "B": "They are new; 4 paper cups were added.",
+            "C": "One paper cup was removed.",
+            "D": "There were 4, and now there are 0.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q22": {
+        "Type": "Object Counting",
+        "Change Number": 22,
+        "Initial Video": 17,
+        "Final Video": 18,
+        "Question": "Did any items disappear completely between these scenes?",
+        "Multiple Choice": {
+            "A": "Yes, all paper cups disappeared.",
+            "B": "No, all items that were present before are still present.",
+            "C": "Yes, a heat sink disappeared.",
+            "D": "Yes, the Funko pops disappeared.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "E"
+    },
+    "Q23": {
+        "Type": "Object Counting",
+        "Change Number": 23,
+        "Initial Video": 18,
+        "Final Video": 19,
+        "Question": "An item that was previously seen is no longer present. Which item vanished?",
+        "Multiple Choice": {
+            "A": "duster",
+            "B": "paper cups",
+            "C": "table tenis racket",
+            "D": "spray bottles",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q24": {
+        "Type": "Object Counting",
+        "Change Number": 24,
+        "Initial Video": 19,
+        "Final Video": 20,
+        "Question": "How did the quantity of paper cups change in the latest observation?",
+        "Multiple Choice": {
+            "A": "Their number decreased from 6 to 4.",
+            "B": "Their number increased from 4 to 6.",
+            "C": "They were newly added, now totaling 6.",
+            "D": "All paper cups were removed.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q25": {
+        "Type": "Object Counting",
+        "Change Number": 25,
+        "Initial Video": 19,
+        "Final Video": 20,
+        "Question": "What's the story with spray bottles in this transition?",
+        "Multiple Choice": {
+            "A": "Two spray bottles were removed.",
+            "B": "The number of paper cups decreased.",
+            "C": "One spray bottle was added.",
+            "D": "Spray bottles were present before and their quantity doubled.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "E"
+    }
+}

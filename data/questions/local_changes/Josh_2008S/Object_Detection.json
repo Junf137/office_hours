@@ -1,0 +1,362 @@
+{
+    "Q1": {
+        "Type": "Object Detection",
+        "Change Number": 1,
+        "Initial Video": 0,
+        "Final Video": 1,
+        "Question": "The Lego blocks were no longer visible after the first episode. From where did they disappear?",
+        "Multiple Choice": {
+            "A": "Center-left of cubicle, on right of water bottles",
+            "B": "Center-right of cubicle, in front of monitor",
+            "C": "Far right, close to edge of desk",
+            "D": "Center Left",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q2": {
+        "Type": "Object Detection",
+        "Change Number": 2,
+        "Initial Video": 1,
+        "Final Video": 2,
+        "Question": "An object appeared at 'Center-left of cubicle, on right of water bottles'. What object was it?",
+        "Multiple Choice": {
+            "A": "Board game box, called \"Ravensburg Puzzle\"",
+            "B": "Lego blocks",
+            "C": "Tooth paste (Colgate)",
+            "D": "Pack of batteries \"Duracell\"",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q3": {
+        "Type": "Object Detection",
+        "Change Number": 3,
+        "Initial Video": 1,
+        "Final Video": 2,
+        "Question": "The 'Board game box, called \"Ravensburg Puzzle\"' was newly visible. Where in the cubicle did it appear?",
+        "Multiple Choice": {
+            "A": "Far right, close to edge of desk",
+            "B": "Center-right of cubicle, in front of monitor",
+            "C": "Far Left",
+            "D": "Center Left",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q4": {
+        "Type": "Object Detection",
+        "Change Number": 4,
+        "Initial Video": 2,
+        "Final Video": 3,
+        "Question": "An item vanished from 'Far right, close to edge of desk'. What was this item?",
+        "Multiple Choice": {
+            "A": "Circular metallic box (Butter cookies)",
+            "B": "Bottle of Lysol wipes",
+            "C": "Lego blocks",
+            "D": "Tooth paste (Colgate)",
+            "E": "None of the above"
+        },
+        "Correct Choice": "D"
+    },
+    "Q5": {
+        "Type": "Object Detection",
+        "Change Number": 5,
+        "Initial Video": 3,
+        "Final Video": 4,
+        "Question": "Between these two video segments, an object's presence changed. What specifically was observed regarding an object's appearance or disappearance?",
+        "Multiple Choice": {
+            "A": "'Lego blocks' appeared at Center Left.",
+            "B": "'Pack of batteries \"Duracell\"' disappeared from Center Left.",
+            "C": "'Pack of batteries \"Duracell\"' appeared at Center-right of cubicle, in front of monitor.",
+            "D": "'Tooth paste (Colgate)' appeared at Center Left.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "E"
+    },
+    "Q6": {
+        "Type": "Object Detection",
+        "Change Number": 6,
+        "Initial Video": 4,
+        "Final Video": 5,
+        "Question": "Regarding the 'Bottle of Lysol wipes', what change occurred and where?",
+        "Multiple Choice": {
+            "A": "It appeared at Far Left.",
+            "B": "It disappeared at Far Left.",
+            "C": "It appeared at Center Left.",
+            "D": "It disappeared at Center-right of cubicle, in front of monitor.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q7": {
+        "Type": "Object Detection",
+        "Change Number": 7,
+        "Initial Video": 5,
+        "Final Video": 6,
+        "Question": "A new item appeared at 'Center right, in front of battery pack'. What was this item?",
+        "Multiple Choice": {
+            "A": "Circular metallic box (Butter cookies)",
+            "B": "Bottle of birdies",
+            "C": "IPad/Laptop",
+            "D": "Lego blocks",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q8": {
+        "Type": "Object Detection",
+        "Change Number": 8,
+        "Initial Video": 5,
+        "Final Video": 6,
+        "Question": "The 'Black water bottle' was no longer present. Where was it located before it disappeared?",
+        "Multiple Choice": {
+            "A": "Center right, in front of monitor",
+            "B": "Far left, behind legos",
+            "C": "Far right, close to edge of desk",
+            "D": "Center Left",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q9": {
+        "Type": "Object Detection",
+        "Change Number": 9,
+        "Initial Video": 6,
+        "Final Video": 7,
+        "Question": "An object materialized at 'Center right, in front of monitor'. What was it?",
+        "Multiple Choice": {
+            "A": "Moisturizer bottle",
+            "B": "Stapler",
+            "C": "Bottle of birdies",
+            "D": "Wine glass",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q10": {
+        "Type": "Object Detection",
+        "Change Number": 10,
+        "Initial Video": 7,
+        "Final Video": 8,
+        "Question": "Regarding object appearances or disappearances between these specific video frames, which statement is accurate?",
+        "Multiple Choice": {
+            "A": "The 'IPad/Laptop' appeared at 'Center Left of cubicle, on right of whiteboard'.",
+            "B": "The 'Moisturizer bottle' disappeared from 'Center right, in front of monitor'.",
+            "C": "Lego blocks were detected appearing at the center.",
+            "D": "A Stapler vanished from the far right.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "E"
+    },
+    "Q11": {
+        "Type": "Object Detection",
+        "Change Number": 11,
+        "Initial Video": 7,
+        "Final Video": 8,
+        "Question": "What happened concerning the 'Moisturizer bottle' during this observation period?",
+        "Multiple Choice": {
+            "A": "It appeared at 'Center right, in front of monitor'.",
+            "B": "It disappeared at 'Center right, in front of monitor'.",
+            "C": "It appeared at 'Far Left'.",
+            "D": "It disappeared at 'Far Left'.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q12": {
+        "Type": "Object Detection",
+        "Change Number": 12,
+        "Initial Video": 8,
+        "Final Video": 9,
+        "Question": "A new office supply item appeared on 'Far right, close to edge of desk'. What was this item?",
+        "Multiple Choice": {
+            "A": "Pack of batteries \"Duracell\"",
+            "B": "Lego blocks",
+            "C": "Stapler",
+            "D": "Bottle of Lysol wipes",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q13": {
+        "Type": "Object Detection",
+        "Change Number": 13,
+        "Initial Video": 9,
+        "Final Video": 10,
+        "Question": "The 'Board game box, called \"Ravensburg Puzzle\"' vanished. From which part of the cubicle did it disappear?",
+        "Multiple Choice": {
+            "A": "Center",
+            "B": "Center right, in front of monitor",
+            "C": "Far left",
+            "D": "Far right, close to edge of desk",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q14": {
+        "Type": "Object Detection",
+        "Change Number": 14,
+        "Initial Video": 9,
+        "Final Video": 10,
+        "Question": "An item showed up on 'Far left'. What was this new item?",
+        "Multiple Choice": {
+            "A": "Plant pot with feather",
+            "B": "Drone",
+            "C": "Red box (time hortons)",
+            "D": "Wine glass",
+            "E": "None of the above"
+        },
+        "Correct Choice": "D"
+    },
+    "Q15": {
+        "Type": "Object Detection",
+        "Change Number": 15,
+        "Initial Video": 10,
+        "Final Video": 11,
+        "Question": "What change was observed regarding the 'Lego blocks' in the cubicle?",
+        "Multiple Choice": {
+            "A": "They appeared at 'Center'.",
+            "B": "They disappeared from 'Far Left'.",
+            "C": "They disappeared from 'Center'.",
+            "D": "They appeared at 'Center-right of cubicle, in front of monitor'.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q16": {
+        "Type": "Object Detection",
+        "Change Number": 16,
+        "Initial Video": 11,
+        "Final Video": 12,
+        "Question": "A decorative item, a 'Plant pot with feather', was newly seen. Where was it placed?",
+        "Multiple Choice": {
+            "A": "Center",
+            "B": "Far Left",
+            "C": "Center right, in front of monitor and keyboard",
+            "D": "Center Left",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q17": {
+        "Type": "Object Detection",
+        "Change Number": 17,
+        "Initial Video": 12,
+        "Final Video": 13,
+        "Question": "The 'Bottle of birdies' was observed to have vanished. From where did it disappear, according to the records?",
+        "Multiple Choice": {
+            "A": "Center right, in front of monitor",
+            "B": "Bottle of birdies",
+            "C": "Far Left",
+            "D": "Center",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q18": {
+        "Type": "Object Detection",
+        "Change Number": 18,
+        "Initial Video": 13,
+        "Final Video": 14,
+        "Question": "An item was no longer found at 'Center right, in front of monitor'. Which item disappeared?",
+        "Multiple Choice": {
+            "A": "Drone",
+            "B": "Red box (time hortons)",
+            "C": "Circular metallic box (Butter cookies)",
+            "D": "Wheel",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q19": {
+        "Type": "Object Detection",
+        "Change Number": 19,
+        "Initial Video": 14,
+        "Final Video": 15,
+        "Question": "A 'Drone' made an appearance in the cubicle. Where was it spotted?",
+        "Multiple Choice": {
+            "A": "Center right, in front of monitor",
+            "B": "Center",
+            "C": "Center left",
+            "D": "Far Left",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q20": {
+        "Type": "Object Detection",
+        "Change Number": 20,
+        "Initial Video": 14,
+        "Final Video": 15,
+        "Question": "Between these episodes, something new was detected. Can you identify the object and its location of appearance?",
+        "Multiple Choice": {
+            "A": "A 'Drone' disappeared from 'Center left'.",
+            "B": "A 'Red box (time hortons)' disappeared from 'Center right, in front of monitor'.",
+            "C": "A 'Wheel' appeared at the center.",
+            "D": "A 'Red box (time hortons)' appeared at 'Center right, in front of monitor'.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "D"
+    },
+    "Q21": {
+        "Type": "Object Detection",
+        "Change Number": 21,
+        "Initial Video": 15,
+        "Final Video": 16,
+        "Question": "A 'Wheel' was newly observed in the cubicle. Where did it appear?",
+        "Multiple Choice": {
+            "A": "Center right, in front of monitor and keyboard",
+            "B": "Center",
+            "C": "Far Left",
+            "D": "Center Left",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q22": {
+        "Type": "Object Detection",
+        "Change Number": 22,
+        "Initial Video": 16,
+        "Final Video": 17,
+        "Question": "What change occurred concerning the 'Wine glass'?",
+        "Multiple Choice": {
+            "A": "It appeared at 'Far Left'.",
+            "B": "It disappeared from 'Center'.",
+            "C": "It disappeared from 'Far Left'.",
+            "D": "It appeared at the center.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q23": {
+        "Type": "Object Detection",
+        "Change Number": 23,
+        "Initial Video": 17,
+        "Final Video": 18,
+        "Question": "An object vanished from 'Far left'. What was it?",
+        "Multiple Choice": {
+            "A": "Backpack",
+            "B": "Wheel",
+            "C": "Lego blocks",
+            "D": "Bottle of Lysol wipes",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q24": {
+        "Type": "Object Detection",
+        "Change Number": 24,
+        "Initial Video": 18,
+        "Final Video": 19,
+        "Question": "A 'Backpack' is listed in the records for the final observation period at 'Center right, in front of monitor and keyboard'. What detail does the record provide about its appearance or disappearance?",
+        "Multiple Choice": {
+            "A": "The record explicitly states it appeared.",
+            "B": "The record explicitly states it disappeared.",
+            "C": "The record notes its presence but does not specify if it appeared or disappeared in this episode.",
+            "D": "The record indicates it was moved to this location.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    }
+}

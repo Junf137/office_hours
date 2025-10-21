@@ -1,0 +1,377 @@
+{
+    "Q1": {
+        "Type": "Object Counting",
+        "Change Number": 1,
+        "Initial Video": 0,
+        "Final Video": 1,
+        "Question": "Considering the items in the cubicle, did the count for any particular type of object change? If yes, describe one such change.",
+        "Multiple Choice": {
+            "A": "The number of Markers decreased.",
+            "B": "The number of Laptops increased.",
+            "C": "The number of Pencils decreased.",
+            "D": "The number of Computer Mouse increased.",
+            "E": "No changes in object quantities occurred."
+        },
+        "Correct Choice": "A"
+    },
+    "Q2": {
+        "Type": "Object Counting",
+        "Change Number": 2,
+        "Initial Video": 1,
+        "Final Video": 2,
+        "Question": "I noticed the number of Laptops might have changed. Can you tell me what happened with them?",
+        "Multiple Choice": {
+            "A": "Their quantity increased from 1 to 2.",
+            "B": "Their quantity decreased from 2 to 1.",
+            "C": "Their quantity remained at 2.",
+            "D": "Their quantity decreased from 3 to 2.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "B"
+    },
+    "Q3": {
+        "Type": "Object Counting",
+        "Change Number": 3,
+        "Initial Video": 2,
+        "Final Video": 3,
+        "Question": "The quantity of one type of item increased significantly. Which item was it?",
+        "Multiple Choice": {
+            "A": "Laptops",
+            "B": "Markers",
+            "C": "Computer Mouse",
+            "D": "Pencils",
+            "E": "Keyboards"
+        },
+        "Correct Choice": "B"
+    },
+    "Q4": {
+        "Type": "Object Counting",
+        "Change Number": 4,
+        "Initial Video": 3,
+        "Final Video": 4,
+        "Question": "Were there any shifts in the number of items present? If so, what was one of them?",
+        "Multiple Choice": {
+            "A": "The count of Computer Mouse increased.",
+            "B": "The count of Markers decreased.",
+            "C": "The count of Laptops increased.",
+            "D": "The count of Pencils decreased.",
+            "E": "All item counts remained unchanged."
+        },
+        "Correct Choice": "A"
+    },
+    "Q5": {
+        "Type": "Object Counting",
+        "Change Number": 5,
+        "Initial Video": 4,
+        "Final Video": 5,
+        "Question": "Regarding the Markers, how did their quantity shift in this interval?",
+        "Multiple Choice": {
+            "A": "They increased from 6 to 8.",
+            "B": "They decreased from 8 to 6.",
+            "C": "They decreased from 6 to 5.",
+            "D": "They remained at 8.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "B"
+    },
+    "Q6": {
+        "Type": "Object Counting",
+        "Change Number": 6,
+        "Initial Video": 4,
+        "Final Video": 5,
+        "Question": "Some new items of a particular kind appeared where there were none before. Which items are we talking about?",
+        "Multiple Choice": {
+            "A": "Markers",
+            "B": "Laptops",
+            "C": "Pencils",
+            "D": "Computer Mouse",
+            "E": "Books"
+        },
+        "Correct Choice": "C"
+    },
+    "Q7": {
+        "Type": "Object Counting",
+        "Change Number": 7,
+        "Initial Video": 5,
+        "Final Video": 6,
+        "Question": "Did anything change in terms of the number of objects between these episodes? If so, what changed?",
+        "Multiple Choice": {
+            "A": "The number of Computer Mouse decreased.",
+            "B": "The number of Pencils increased.",
+            "C": "The number of Markers increased.",
+            "D": "The number of Laptops decreased.",
+            "E": "No change was observed in any object's quantity."
+        },
+        "Correct Choice": "A"
+    },
+    "Q8": {
+        "Type": "Object Counting",
+        "Change Number": 8,
+        "Initial Video": 6,
+        "Final Video": 7,
+        "Question": "What happened to the number of Pencils in the cubicle?",
+        "Multiple Choice": {
+            "A": "They increased from 3 to 5.",
+            "B": "They decreased from 5 to 2.",
+            "C": "They decreased from 3 to 1.",
+            "D": "Their quantity remained at 5.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "E"
+    },
+    "Q9": {
+        "Type": "Object Counting",
+        "Change Number": 9,
+        "Initial Video": 7,
+        "Final Video": 8,
+        "Question": "The count of a specific office supply increased. Which item became more numerous?",
+        "Multiple Choice": {
+            "A": "Markers",
+            "B": "Computer Mouse",
+            "C": "Keyboards",
+            "D": "Pencils",
+            "E": "Books"
+        },
+        "Correct Choice": "C"
+    },
+    "Q10": {
+        "Type": "Object Counting",
+        "Change Number": 10,
+        "Initial Video": 8,
+        "Final Video": 9,
+        "Question": "Considering the objects, was there a reduction in the quantity of any item? If so, which one?",
+        "Multiple Choice": {
+            "A": "Yes, the number of Markers became fewer.",
+            "B": "Yes, the number of Computer Mouse became fewer.",
+            "C": "Yes, the number of Keyboards became fewer.",
+            "D": "Yes, the number of Pencils became fewer.",
+            "E": "No, all item quantities either increased or stayed the same."
+        },
+        "Correct Choice": "A"
+    },
+    "Q11": {
+        "Type": "Object Counting",
+        "Change Number": 11,
+        "Initial Video": 8,
+        "Final Video": 9,
+        "Question": "There was a change involving the Computer Mouse. How did its quantity change?",
+        "Multiple Choice": {
+            "A": "It decreased from 2 to 1.",
+            "B": "It increased from 1 to 2.",
+            "C": "It increased from 0 to 1.",
+            "D": "It remained at 1.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "B"
+    },
+    "Q12": {
+        "Type": "Object Counting",
+        "Change Number": 12,
+        "Initial Video": 9,
+        "Final Video": 10,
+        "Question": "An item's quantity went up. Which item are we observing more of now?",
+        "Multiple Choice": {
+            "A": "Markers",
+            "B": "Pencils",
+            "C": "Books",
+            "D": "Computer Mouse",
+            "E": "Laptops"
+        },
+        "Correct Choice": "C"
+    },
+    "Q13": {
+        "Type": "Object Counting",
+        "Change Number": 13,
+        "Initial Video": 10,
+        "Final Video": 11,
+        "Question": "Between these two views, did the total number of any specific item change? If so, what was one instance of this?",
+        "Multiple Choice": {
+            "A": "The quantity of Pencils decreased.",
+            "B": "The quantity of Books increased.",
+            "C": "The quantity of Markers decreased.",
+            "D": "The quantity of Computer Mouse increased.",
+            "E": "All item quantities remained static."
+        },
+        "Correct Choice": "A"
+    },
+    "Q14": {
+        "Type": "Object Counting",
+        "Change Number": 14,
+        "Initial Video": 11,
+        "Final Video": 12,
+        "Question": "How did the quantity of Books change during this period?",
+        "Multiple Choice": {
+            "A": "Increased from 2 to 4.",
+            "B": "Decreased from 4 to 2.",
+            "C": "Decreased from 2 to 1.",
+            "D": "Remained at 4.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "B"
+    },
+    "Q15": {
+        "Type": "Object Counting",
+        "Change Number": 15,
+        "Initial Video": 12,
+        "Final Video": 13,
+        "Question": "We saw more of a certain tech peripheral. Which item increased in number?",
+        "Multiple Choice": {
+            "A": "Keyboards",
+            "B": "Laptops",
+            "C": "Computer Mouse",
+            "D": "Markers",
+            "E": "Pencils"
+        },
+        "Correct Choice": "C"
+    },
+    "Q16": {
+        "Type": "Object Counting",
+        "Change Number": 16,
+        "Initial Video": 12,
+        "Final Video": 13,
+        "Question": "Were there any observable changes in item counts? If yes, identify one such change.",
+        "Multiple Choice": {
+            "A": "The number of Markers decreased.",
+            "B": "The number of Computer Mouse decreased.",
+            "C": "The number of Pencils increased.",
+            "D": "The number of Books increased.",
+            "E": "No changes were observed in item counts."
+        },
+        "Correct Choice": "A"
+    },
+    "Q17": {
+        "Type": "Object Counting",
+        "Change Number": 17,
+        "Initial Video": 13,
+        "Final Video": 14,
+        "Question": "The number of Computer Mouse units changed. What specifically happened?",
+        "Multiple Choice": {
+            "A": "Increased from 4 to 5.",
+            "B": "Decreased from 5 to 3.",
+            "C": "Decreased from 4 to 3.",
+            "D": "Remained at 5.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "E"
+    },
+    "Q18": {
+        "Type": "Object Counting",
+        "Change Number": 18,
+        "Initial Video": 14,
+        "Final Video": 15,
+        "Question": "One type of input device became less numerous. Which device was it?",
+        "Multiple Choice": {
+            "A": "Computer Mouse",
+            "B": "Laptops",
+            "C": "Keyboards",
+            "D": "Markers",
+            "E": "Pencils"
+        },
+        "Correct Choice": "C"
+    },
+    "Q19": {
+        "Type": "Object Counting",
+        "Change Number": 19,
+        "Initial Video": 15,
+        "Final Video": 16,
+        "Question": "Did any new types of items appear in quantity, or did existing item counts change? Describe one observation.",
+        "Multiple Choice": {
+            "A": "The quantity of Ping Pong Balls increased.",
+            "B": "The number of Keyboards increased.",
+            "C": "The number of Markers decreased.",
+            "D": "The number of Books decreased.",
+            "E": "No item counts changed."
+        },
+        "Correct Choice": "A"
+    },
+    "Q20": {
+        "Type": "Object Counting",
+        "Change Number": 20,
+        "Initial Video": 16,
+        "Final Video": 17,
+        "Question": "What change occurred regarding the Pencils in the scene?",
+        "Multiple Choice": {
+            "A": "Their quantity increased from 0 to 1.",
+            "B": "Their quantity decreased from 1 to 0.",
+            "C": "Their quantity decreased from 2 to 1.",
+            "D": "They remained at 1.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "B"
+    },
+    "Q21": {
+        "Type": "Object Counting",
+        "Change Number": 21,
+        "Initial Video": 16,
+        "Final Video": 17,
+        "Question": "The count of a particular item went down. Which item are we referring to?",
+        "Multiple Choice": {
+            "A": "Ping Pong Balls",
+            "B": "Pencils",
+            "C": "Computer Mouse",
+            "D": "Keyboards",
+            "E": "Markers"
+        },
+        "Correct Choice": "C"
+    },
+    "Q22": {
+        "Type": "Object Counting",
+        "Change Number": 22,
+        "Initial Video": 17,
+        "Final Video": 18,
+        "Question": "Were there any fluctuations in the number of specific items? If so, detail one.",
+        "Multiple Choice": {
+            "A": "The number of Ping Pong Balls decreased.",
+            "B": "The number of Computer Mouse increased.",
+            "C": "The number of Pencils increased.",
+            "D": "The number of Keyboards decreased.",
+            "E": "No fluctuations were noted for any item."
+        },
+        "Correct Choice": "A"
+    },
+    "Q23": {
+        "Type": "Object Counting",
+        "Change Number": 23,
+        "Initial Video": 19,
+        "Final Video": 20,
+        "Question": "Regarding the Books, how did their quantity change in this observation period?",
+        "Multiple Choice": {
+            "A": "They increased from 1 to 2.",
+            "B": "They decreased from 2 to 1.",
+            "C": "They decreased from 3 to 2.",
+            "D": "They remained at 2.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "B"
+    },
+    "Q24": {
+        "Type": "Object Counting",
+        "Change Number": 24,
+        "Initial Video": 19,
+        "Final Video": 20,
+        "Question": "An item's quantity was reduced. Which item became less common?",
+        "Multiple Choice": {
+            "A": "Books",
+            "B": "Keyboards",
+            "C": "Ping Pong Balls",
+            "D": "Markers",
+            "E": "Laptops"
+        },
+        "Correct Choice": "C"
+    },
+    "Q25": {
+        "Type": "Object Counting",
+        "Change Number": 25,
+        "Initial Video": 19,
+        "Final Video": 20,
+        "Question": "Reflecting on the various items, did any of their counts get updated? If so, describe one such update.",
+        "Multiple Choice": {
+            "A": "The number of Keyboards increased.",
+            "B": "The number of Books increased.",
+            "C": "The number of Ping Pong Balls increased.",
+            "D": "The number of Markers decreased.",
+            "E": "No item counts were updated."
+        },
+        "Correct Choice": "A"
+    }
+}

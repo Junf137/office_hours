@@ -1,4 +1,5 @@
-data/
+data/global_changes_videos/
+data/local_changes_videos/
 output*/
 .vscode/
 

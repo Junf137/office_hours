@@ -1,0 +1,116 @@
+Change Number,Episode ,Unique Object,Cubicle,Location inside Cubicle,Change appear or disappear
+1,1,RTX GPU 2080 Ti ,Json,right side,disappeared
+2,1,Pink toy,Jack. J,right side of cubical,disappeared
+3,1,Catan Board game box red,Emily,left side of cubical,appeared
+4,1,Eiffel tower toy,Jerry,On top of computer,disappeared
+5,1,Rubix Cube,Jack. S,Right side Close to the edge,appeared
+6,1,Red starbucks cup,Frank,"Beside white box, right side",appeared
+7,1,"Pink Box, with chinese writing and bottle inside",Daniel,back of the cubical beside monitor,disappeared
+8,1,Duracel Batteries,Alex,"Left side, on top picture frames",appeared
+9,1,GPU RTX 4090 Box,Alana,"Beside monitor, right side, back of the cubical",disappeared
+10,1,Painting,Eddie,"Beside gray bag, right side of the cubical",appeared
+11,1,"Computer Fan, Brown",Roberto,Close to keyboard and the two monitors,disappeared
+12,1,"Dixit, board game box",Kristine,"Beside keyboard, in front of monitor",appeared
+13,1,coffee kettle,Cecilia,"Beside computer, left side of cubical",disappeared
+14,1,"Roman head statue, toy",Sherlock Holmes,"On top of white box, and paper, on the right side of cubical",appeared
+15,1,Colourful backpack,Lauren,On the chair,appeared
+16,1,Butter Cookies,James,"Right side of cubical, close",appeared
+17,1,"125 box of chocolates, red box",Alexandria,"left side of cubical, beside white box",disappeared
+18,1,Yellow and purpule plushi,Carleton,On top of computer,appeared
+19,1,"Exploting Kittens, Boardgame, blue box",Josh,Left side of cubical at the edge,appeared
+20,1,"Newport, black brief case",2008R,"left side of cubical, beside whiteboard",disappeared
+21,1,"Bridge of park, white box of card",2008Q,Besides white board,appeared
+22,1,"Uno, Board game box, pack or cards",Jack. J,"Right side of cubical, On top of black box",appeared
+23,2,"Uno, Board game box, pack or cards",Jack. J,"Right side of cubical, On top of black box",disappeared
+24,2,Cpu HeatSink,Emily,In front of monitor,appeared
+25,2,Goose plush,Jack. S,In front of left white board,disappeared
+26,2,Eiffel tower toy,Daniel,On top of PC case,appeared
+27,2,"Table Computer, black",Jerry,Left of cubical close to edge,disappeared
+28,2,GPU RTX 2080 Ti ,Frank,"Close to whiteboard, right side of cubical",appeared
+29,2,Purple Human shaped stress toy.,Alex,To the right side of the monitor,disappeared
+30,2,"Coup, boardgame box",Amy,In front of white board,appeared
+31,2,"Electronics Fundamentals Book, red, blue and yellow.",Alana,Close to keyboard and in front left of monitor,appeared
+32,2,Painting,Eddie,Besides gray backpack,disappeared
+33,2,GPU RTX 4090 Box,Roberto,On top of white PC,appeared
+34,2,"Android Toy, green humanoid toy",Cecilia,"Right side of the desk, besides the white papers",disappeared
+35,2,"Catan Board game box red, Extension ",Kristine,"Besides Funko Pop, mini figure inside box, toy",appeared
+36,2,"Roman head statue, toy",Sherlock Holmes,"On top of white box, and paper, on the right side of cubical",disappeared
+37,2,"125 Chocolate box, Red",Lauren,On top of boxes on the left side of cubical,appeared
+38,2,Frisbee,James,"Left side of cubical, close to edge",disappeared
+39,2,"Monopoly Deal boardgame, green box",Jason,Left side of cubical,appeared
+40,2,"Tata Tea, Green Box",Carleton,Left side of cubical,disappeared
+41,2,Tim Hortons Donut Box,Alexandria,Left side of cubical,appeared
+42,2,"Exploting Kittens, Boardgame, blue box",Josh,Left side of cubical,disappeared
+43,2,1000 Piece Puzzle,2008R,"Right side of cubical, close to monitor",appeared
+44,2,"Nvidia Jetson Nano Developer Kit, Small Green Box",2008Q,In front of white board,appeared
+45,2,"Bridge of park, white box of card",2008Q,Besides of white board,disappeared
+46,3,Pair of Sneaker,Alana,Under need the cubical,disappeared
+47,3,Black backpack,Alana,"On top of cubical, right side",disappeared
+48,3,Goose plush,Jack. J,On the right side of cubical,appeared
+49,3,Pig Pink Plush,Emily,Right side of cubical,appeared
+50,3,Catan Board game box red,Emily,Left side of cubical,disappeared
+51,3,Rubix Cube,Jack. S,Right side of cubical,disappeared
+52,3,"Pink Toy,",Jerry,In front of white board,appeared
+53,3,Frisbee,Frank,In front of monitor,appeared
+54,3,Purple Human shaped stress toy.,Daniel,In front the two monitors,appeared
+55,3,"Coup, boardgame box",Amy ,In front of the whiteboard,disappeared
+56,3,"Uno, Board game box, pack or cards",Alex,Besides the duracell baterries,appeared
+57,3,Painting,Alana,Left side of cubical close to edge,appeared
+58,3,"Electronics Fundamentals Book, red, blue and yellow.",Alana,Left side of cubical,disappeared
+59,3,"Table Computer, black",Eddie,Besides gray backpack,appeared
+60,3,GPU RTX 4090 Box,Roberto,On top white PC,disappeared
+61,3,"Dixit, board game box",Kristine,Close to monitor,disappeared
+62,3,"125 Box of chocolates, red box",Lauren,On top of boxes on the left side of cubical,disappeared
+63,3,"Tata Tea, Green Box",Sherlock Holmes,"Right side of cubical, close to edge",appeared
+64,3,"Bridge of park, white box of card",James,Right side of cubical,appeared
+65,3,Box of Gloves,Jason,Left side of cubical,disappeared
+66,3,"Android Toy, green humanoid toy",Carleton,Right side of cubical in front of monitor,appeared
+67,3,"Roman head statue, toy",2008R,On top of PC case,appeared
+68,3,"Newport, black brief case",2008Q,Close to the whiteboard,appeared
+69,4,Muffin ,Kristine,Right side of cubical,disappeared
+70,4,White phone charger with red cable,Roberto,At the white power bar at the back of the cubical,disappeared
+71,4,Rubix Cube,Jack. J,At the whiteboard,appeared
+72,4,Pig Pink Plush,Emily ,Right side of cubical,disappeared
+73,4,Box of Gloves,Jack. S,Left side of cubical,appeared
+74,4,Brow Jacket,Jerry,On top fo the chair,appeared
+75,4,"Pink Box, with chinese writing and bottle inside",Daniel,back of the cubical beside monitor,appeared
+76,4,Eiffel tower toy,Daniel,In front of monitor,disappeared
+77,4,"125 box of chocolated, red box",Frank,Besides monitor,appeared
+78,4,GPU RTX 4090 Box,Daniel,back of the cubical beside whiteboard,appeared
+79,4,"Coup, boardgame box",Alex,On top of PC case,appeared
+80,4,Duracel Batteries,Alex,"Left side of cubical, on top of the picture frames",disappeared
+81,4,"Uno, Board game box, pack or cards",Alex,"Left side of cubical, on top of the picture frames",disappeared
+82,4,GPU RTX 2080 Ti ,Amy ,"left side of cubical, close to the edge",disappeared
+83,4,Painting,Alana,"Left side of cubical, close to edge",disappeared
+84,4,Green triceratops dinosaur toy,Alana,Right side of cubical,disappeared
+85,4,"Table Computer, black",Eddie,Right side of cubical,disappeared
+86,4,"Laptop, Lenovo thinkpad",Eddie,Right side of cubical,appeared
+87,4,Cpu HeatSink,Kristine,"Back of the cubical, below whiteboard",appeared
+88,4,"Dixit, board game box",Cecilia,"Back of the cubical, below whiteboard",appeared
+89,4,1000 Piece Puzzle,Sherlock Holmes,Right side of cubical,disappeared
+90,4,"Electronics Fundamentals Book, red, blue and yellow.",Sherlock Holmes,Right side of cubical,appeared
+91,4,"Exploting Kittens, Boardgame, blue box",James,Close to PC,appeared
+92,4,Black Ethernet Cable,Jessica,Left side of PC,disappeared
+93,5,Green triceratops dinosaur toy,Jack. J,"Right side of cubical, in top of black box",appeared
+94,5,Eiffel tower toy,Emily,On top of the PC,appeared
+95,5,Box of Gloves,Jack. S,Left side of cubical,disappeared
+96,5,Duracel Batteries,Daniel,In front of Monitor,appeared
+97,5,Purple Human shaped stress toy.,Daniel,In front of Monitors,disappeared
+98,5,"Uno, Board game box, pack or cards",Amy ,In front of PC,appeared
+99,5,GPU RTX 2080 Ti ,Alex,"Left side of cubical, on top of the picture frames",appeared
+100,5,"Coup, boardgame box",Alex,On top of PC ,disappeared
+101,5,Catan Board game box red,Eddie,On left side of cubical,appeared
+102,5,Painting,Eddie,Right side of cubical,appeared
+103,5,"Laptop, Lenovo thinkpad",Eddie,"Right side of cubical, beside gray backpack",disappeared
+104,5,1000 Piece Puzzle,Cecilia,Left side of cubical,appeared
+105,5,Cpu HeatSink,Kristine,"Back of the cubical, below whiteboard",disappeared
+106,5,"Nvidia Jetson Nano Developer Kit, Small Green Box",Kristine,"Left side of cubical, near the back",disappeared
+107,5,Blue Box full of ping pong balls,Lauren,Right side of cubical,appeared
+108,5,Pig Pink Plush,Sherlock Holmes,Right side of cubical,appeared
+109,5,"Electronics Fundamentals Book, red, blue and yellow.",Sherlock Holmes,Left side of cubical,disappeared
+110,5,"Table Computer, black",Alexandria,Left side of cubical,appeared
+111,5,"Butter Cookies, Metal box",James,Right side of cubical,disappeared
+112,5,"Exploting Kittens, Boardgame, blue box",James,right side of cubical,disappeared
+113,5,"Android Toy, green humanoid toy",Carleton,Right side of cubical,disappeared
+114,5,"Roman head statue, toy",2008R,On top of PC,disappeared
+115,5,Pencil Holder ,2008R,Right side of cubical,appeared

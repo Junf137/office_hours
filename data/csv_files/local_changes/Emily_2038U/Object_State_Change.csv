@@ -1,0 +1,26 @@
+Episode,Object,Initial State,Final State
+1,Modern Engineering Mathematics Book,Closed,Open
+2,Right side monitor,Turned on,Turned off
+3,Laptop,Closed,Open
+3,Orange Water Bottle,Empty,Full
+4,Book,Open,Closed
+5,Laptop,Open,Closed
+6,Glass Jar,Closed,Open
+7,Orange Water Bottle,Closed,Open
+8,Right side monitor,Off,on
+8,Laptop,Closed,Open
+9,Open Glass Jar,Empty,Full of white paper
+10,Glass Jar,Open,Closed
+11,Orange Water Bottle,Open,Closed
+12,Right side monitor,On,Off
+12,Glass Jar,Full,Empty
+13,Rubik's cube,Solved,Unsolved
+14,Jigsaw Puzzle Box,Open,Closed
+15,Orange Water Bottle,Closed,Open
+16,Laptop,Open,Closed
+16,OrangeWater Bottle,full of water,full of white paper
+17,Rubik's cube,Unsolved,Solved
+18,Orange Water Bottle,full of white paper,Empty
+19,Jigsaw Puzzle Box,Closed,Open
+20,Glass Jar,Closed,Open
+20,Orange Water Bottle,Open Closed,

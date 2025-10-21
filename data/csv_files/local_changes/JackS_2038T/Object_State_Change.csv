@@ -1,0 +1,26 @@
+Episode,Object,Initial State,Final State
+1,Black Diary,Closed,Open
+2,Whiteboard markers,Leaning against whiteboard,Lying flat on table in front of whiteboard
+3,Meta aria black glasses,Face up,Face down (flipped)
+3,Grey case,Lid open,Lid closed
+4,Large wheel,Lying on side,Lying upside down
+5,Light blue box of Camomile tea,Closed lid,Open lid
+6,USB dongle,HDMI cable plugged in,HDMI cable unplugged
+7,Red scissors,Closed,Open
+8,Black diary,Open,Closed
+8,Tin with blue lid,Closed,Open with lid next to tin
+9,Champagne flute,Right side up,Upside down
+9,Green ethernet cable,Plugged into Jetson TX2,Unplugged
+10,Badminton racket,Orientation vertical,Orientation horizontal
+11,Blue book,Closed,Open
+12,Red scissors,Open,Closed
+12,Goose plushy,Right side up,Upside down
+13,Green Jetson Nano box,Closed,Open
+13,Blue book,Open,Closed
+14,Champagne flute,Upside down,Right side up
+15,Deck of cards,Inside deck,Taken out of deck
+16,Laptop,Open,Closed
+17,Light blue box of Camomile tea,Open,Closed
+18,Deck of cards,Taken out of deck,Inside deck
+19,Grey case,Closed lid,Open lid
+19,Badminton racket,Head facing inside cubicle,Head facing outside cubicle (horizontal flip)

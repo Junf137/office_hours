@@ -1,0 +1,377 @@
+{
+    "Q1": {
+        "Type": "Object State Change",
+        "Change Number": 1,
+        "Initial Video": 0,
+        "Final Video": 1,
+        "Question": "An object in the cubicle went from being closed to open. Which object was it?",
+        "Multiple Choice": {
+            "A": "Black Diary",
+            "B": "Laptop",
+            "C": "Grey case",
+            "D": "Red scissors",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q2": {
+        "Type": "Object State Change",
+        "Change Number": 2,
+        "Initial Video": 1,
+        "Final Video": 2,
+        "Question": "The whiteboard markers changed their state. What happened to them?",
+        "Multiple Choice": {
+            "A": "They were uncapped and then capped.",
+            "B": "They went from leaning against the whiteboard to lying flat on the table in front of the whiteboard.",
+            "C": "They were moved from the table to the whiteboard ledge.",
+            "D": "Their ink color changed.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q3": {
+        "Type": "Object State Change",
+        "Change Number": 3,
+        "Initial Video": 2,
+        "Final Video": 3,
+        "Question": "Observing the scene, did an object's orientation or state change? If so, what specifically occurred with the Meta aria black glasses?",
+        "Multiple Choice": {
+            "A": "The laptop was closed.",
+            "B": "The grey case was opened.",
+            "C": "The Meta aria black glasses were flipped from face up to face down.",
+            "D": "The red scissors were opened.",
+            "E": "All of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q4": {
+        "Type": "Object State Change",
+        "Change Number": 4,
+        "Initial Video": 2,
+        "Final Video": 3,
+        "Question": "A container had its lid open and was then found with its lid closed. Which container was it?",
+        "Multiple Choice": {
+            "A": "Grey case",
+            "B": "Light blue box of Camomile tea",
+            "C": "Tin with blue lid",
+            "D": "Green Jetson Nano box",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q5": {
+        "Type": "Object State Change",
+        "Change Number": 5,
+        "Initial Video": 3,
+        "Final Video": 4,
+        "Question": "The large wheel in the cubicle seems to have been reoriented. How was its state altered?",
+        "Multiple Choice": {
+            "A": "It rolled from one side of the cubicle to the other.",
+            "B": "It was standing upright and then fell on its side.",
+            "C": "It was taken out of a box.",
+            "D": "It was initially lying on its side and was then found lying upside down.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "D"
+    },
+    "Q6": {
+        "Type": "Object State Change",
+        "Change Number": 6,
+        "Initial Video": 4,
+        "Final Video": 5,
+        "Question": "A box which previously had a closed lid was later observed with an open lid. Which box was this?",
+        "Multiple Choice": {
+            "A": "Grey case",
+            "B": "Light blue box of Camomile tea",
+            "C": "Green Jetson Nano box",
+            "D": "Tin with blue lid",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q7": {
+        "Type": "Object State Change",
+        "Change Number": 7,
+        "Initial Video": 5,
+        "Final Video": 6,
+        "Question": "Regarding the USB dongle, what change in its connection state was observed?",
+        "Multiple Choice": {
+            "A": "An HDMI cable that was plugged into it was unplugged.",
+            "B": "It was plugged into the laptop.",
+            "C": "It was unplugged from the laptop.",
+            "D": "It was switched from one USB port to another.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q8": {
+        "Type": "Object State Change",
+        "Change Number": 8,
+        "Initial Video": 6,
+        "Final Video": 7,
+        "Question": "Considering the events between these two video captures, which of the following state changes accurately describes what happened to an office supply item?",
+        "Multiple Choice": {
+            "A": "The black diary was opened.",
+            "B": "The whiteboard markers were arranged neatly on the table.",
+            "C": "The red scissors were closed.",
+            "D": "The USB dongle was plugged into the laptop.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "E"
+    },
+    "Q9": {
+        "Type": "Object State Change",
+        "Change Number": 9,
+        "Initial Video": 7,
+        "Final Video": 8,
+        "Question": "An item that was open was later found closed. Which item are we talking about?",
+        "Multiple Choice": {
+            "A": "Laptop",
+            "B": "Red scissors",
+            "C": "Blue book",
+            "D": "Black diary",
+            "E": "None of the above"
+        },
+        "Correct Choice": "D"
+    },
+    "Q10": {
+        "Type": "Object State Change",
+        "Change Number": 10,
+        "Initial Video": 7,
+        "Final Video": 8,
+        "Question": "The tin with a blue lid underwent a state change. What exactly happened to it?",
+        "Multiple Choice": {
+            "A": "It was initially closed and was then found open with its lid next to it.",
+            "B": "It was empty and then filled.",
+            "C": "Its lid was on, and then the lid was missing entirely.",
+            "D": "It was moved from the desk to a shelf.",
+            "E": "All of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q11": {
+        "Type": "Object State Change",
+        "Change Number": 11,
+        "Initial Video": 8,
+        "Final Video": 9,
+        "Question": "The champagne flute's state was altered. Which of the following accurately describes this alteration?",
+        "Multiple Choice": {
+            "A": "It was filled with liquid.",
+            "B": "It was moved from the table to a cabinet.",
+            "C": "It was polished.",
+            "D": "It was turned from upside down to right side up.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "E"
+    },
+    "Q12": {
+        "Type": "Object State Change",
+        "Change Number": 12,
+        "Initial Video": 8,
+        "Final Video": 9,
+        "Question": "Was there any change related to connectivity for any electronic component? If yes, what was it?",
+        "Multiple Choice": {
+            "A": "The USB dongle had its HDMI cable plugged in.",
+            "B": "The green ethernet cable was unplugged from the Jetson TX2.",
+            "C": "The laptop was plugged into a charger.",
+            "D": "The Jetson TX2 was powered off.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q13": {
+        "Type": "Object State Change",
+        "Change Number": 13,
+        "Initial Video": 9,
+        "Final Video": 10,
+        "Question": "An object's orientation changed from vertical to horizontal. Which object was this?",
+        "Multiple Choice": {
+            "A": "Badminton racket",
+            "B": "Champagne flute",
+            "C": "Red scissors",
+            "D": "Black diary",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q14": {
+        "Type": "Object State Change",
+        "Change Number": 14,
+        "Initial Video": 10,
+        "Final Video": 11,
+        "Question": "The blue book was observed to have changed. What was this change?",
+        "Multiple Choice": {
+            "A": "It was moved from the shelf to the table.",
+            "B": "A bookmark was added to it.",
+            "C": "It was open and then it was closed.",
+            "D": "It was closed and then it was opened.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "D"
+    },
+    "Q15": {
+        "Type": "Object State Change",
+        "Change Number": 15,
+        "Initial Video": 11,
+        "Final Video": 12,
+        "Question": "Something that was open was later found closed. What item are we referring to?",
+        "Multiple Choice": {
+            "A": "Laptop",
+            "B": "Black diary",
+            "C": "Red scissors",
+            "D": "Blue book",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q16": {
+        "Type": "Object State Change",
+        "Change Number": 16,
+        "Initial Video": 11,
+        "Final Video": 12,
+        "Question": "What happened to the goose plushy's state?",
+        "Multiple Choice": {
+            "A": "It was moved from the chair to the desk.",
+            "B": "It was initially right side up and was then found upside down.",
+            "C": "Its color changed.",
+            "D": "It was squeezed.",
+            "E": "All of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q17": {
+        "Type": "Object State Change",
+        "Change Number": 17,
+        "Initial Video": 12,
+        "Final Video": 13,
+        "Question": "A container in the scene changed from being sealed to accessible. What exactly occurred?",
+        "Multiple Choice": {
+            "A": "The Green Jetson Nano box went from closed to open.",
+            "B": "The Light blue box of Camomile tea had its lid closed.",
+            "C": "The Grey case had its lid opened.",
+            "D": "The Tin with blue lid was found closed.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q18": {
+        "Type": "Object State Change",
+        "Change Number": 18,
+        "Initial Video": 12,
+        "Final Video": 13,
+        "Question": "A book that was previously open was later seen closed. Which book was this?",
+        "Multiple Choice": {
+            "A": "Black Diary",
+            "B": "Laptop",
+            "C": "Green Jetson Nano box",
+            "D": "Blue book",
+            "E": "None of the above"
+        },
+        "Correct Choice": "D"
+    },
+    "Q19": {
+        "Type": "Object State Change",
+        "Change Number": 19,
+        "Initial Video": 13,
+        "Final Video": 14,
+        "Question": "The champagne flute's orientation was altered. How did it change?",
+        "Multiple Choice": {
+            "A": "It was turned from upside down to right side up.",
+            "B": "It was filled with a beverage.",
+            "C": "It was moved to a different location.",
+            "D": "It was placed on its side.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q20": {
+        "Type": "Object State Change",
+        "Change Number": 20,
+        "Initial Video": 14,
+        "Final Video": 15,
+        "Question": "Focusing on items that might be part of a set or collection, did any such group undergo a change in its assembled state? If yes, what was it?",
+        "Multiple Choice": {
+            "A": "The whiteboard markers were put back into their original packaging.",
+            "B": "Cards were taken out of the deck.",
+            "C": "The Light blue box of Camomile tea had its tea bags removed and counted.",
+            "D": "The Red scissors were disassembled.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q21": {
+        "Type": "Object State Change",
+        "Change Number": 21,
+        "Initial Video": 15,
+        "Final Video": 16,
+        "Question": "Was there any noticeable change in the operational state of any electronic device, like being opened or closed?",
+        "Multiple Choice": {
+            "A": "The Meta aria black glasses were turned on.",
+            "B": "The Green ethernet cable was plugged in.",
+            "C": "The laptop was closed.",
+            "D": "The USB dongle was connected.",
+            "E": "All of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q22": {
+        "Type": "Object State Change",
+        "Change Number": 22,
+        "Initial Video": 16,
+        "Final Video": 17,
+        "Question": "A container that had an open lid was later found with its lid closed. Which container was it?",
+        "Multiple Choice": {
+            "A": "Light blue box of Camomile tea",
+            "B": "Grey case",
+            "C": "Green Jetson Nano box",
+            "D": "Tin with blue lid",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q23": {
+        "Type": "Object State Change",
+        "Change Number": 23,
+        "Initial Video": 17,
+        "Final Video": 18,
+        "Question": "What happened to the deck of cards in terms of its state?",
+        "Multiple Choice": {
+            "A": "The deck was shuffled.",
+            "B": "The deck was moved to a new location.",
+            "C": "A card was torn.",
+            "D": "Cards that were taken out of the deck were put back inside the deck.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "D"
+    },
+    "Q24": {
+        "Type": "Object State Change",
+        "Change Number": 24,
+        "Initial Video": 18,
+        "Final Video": 19,
+        "Question": "A case that was previously closed was observed to be open. Which case was it?",
+        "Multiple Choice": {
+            "A": "Light blue box of Camomile tea",
+            "B": "Green Jetson Nano box",
+            "C": "Grey case",
+            "D": "Tin with blue lid",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q25": {
+        "Type": "Object State Change",
+        "Change Number": 25,
+        "Initial Video": 18,
+        "Final Video": 19,
+        "Question": "The badminton racket's orientation changed again. How was it altered this time?",
+        "Multiple Choice": {
+            "A": "It was moved from a horizontal to a vertical position.",
+            "B": "Its head, which was facing inside the cubicle, was flipped horizontally to face outside.",
+            "C": "It was placed inside the grey case.",
+            "D": "Its strings were tightened.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    }
+}

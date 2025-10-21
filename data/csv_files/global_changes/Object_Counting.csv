@@ -1,0 +1,127 @@
+Change Number,Episode ,Non-unique object,Cubicle,Initial Count,Final Count
+1,1,steel mug,Daniel,2,1
+2,1,Black PNY box,Frank,2,0
+3,1,Black and yellow uphara box,Jack.J,0,2
+4,1,plastic water bottle,Emily,1,3
+5,1,posters,Jessica,0,2
+6,1,lego,Jerry,5,7
+7,1,led pencils,Jack.S,1,5
+8,1,small brown box,Alex,0,2
+9,1,computer mouse,Amy,0,2
+10,1,keyboard,Alana,1,2
+11,1,notebook,Roberto,2,1
+12,1,"bobble head toy ""Pop""",Kristine,1,2
+13,1,"sticky notes (yellow, green, purple and blue)",Cecilia,4,2
+14,1,black boxes,Sherlock Holmes,0,2
+15,1,markers,Sherlock Holmes,6,4
+16,1,lined paper,Lauren,0,2
+17,1,Tissue Paper,James,0,1
+18,1,markers,Jason,0,2
+19,1,graphics card,Carleton,0,2
+20,1,books,Alexandria,1,4
+21,1,hand sanitizer,Josh,1,2
+22,1,red box,2008R,2,1
+23,1,white board erasers,2008Q,1,2
+24,1,dominoes,Jason,0,4
+25,1,ping pong paddle,Jason,0,3
+26,2,ping pong paddle,Daniel,1,2
+27,2,coffee cup (Red),Frank,1,2
+28,2,Black and yellow uphara box,Jack.J,2,1
+29,2,plastic water bottle,Emily,3,2
+30,2,posters,Jessica,2,4
+31,2,lego,Jerry,6,4
+32,2,led pencils,Jack.S,7,5
+33,2,small brown box,Alex,2,1
+34,2,computer mouse,Amy,2,3
+35,2,keyboard,Alana,2,3
+36,2,notebook,Roberto,1,3
+37,2,"bobble head toy ""Pop""",Kristine,2,3
+38,2,dominoes,Cecilia,0,6
+39,2,black boxes,Sherlock Holmes,2,1
+40,2,markers,Sherlock Holmes,4,5
+41,2,lined paper,Lauren,2,3
+42,2,posters,James,0,3
+43,2,markers,Jason,2,3
+44,2,graphics card,Carleton,2,1
+45,2,books,Alexandria,4,6
+46,2,hand sanitizer,Josh,2,1
+47,2,red box,2008R,1,2
+48,2,white board erasers,Carleton,1,4
+49,2,dominoes,Jason,4,2
+50,2,ping pong paddle,Jason,3,2
+51,2,puzzle box,2008R,0,1
+52,3,ping pong paddle,Daniel,2,1
+53,3,Black box (PNY),Frank,0,2
+54,3,Black and yellow uphara box,Jack.J,1,2
+55,3,plastic water bottle,Emily,2,3
+56,3,posters,Jessica,4,6
+57,3,lego,Jerry,5,2
+58,3,led pencils,Jack.S,3,5
+59,3,small brown box,Alex,1,2
+60,3,computer mouse,Amy,3,2
+61,3,keyboard,Alana,3,2
+62,3,notebook,Roberto,3,1
+63,3,"bobble head toy ""Pop""",Kristine,3,2
+64,3,dominoes,Cecilia,6,4
+65,3,computer fans,Sherlock Holmes,0,2
+66,3,markers,Sherlock Holmes,5,1
+67,3,lined paper,Lauren,3,2
+68,3,posters,James,3,2
+69,3,markers,Jason,3,7
+70,3,graphics card,Carleton,1,2
+71,3,books,Alexandria,6,4
+72,3,hand sanitizer,Josh,1,2
+73,3,vaseline lotion,Josh,0,2
+74,3,white board erasers,Carleton,4,2
+75,3,dominoes,Jason,2,4
+76,3,ping pong paddle,Jason,2,3
+77,4,teddy bear,Daniel,0,2
+78,4,Coffee cup (Red),Frank,2,3
+79,4,Red plastic cup,Jack.J,0,2
+80,4,plastic water bottle,Emily,3,1
+81,4,posters,Jessica,6,2
+82,4,lego,Jerry,2,5
+83,4,led pencils,Jack.S,5,2
+84,4,dominoes,Alex,0,5
+85,4,notebook,Amy,0,2
+86,4,computer mouse,Amy,2,0
+87,4,screw driver,eddie,0,2
+88,4,posters,Kristine,0,5
+89,4,dominoes,Cecilia,4,1
+90,4,led pencils,Sherlock Holmes,0,4
+91,4,white board erasers,Lauren,0,3
+92,4,markers,Jason,7,3
+93,4,posters,James,2,1
+94,4,books,Jason,0,2
+95,4,monitors,Carleton,1,2
+96,4,books,Alexandria,4,1
+97,4,hand sanitizer,Josh,1,4
+98,4,vaseline lotion,Josh,2,1
+99,4,Medical Alcohol Bottle (Alcol Isopropylique),2008Q,0,3
+100,4,plastic water bottle,Eddie,0,3
+101,4,ping pong paddle,Jason,3,0
+102,5,teddy bear,Daniel,2,1
+103,5,Coffee cup (Red),Frank,3,1
+104,5,Laptop,Frank,2,5
+105,5,robot arms,Jerry,2,4
+106,5,posters,Jessica,2,0
+107,5,lego,Jerry,5,1
+108,5,led pencils,Jack.S,2,1
+109,5,dominoes,Alex,5,2
+110,5,monitor,Amy,2,1
+111,5,chopsticks in wrapper,Alana,0,4
+112,5,screw driver,eddie,2,1
+113,5,posters,Kristine,5,3
+114,5,dominoes,Cecilia,1,3
+115,5,led pencils,Sherlock Holmes,4,8
+116,5,white board erasers,Lauren,3,2
+117,5,custard soft cakes (snacks),Jason,0,7
+118,5,ping pong balls,Carleton,0,6
+119,5,books,Jason,2,1
+120,5,markers,James,4,2
+121,5,markers,Alexandria,1,3
+122,5,hand sanitizer,Josh,4,3
+123,5,vaseline lotion,Josh,1,2
+124,5,Medical Alcohol Bottle (Alcol Isopropylique),2008Q,3,2
+125,5,plastic water bottle,Eddie,3,2
+126,5,whiteboard eraser,Alana,1,2

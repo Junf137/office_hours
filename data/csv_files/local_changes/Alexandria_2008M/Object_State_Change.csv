@@ -1,0 +1,26 @@
+Episode,Object,Initial State,Final State
+1,Frisbee,not flipped,flipped
+2,Eiffel tower,up,sideways
+3,camera,lens facing me,lens facing table top
+4,coup game,on its back,upright
+5,controller,on its back,on its face
+5,Plushie,upright,on its back
+6,camera,les facing table top,lens facing away from me
+7,playing cards,on its back,upright
+8,Triceratops toy,on its feet,on its back
+8,frisbee,flipped,not flipped
+9,Eiffel tower,sideways,up
+10,Triceratops toy,on its back,sideways
+10,coup game,upright,on its back
+11,tape dispenser,upright,on its side
+12,cooling fan,on its back,upright
+13,Triceratops toy,sideways,on its feet
+14,cooling fan,upright,on its back
+15,tape dispenser,upright,on its side
+15,funko pop,upright,on its side
+16,Frisbee,upright,flipped
+17,playing cards,upright,on its back
+18,Plushie,on its back,upright
+19,Plushie,upright,on its back
+19,controller,on its face,on its back
+20,funko pop,on its side,upright

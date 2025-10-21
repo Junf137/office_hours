@@ -1,0 +1,347 @@
+{
+    "Q1": {
+        "Type": "Object State Change",
+        "Change Number": 1,
+        "Initial Video": 0,
+        "Final Video": 1,
+        "Question": "An object in the cubicle changed from a closed state to an open state. Which object was it?",
+        "Multiple Choice": {
+            "A": "The stapler",
+            "B": "The cookie tin",
+            "C": "The GPU box",
+            "D": "The metal water bottle",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q2": {
+        "Type": "Object State Change",
+        "Change Number": 2,
+        "Initial Video": 1,
+        "Final Video": 2,
+        "Question": "The cookie tin's state was altered. What was the specific change observed?",
+        "Multiple Choice": {
+            "A": "It was initially open and then became closed.",
+            "B": "It was initially closed and then became open.",
+            "C": "It changed from upright to on its side.",
+            "D": "It was solved and then became unsolved.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q3": {
+        "Type": "Object State Change",
+        "Change Number": 3,
+        "Initial Video": 2,
+        "Final Video": 3,
+        "Question": "Was there any change in how an object was sealed or accessible? If so, what happened?",
+        "Multiple Choice": {
+            "A": "The stapler was opened.",
+            "B": "The cookie tin was closed.",
+            "C": "The metal water bottle went from being closed to open.",
+            "D": "The aria glasses case was closed.",
+            "E": "No such change occurred."
+        },
+        "Correct Choice": "C"
+    },
+    "Q4": {
+        "Type": "Object State Change",
+        "Change Number": 4,
+        "Initial Video": 3,
+        "Final Video": 4,
+        "Question": "One of the items transitioned from a closed to an open state. Can you identify which one?",
+        "Multiple Choice": {
+            "A": "The metal water bottle",
+            "B": "The toolbox",
+            "C": "The blue book",
+            "D": "The aria glasses case",
+            "E": "None of the above"
+        },
+        "Correct Choice": "D"
+    },
+    "Q5": {
+        "Type": "Object State Change",
+        "Change Number": 5,
+        "Initial Video": 4,
+        "Final Video": 5,
+        "Question": "There was a change involving the cookie tin. What exactly happened to it?",
+        "Multiple Choice": {
+            "A": "It was initially closed and then became open.",
+            "B": "It changed from upright to on its side.",
+            "C": "It was solved and then became unsolved.",
+            "D": "It was opened and its contents were checked.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "E"
+    },
+    "Q6": {
+        "Type": "Object State Change",
+        "Change Number": 6,
+        "Initial Video": 5,
+        "Final Video": 6,
+        "Question": "An object that was previously open is now closed. Which object is this?",
+        "Multiple Choice": {
+            "A": "The cookie tin",
+            "B": "The aria glasses case",
+            "C": "The metal water bottle",
+            "D": "The toolbox",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q7": {
+        "Type": "Object State Change",
+        "Change Number": 7,
+        "Initial Video": 6,
+        "Final Video": 7,
+        "Question": "What happened to the aria glasses case during this interval?",
+        "Multiple Choice": {
+            "A": "It changed from a closed state to an open state.",
+            "B": "It changed from an open state to a closed state.",
+            "C": "It was solved.",
+            "D": "It was put on its side.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q8": {
+        "Type": "Object State Change",
+        "Change Number": 8,
+        "Initial Video": 6,
+        "Final Video": 7,
+        "Question": "Between these two scenes, did any container-like object change its accessibility? If so, what was it?",
+        "Multiple Choice": {
+            "A": "The toolbox was opened.",
+            "B": "The aria glasses case was opened.",
+            "C": "The GPU box was closed.",
+            "D": "The cookie tin was opened.",
+            "E": "No such accessibility change occurred."
+        },
+        "Correct Choice": "A"
+    },
+    "Q9": {
+        "Type": "Object State Change",
+        "Change Number": 9,
+        "Initial Video": 7,
+        "Final Video": 8,
+        "Question": "A box-like item went from being closed to open. Which item are we talking about?",
+        "Multiple Choice": {
+            "A": "The toolbox",
+            "B": "The board game box",
+            "C": "The GPU box",
+            "D": "The cookie tin",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q10": {
+        "Type": "Object State Change",
+        "Change Number": 10,
+        "Initial Video": 8,
+        "Final Video": 9,
+        "Question": "How did the Rubik's cube's state change in the scene?",
+        "Multiple Choice": {
+            "A": "It went from unsolved to solved.",
+            "B": "It was placed on its side.",
+            "C": "It was closed.",
+            "D": "It was taken apart.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "E"
+    },
+    "Q11": {
+        "Type": "Object State Change",
+        "Change Number": 11,
+        "Initial Video": 9,
+        "Final Video": 10,
+        "Question": "Was there a change in the orientation of any object? If so, what was it?",
+        "Multiple Choice": {
+            "A": "The GPU box, which was upright, was found on its side.",
+            "B": "The champagne glass was tilted from upright to on its side.",
+            "C": "The wooden block man changed from standing to sitting.",
+            "D": "The air purifier was turned from upright to on its side.",
+            "E": "No such orientation change occurred."
+        },
+        "Correct Choice": "A"
+    },
+    "Q12": {
+        "Type": "Object State Change",
+        "Change Number": 12,
+        "Initial Video": 10,
+        "Final Video": 11,
+        "Question": "Something that was open is now closed. Which item are we referring to?",
+        "Multiple Choice": {
+            "A": "The cookie tin",
+            "B": "The toolbox",
+            "C": "The board game box",
+            "D": "The metal water bottle",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q13": {
+        "Type": "Object State Change",
+        "Change Number": 13,
+        "Initial Video": 11,
+        "Final Video": 12,
+        "Question": "The champagne glass underwent a state change. What specifically happened to it?",
+        "Multiple Choice": {
+            "A": "It was initially on its side and then was upright.",
+            "B": "It was cleaned.",
+            "C": "It was initially upright and then was on its side.",
+            "D": "It was broken.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q14": {
+        "Type": "Object State Change",
+        "Change Number": 14,
+        "Initial Video": 11,
+        "Final Video": 12,
+        "Question": "An item changed from being closed to open. Which one was it?",
+        "Multiple Choice": {
+            "A": "The board game box",
+            "B": "The GPU box",
+            "C": "The blue book",
+            "D": "The stapler",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q15": {
+        "Type": "Object State Change",
+        "Change Number": 15,
+        "Initial Video": 12,
+        "Final Video": 13,
+        "Question": "Regarding the glove box, what alteration in its state was observed?",
+        "Multiple Choice": {
+            "A": "It was closed.",
+            "B": "It was opened.",
+            "C": "It was flipped from having its open side down to its open side up.",
+            "D": "It was flipped from having its open side up to its open side down.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "D"
+    },
+    "Q16": {
+        "Type": "Object State Change",
+        "Change Number": 16,
+        "Initial Video": 13,
+        "Final Video": 14,
+        "Question": "Did any object that was previously accessible become secured or shut? If so, which one and how?",
+        "Multiple Choice": {
+            "A": "Yes, the toolbox went from open to closed.",
+            "B": "Yes, the board game box went from open to closed.",
+            "C": "Yes, the cookie tin went from open to closed.",
+            "D": "Yes, the metal water bottle went from open to closed.",
+            "E": "No, nothing changed from open to closed."
+        },
+        "Correct Choice": "B"
+    },
+    "Q17": {
+        "Type": "Object State Change",
+        "Change Number": 17,
+        "Initial Video": 14,
+        "Final Video": 15,
+        "Question": "An item that was shut is now open. Which item are we talking about?",
+        "Multiple Choice": {
+            "A": "The blue book",
+            "B": "The board game box",
+            "C": "The GPU box",
+            "D": "The stapler",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q18": {
+        "Type": "Object State Change",
+        "Change Number": 18,
+        "Initial Video": 15,
+        "Final Video": 16,
+        "Question": "The board game box's orientation changed. How was it altered?",
+        "Multiple Choice": {
+            "A": "It was turned from logo side down to logo side up.",
+            "B": "It was opened.",
+            "C": "It was turned over, from logo side up to logo side down.",
+            "D": "It was closed.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q19": {
+        "Type": "Object State Change",
+        "Change Number": 19,
+        "Initial Video": 16,
+        "Final Video": 17,
+        "Question": "Did any figurine or posable object change its posture? If so, what happened?",
+        "Multiple Choice": {
+            "A": "The Rubik's cube was solved.",
+            "B": "The GPU box was placed on its side.",
+            "C": "The drone changed its leg configuration.",
+            "D": "The wooden block man changed from a standing to a sitting position.",
+            "E": "No such posture change occurred."
+        },
+        "Correct Choice": "D"
+    },
+    "Q20": {
+        "Type": "Object State Change",
+        "Change Number": 20,
+        "Initial Video": 17,
+        "Final Video": 18,
+        "Question": "A puzzle-like item changed from an unsolved state to a solved state. Which item was it?",
+        "Multiple Choice": {
+            "A": "The board game box",
+            "B": "The Rubik's cube",
+            "C": "The wooden block man",
+            "D": "The GPU box",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q21": {
+        "Type": "Object State Change",
+        "Change Number": 21,
+        "Initial Video": 17,
+        "Final Video": 18,
+        "Question": "What change occurred to the air purifier's orientation?",
+        "Multiple Choice": {
+            "A": "It went from an upright position to being on its side.",
+            "B": "It went from being on its side to an upright position.",
+            "C": "It was turned on.",
+            "D": "It was turned off.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q22": {
+        "Type": "Object State Change",
+        "Change Number": 22,
+        "Initial Video": 18,
+        "Final Video": 19,
+        "Question": "Was there a subtle change in how an object, possibly a drone, was resting or positioned on a surface? If so, describe it.",
+        "Multiple Choice": {
+            "A": "The wooden block man changed from standing to sitting.",
+            "B": "The GPU box was tilted from upright to on its side.",
+            "C": "The drone shifted from having all four legs on the table to only two legs on the table.",
+            "D": "The champagne glass was knocked from upright to on its side.",
+            "E": "No such subtle positioning change was noted."
+        },
+        "Correct Choice": "C"
+    },
+    "Q23": {
+        "Type": "Object State Change",
+        "Change Number": 23,
+        "Initial Video": 19,
+        "Final Video": 20,
+        "Question": "An object was flipped from having its logo facing down to having its logo facing up. Which object was this?",
+        "Multiple Choice": {
+            "A": "The GPU box",
+            "B": "The blue book",
+            "C": "The glove box",
+            "D": "The board game box",
+            "E": "None of the above"
+        },
+        "Correct Choice": "D"
+    }
+}

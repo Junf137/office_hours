@@ -1,0 +1,24 @@
+Episode,Object,Initial State,Final State
+1,stapler,closed,open
+2,cookie tin,closed,open
+3,metal water bottle,closed,open
+4,aria glasses case,closed,open
+5,cookie tin,open,closed
+6,metal water bottle,open,closed
+7,aria glasses case,open,closed
+7,tookbox,closed,open
+8,gpu box,closed,open
+9,rubiks cube,solved,unsolved
+10,gpu box,upright,on its side
+11,toolbox,open,closed
+12,champagne glass,upright,on its side
+12,board game box,closed,open
+13,glove box,open side up,open side down
+14,board game box,open,closed
+15,blue book,closed,open
+16,board game box,logo side up,logo side down
+17,wooden block man,standing,sitting
+18,rubiks cube,unsolved,solved
+18,air purifier,upright,on its side
+19,done,all 4 legs on the table,two legs on the table
+20,board game box,logo size down,logo side up

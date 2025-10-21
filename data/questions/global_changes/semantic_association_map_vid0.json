@@ -1,0 +1,2837 @@
+[
+  {
+    "Q1": {
+      "Type": "Object location",
+      "Image": "000000",
+      "Question": "Where is the small, light-colored cup situated on the desk in Jack J's cubicle?",
+      "Multiple Choice": {
+        "A": "On top of the filing cabinet.",
+        "B": "Near the center of the desk, to the right of some papers and in front of the printer.",
+        "C": "To the left of the keyboard area, near the edge of the desk.",
+        "D": "Underneath the desk on a shelf.",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q2": {
+      "Type": "Object state changes (attribute)",
+      "Image": "000032",
+      "Question": "What is the visible state of the whiteboard mounted on the partition wall in Jack's cubicle?",
+      "Multiple Choice": {
+        "A": "It displays some red markings or drawings.",
+        "B": "It is entirely clean and white.",
+        "C": "It has black writing covering most of it.",
+        "D": "It is covered with colorful sticky notes.",
+        "E": "None of the above"
+      },
+      "Correct Choice": "A"
+    }
+  },
+  {
+    "Q3": {
+      "Type": "Object location",
+      "Image": "000072",
+      "Question": "In Emily's cubicle, where is the red bag primarily situated?",
+      "Multiple Choice": {
+        "A": "On the floor",
+        "B": "On the desk surface",
+        "C": "On the chair",
+        "D": "On top of the cubicle wall",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q4": {
+      "Type": "Object detection / classification",
+      "Image": "000086",
+      "Question": "What type of office equipment is the black rectangular device on the right side of the desk in Jack. J's cubicle?",
+      "Multiple Choice": {
+        "A": "Paper shredder",
+        "B": "Telephone",
+        "C": "Printer",
+        "D": "Desktop computer tower",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q5": {
+      "Type": "Object location",
+      "Image": "000130",
+      "Question": "On which part of the desk in Jack. J's cubicle is the black rectangular case primarily located?",
+      "Multiple Choice": {
+        "A": "On the far left edge",
+        "B": "Underneath the main desk surface",
+        "C": "In the center, towards the back wall of the cubicle",
+        "D": "On the right side, near the aisle",
+        "E": "None of the above"
+      },
+      "Correct Choice": "D"
+    }
+  },
+  {
+    "Q6": {
+      "Type": "Object detection / classification",
+      "Image": "000166",
+      "Question": "What type of container is sitting on the desk in Jessica's cubicle?",
+      "Multiple Choice": {
+        "A": "Plastic bin",
+        "B": "Cardboard box",
+        "C": "Metal crate",
+        "D": "Wicker basket",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q7": {
+      "Type": "Cubicle/room location",
+      "Image": "000186",
+      "Question": "Relative to Jack. J's cubicle, where is Emily's cubicle primarily situated?",
+      "Multiple Choice": {
+        "A": "To the right",
+        "B": "To the left",
+        "C": "Directly behind",
+        "D": "Directly in front",
+        "E": "None of the above"
+      },
+      "Correct Choice": "A"
+    }
+  },
+  {
+    "Q8": {
+      "Type": "Object counting",
+      "Image": "000198",
+      "Question": "How many office chairs are visible inside Jack J's cubicle?",
+      "Multiple Choice": {
+        "A": "Two",
+        "B": "Zero",
+        "C": "Three",
+        "D": "One",
+        "E": "None of the above"
+      },
+      "Correct Choice": "D"
+    }
+  },
+  {
+    "Q9": {
+      "Type": "Object location",
+      "Image": "000298",
+      "Question": "Where is the whiteboard positioned inside Jack. J's cubicle?",
+      "Multiple Choice": {
+        "A": "Leaning against the desk",
+        "B": "Mounted on the wall above the desk",
+        "C": "On the floor",
+        "D": "Sitting on the chair",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q10": {
+      "Type": "Cubicle/room location",
+      "Image": "000304",
+      "Question": "How is Emily's cubicle positioned relative to Jessica's cubicle?",
+      "Multiple Choice": {
+        "A": "Behind Jessica's cubicle",
+        "B": "Next to Jessica's cubicle in the same row",
+        "C": "Across the main walkway from Jessica's cubicle",
+        "D": "In front of Jessica's cubicle",
+        "E": "None of the above"
+      },
+      "Correct Choice": "D"
+    }
+  },
+  {
+    "Q11": {
+      "Type": "Object state changes (attribute)",
+      "Image": "000358",
+      "Question": "What is the state of the cardboard box on the desk in Jessica's cubicle?",
+      "Multiple Choice": {
+        "A": "Sealed",
+        "B": "Crushed",
+        "C": "Empty",
+        "D": "Open/Unsealed",
+        "E": "None of the above"
+      },
+      "Correct Choice": "D"
+    }
+  },
+  {
+    "Q12": {
+      "Type": "Object location",
+      "Image": "000398",
+      "Question": "On the desk in Emily's cubicle, where is the tissue box located?",
+      "Multiple Choice": {
+        "A": "Behind the red bag",
+        "B": "Next to the water bottle",
+        "C": "Under the desk",
+        "D": "On top of the filing cabinet",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q13": {
+      "Type": "Object location",
+      "Image": "000436",
+      "Question": "Where is the hand sanitizer bottle placed within Jessica's cubicle?",
+      "Multiple Choice": {
+        "A": "On the floor next to the trashcan",
+        "B": "On the desk, next to the whiteboard",
+        "C": "Inside the cardboard box",
+        "D": "On top of the filing cabinet",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q14": {
+      "Type": "Object detection / classification",
+      "Image": "000446",
+      "Question": "What kind of large, flat white object is propped up on the desk in Jessica's cubicle?",
+      "Multiple Choice": {
+        "A": "A framed picture",
+        "B": "A whiteboard or large drawing pad",
+        "C": "A folded blanket",
+        "D": "A pizza box",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q15": {
+      "Type": "Object location",
+      "Image": "000508",
+      "Question": "Where is the black office chair positioned within Jerry's cubicle?",
+      "Multiple Choice": {
+        "A": "Next to the window",
+        "B": "Outside the cubicle entrance",
+        "C": "Tucked under the desk",
+        "D": "Beside a tall plant",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q16": {
+      "Type": "Object state changes (attribute)",
+      "Image": "000522",
+      "Question": "What item is draped over the back of the chair in Jack. S's cubicle?",
+      "Multiple Choice": {
+        "A": "A blanket",
+        "B": "A jacket",
+        "C": "A towel",
+        "D": "A scarf",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q17": {
+      "Type": "Object detection / classification",
+      "Image": "000534",
+      "Question": "What type of bag is sitting on the desk in Emily's cubicle?",
+      "Multiple Choice": {
+        "A": "Backpack",
+        "B": "Gift bag",
+        "C": "Shopping bag",
+        "D": "Lunch bag",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q18": {
+      "Type": "Object detection / classification",
+      "Image": "000542",
+      "Question": "What type of item is the green object sitting on the left side of the desk in Emily's cubicle?",
+      "Multiple Choice": {
+        "A": "Stapler",
+        "B": "Toy dinosaur",
+        "C": "Plant",
+        "D": "Tape dispenser",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q19": {
+      "Type": "Object state changes (attribute)",
+      "Image": "000542",
+      "Question": "What is displayed on the screen of the rightmost monitor in Emily's cubicle?",
+      "Multiple Choice": {
+        "A": "A blank screen",
+        "B": "A spreadsheet",
+        "C": "Vertical lines/static",
+        "D": "A screensaver",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q20": {
+      "Type": "Object location",
+      "Image": "000608",
+      "Question": "Where is the black PC tower located within Emily's cubicle?",
+      "Multiple Choice": {
+        "A": "Under the desk",
+        "B": "On the floor next to the chair",
+        "C": "On the desk next to the monitor",
+        "D": "On a shelf above the desk",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q21": {
+      "Type": "Cubicle/room location",
+      "Image": "000636",
+      "Question": "From this perspective, how is Jerry's cubicle positioned relative to Jessica's cubicle?",
+      "Multiple Choice": {
+        "A": "Directly opposite",
+        "B": "To the left",
+        "C": "Further down the aisle and to the left",
+        "D": "Immediately in front",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q22": {
+      "Type": "Object location",
+      "Image": "000676",
+      "Question": "In Jack. S's cubicle, where is the computer monitor positioned relative to the keyboard?",
+      "Multiple Choice": {
+        "A": "Behind the keyboard, on the main desk surface",
+        "B": "To the left of the keyboard",
+        "C": "On a shelf above the keyboard",
+        "D": "To the right of the keyboard",
+        "E": "None of the above"
+      },
+      "Correct Choice": "A"
+    }
+  },
+  {
+    "Q23": {
+      "Type": "Cubicle/room location",
+      "Image": "000724",
+      "Question": "How is Jerry's cubicle situated relative to Jack S's cubicle?",
+      "Multiple Choice": {
+        "A": "Immediately to the left",
+        "B": "Directly behind",
+        "C": "Across the walkway",
+        "D": "Immediately to the right",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q24": {
+      "Type": "Object location",
+      "Image": "000772",
+      "Question": "Where is the black office chair positioned in Jerry's cubicle?",
+      "Multiple Choice": {
+        "A": "Next to the window",
+        "B": "Outside the cubicle entrance",
+        "C": "Tucked under the desk",
+        "D": "Beside a tall plant",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q25": {
+      "Type": "Cubicle/room location",
+      "Image": "000772",
+      "Question": "From this viewpoint, where is Daniel's cubicle located relative to Jerry's cubicle?",
+      "Multiple Choice": {
+        "A": "To the left of Jerry's cubicle",
+        "B": "Directly in front of Jerry's cubicle",
+        "C": "Behind and slightly to the left of Jerry's cubicle",
+        "D": "To the right of Jerry's cubicle",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q26": {
+      "Type": "Object counting",
+      "Image": "000780",
+      "Question": "How many computer monitors are clearly visible on the desk in Daniel's cubicle?",
+      "Multiple Choice": {
+        "A": "One",
+        "B": "Three",
+        "C": "Zero",
+        "D": "Two",
+        "E": "None of the above"
+      },
+      "Correct Choice": "D"
+    }
+  },
+  {
+    "Q27": {
+      "Type": "Object state changes (attribute)",
+      "Image": "000846",
+      "Question": "What is the state of the large vertical whiteboard in Jack. S's cubicle?",
+      "Multiple Choice": {
+        "A": "Has some writing on it",
+        "B": "Blank",
+        "C": "Covered in sticky notes",
+        "D": "Cracked",
+        "E": "None of the above"
+      },
+      "Correct Choice": "A"
+    }
+  },
+  {
+    "Q28": {
+      "Type": "Object location",
+      "Image": "000856",
+      "Question": "Where is the poster with multiple small images located within Jack. S's cubicle?",
+      "Multiple Choice": {
+        "A": "On the desk",
+        "B": "On the floor",
+        "C": "On the back partition wall",
+        "D": "On the chair",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q29": {
+      "Type": "Object location",
+      "Image": "000868",
+      "Question": "Where is Jack. S's duck located within the cubicle?",
+      "Multiple Choice": {
+        "A": "On the desk near the whiteboard",
+        "B": "Hanging from the partition",
+        "C": "On top of the monitor",
+        "D": "On the chair",
+        "E": "None of the above"
+      },
+      "Correct Choice": "A"
+    }
+  },
+  {
+    "Q30": {
+      "Type": "Object detection / classification",
+      "Image": "000868",
+      "Question": "What kind of item is hanging on the partition wall in Jack. S's cubicle, next to the paper labeled '2038T'?",
+      "Multiple Choice": {
+        "A": "Calendar",
+        "B": "Whiteboard",
+        "C": "Poster",
+        "D": "Clock",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q31": {
+      "Type": "Object location",
+      "Image": "000894",
+      "Question": "Where is Jack. S's iPad located within his cubicle?",
+      "Multiple Choice": {
+        "A": "On the right side of the desk",
+        "B": "On the chair",
+        "C": "On the left side of the desk, near the keyboard",
+        "D": "Under the desk",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q32": {
+      "Type": "Cubicle/room location",
+      "Image": "000944",
+      "Question": "Where is Frank's cubicle situated in relation to Jack. S's cubicle?",
+      "Multiple Choice": {
+        "A": "To the left of Jack. S's cubicle",
+        "B": "Behind and to the right of Jack. S's cubicle",
+        "C": "In front of Jack. S's cubicle",
+        "D": "Directly above Jack. S's cubicle",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q33": {
+      "Type": "Object detection / classification",
+      "Image": "001014",
+      "Question": "What kind of object is the white item sitting on the desk in Frank's cubicle?",
+      "Multiple Choice": {
+        "A": "Monitor",
+        "B": "Cardboard box",
+        "C": "Printer",
+        "D": "Filing tray",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q34": {
+      "Type": "Object detection / classification",
+      "Image": "001068",
+      "Question": "What type of portable computer is on the desk in Daniel's cubicle?",
+      "Multiple Choice": {
+        "A": "Tablet",
+        "B": "Macbook",
+        "C": "Netbook",
+        "D": "Chromebook",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q35": {
+      "Type": "Object state changes (attribute)",
+      "Image": "001078",
+      "Question": "What is the state of the laptop sitting on the desk in Daniel's cubicle?",
+      "Multiple Choice": {
+        "A": "Open and turned on",
+        "B": "Closed",
+        "C": "Missing its screen",
+        "D": "Upside down",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q36": {
+      "Type": "Object counting",
+      "Image": "001124",
+      "Question": "How many metallic drink containers are visible on the desk in Daniel's cubicle?",
+      "Multiple Choice": {
+        "A": "One",
+        "B": "Two",
+        "C": "Zero",
+        "D": "Three",
+        "E": "None of the above"
+      },
+      "Correct Choice": "A"
+    }
+  },
+  {
+    "Q37": {
+      "Type": "Cubicle/room location",
+      "Image": "001124",
+      "Question": "Looking from the hallway, how is Daniel's cubicle positioned in relation to the large whiteboard on the wall?",
+      "Multiple Choice": {
+        "A": "To the right of the large whiteboard",
+        "B": "To the left of the large whiteboard",
+        "C": "Directly behind the large whiteboard",
+        "D": "In a separate room from the large whiteboard",
+        "E": "None of the above"
+      },
+      "Correct Choice": "A"
+    }
+  },
+  {
+    "Q38": {
+      "Type": "Cubicle/room location",
+      "Image": "001138",
+      "Question": "How would you describe the location of Frank's cubicle relative to the visible doors?",
+      "Multiple Choice": {
+        "A": "Between Door 2033 and Door 2035",
+        "B": "Opposite Door 2033",
+        "C": "Adjacent to the wall with Door 2033 and Door 2035",
+        "D": "Far down the hallway from the doors",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q39": {
+      "Type": "Object state changes (attribute)",
+      "Image": "001150",
+      "Question": "What is the apparent state of the long white cardboard box on the desk in Frank's cubicle?",
+      "Multiple Choice": {
+        "A": "Sealed and unopened",
+        "B": "Crushed",
+        "C": "Empty and flattened",
+        "D": "Open or partially open",
+        "E": "None of the above"
+      },
+      "Correct Choice": "D"
+    }
+  },
+  {
+    "Q40": {
+      "Type": "Object counting",
+      "Image": "001244",
+      "Question": "How many small, portable whiteboards are visible on the desk surface within Frank's cubicle?",
+      "Multiple Choice": {
+        "A": "Two",
+        "B": "Zero",
+        "C": "Three",
+        "D": "One",
+        "E": "None of the above"
+      },
+      "Correct Choice": "D"
+    }
+  },
+  {
+    "Q41": {
+      "Type": "Object location",
+      "Image": "001292",
+      "Question": "On which side of the whiteboard is the poster discussing 'DARLEI Deep Accelerated Reinforcement Learning' located?",
+      "Multiple Choice": {
+        "A": "Directly above",
+        "B": "To the right side",
+        "C": "Directly below",
+        "D": "To the left side",
+        "E": "None of the above"
+      },
+      "Correct Choice": "D"
+    }
+  },
+  {
+    "Q42": {
+      "Type": "Object detection / classification",
+      "Image": "001320",
+      "Question": "What type of informational display is the large paper titled 'DARLEI: Deep Accelerated Reinforcement Learning with Evolutionary Intelligence' seen near Frank's cubicle?",
+      "Multiple Choice": {
+        "A": "Magazine advertisement",
+        "B": "Scientific poster",
+        "C": "Office directory",
+        "D": "Safety instructions",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q43": {
+      "Type": "Object location",
+      "Image": "001348",
+      "Question": "On which side of the whiteboard is the poster discussing 'DARLEI Deep Accelerated Reinforcement Learning' located?",
+      "Multiple Choice": {
+        "A": "Directly above",
+        "B": "To the right side",
+        "C": "Directly below",
+        "D": "To the left side",
+        "E": "None of the above"
+      },
+      "Correct Choice": "D"
+    }
+  },
+  {
+    "Q44": {
+      "Type": "Object detection / classification",
+      "Image": "001358",
+      "Question": "What type of seating is visible inside Frank's cubicle?",
+      "Multiple Choice": {
+        "A": "Stool",
+        "B": "Office chair",
+        "C": "Bench",
+        "D": "Armchair",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q45": {
+      "Type": "Cubicle/room location",
+      "Image": "001402",
+      "Question": "How is Frank's cubicle positioned relative to Door 2035?",
+      "Multiple Choice": {
+        "A": "Next to Door 2035",
+        "B": "Behind Door 2035",
+        "C": "Inside the room labeled Door 2035",
+        "D": "Across the hallway from Door 2035",
+        "E": "None of the above"
+      },
+      "Correct Choice": "D"
+    }
+  },
+  {
+    "Q46": {
+      "Type": "Cubicle/room location",
+      "Image": "001446",
+      "Question": "Looking down the hallway towards Door 2035, where is Amy's cubicle situated?",
+      "Multiple Choice": {
+        "A": "Directly opposite Door 2035",
+        "B": "Before reaching Door 2035",
+        "C": "Past Door 2035",
+        "D": "To the right of Door 2035",
+        "E": "None of the above"
+      },
+      "Correct Choice": "A"
+    }
+  },
+  {
+    "Q47": {
+      "Type": "Object state changes (attribute)",
+      "Image": "001520",
+      "Question": "What is the condition of the cardboard box on the floor in Alex's cubicle?",
+      "Multiple Choice": {
+        "A": "Sealed shut",
+        "B": "Empty",
+        "C": "Open",
+        "D": "Crushed flat",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q48": {
+      "Type": "Object detection / classification",
+      "Image": "001562",
+      "Question": "What type of bag is sitting on the desk in Alex's cubicle?",
+      "Multiple Choice": {
+        "A": "Backpack",
+        "B": "Briefcase",
+        "C": "Tote bag",
+        "D": "Duffel bag",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q49": {
+      "Type": "Object counting",
+      "Image": "001608",
+      "Question": "How many rolled-up white documents are on the surface in Alex's cubicle?",
+      "Multiple Choice": {
+        "A": "Two",
+        "B": "One",
+        "C": "Three",
+        "D": "Four",
+        "E": "None of the above"
+      },
+      "Correct Choice": "A"
+    }
+  },
+  {
+    "Q50": {
+      "Type": "Cubicle/room location",
+      "Image": "001586",
+      "Question": "How is Amy's cubicle positioned relative to Door 2035?",
+      "Multiple Choice": {
+        "A": "Next to Door 2035",
+        "B": "Behind Door 2035",
+        "C": "Inside the room labeled Door 2035",
+        "D": "Across the hallway from Door 2035",
+        "E": "None of the above"
+      },
+      "Correct Choice": "D"
+    }
+  },
+  {
+    "Q51": {
+      "Type": "Object location",
+      "Image": "001608",
+      "Question": "On which part of the desk in Alex's cubicle is the telephone primarily situated?",
+      "Multiple Choice": {
+        "A": "On the left side, near a black bag",
+        "B": "On the far right edge",
+        "C": "Underneath the monitor",
+        "D": "In the center, directly in front of the chair",
+        "E": "None of the above"
+      },
+      "Correct Choice": "A"
+    }
+  },
+  {
+    "Q52": {
+      "Type": "Object location",
+      "Image": "001650",
+      "Question": "Where are the rolled-up white papers located within Alex's cubicle area?",
+      "Multiple Choice": {
+        "A": "On the desk",
+        "B": "On the floor next to the box",
+        "C": "On the top ledge of the low partition wall",
+        "D": "Inside the filing cabinet",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q53": {
+      "Type": "Object detection / classification",
+      "Image": "001662",
+      "Question": "What type of communication device is visible on the desk in Alex's cubicle?",
+      "Multiple Choice": {
+        "A": "Fax machine",
+        "B": "Intercom",
+        "C": "Telephone",
+        "D": "Walkie-talkie",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q54": {
+      "Type": "Object detection / classification",
+      "Image": "001686",
+      "Question": "What type of item is the black bag sitting on the desk in Alex's cubicle?",
+      "Multiple Choice": {
+        "A": "Laptop bag",
+        "B": "Backpack",
+        "C": "Messenger bag",
+        "D": "Tote bag",
+        "E": "None of the above"
+      },
+      "Correct Choice": "A"
+    }
+  },
+  {
+    "Q55": {
+      "Type": "Object state changes (attribute)",
+      "Image": "001706",
+      "Question": "Based on the lights inside its case, what appears to be the power state of the desktop computer in Amy's cubicle?",
+      "Multiple Choice": {
+        "A": "It's clearly powered on.",
+        "B": "It seems to be turned off.",
+        "C": "It looks like it's in standby mode with no lights.",
+        "D": "It appears to be unplugged.",
+        "E": "None of the above"
+      },
+      "Correct Choice": "A"
+    }
+  },
+  {
+    "Q56": {
+      "Type": "Cubicle/room location",
+      "Image": "001706",
+      "Question": "From this viewpoint, how would you describe the location of Alex's cubicle relative to Amy's cubicle?",
+      "Multiple Choice": {
+        "A": "Alex's cubicle is immediately to the left of Amy's cubicle.",
+        "B": "Alex's cubicle is directly opposite Amy's cubicle, across the walkway.",
+        "C": "Alex's cubicle is the one just before Amy's cubicle along the walkway.",
+        "D": "Alex's cubicle is situated further down the central walkway, beyond Amy's cubicle.",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q57": {
+      "Type": "Cubicle/room location",
+      "Image": "001740",
+      "Question": "How would you describe the location of Alana's cubicle relative to Amy's cubicle",
+      "Multiple Choice": {
+        "A": "Immediately next to Amy's cubicle",
+        "B": "Further down the walkway past Amy's cubicle",
+        "C": "Across the walkway from Amy's cubicle",
+        "D": "Before Amy's cubicle",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q58": {
+      "Type": "Object detection / classification",
+      "Image": "001766",
+      "Question": "What type of bag is visible on the desk in Alana's cubicle?",
+      "Multiple Choice": {
+        "A": "A briefcase",
+        "B": "A shopping bag",
+        "C": "A backpack",
+        "D": "A messenger bag",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q59": {
+      "Type": "Object state changes (attribute)",
+      "Image": "001778",
+      "Question": "What color is the disposable cup sitting on the desk in Alex's cubicle?",
+      "Multiple Choice": {
+        "A": "Red",
+        "B": "Blue",
+        "C": "Green",
+        "D": "White",
+        "E": "None of the above"
+      },
+      "Correct Choice": "A"
+    }
+  },
+  {
+    "Q60": {
+      "Type": "Object detection / classification",
+      "Image": "001868",
+      "Question": "Looking into Alex's cubicle, what type of phone is sitting on the desk?",
+      "Multiple Choice": {
+        "A": "Cell phone",
+        "B": "Desk phone",
+        "C": "Cordless phone",
+        "D": "Payphone",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q61": {
+      "Type": "Object counting",
+      "Image": "001868",
+      "Question": "How many red cups can you see on the desk inside Alex's cubicle?",
+      "Multiple Choice": {
+        "A": "One",
+        "B": "Zero",
+        "C": "Two",
+        "D": "Three",
+        "E": "None of the above"
+      },
+      "Correct Choice": "A"
+    }
+  },
+  {
+    "Q62": {
+      "Type": "Object state changes (attribute)",
+      "Image": "001874",
+      "Question": "What is the apparent state of the screen of the computer monitor in Alana's cubicle?",
+      "Multiple Choice": {
+        "A": "Displaying a bright image",
+        "B": "Turned off or blank",
+        "C": "Showing a login screen",
+        "D": "Cracked",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q63": {
+      "Type": "Object counting",
+      "Image": "001884",
+      "Question": "How many computer monitors can you clearly see on the desk in Alana's cubicle?",
+      "Multiple Choice": {
+        "A": "Zero",
+        "B": "Two",
+        "C": "One",
+        "D": "Three",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q64": {
+      "Type": "Object detection / classification",
+      "Image": "001896",
+      "Question": "What type of item is the tall, white object with a clear side panel on the desk in Amy's cubicle?",
+      "Multiple Choice": {
+        "A": "Filing cabinet",
+        "B": "Speaker",
+        "C": "Computer tower",
+        "D": "Printer",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q65": {
+      "Type": "Object location",
+      "Image": "001902",
+      "Question": "Where is the white computer tower positioned within Amy's cubicle?",
+      "Multiple Choice": {
+        "A": "Under the desk",
+        "B": "On the desk, to the right",
+        "C": "On the desk, to the left",
+        "D": "On the chair",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q66": {
+      "Type": "Object location",
+      "Image": "001964",
+      "Question": "In Alana's cubicle, where is the dark-colored backpack placed?",
+      "Multiple Choice": {
+        "A": "On the desk, to the right of the monitors.",
+        "B": "On top of the filing cabinet.",
+        "C": "On the floor next to the chair.",
+        "D": "Hanging on the cubicle wall.",
+        "E": "None of the above"
+      },
+      "Correct Choice": "A"
+    }
+  },
+  {
+    "Q67": {
+      "Type": "Object counting",
+      "Image": "001972",
+      "Question": "How many computer monitors are visible on the desks within Amy's and Alana's cubicles?",
+      "Multiple Choice": {
+        "A": "One",
+        "B": "Three",
+        "C": "Two",
+        "D": "Zero",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q68": {
+      "Type": "Cubicle/room location",
+      "Image": "002028",
+      "Question": "Based on the view, how is Roberto's cubicle positioned relative to Alana's cubicle?",
+      "Multiple Choice": {
+        "A": "Roberto's cubicle is to the right of Alana's cubicle and further down the walkway.",
+        "B": "Roberto's cubicle is to the left of Alana's cubicle.",
+        "C": "Roberto's cubicle is directly in front of Alana's cubicle.",
+        "D": "Roberto's cubicle is behind Alana's cubicle.",
+        "E": "None of the above"
+      },
+      "Correct Choice": "A"
+    }
+  },
+  {
+    "Q69": {
+      "Type": "Object location",
+      "Image": "002064",
+      "Question": "Where is the whiteboard positioned within Alana's cubicle?",
+      "Multiple Choice": {
+        "A": "On the desk surface",
+        "B": "Leaning against the filing cabinet",
+        "C": "On the floor",
+        "D": "Mounted on the cubicle wall",
+        "E": "None of the above"
+      },
+      "Correct Choice": "D"
+    }
+  },
+  {
+    "Q70": {
+      "Type": "Object location",
+      "Image": "002070",
+      "Question": "Where is the keyboard located within Alana's cubicle?",
+      "Multiple Choice": {
+        "A": "On the floor",
+        "B": "On the desk, in front of the left monitor",
+        "C": "Mounted on the wall",
+        "D": "On top of the computer tower",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q71": {
+      "Type": "Object state changes (attribute)",
+      "Image": "002170",
+      "Question": "What is the state of the drawers of the filing cabinet located under the right side of the desk in Alana's cubicle?",
+      "Multiple Choice": {
+        "A": "All drawers appear to be closed.",
+        "B": "The top drawer is visibly open.",
+        "C": "The bottom drawer is ajar.",
+        "D": "All drawers are wide open.",
+        "E": "None of the above"
+      },
+      "Correct Choice": "A"
+    }
+  },
+  {
+    "Q72": {
+      "Type": "Object location",
+      "Image": "002170",
+      "Question": "In Alana's cubicle, where is the computer mouse located relative to the keyboard?",
+      "Multiple Choice": {
+        "A": "To the left of the keyboard",
+        "B": "Directly in front of the keyboard",
+        "C": "On top of the left monitor",
+        "D": "To the right of the keyboard",
+        "E": "None of the above"
+      },
+      "Correct Choice": "D"
+    }
+  },
+  {
+    "Q73": {
+      "Type": "Object location",
+      "Image": "002220",
+      "Question": "In Alana's cubicle, where is the black backpack placed?",
+      "Multiple Choice": {
+        "A": "On the floor under the desk",
+        "B": "On the desk surface",
+        "C": "Hanging on the back of the chair",
+        "D": "Inside an open drawer",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q74": {
+      "Type": "Cubicle/room location",
+      "Image": "002276",
+      "Question": "Considering the main aisle that runs between the rows of cubicles, if Roberto's cubicle is on one side of this aisle, where is Eddie's cubicle located relative to the same aisle?",
+      "Multiple Choice": {
+        "A": "Also on the same side as Roberto's, but further down",
+        "B": "On the opposite side of the aisle from Roberto's",
+        "C": "At the very end of the aisle, past Roberto's",
+        "D": "Eddie's cubicle is not accessible from this main aisle",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q75": {
+      "Type": "Object location",
+      "Image": "002310",
+      "Question": "In Eddie's cubicle, where is the clear water bottle situated?",
+      "Multiple Choice": {
+        "A": "On the floor next to the chair",
+        "B": "On top of the filing cabinet",
+        "C": "On the desk",
+        "D": "Inside the trash can",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q76": {
+      "Type": "Object detection / classification",
+      "Image": "002346",
+      "Question": "What type of item with a patterned design is on the desk in Eddie's cubicle?",
+      "Multiple Choice": {
+        "A": "Notebook",
+        "B": "Water bottle",
+        "C": "Mousepad",
+        "D": "Coffee mug",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q77": {
+      "Type": "Object location",
+      "Image": "002388",
+      "Question": "Where is the desk lamp positioned within Cecilia's cubicle?",
+      "Multiple Choice": {
+        "A": "On the right side of the desk",
+        "B": "Under the desk",
+        "C": "On the left side of the desk",
+        "D": "Attached to the cubicle wall",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q78": {
+      "Type": "Object state changes (attribute)",
+      "Image": "002408",
+      "Question": "What is written at the top left of the whiteboard in Roberto's cubicle?",
+      "Multiple Choice": {
+        "A": "Roberto",
+        "B": "Meeting Notes",
+        "C": "Project X",
+        "D": "To Do List",
+        "E": "None of the above"
+      },
+      "Correct Choice": "A"
+    }
+  },
+  {
+    "Q79": {
+      "Type": "Object detection / classification",
+      "Image": "002418",
+      "Question": "What type of electronic device is the tall, white rectangular item on the desk in Roberto's cubicle, to the left of the central monitor?",
+      "Multiple Choice": {
+        "A": "External hard drive",
+        "B": "Computer tower",
+        "C": "UPS (Uninterruptible Power Supply)",
+        "D": "Shredder",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q80": {
+      "Type": "Cubicle/room location",
+      "Image": "002418",
+      "Question": "How is Kristine's cubicle positioned in relation to Roberto's cubicle?",
+      "Multiple Choice": {
+        "A": "Kristine's cubicle is to the left of Roberto's cubicle.",
+        "B": "Kristine's cubicle is further away and to the right of Roberto's cubicle.",
+        "C": "Kristine's cubicle is directly in front of Roberto's cubicle.",
+        "D": "Kristine's cubicle is immediately behind Roberto's cubicle.",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q81": {
+      "Type": "Object location",
+      "Image": "002486",
+      "Question": "In Roberto's cubicle, where is the black bag situated?",
+      "Multiple Choice": {
+        "A": "Under the desk",
+        "B": "On the chair",
+        "C": "On the desk near the partition",
+        "D": "Next to the printer",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q82": {
+      "Type": "Object detection / classification",
+      "Image": "002506",
+      "Question": "What is the white object with a gooseneck on the desk in Cecilia's cubicle?",
+      "Multiple Choice": {
+        "A": "Fan",
+        "B": "Webcam",
+        "C": "Desk lamp",
+        "D": "Microphone",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q83": {
+      "Type": "Object state changes (attribute)",
+      "Image": "002524",
+      "Question": "What can be seen on the large whiteboard in Eddie's cubicle?",
+      "Multiple Choice": {
+        "A": "It is completely blank.",
+        "B": "Some writing and yellow sticky notes.",
+        "C": "Several colorful drawings.",
+        "D": "A large calendar.",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q84": {
+      "Type": "Object location",
+      "Image": "002534",
+      "Question": "In Eddie's cubicle, where is the backpack primarily located?",
+      "Multiple Choice": {
+        "A": "On the desk surface to the right, near a small whiteboard",
+        "B": "Hanging on the back of the chair",
+        "C": "On the floor under the desk",
+        "D": "On the desk surface to the left, near a water bottle",
+        "E": "None of the above"
+      },
+      "Correct Choice": "A"
+    }
+  },
+  {
+    "Q85": {
+      "Type": "Cubicle/room location",
+      "Image": "002578",
+      "Question": "Where is Cecilia's cubicle located relative to Eddie's cubicle?",
+      "Multiple Choice": {
+        "A": "To the right of Eddie's cubicle",
+        "B": "To the left and slightly further away than Eddie's cubicle",
+        "C": "Directly behind Eddie's cubicle",
+        "D": "In front of Eddie's cubicle",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q86": {
+      "Type": "Object state changes (attribute)",
+      "Image": "002592",
+      "Question": "What is the state of the desk lamp in Cecilia's cubicle?",
+      "Multiple Choice": {
+        "A": "On",
+        "B": "Broken",
+        "C": "Off",
+        "D": "Folded",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q87": {
+      "Type": "Object location",
+      "Image": "002634",
+      "Question": "Where are the red and black headphones located in Cecilia's cubicle?",
+      "Multiple Choice": {
+        "A": "On top of the monitor",
+        "B": "On the desk, to the right side of the curved desk area",
+        "C": "Hanging on the cubicle wall",
+        "D": "Inside a drawer",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q88": {
+      "Type": "Object location",
+      "Image": "002680",
+      "Question": "On the desk in Cecilia's cubicle, where are the papers primarily stacked relative to the white desk lamp?",
+      "Multiple Choice": {
+        "A": "Directly underneath the lamp",
+        "B": "In front of the lamp",
+        "C": "To the immediate right of the lamp",
+        "D": "To the far left of the lamp",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q89": {
+      "Type": "Object detection / classification",
+      "Image": "002734",
+      "Question": "What kind of electronic display device is on the desk in Kristine's cubicle?",
+      "Multiple Choice": {
+        "A": "Laptop screen",
+        "B": "Computer monitor",
+        "C": "Television",
+        "D": "Projector",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q90": {
+      "Type": "Object counting",
+      "Image": "002690",
+      "Question": "How many computer monitors are visible on the desks in Eddie's and Cecilia's cubicles?",
+      "Multiple Choice": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Zero",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q91": {
+      "Type": "Object detection / classification",
+      "Image": "002750",
+      "Question": "What is the object with a headrest and wheels located in Kristine's cubicle?",
+      "Multiple Choice": {
+        "A": "Filing cabinet",
+        "B": "Office chair",
+        "C": "Printer stand",
+        "D": "Small cart",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q92": {
+      "Type": "Object state changes (attribute)",
+      "Image": "002750",
+      "Question": "What color is the primary surface of the desk in Kristine's cubicle?",
+      "Multiple Choice": {
+        "A": "Dark brown",
+        "B": "Black",
+        "C": "Light grey or off-white",
+        "D": "Glass",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q93": {
+      "Type": "Object detection / classification",
+      "Image": "002792",
+      "Question": "What type of office furniture item with a flat top surface is predominantly featured in Kristine's cubicle?",
+      "Multiple Choice": {
+        "A": "Bookshelf",
+        "B": "Filing cabinet",
+        "C": "Conference table",
+        "D": "Desk",
+        "E": "None of the above"
+      },
+      "Correct Choice": "D"
+    }
+  },
+  {
+    "Q94": {
+      "Type": "Object state changes (attribute)",
+      "Image": "002802",
+      "Question": "What is the primary color of the bottle located near the front left corner of the desk in Cecilia's cubicle?",
+      "Multiple Choice": {
+        "A": "Black",
+        "B": "White",
+        "C": "Blue",
+        "D": "Orange",
+        "E": "None of the above"
+      },
+      "Correct Choice": "D"
+    }
+  },
+  {
+    "Q95": {
+      "Type": "Object location",
+      "Image": "002802",
+      "Question": "On which part of the desk in Cecilia's cubicle are most of the small bottles and a stack of papers located?",
+      "Multiple Choice": {
+        "A": "The back right corner",
+        "B": "The front left area",
+        "C": "The center back",
+        "D": "The front right area",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q96": {
+      "Type": "Object counting",
+      "Image": "002808",
+      "Question": "How many clear or white spray bottles are visible on the desk in Cecilia's cubicle?",
+      "Multiple Choice": {
+        "A": "Three",
+        "B": "One",
+        "C": "Four",
+        "D": "Two",
+        "E": "None of the above"
+      },
+      "Correct Choice": "D"
+    }
+  },
+  {
+    "Q97": {
+      "Type": "Object location",
+      "Image": "002808",
+      "Question": "On Cecilia's desk, where is the tall, slender cardboard box with green and white markings located relative to the whiteboard?",
+      "Multiple Choice": {
+        "A": "To the left of the whiteboard",
+        "B": "Directly in front of the whiteboard",
+        "C": "To the right of the whiteboard",
+        "D": "Behind the whiteboard",
+        "E": "None of the above"
+      },
+      "Correct Choice": "A"
+    }
+  },
+  {
+    "Q98": {
+      "Type": "Object state changes (attribute)",
+      "Image": "002816",
+      "Question": "What is the apparent state of the screens on the two computer monitors in Cecilia's cubicle?",
+      "Multiple Choice": {
+        "A": "Displaying a colorful screensaver",
+        "B": "Turned off or in sleep mode",
+        "C": "Showing a bright white document",
+        "D": "Covered by screen protectors",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q99": {
+      "Type": "Object detection / classification",
+      "Image": "002912",
+      "Question": "What type of item is the orange and white cylindrical object with a white cap on the desk in Cecilia's cubicle?",
+      "Multiple Choice": {
+        "A": "Glue stick",
+        "B": "Drink can",
+        "C": "Pill bottle",
+        "D": "Spray cleaner",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q100": {
+      "Type": "Object detection / classification",
+      "Image": "002918",
+      "Question": "What is the small purple object sitting on the desk in Cecilia's cubicle?",
+      "Multiple Choice": {
+        "A": "Stapler",
+        "B": "Tape dispenser",
+        "C": "Small box or container",
+        "D": "Sticky note holder",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q101": {
+      "Type": "Object location",
+      "Image": "002918",
+      "Question": "Where is the white pump bottle located on the desk in Cecilia's cubicle?",
+      "Multiple Choice": {
+        "A": "On the right side, near the front edge",
+        "B": "Near the back edge, behind papers",
+        "C": "On the left side, next to the cubicle wall",
+        "D": "In the center of the desk",
+        "E": "None of the above"
+      },
+      "Correct Choice": "A"
+    }
+  },
+  {
+    "Q102": {
+      "Type": "Object detection / classification",
+      "Image": "003054",
+      "Question": "What type of item is the blue object on the floor in Sherlock Homes's cubicle?",
+      "Multiple Choice": {
+        "A": "Plastic trash bag",
+        "B": "Reusable shopping bag",
+        "C": "Cooler bag",
+        "D": "Backpack",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q103": {
+      "Type": "Cubicle/room location",
+      "Image": "003054",
+      "Question": "How would you describe the location of Sherlock Homes's cubicle in relation to the Exit Door?",
+      "Multiple Choice": {
+        "A": "Directly opposite the Exit Door",
+        "B": "To the left of the walkway leading to the Exit Door",
+        "C": "Past the Exit Door",
+        "D": "To the right of the walkway leading to the Exit Door, and before it",
+        "E": "None of the above"
+      },
+      "Correct Choice": "D"
+    }
+  },
+  {
+    "Q104": {
+      "Type": "Object counting",
+      "Image": "003140",
+      "Question": "How many distinct brown cardboard boxes are visible on the surface of the desk in Sherlock Homes's cubicle?",
+      "Multiple Choice": {
+        "A": "Two",
+        "B": "One",
+        "C": "Three",
+        "D": "Four",
+        "E": "None of the above"
+      },
+      "Correct Choice": "A"
+    }
+  },
+  {
+    "Q105": {
+      "Type": "Object detection / classification",
+      "Image": "003194",
+      "Question": "What type of office furniture with drawers is visible under the desk in Sherlock Homes's cubicle?",
+      "Multiple Choice": {
+        "A": "Side table",
+        "B": "Filing cabinet",
+        "C": "Bookshelf",
+        "D": "Storage chest",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q106": {
+      "Type": "Object state changes (attribute)",
+      "Image": "003256",
+      "Question": "What is the apparent state of the drawers of the filing cabinet located under the desk in Sherlock Homes's cubicle?",
+      "Multiple Choice": {
+        "A": "All open",
+        "B": "Top drawer open, others closed",
+        "C": "Bottom drawer open, others closed",
+        "D": "All closed",
+        "E": "None of the above"
+      },
+      "Correct Choice": "D"
+    }
+  },
+  {
+    "Q107": {
+      "Type": "Cubicle/room location",
+      "Image": "003256",
+      "Question": "Based on the view, how is Lauren's cubicle situated in relation to Sherlock Homes's cubicle?",
+      "Multiple Choice": {
+        "A": "Directly behind Sherlock Homes's cubicle",
+        "B": "To the left of Sherlock Homes's cubicle, sharing a wall",
+        "C": "Across the aisle from Sherlock Homes's cubicle",
+        "D": "Two cubicles down the aisle from Sherlock Homes's cubicle",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q108": {
+      "Type": "Object counting",
+      "Image": "003292",
+      "Question": "How many markers can be seen lying on the desk surface in Sherlock Homes's cubicle?",
+      "Multiple Choice": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four or more",
+        "E": "None of the above"
+      },
+      "Correct Choice": "D"
+    }
+  },
+  {
+    "Q109": {
+      "Type": "Object detection / classification",
+      "Image": "003316",
+      "Question": "In Lauren's cubicle, what type of item is the black rectangular object with an orange detail, seen among the boxes on the side cabinet?",
+      "Multiple Choice": {
+        "A": "A fire extinguisher",
+        "B": "A toolbox",
+        "C": "A portable speaker",
+        "D": "A first-aid kit",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q110": {
+      "Type": "Object detection / classification",
+      "Image": "003330",
+      "Question": "What type of item is the blue coiled object on top of the cardboard boxes in Lauren's cubicle?",
+      "Multiple Choice": {
+        "A": "Power strip",
+        "B": "Cable",
+        "C": "Mouse",
+        "D": "Tape measure",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q111": {
+      "Type": "Object state changes (attribute)",
+      "Image": "003330",
+      "Question": "What is the state of the black toolbox visible on the desk in Lauren's cubicle?",
+      "Multiple Choice": {
+        "A": "Open",
+        "B": "Empty",
+        "C": "Closed",
+        "D": "Locked",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q112": {
+      "Type": "Object counting",
+      "Image": "003330",
+      "Question": "How many cardboard boxes are visible in Lauren's cubicle?",
+      "Multiple Choice": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four or more",
+        "E": "None of the above"
+      },
+      "Correct Choice": "D"
+    }
+  },
+  {
+    "Q113": {
+      "Type": "Object location",
+      "Image": "003352",
+      "Question": "Where is the black office chair primarily positioned within Lauren's cubicle?",
+      "Multiple Choice": {
+        "A": "To the far left, near the stacked boxes.",
+        "B": "Pushed into the corner, behind the monitor.",
+        "C": "Centered in front of the main desk area.",
+        "D": "Outside the cubicle, in the aisle.",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q114": {
+      "Type": "Object state changes (attribute)",
+      "Image": "003384",
+      "Question": "What is the apparent state of the flaps on the uppermost cardboard box on the desk in Lauren's cubicle?",
+      "Multiple Choice": {
+        "A": "Tightly sealed",
+        "B": "Torn off",
+        "C": "Open or unsealed",
+        "D": "Folded inwards",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q115": {
+      "Type": "Object counting",
+      "Image": "003402",
+      "Question": "How many black toolboxes with red latches are clearly visible in Lauren's cubicle?",
+      "Multiple Choice": {
+        "A": "Three",
+        "B": "One",
+        "C": "Four",
+        "D": "Two",
+        "E": "None of the above"
+      },
+      "Correct Choice": "D"
+    }
+  },
+  {
+    "Q116": {
+      "Type": "Object location",
+      "Image": "003402",
+      "Question": "Where is the blue cable situated within Lauren's cubicle?",
+      "Multiple Choice": {
+        "A": "Hanging from the cubicle wall",
+        "B": "Inside a toolbox",
+        "C": "On the floor",
+        "D": "On top of a cardboard box",
+        "E": "None of the above"
+      },
+      "Correct Choice": "D"
+    }
+  },
+  {
+    "Q117": {
+      "Type": "Object location",
+      "Image": "003408",
+      "Question": "In Sherlock Homes's cubicle, where are most of the pens or markers located on the desk?",
+      "Multiple Choice": {
+        "A": "Next to a light blue box and a red/yellow tea box",
+        "B": "On top of the monitor",
+        "C": "Inside the microwave",
+        "D": "Under the large cardboard box",
+        "E": "None of the above"
+      },
+      "Correct Choice": "A"
+    }
+  },
+  {
+    "Q118": {
+      "Type": "Object detection / classification",
+      "Image": "003436",
+      "Question": "What type of object is the red and orange patterned item on top of the light blue box on the desk in Sherlock Homes's cubicle?",
+      "Multiple Choice": {
+        "A": "A stapler",
+        "B": "A food or snack box",
+        "C": "A box of tissues",
+        "D": "A desk organizer",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q119": {
+      "Type": "Object location",
+      "Image": "003446",
+      "Question": "Where is the computer mouse located on the desk in Sherlock Homes's cubicle?",
+      "Multiple Choice": {
+        "A": "On the left side of the desk surface, near the curved edge",
+        "B": "To the right of the rightmost monitor",
+        "C": "Underneath the desk",
+        "D": "On top of the cardboard boxes",
+        "E": "None of the above"
+      },
+      "Correct Choice": "A"
+    }
+  },
+  {
+    "Q120": {
+      "Type": "Object state changes (attribute)",
+      "Image": "003514",
+      "Question": "What is the state of the taller, light brown cardboard box on the desk in Sherlock Homes's cubicle?",
+      "Multiple Choice": {
+        "A": "Sealed",
+        "B": "Crushed",
+        "C": "Open",
+        "D": "Lying on its side",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q121": {
+      "Type": "Object detection / classification",
+      "Image": "003560",
+      "Question": "What type of item is the white, box-like object on the desk in James's cubicle, next to the black monitor?",
+      "Multiple Choice": {
+        "A": "A filing cabinet",
+        "B": "A computer tower",
+        "C": "A paper shredder",
+        "D": "A small refrigerator",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q122": {
+      "Type": "Object state changes (attribute)",
+      "Image": "003560",
+      "Question": "What is the state of the overhead storage cabinet directly above the desk in James's cubicle?",
+      "Multiple Choice": {
+        "A": "Partially open",
+        "B": "Wide open",
+        "C": "Missing its door",
+        "D": "Closed",
+        "E": "None of the above"
+      },
+      "Correct Choice": "D"
+    }
+  },
+  {
+    "Q123": {
+      "Type": "Object counting",
+      "Image": "003560",
+      "Question": "How many black office chairs with mesh backs are visible inside James's and Jason's cubicles combined?",
+      "Multiple Choice": {
+        "A": "One",
+        "B": "Three",
+        "C": "Two",
+        "D": "Four",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q124": {
+      "Type": "Object detection / classification",
+      "Image": "003600",
+      "Question": "What type of computer component is resting on the desk to the right of the whiteboard in James's cubicle?",
+      "Multiple Choice": {
+        "A": "CPU cooler",
+        "B": "Graphics card",
+        "C": "Motherboard",
+        "D": "Power supply",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q125": {
+      "Type": "Object state changes (attribute)",
+      "Image": "003640",
+      "Question": "What color is the cap of the marker on the desk in James's cubicle?",
+      "Multiple Choice": {
+        "A": "Red",
+        "B": "Blue",
+        "C": "Black",
+        "D": "Green",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q126": {
+      "Type": "Object counting",
+      "Image": "003664",
+      "Question": "How many whiteboards are visible mounted on the walls inside Jason's cubicle?",
+      "Multiple Choice": {
+        "A": "One",
+        "B": "Zero",
+        "C": "Two",
+        "D": "Three",
+        "E": "None of the above"
+      },
+      "Correct Choice": "A"
+    }
+  },
+  {
+    "Q127": {
+      "Type": "Object detection / classification",
+      "Image": "003640",
+      "Question": "What type of item is the black object with a red detail on the desk in James's cubicle?",
+      "Multiple Choice": {
+        "A": "A stapler",
+        "B": "A tape dispenser",
+        "C": "A small box or container",
+        "D": "A paperweight",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q128": {
+      "Type": "Object location",
+      "Image": "003664",
+      "Question": "In Carleton's cubicle, where is the dark-colored filing cabinet positioned?",
+      "Multiple Choice": {
+        "A": "On the floor next to the desk",
+        "B": "On top of the desk",
+        "C": "Underneath the desk surface",
+        "D": "Integrated into the cubicle wall",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q129": {
+      "Type": "Object location",
+      "Image": "003680",
+      "Question": "In Jason's cubicle, where is the cardboard box situated?",
+      "Multiple Choice": {
+        "A": "On top of the desk",
+        "B": "Next to the chair",
+        "C": "Under the desk",
+        "D": "On the cubicle wall",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q130": {
+      "Type": "Object state changes (attribute)",
+      "Image": "003724",
+      "Question": "What is covering the computer monitor on the desk in Jason's cubicle?",
+      "Multiple Choice": {
+        "A": "A dark cloth",
+        "B": "A piece of paper",
+        "C": "A translucent plastic sheet",
+        "D": "Nothing, it's uncovered",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q131": {
+      "Type": "Cubicle/room location",
+      "Image": "003730",
+      "Question": "Where is Carleton's cubicle situated in relation to Jason's cubicle?",
+      "Multiple Choice": {
+        "A": "Directly in front of Jason's cubicle.",
+        "B": "To the right of Jason's cubicle and closer.",
+        "C": "To the left of Jason's cubicle and further away.",
+        "D": "Behind Jason's cubicle and to the right.",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q132": {
+      "Type": "Object counting",
+      "Image": "003744",
+      "Question": "In Jason's cubicle, how many open cardboard boxes can you see on the desk?",
+      "Multiple Choice": {
+        "A": "Zero",
+        "B": "One",
+        "C": "Two",
+        "D": "Three",
+        "E": "None of the above"
+      },
+      "Correct Choice": "A"
+    }
+  },
+  {
+    "Q133": {
+      "Type": "Object state changes (attribute)",
+      "Image": "003744",
+      "Question": "What is the current condition of the office chair in Jason's cubicle?",
+      "Multiple Choice": {
+        "A": "It's covered by a white sheet.",
+        "B": "It's tilted all the way back.",
+        "C": "It's pushed completely under the desk.",
+        "D": "It appears to be empty and upright.",
+        "E": "None of the above"
+      },
+      "Correct Choice": "D"
+    }
+  },
+  {
+    "Q134": {
+      "Type": "Object detection / classification",
+      "Image": "003806",
+      "Question": "What type of electronic device with multiple outlets is on the desk in Jason's cubicle, near the back left corner?",
+      "Multiple Choice": {
+        "A": "Laptop charger",
+        "B": "Desk lamp",
+        "C": "Power strip",
+        "D": "USB hub",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q135": {
+      "Type": "Object detection / classification",
+      "Image": "003838",
+      "Question": "What type of chair can be seen in Alexandria's cubicle?",
+      "Multiple Choice": {
+        "A": "A wooden stool",
+        "B": "A standard swivel office chair",
+        "C": "An ergonomic kneeling chair",
+        "D": "A racing-style gaming chair",
+        "E": "None of the above"
+      },
+      "Correct Choice": "D"
+    }
+  },
+  {
+    "Q136": {
+      "Type": "Object state changes (attribute)",
+      "Image": "003848",
+      "Question": "What appears to be the power status of the left-most monitor in James's cubicle?",
+      "Multiple Choice": {
+        "A": "It is turned off.",
+        "B": "It is displaying a complex spreadsheet.",
+        "C": "It is covered with a cloth.",
+        "D": "It is on, showing a predominantly blue screen with some white content.",
+        "E": "None of the above"
+      },
+      "Correct Choice": "D"
+    }
+  },
+  {
+    "Q137": {
+      "Type": "Object counting",
+      "Image": "003848",
+      "Question": "How many computer monitors are visible on the desk in James's cubicle?",
+      "Multiple Choice": {
+        "A": "Three",
+        "B": "Two",
+        "C": "One",
+        "D": "Four",
+        "E": "None of the above"
+      },
+      "Correct Choice": "A"
+    }
+  },
+  {
+    "Q138": {
+      "Type": "Object location",
+      "Image": "003848",
+      "Question": "Where is the black keyboard located on the desk within James's cubicle?",
+      "Multiple Choice": {
+        "A": "To the right of the large whiteboard",
+        "B": "On top of the overhead cabinets",
+        "C": "Directly in front of the white computer tower",
+        "D": "Underneath the office chair",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q139": {
+      "Type": "Object location",
+      "Image": "003838",
+      "Question": "Where is the black and white striped bag located in Alexandria's cubicle?",
+      "Multiple Choice": {
+        "A": "On the desk surface",
+        "B": "On the floor under the desk",
+        "C": "Hanging on the back of the chair",
+        "D": "Inside an open drawer",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q140": {
+      "Type": "Object state changes (attribute)",
+      "Image": "003926",
+      "Question": "What is the primary color of the box sitting on the desk in Carleton's cubicle?",
+      "Multiple Choice": {
+        "A": "Blue",
+        "B": "Green",
+        "C": "Red",
+        "D": "Yellow",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q141": {
+      "Type": "Object counting",
+      "Image": "003972",
+      "Question": "How many white mugs are visible on the desk in Carleton's cubicle?",
+      "Multiple Choice": {
+        "A": "Two",
+        "B": "Zero",
+        "C": "One",
+        "D": "Three",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q142": {
+      "Type": "Cubicle/room location",
+      "Image": "003972",
+      "Question": "Which of the two named cubicles (Alexandria or Carleton) is positioned further away from Door 2011?",
+      "Multiple Choice": {
+        "A": "Alexandria's cubicle",
+        "B": "Carleton's cubicle",
+        "C": "They are approximately the same distance",
+        "D": "It's impossible to tell",
+        "E": "None of the above"
+      },
+      "Correct Choice": "A"
+    }
+  },
+  {
+    "Q143": {
+      "Type": "Object state changes (attribute)",
+      "Image": "004008",
+      "Question": "What is the primary color of the text written on the whiteboard in Alexandria's cubicle?",
+      "Multiple Choice": {
+        "A": "Red",
+        "B": "Black",
+        "C": "Green",
+        "D": "Blue",
+        "E": "None of the above"
+      },
+      "Correct Choice": "A"
+    }
+  },
+  {
+    "Q144": {
+      "Type": "Object detection / classification",
+      "Image": "004026",
+      "Question": "What kind of item is inside the green and yellow box on the desk in Carleton's cubicle?",
+      "Multiple Choice": {
+        "A": "Tea bags",
+        "B": "Crackers",
+        "C": "Biscuits",
+        "D": "Chocolates",
+        "E": "None of the above"
+      },
+      "Correct Choice": "A"
+    }
+  },
+  {
+    "Q145": {
+      "Type": "Object state changes (attribute)",
+      "Image": "004036",
+      "Question": "What is the condition of the surface of the whiteboard in Carleton's cubicle?",
+      "Multiple Choice": {
+        "A": "Has writing on it",
+        "B": "Completely blank",
+        "C": "Covered with magnets",
+        "D": "Cracked",
+        "E": "None of the above"
+      },
+      "Correct Choice": "A"
+    }
+  },
+  {
+    "Q146": {
+      "Type": "Object counting",
+      "Image": "004126",
+      "Question": "How many small, black, rectangular objects are stacked on top of each other on the desk in Carleton's cubicle, under the overhead cabinet?",
+      "Multiple Choice": {
+        "A": "Two",
+        "B": "One",
+        "C": "Three",
+        "D": "Four",
+        "E": "None of the above"
+      },
+      "Correct Choice": "A"
+    }
+  },
+  {
+    "Q147": {
+      "Type": "Object location",
+      "Image": "004126",
+      "Question": "Where is the paper label marked '2008L' positioned in Carleton's cubicle?",
+      "Multiple Choice": {
+        "A": "On the desk surface",
+        "B": "Attached to the front of the left overhead cabinet",
+        "C": "On the side of the computer tower",
+        "D": "On the cubicle wall next to the monitor",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q148": {
+      "Type": "Object state changes (attribute)",
+      "Image": "004138",
+      "Question": "What color is the name 'Carleton' written in on the whiteboard in Carleton's cubicle?",
+      "Multiple Choice": {
+        "A": "Black",
+        "B": "Blue",
+        "C": "Pinkish-purple",
+        "D": "Green",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q149": {
+      "Type": "Object counting",
+      "Image": "004164",
+      "Question": "How many office chairs are visible inside cubicle 2008M?",
+      "Multiple Choice": {
+        "A": "One",
+        "B": "Two",
+        "C": "Zero",
+        "D": "Three",
+        "E": "None of the above"
+      },
+      "Correct Choice": "A"
+    }
+  },
+  {
+    "Q150": {
+      "Type": "Object location",
+      "Image": "004174",
+      "Question": "On which part of the desk in Alexandria's cubicle is the small, silver-colored cooler or mini-fridge located?",
+      "Multiple Choice": {
+        "A": "On the far left corner",
+        "B": "Underneath the desk",
+        "C": "Towards the back, near the center, to the left of the large whiteboard",
+        "D": "On the far right corner, next to the whiteboard",
+        "E": "None of the above"
+      },
+      "Correct Choice": "A"
+    }
+  },
+  {
+    "Q151": {
+      "Type": "Cubicle/room location",
+      "Image": "004236",
+      "Question": "From the perspective of Alexandria's cubicle, where is Conference Room 2013 situated?",
+      "Multiple Choice": {
+        "A": "Directly behind Alexandria's cubicle, separated by a solid wall.",
+        "B": "Visible through a glass wall, appearing adjacent or nearby.",
+        "C": "To the left of Alexandria's cubicle.",
+        "D": "On a different floor.",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q152": {
+      "Type": "Object counting",
+      "Image": "004246",
+      "Question": "How many distinct markers are visible on the desk in Alexandria's cubicle?",
+      "Multiple Choice": {
+        "A": "Zero",
+        "B": "Two",
+        "C": "One",
+        "D": "Three",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q153": {
+      "Type": "Object state changes (attribute)",
+      "Image": "004246",
+      "Question": "What is the color of the main body of the marker resting on the desk in Alexandria's cubicle?",
+      "Multiple Choice": {
+        "A": "Red",
+        "B": "Blue",
+        "C": "Green",
+        "D": "Black",
+        "E": "None of the above"
+      },
+      "Correct Choice": "A"
+    }
+  },
+  {
+    "Q154": {
+      "Type": "Object counting",
+      "Image": "004268",
+      "Question": "How many distinct words can you see written on the whiteboard in Alexandria's cubicle?",
+      "Multiple Choice": {
+        "A": "Two",
+        "B": "One",
+        "C": "Zero",
+        "D": "Three",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q155": {
+      "Type": "Object counting",
+      "Image": "004246",
+      "Question": "How many distinct items are visible on the desk in Alexandria's cubicle?",
+      "Multiple Choice": {
+        "A": "Five",
+        "B": "Four",
+        "C": "Three",
+        "D": "Two",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q156": {
+      "Type": "Object location",
+      "Image": "004284",
+      "Question": "On what surface is the name 'Alexandria' written within Alexandria's cubicle?",
+      "Multiple Choice": {
+        "A": "On the desk surface",
+        "B": "On a computer screen",
+        "C": "On a whiteboard",
+        "D": "On a chair",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q157": {
+      "Type": "Object detection / classification",
+      "Image": "004294",
+      "Question": "What type of item is the small, dark object resting on the main desk in conference room 2013?",
+      "Multiple Choice": {
+        "A": "Stapler",
+        "B": "Remote control",
+        "C": "Computer mouse",
+        "D": "Mobile phone",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q158": {
+      "Type": "Cubicle/room location",
+      "Image": "004494",
+      "Question": "How is Josh's cubicle positioned relative to Conference Room 2013?",
+      "Multiple Choice": {
+        "A": "Josh's cubicle is to the right of Conference Room 2013.",
+        "B": "Josh's cubicle is to the left of Conference Room 2013.",
+        "C": "Josh's cubicle is directly behind Conference Room 2013.",
+        "D": "Josh's cubicle is on the opposite side of the hallway from Conference Room 2013.",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q159": {
+      "Type": "Cubicle/room location",
+      "Image": "004538",
+      "Question": "Where is Josh's cubicle located relative to Door 2017?",
+      "Multiple Choice": {
+        "A": "To the left of Door 2017",
+        "B": "Between Door 2017 and Door 2019",
+        "C": "To the right of Door 2017",
+        "D": "Directly opposite Door 2019",
+        "E": "None of the above"
+      },
+      "Correct Choice": "A"
+    }
+  },
+  {
+    "Q160": {
+      "Type": "Object location",
+      "Image": "004294",
+      "Question": "Where is the remote control located in conference room 2013?",
+      "Multiple Choice": {
+        "A": "On the table surface",
+        "B": "Underneath a chair",
+        "C": "Inside a drawer",
+        "D": "On top of a computer monitor",
+        "E": "None of the above"
+      },
+      "Correct Choice": ""
+    }
+  },
+  {
+    "Q161": {
+      "Type": "Object detection / classification",
+      "Image": "004722",
+      "Question": "What kind of black container is on the desk in Josh's cubicle?",
+      "Multiple Choice": {
+        "A": "Coffee mug",
+        "B": "Thermos",
+        "C": "Water bottle",
+        "D": "Soda can",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q162": {
+      "Type": "Object state changes (attribute)",
+      "Image": "004722",
+      "Question": "What is the state of the cap on the black water bottle on the desk in Josh's cubicle?",
+      "Multiple Choice": {
+        "A": "It is unscrewed and lying next to the bottle.",
+        "B": "It is open.",
+        "C": "There is no cap visible.",
+        "D": "It is closed/on the bottle.",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q163": {
+      "Type": "Cubicle/room location",
+      "Image": "004722",
+      "Question": "Relative to the main walkway, where is Josh's cubicle situated with respect to Door 2019?",
+      "Multiple Choice": {
+        "A": "On the opposite side of the walkway from Door 2019.",
+        "B": "On the same side of the walkway as Door 2019.",
+        "C": "Inside the room marked Door 2019.",
+        "D": "Past Door 2019 and Door 2021.",
+        "E": "None of the above"
+      },
+      "Correct Choice": "A"
+    }
+  },
+  {
+    "Q164": {
+      "Type": "Object counting",
+      "Image": "004752",
+      "Question": "In Josh's cubicle, how many blue sticky notes are visible on the cubicle partition?",
+      "Multiple Choice": {
+        "A": "One",
+        "B": "Zero",
+        "C": "Two",
+        "D": "Three",
+        "E": "None of the above"
+      },
+      "Correct Choice": "A"
+    }
+  },
+  {
+    "Q165": {
+      "Type": "Object state changes (attribute)",
+      "Image": "004798",
+      "Question": "What is the apparent state of the computer monitor on the desk in Josh's cubicle?",
+      "Multiple Choice": {
+        "A": "Displaying a bright white document",
+        "B": "Covered by a piece of paper",
+        "C": "Showing a colorful screensaver",
+        "D": "Turned off or displaying a black screen",
+        "E": "None of the above"
+      },
+      "Correct Choice": "D"
+    }
+  },
+  {
+    "Q166": {
+      "Type": "Object state changes (attribute)",
+      "Image": "004808",
+      "Question": "What is the apparent state of the black office chair in Josh's cubicle?",
+      "Multiple Choice": {
+        "A": "Pushed in towards the desk",
+        "B": "Tilted far back",
+        "C": "Covered with papers",
+        "D": "Facing away from the desk",
+        "E": "None of the above"
+      },
+      "Correct Choice": "A"
+    }
+  },
+  {
+    "Q167": {
+      "Type": "Object detection / classification",
+      "Image": "004866",
+      "Question": "What type of office supply item is visible on the desk in Josh's cubicle, holding several writing instruments?",
+      "Multiple Choice": {
+        "A": "A stapler",
+        "B": "A tape dispenser",
+        "C": "A pen holder",
+        "D": "A hole punch",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q168": {
+      "Type": "Object location",
+      "Image": "004866",
+      "Question": "In Josh's cubicle, where is the pen holder with pens located relative to the black bottle?",
+      "Multiple Choice": {
+        "A": "To the left of the black bottle",
+        "B": "To the right of the black bottle",
+        "C": "Directly in front of the black bottle",
+        "D": "Behind the black bottle",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q169": {
+      "Type": "Cubicle/room location",
+      "Image": "004866",
+      "Question": "Considering Josh's cubicle as the foreground, where is Cubicle 2008R situated?",
+      "Multiple Choice": {
+        "A": "To the right and set back from Josh's cubicle",
+        "B": "Directly to the left of Josh's cubicle",
+        "C": "Immediately in front of Josh's cubicle",
+        "D": "On the opposite side of the walkway from Josh's cubicle",
+        "E": "None of the above"
+      },
+      "Correct Choice": "A"
+    }
+  },
+  {
+    "Q170": {
+      "Type": "Cubicle/room location",
+      "Image": "004874",
+      "Question": "How is Cubicle 2008R positioned relative to Door 2023 along the main walkway?",
+      "Multiple Choice": {
+        "A": "Cubicle 2008R is directly opposite Door 2023.",
+        "B": "Cubicle 2008R is located past Door 2023.",
+        "C": "Cubicle 2008R is on the other side of the office from Door 2023.",
+        "D": "Cubicle 2008R is located before you reach Door 2023.",
+        "E": "None of the above"
+      },
+      "Correct Choice": "D"
+    }
+  },
+  {
+    "Q171": {
+      "Type": "Object detection / classification",
+      "Image": "004892",
+      "Question": "Looking at Cubicle 2008R, what's that black thing sitting on the desk near the cardboard box?",
+      "Multiple Choice": {
+        "A": "Stapler",
+        "B": "Backpack",
+        "C": "Telephone",
+        "D": "Calculator",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q172": {
+      "Type": "Object location",
+      "Image": "004892",
+      "Question": "Inside Cubicle 2008R, where can you see the small trash can?",
+      "Multiple Choice": {
+        "A": "On top of the filing cabinet.",
+        "B": "On the chair.",
+        "C": "Next to the monitor on the desk.",
+        "D": "Under the desk, next to the filing cabinet.",
+        "E": "None of the above"
+      },
+      "Correct Choice": "D"
+    }
+  },
+  {
+    "Q173": {
+      "Type": "Object counting",
+      "Image": "004914",
+      "Question": "If you look into Cubicle 2008R, how many waste bins can you spot near the desk?",
+      "Multiple Choice": {
+        "A": "Zero",
+        "B": "Two",
+        "C": "One",
+        "D": "Three",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q174": {
+      "Type": "Object location",
+      "Image": "004934",
+      "Question": "Whereabouts in Cubicle 2008R is that black bag or backpack?",
+      "Multiple Choice": {
+        "A": "Hanging on the cubicle wall",
+        "B": "Underneath the desk",
+        "C": "On the chair",
+        "D": "On the desk, to the right of the monitor",
+        "E": "None of the above"
+      },
+      "Correct Choice": "D"
+    }
+  },
+  {
+    "Q175": {
+      "Type": "Cubicle/room location",
+      "Image": "004934",
+      "Question": "If you're walking down the main aisle towards Door 2023, where would you find Cubicle 2008R?",
+      "Multiple Choice": {
+        "A": "Cubicle 2008R is located much further down the office, past Door 2023.",
+        "B": "Cubicle 2008R is on the same side of the walkway as Door 2023.",
+        "C": "Cubicle 2008R is inside the room that Door 2023 opens into.",
+        "D": "Cubicle 2008R is on the opposite side of the main walkway from Door 2023.",
+        "E": "None of the above"
+      },
+      "Correct Choice": "D"
+    }
+  },
+  {
+    "Q176": {
+      "Type": "Object detection / classification",
+      "Image": "005010",
+      "Question": "What's that black electronic item sitting on the desk in Cubicle 2008R, to the right of the keyboard and near the backpack?",
+      "Multiple Choice": {
+        "A": "A stapler",
+        "B": "A desk phone",
+        "C": "A computer mouse",
+        "D": "A small printer",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q177": {
+      "Type": "Object counting",
+      "Image": "005010",
+      "Question": "How many black office chairs can you spot inside Cubicle 2008R?",
+      "Multiple Choice": {
+        "A": "Two",
+        "B": "Zero",
+        "C": "One",
+        "D": "Three",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q178": {
+      "Type": "Object detection / classification",
+      "Image": "005048",
+      "Question": "What's that black item on the desk in Cubicle 2008R, near the center of the desk?",
+      "Multiple Choice": {
+        "A": "A printer",
+        "B": "A backpack",
+        "C": "A computer tower",
+        "D": "A computer monitor",
+        "E": "None of the above"
+      },
+      "Correct Choice": "D"
+    }
+  },
+  {
+    "Q179": {
+      "Type": "Cubicle/room location",
+      "Image": "005048",
+      "Question": "Considering Cubicle 2008R is the one we're looking at closely, where is Cubicle 2008Q situated in this view?",
+      "Multiple Choice": {
+        "A": "It's one of the cubicles further down the walkway from Cubicle 2008R.",
+        "B": "It's the cubicle directly to the left of Cubicle 2008R.",
+        "C": "It's the cubicle immediately behind the camera's viewpoint.",
+        "D": "It's located on a different floor.",
+        "E": "None of the above"
+      },
+      "Correct Choice": "A"
+    }
+  },
+  {
+    "Q180": {
+      "Type": "Object counting",
+      "Image": "005088",
+      "Question": "In Cubicle 2008Q, how many black, multi-drawer filing cabinets are clearly visible?",
+      "Multiple Choice": {
+        "A": "Zero",
+        "B": "Two",
+        "C": "Three",
+        "D": "One",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q181": {
+      "Type": "Cubicle/room location",
+      "Image": "005130",
+      "Question": "Considering the view from within Cubicle 2008Q, where is this cubicle in relation to the large whiteboard with red writing?",
+      "Multiple Choice": {
+        "A": "It's across the main walkway from the whiteboard.",
+        "B": "It's in a separate room from the whiteboard.",
+        "C": "It's located several cubicles away from the whiteboard, down the hall.",
+        "D": "It's the cubicle that has the whiteboard on one of its walls or is immediately adjacent to it.",
+        "E": "None of the above"
+      },
+      "Correct Choice": "D"
+    }
+  },
+  {
+    "Q182": {
+      "Type": "Object detection / classification",
+      "Image": "005238",
+      "Question": "What's that dark item with a curved back in Cubicle 2008Q?",
+      "Multiple Choice": {
+        "A": "Backpack",
+        "B": "Small suitcase",
+        "C": "Office chair",
+        "D": "Printer",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q183": {
+      "Type": "Object detection / classification",
+      "Image": "005258",
+      "Question": "What's that big black box sitting on the left side of the desk in Cubicle 2008Q?",
+      "Multiple Choice": {
+        "A": "A subwoofer",
+        "B": "A computer tower",
+        "C": "A paper shredder",
+        "D": "A small fridge",
+        "E": "None of the above"
+      },
+      "Correct Choice": "B"
+    }
+  },
+  {
+    "Q184": {
+      "Type": "Object counting",
+      "Image": "005258",
+      "Question": "How many computer screens are set up on the desk in Cubicle 2008Q?",
+      "Multiple Choice": {
+        "A": "One",
+        "B": "Three",
+        "C": "Two",
+        "D": "Four",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q185": {
+      "Type": "Object location",
+      "Image": "005258",
+      "Question": "In Cubicle 2008Q, where can you see the small whiteboard?",
+      "Multiple Choice": {
+        "A": "Hanging on the cubicle wall above the monitors.",
+        "B": "Leaning against the chair.",
+        "C": "On the floor under the desk.",
+        "D": "Sitting on the desk to the right of the monitors.",
+        "E": "None of the above"
+      },
+      "Correct Choice": "D"
+    }
+  },
+  {
+    "Q186": {
+      "Type": "Object location",
+      "Image": "005288",
+      "Question": "Where is the dark-colored filing cabinet situated within the cubicle in Cubicle 2008Q?",
+      "Multiple Choice": {
+        "A": "Mounted on the wall above the desk.",
+        "B": "Underneath the desk, to the left.",
+        "C": "Outside the cubicle, in the walkway.",
+        "D": "To the right of the desk, on the floor.",
+        "E": "None of the above"
+      },
+      "Correct Choice": "D"
+    }
+  },
+  {
+    "Q187": {
+      "Type": "Object state changes (attribute)",
+      "Image": "005328",
+      "Question": "What color is the writing that's faintly visible on the whiteboard in Cubicle 2008Q?",
+      "Multiple Choice": {
+        "A": "Blue",
+        "B": "Black",
+        "C": "Green",
+        "D": "Red/Orange",
+        "E": "None of the above"
+      },
+      "Correct Choice": "D"
+    }
+  },
+  {
+    "Q188": {
+      "Type": "Object location",
+      "Image": "005354",
+      "Question": "Where is the office chair positioned in Cubicle 2008Q?",
+      "Multiple Choice": {
+        "A": "Tucked fully under the desk",
+        "B": "Turned away from the desk",
+        "C": "Slightly pulled out and facing the desk",
+        "D": "Next to the filing cabinet",
+        "E": "None of the above"
+      },
+      "Correct Choice": "C"
+    }
+  },
+  {
+    "Q189": {
+      "Type": "Object location",
+      "Image": "005560",
+      "Question": "Where can I find the printer in Jack. J's cubicle?",
+      "Multiple Choice": {
+        "A": "On top of the filing cabinet.",
+        "B": "Mounted on the cubicle wall.",
+        "C": "On the floor under the desk.",
+        "D": "On the desk, to the right of the main work area.",
+        "E": "None of the above"
+      },
+      "Correct Choice": "D"
+    }
+  }
+]

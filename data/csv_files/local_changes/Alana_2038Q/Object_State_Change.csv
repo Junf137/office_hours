@@ -1,0 +1,26 @@
+Episode,Object,Initial State,Final State
+1,cardboard box,box standing up horizontally,box standing up vertically
+2,markers,laying down,standing up
+3,heron poster,on the wall,partially fall off
+4,eyeglasses box,closed,opened
+4,purple marker,"standing up, cap on","laying down, cap off"
+5,eyeglasses box,glasses in box,glasses outside of box
+5,keyboard holder,extended,hidden
+6,picture frame,photo holder on the frame,photo holder removed
+7,green jacket,not folded,folded
+8,headphone,ear pads facing down,ear pads facing up
+9,white jacket,not folded,folded
+10,purple marker,cap off,cap on
+10,hand sanitizer,laying down,"standing up, leaning on tote bag"
+11,laptop,half open,fullly open
+12,laptop,fullly open,closed
+13,glasses,opened,folded
+14,bandana,unfolded,folded
+14,marker,standing up,laying down
+15,lip balm,laying down,standing up
+16,badminton handle cover,upside down,right side up
+17,bandana,folded as rectangle,folded as triangle
+18,books,not stacked neatly,stacked neatly
+18,lip balm,cap on,cap off
+19,cap,upside down,right side up
+20,cups,beside each other,stacked on top of each other

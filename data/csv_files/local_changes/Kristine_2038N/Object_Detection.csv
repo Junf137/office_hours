@@ -1,0 +1,26 @@
+Episode,Unique Object,Location inside Cubicle,Appear/ Disappear (Change)
+1,Calculator,Center,Appear
+1,WD Passport,Left side,Appear
+2,Motor,Right side,Disappear
+3,Wrist ball,Left side,Disappear
+4,Tim hortons box,Right side,Appear
+5,Calculator,Left side,Disappear
+6,WD Passport,Left side,Disappear
+6,Tim hortons box,Right side,Disappear
+7,Tripod,Left side,Appear
+7,Can of Almonds,Center,Appear
+8,Green tea box,Center,Appear
+9,Gold circle,Center,Appear
+10,Board game box,RIght,Appear
+10,Grey case,Center,Appear
+11,Blue almond box,Center-left,Disappear
+12,Teddy Bear,Center,Appear
+13,Water Bottle,Center,Appear
+14,Grey Elephant,Left,Appear
+14,Gold circle,Right,Disappear
+15,Board game box,Right,Disappear
+16,Water Bottle,Center,Disappear
+17,Absolute C++ Book,Center,Appear
+18,Grey Case,Right,Disappear
+18,Green tea box,Right,Disappear
+19,Absolute C++ Book,Center,Disappear

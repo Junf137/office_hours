@@ -1,0 +1,377 @@
+{
+    "Q1": {
+        "Type": "Object State Change",
+        "Change Number": 1,
+        "Initial Video": 0,
+        "Final Video": 1,
+        "Question": "The Frisbee's state changed in the cubicle. How exactly did it change?",
+        "Multiple Choice": {
+            "A": "It went from an upright position to lying on its side.",
+            "B": "It changed from being flipped to not flipped.",
+            "C": "The camera's lens was adjusted from facing the table top to facing away.",
+            "D": "The controller was placed on its face after being on its back.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "E"
+    },
+    "Q2": {
+        "Type": "Object State Change",
+        "Change Number": 2,
+        "Initial Video": 1,
+        "Final Video": 2,
+        "Question": "An object changed from an upright position to lying on its side. Which object was it?",
+        "Multiple Choice": {
+            "A": "Camera",
+            "B": "Eiffel tower",
+            "C": "Frisbee",
+            "D": "Controller",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q3": {
+        "Type": "Object State Change",
+        "Change Number": 3,
+        "Initial Video": 2,
+        "Final Video": 3,
+        "Question": "Was there any change in how an object was oriented relative to the viewer or the surface it was on? If so, what was it?",
+        "Multiple Choice": {
+            "A": "The coup game was turned upright from its back.",
+            "B": "The camera's lens, initially facing me, was turned to face the table top.",
+            "C": "The Plushie fell onto its back from an upright position.",
+            "D": "The Eiffel tower was moved from an up position to facing away.",
+            "E": "No such change occurred."
+        },
+        "Correct Choice": "B"
+    },
+    "Q4": {
+        "Type": "Object State Change",
+        "Change Number": 4,
+        "Initial Video": 3,
+        "Final Video": 4,
+        "Question": "The coup game's position changed. How did its state transition?",
+        "Multiple Choice": {
+            "A": "It went from being upright to on its back.",
+            "B": "It was initially on its back and then became upright.",
+            "C": "It was moved to a different location without changing its orientation.",
+            "D": "It remained on its back but was rotated.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q5": {
+        "Type": "Object State Change",
+        "Change Number": 5,
+        "Initial Video": 4,
+        "Final Video": 5,
+        "Question": "An object that was lying on its back was flipped over to lie on its face. Which object underwent this change?",
+        "Multiple Choice": {
+            "A": "Plushie",
+            "B": "Controller",
+            "C": "Coup game",
+            "D": "Frisbee",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q6": {
+        "Type": "Object State Change",
+        "Change Number": 6,
+        "Initial Video": 4,
+        "Final Video": 5,
+        "Question": "The Plushie's orientation was altered. Can you describe what happened to it?",
+        "Multiple Choice": {
+            "A": "It was placed on its side.",
+            "B": "It changed from being upright to lying on its back.",
+            "C": "It was moved from the chair to the desk while remaining upright.",
+            "D": "It was turned from on its back to an upright position.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q7": {
+        "Type": "Object State Change",
+        "Change Number": 7,
+        "Initial Video": 5,
+        "Final Video": 6,
+        "Question": "Between these two observations, did any object's facing direction change significantly? If so, what was it?",
+        "Multiple Choice": {
+            "A": "The playing cards were turned upright from their back.",
+            "B": "The camera, which had its lens facing the table top, was reoriented so its lens faced away from me.",
+            "C": "The controller was flipped onto its back from its face.",
+            "D": "The funko pop was turned to face the wall while remaining upright.",
+            "E": "No significant change in facing direction occurred."
+        },
+        "Correct Choice": "B"
+    },
+    "Q8": {
+        "Type": "Object State Change",
+        "Change Number": 8,
+        "Initial Video": 6,
+        "Final Video": 7,
+        "Question": "One of the items in the scene was set upright after being on its back. Which item was this?",
+        "Multiple Choice": {
+            "A": "Triceratops toy",
+            "B": "Frisbee",
+            "C": "Playing cards",
+            "D": "Coup game",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q9": {
+        "Type": "Object State Change",
+        "Change Number": 9,
+        "Initial Video": 7,
+        "Final Video": 8,
+        "Question": "The Triceratops toy experienced a change in its posture. What was this change?",
+        "Multiple Choice": {
+            "A": "It was moved to a different shelf while remaining on its feet.",
+            "B": "It went from standing on its feet to lying on its back.",
+            "C": "It was turned from its back to a sideways position.",
+            "D": "It was set up on its feet from a sideways position.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q10": {
+        "Type": "Object State Change",
+        "Change Number": 10,
+        "Initial Video": 7,
+        "Final Video": 8,
+        "Question": "An object that was previously flipped over was returned to its 'not flipped' state. Which object was it?",
+        "Multiple Choice": {
+            "A": "Eiffel tower",
+            "B": "Frisbee",
+            "C": "Playing cards",
+            "D": "Triceratops toy",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q11": {
+        "Type": "Object State Change",
+        "Change Number": 11,
+        "Initial Video": 8,
+        "Final Video": 9,
+        "Question": "What happened to the Eiffel tower's orientation in the scene?",
+        "Multiple Choice": {
+            "A": "It was laid on its side from an upright position.",
+            "B": "It was flipped upside down.",
+            "C": "The Triceratops toy was placed on its feet from a sideways position.",
+            "D": "It remained in a sideways position but was moved to a different part of the cubicle.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "E"
+    },
+    "Q12": {
+        "Type": "Object State Change",
+        "Change Number": 12,
+        "Initial Video": 9,
+        "Final Video": 10,
+        "Question": "Observing the changes, did any object transition from a supine position (lying on its back) to being on its side? If so, what was it?",
+        "Multiple Choice": {
+            "A": "The coup game, previously upright, was laid on its back.",
+            "B": "The Triceratops toy, which was on its back, was turned onto its side.",
+            "C": "The Eiffel tower was moved from sideways to an up position.",
+            "D": "The tape dispenser was turned from upright to its side.",
+            "E": "No, no object made such a transition."
+        },
+        "Correct Choice": "B"
+    },
+    "Q13": {
+        "Type": "Object State Change",
+        "Change Number": 13,
+        "Initial Video": 9,
+        "Final Video": 10,
+        "Question": "A game item was found to be on its back after previously being upright. Which game item was it?",
+        "Multiple Choice": {
+            "A": "Playing cards",
+            "B": "Frisbee",
+            "C": "Coup game",
+            "D": "Controller",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q14": {
+        "Type": "Object State Change",
+        "Change Number": 14,
+        "Initial Video": 10,
+        "Final Video": 11,
+        "Question": "The tape dispenser's state changed. How was it positioned differently?",
+        "Multiple Choice": {
+            "A": "It was moved from its side to an upright position.",
+            "B": "It was initially upright and was then found on its side.",
+            "C": "It was placed on its back.",
+            "D": "It was taken off the desk.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q15": {
+        "Type": "Object State Change",
+        "Change Number": 15,
+        "Initial Video": 11,
+        "Final Video": 12,
+        "Question": "An object that was lying on its back was set to an upright position. What object was this?",
+        "Multiple Choice": {
+            "A": "Tape dispenser",
+            "B": "Cooling fan",
+            "C": "Funko pop",
+            "D": "Triceratops toy",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q16": {
+        "Type": "Object State Change",
+        "Change Number": 16,
+        "Initial Video": 12,
+        "Final Video": 13,
+        "Question": "In the observed transition, an object's posture changed from being on its side to a more stable, intended position (like on its feet or upright). What specific change occurred?",
+        "Multiple Choice": {
+            "A": "The cooling fan was turned from an upright position to its back.",
+            "B": "The Triceratops toy, which was sideways, was set back on its feet.",
+            "C": "The tape dispenser was placed upright from its side.",
+            "D": "The funko pop was moved from its side to an upright position.",
+            "E": "No such change happened."
+        },
+        "Correct Choice": "B"
+    },
+    "Q17": {
+        "Type": "Object State Change",
+        "Change Number": 17,
+        "Initial Video": 13,
+        "Final Video": 14,
+        "Question": "What happened to the cooling fan in terms of its orientation?",
+        "Multiple Choice": {
+            "A": "It was turned from its side to an upright position.",
+            "B": "It was moved from its back to an upright position.",
+            "C": "It was initially upright and then found on its back.",
+            "D": "It was placed on its side after being on its back.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q18": {
+        "Type": "Object State Change",
+        "Change Number": 18,
+        "Initial Video": 14,
+        "Final Video": 15,
+        "Question": "An office supply item, initially upright, was later observed on its side. Which item was it?",
+        "Multiple Choice": {
+            "A": "Funko pop",
+            "B": "Tape dispenser",
+            "C": "Cooling fan",
+            "D": "Playing cards",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q19": {
+        "Type": "Object State Change",
+        "Change Number": 19,
+        "Initial Video": 14,
+        "Final Video": 15,
+        "Question": "The funko pop figure's position changed. How did its state transition?",
+        "Multiple Choice": {
+            "A": "It was moved from its side to an upright position.",
+            "B": "It was initially upright and was then found on its side.",
+            "C": "It was turned to face a different direction while remaining upright.",
+            "D": "It was placed on its back.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q20": {
+        "Type": "Object State Change",
+        "Change Number": 20,
+        "Initial Video": 15,
+        "Final Video": 16,
+        "Question": "An object that started in an 'upright' position underwent a transformation. Which of the following describes this specific transformation?",
+        "Multiple Choice": {
+            "A": "It was turned from 'upright' to 'on its side'.",
+            "B": "It was returned to 'upright' from a 'flipped' state.",
+            "C": "It was changed from 'upright' to 'on its back'.",
+            "D": "It was moved to another location while remaining 'upright'.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "E"
+    },
+    "Q21": {
+        "Type": "Object State Change",
+        "Change Number": 21,
+        "Initial Video": 16,
+        "Final Video": 17,
+        "Question": "A set of cards that was standing upright was later found lying on its back. Which item is this referring to?",
+        "Multiple Choice": {
+            "A": "Coup game",
+            "B": "Playing cards",
+            "C": "Frisbee",
+            "D": "Controller",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q22": {
+        "Type": "Object State Change",
+        "Change Number": 22,
+        "Initial Video": 17,
+        "Final Video": 18,
+        "Question": "The Plushie's state was altered. How did it change from its initial state to its final state?",
+        "Multiple Choice": {
+            "A": "It went from upright to on its side.",
+            "B": "It was initially on its back and was then set upright.",
+            "C": "It was moved to a different location while remaining on its back.",
+            "D": "It was flipped from its face to its back.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q23": {
+        "Type": "Object State Change",
+        "Change Number": 23,
+        "Initial Video": 18,
+        "Final Video": 19,
+        "Question": "Considering the interval between these two video segments, did any soft, toy-like object change from a stable, upright position to an unstable one, like falling over or being placed on its back?",
+        "Multiple Choice": {
+            "A": "The controller, previously on its face, was turned onto its back.",
+            "B": "The Plushie, which was upright, ended up on its back.",
+            "C": "The funko pop was placed upright from its side.",
+            "D": "The Triceratops toy was moved from its back to its feet.",
+            "E": "No, all soft toys remained stable or became more stable."
+        },
+        "Correct Choice": "B"
+    },
+    "Q24": {
+        "Type": "Object State Change",
+        "Change Number": 24,
+        "Initial Video": 18,
+        "Final Video": 19,
+        "Question": "An electronic device was flipped from lying on its face to lying on its back. Which device was it?",
+        "Multiple Choice": {
+            "A": "Camera",
+            "B": "Cooling fan",
+            "C": "Controller",
+            "D": "Tape dispenser",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q25": {
+        "Type": "Object State Change",
+        "Change Number": 25,
+        "Initial Video": 19,
+        "Final Video": 20,
+        "Question": "The funko pop figure was repositioned. What was the specific change in its state?",
+        "Multiple Choice": {
+            "A": "It was moved from an upright position to lying on its side.",
+            "B": "It was initially on its side and was then set upright.",
+            "C": "It was rotated 180 degrees while remaining upright.",
+            "D": "It was laid on its back.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    }
+}

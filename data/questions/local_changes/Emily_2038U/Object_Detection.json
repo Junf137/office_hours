@@ -1,0 +1,377 @@
+{
+    "Q1": {
+        "Type": "Object Detection",
+        "Change Number": 1,
+        "Initial Video": 0,
+        "Final Video": 1,
+        "Question": "I heard a wheel popped up somewhere in the cubicle. Could you tell me where it appeared?",
+        "Multiple Choice": {
+            "A": "In front of the PC, on the right side at the back of the cubicle.",
+            "B": "On the left side of the cubicle, near the front.",
+            "C": "On the chair.",
+            "D": "On top of the left monitor.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q2": {
+        "Type": "Object Detection",
+        "Change Number": 2,
+        "Initial Video": 1,
+        "Final Video": 2,
+        "Question": "Something new popped up on the left side at the front of the cubicle. What was it?",
+        "Multiple Choice": {
+            "A": "Orange water bottle",
+            "B": "Wheel",
+            "C": "Plant Pot with a feather",
+            "D": "Backpack",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q3": {
+        "Type": "Object Detection",
+        "Change Number": 3,
+        "Initial Video": 1,
+        "Final Video": 2,
+        "Question": "The Plant Pot with a feather made an appearance. Can you tell me where it was placed?",
+        "Multiple Choice": {
+            "A": "On the right side of the cubicle, near the front.",
+            "B": "On the left side of the cubicle, near the front.",
+            "C": "In front of the PC.",
+            "D": "On the chair.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q4": {
+        "Type": "Object Detection",
+        "Change Number": 4,
+        "Initial Video": 2,
+        "Final Video": 3,
+        "Question": "Looking towards the right side of the cubicle, was any new item introduced in this scene transition? If so, what was it?",
+        "Multiple Choice": {
+            "A": "Yes, a Backpack appeared.",
+            "B": "Yes, an Orange water bottle appeared there.",
+            "C": "No, but a Hat disappeared from there.",
+            "D": "No new items appeared on the right side.",
+            "E": "Yes, a Wheel appeared."
+        },
+        "Correct Choice": "A"
+    },
+    "Q5": {
+        "Type": "Object Detection",
+        "Change Number": 5,
+        "Initial Video": 3,
+        "Final Video": 4,
+        "Question": "The GPU Nvidia RTX 4090 is no longer visible. From which spot did it disappear?",
+        "Multiple Choice": {
+            "A": "On the chair.",
+            "B": "On top of the left monitor.",
+            "C": "On the left side of the cubicle.",
+            "D": "On the right side of the cubicle, near the front.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q6": {
+        "Type": "Object Detection",
+        "Change Number": 6,
+        "Initial Video": 4,
+        "Final Video": 5,
+        "Question": "An item that was on top of the left monitor is now gone. Which item was it?",
+        "Multiple Choice": {
+            "A": "Hat",
+            "B": "GPU Nvidia RTX 4090",
+            "C": "Wheel",
+            "D": "Backpack",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q7": {
+        "Type": "Object Detection",
+        "Change Number": 7,
+        "Initial Video": 5,
+        "Final Video": 6,
+        "Question": "A large plush toy appeared on the left side of the cubicle. What kind of plush was it?",
+        "Multiple Choice": {
+            "A": "Bear Plush",
+            "B": "Goose Plush",
+            "C": "A small Wheel toy",
+            "D": "Roman head statue toy",
+            "E": "None of the above"
+        },
+        "Correct Choice": "E"
+    },
+    "Q8": {
+        "Type": "Object Detection",
+        "Change Number": 8,
+        "Initial Video": 6,
+        "Final Video": 7,
+        "Question": "A Hat reappeared in the scene. Where did it turn up this time?",
+        "Multiple Choice": {
+            "A": "On the Giant Cow plush.",
+            "B": "On top of the left monitor.",
+            "C": "On the chair.",
+            "D": "On the left side of the cubicle.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q9": {
+        "Type": "Object Detection",
+        "Change Number": 9,
+        "Initial Video": 6,
+        "Final Video": 7,
+        "Question": "What happened to the Plant Pot with a feather during this observation period?",
+        "Multiple Choice": {
+            "A": "It disappeared from the right side of the cubicle.",
+            "B": "It appeared on the left side of the cubicle.",
+            "C": "It disappeared from the left side of the cubicle.",
+            "D": "It was placed on the Giant Cow plush.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q10": {
+        "Type": "Object Detection",
+        "Change Number": 10,
+        "Initial Video": 7,
+        "Final Video": 8,
+        "Question": "Was there any change concerning an object previously seen on the chair? If so, what exactly happened?",
+        "Multiple Choice": {
+            "A": "Yes, the Backpack that was on it vanished.",
+            "B": "Yes, the GPU Nvidia RTX 4090 reappeared on the chair.",
+            "C": "Yes, a Hat was placed on the chair.",
+            "D": "No, nothing on the chair changed.",
+            "E": "Yes, a Goose Plush appeared on the chair."
+        },
+        "Correct Choice": "A"
+    },
+    "Q11": {
+        "Type": "Object Detection",
+        "Change Number": 11,
+        "Initial Video": 8,
+        "Final Video": 9,
+        "Question": "An office supply item was added to the left side of the cubicle. What item are we talking about?",
+        "Multiple Choice": {
+            "A": "Hole Puncher",
+            "B": "Rubik's cube",
+            "C": "Painting",
+            "D": "Open Jigsaw Puzzle Box",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q12": {
+        "Type": "Object Detection",
+        "Change Number": 12,
+        "Initial Video": 9,
+        "Final Video": 10,
+        "Question": "An Open Jigsaw Puzzle Box is now visible. Where did it appear?",
+        "Multiple Choice": {
+            "A": "On the right side of the cubicle, near the front.",
+            "B": "On the left side of the cubicle.",
+            "C": "Between the two monitors.",
+            "D": "On the chair.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q13": {
+        "Type": "Object Detection",
+        "Change Number": 13,
+        "Initial Video": 10,
+        "Final Video": 11,
+        "Question": "A colorful puzzle cube materialized in the cubicle. What is it and where did it show up?",
+        "Multiple Choice": {
+            "A": "Open Jigsaw Puzzle Box, on the right side of the cubicle.",
+            "B": "Rubik's cube, on the left side of the cubicle.",
+            "C": "Stack of legos, on the right side of the cubicle, close to the front.",
+            "D": "Rubik's cube, beside the keyboard.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "E"
+    },
+    "Q14": {
+        "Type": "Object Detection",
+        "Change Number": 14,
+        "Initial Video": 10,
+        "Final Video": 11,
+        "Question": "I noticed a Painting appeared. Can you tell me its specific location?",
+        "Multiple Choice": {
+            "A": "On the left side of the cubicle, against the wall.",
+            "B": "On the right side of the cubicle.",
+            "C": "Between the monitors.",
+            "D": "On the chair.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q15": {
+        "Type": "Object Detection",
+        "Change Number": 15,
+        "Initial Video": 11,
+        "Final Video": 12,
+        "Question": "Focusing on the area between the two monitors at the back, did any object that was previously there go missing?",
+        "Multiple Choice": {
+            "A": "Yes, the Wheel disappeared from there.",
+            "B": "Yes, the Goose Plush disappeared from there.",
+            "C": "Yes, a Painting that was there vanished.",
+            "D": "No, nothing disappeared from that specific spot.",
+            "E": "Yes, the Rubik's cube was removed from there."
+        },
+        "Correct Choice": "A"
+    },
+    "Q16": {
+        "Type": "Object Detection",
+        "Change Number": 16,
+        "Initial Video": 12,
+        "Final Video": 13,
+        "Question": "A new plush toy has shown up between the monitors. Which one is it?",
+        "Multiple Choice": {
+            "A": "Goose Plush",
+            "B": "Giant Cow plush",
+            "C": "Bear Plush",
+            "D": "Green triceratops toy",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q17": {
+        "Type": "Object Detection",
+        "Change Number": 17,
+        "Initial Video": 13,
+        "Final Video": 14,
+        "Question": "A Stack of legos has been added to the scene. Where can it be found?",
+        "Multiple Choice": {
+            "A": "On the right side of the cubicle, close to the front.",
+            "B": "On the left side of the cubicle.",
+            "C": "Between the two monitors.",
+            "D": "Beside the keyboard.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q18": {
+        "Type": "Object Detection",
+        "Change Number": 18,
+        "Initial Video": 14,
+        "Final Video": 15,
+        "Question": "The Hole Puncher seems to have vanished. Where was it before it disappeared?",
+        "Multiple Choice": {
+            "A": "In front of the PC, on the right side of the cubicle.",
+            "B": "On the left side of the cubicle.",
+            "C": "Below the cubicle on the left side.",
+            "D": "On the right side of the cubicle, near the front.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q19": {
+        "Type": "Object Detection",
+        "Change Number": 19,
+        "Initial Video": 14,
+        "Final Video": 15,
+        "Question": "It seems a large plush toy went missing from the scene. Can you identify which plush it was and where it vanished from?",
+        "Multiple Choice": {
+            "A": "The Giant Cow plush, from below the cubicle on the left side.",
+            "B": "The Goose Plush, from between the monitors.",
+            "C": "The Bear Plush, from the right side of the cubicle.",
+            "D": "The Hole Puncher, from in front of the PC.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q20": {
+        "Type": "Object Detection",
+        "Change Number": 20,
+        "Initial Video": 15,
+        "Final Video": 16,
+        "Question": "A toy dinosaur appeared near the keyboard. What specific toy was it?",
+        "Multiple Choice": {
+            "A": "Green triceratops toy",
+            "B": "Roman head statue toy",
+            "C": "Eiffel Tower Toy",
+            "D": "Goose Plush",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q21": {
+        "Type": "Object Detection",
+        "Change Number": 21,
+        "Initial Video": 16,
+        "Final Video": 17,
+        "Question": "The Goose Plush is no longer there. From which spot did it go missing?",
+        "Multiple Choice": {
+            "A": "On the right side of the cubicle, at the front.",
+            "B": "Between the two monitors.",
+            "C": "On the left side of the cubicle.",
+            "D": "Beside the keyboard.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q22": {
+        "Type": "Object Detection",
+        "Change Number": 22,
+        "Initial Video": 17,
+        "Final Video": 18,
+        "Question": "Another plush animal has joined the scene! It's a Bear Plush. Where did it appear?",
+        "Multiple Choice": {
+            "A": "On the right side of the cubicle, in front of the PC.",
+            "B": "On the left side of the cubicle.",
+            "C": "Between the two monitors.",
+            "D": "Beside the keyboard.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q23": {
+        "Type": "Object Detection",
+        "Change Number": 23,
+        "Initial Video": 18,
+        "Final Video": 19,
+        "Question": "What was the change concerning the Rubik's cube in this segment?",
+        "Multiple Choice": {
+            "A": "It disappeared from the left side of the cubicle.",
+            "B": "It appeared on the left side of the cubicle.",
+            "C": "It disappeared from the right side of the cubicle.",
+            "D": "It appeared beside the keyboard.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q24": {
+        "Type": "Object Detection",
+        "Change Number": 24,
+        "Initial Video": 18,
+        "Final Video": 19,
+        "Question": "There seems to have been some activity near the keyboard. What new object showed up there?",
+        "Multiple Choice": {
+            "A": "A Roman head statue toy appeared beside the keyboard.",
+            "B": "A Green triceratops toy that was beside the keyboard disappeared.",
+            "C": "A Rubik's cube showed up next to the keyboard.",
+            "D": "An Eiffel Tower Toy was placed beside the keyboard.",
+            "E": "No new object appeared beside the keyboard."
+        },
+        "Correct Choice": "A"
+    },
+    "Q25": {
+        "Type": "Object Detection",
+        "Change Number": 25,
+        "Initial Video": 19,
+        "Final Video": 20,
+        "Question": "A miniature landmark has appeared in the cubicle. What is it and where is it located?",
+        "Multiple Choice": {
+            "A": "Eiffel Tower Toy, in the right side of the cubicle at the front.",
+            "B": "Roman head statue toy, beside the keyboard.",
+            "C": "Eiffel Tower Toy, on the left side of the cubicle.",
+            "D": "Green triceratops toy, in the right side of the cubicle at the front.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    }
+}

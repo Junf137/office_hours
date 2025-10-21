@@ -1,0 +1,377 @@
+{
+    "Q1": {
+        "Type": "Object Counting",
+        "Change Number": 1,
+        "Initial Video": 0,
+        "Final Video": 1,
+        "Question": "It appears there's one more of a particular item than before, with its count going from one to two. Which item are we talking about?",
+        "Multiple Choice": {
+            "A": "Whiteboard markers",
+            "B": "White wheels stacked on top of each other",
+            "C": "Hand sanitizer bottles",
+            "D": "Water bottles",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q2": {
+        "Type": "Object Counting",
+        "Change Number": 2,
+        "Initial Video": 1,
+        "Final Video": 2,
+        "Question": "Regarding the 'white wheels stacked on top of each other', how did their quantity change between the scenes?",
+        "Multiple Choice": {
+            "A": "Their count decreased from 2 to 1.",
+            "B": "Their count increased from 1 to 2.",
+            "C": "Their count remained at 2.",
+            "D": "Their count decreased from 3 to 1.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q3": {
+        "Type": "Object Counting",
+        "Change Number": 3,
+        "Initial Video": 2,
+        "Final Video": 3,
+        "Question": "What is one specific change to item quantities that was observed in the cubicle?",
+        "Multiple Choice": {
+            "A": "The quantity of whiteboard markers increased from 2 to 4.",
+            "B": "The quantity of hand sanitizer bottles decreased from 3 to 1.",
+            "C": "The quantity of whiteboard markers decreased from 4 to 2.",
+            "D": "No changes in item quantities were observed.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q4": {
+        "Type": "Object Counting",
+        "Change Number": 4,
+        "Initial Video": 3,
+        "Final Video": 4,
+        "Question": "One type of item became slightly more numerous, going from four to five. Which item was this?",
+        "Multiple Choice": {
+            "A": "Whiteboard markers",
+            "B": "Chopsticks",
+            "C": "Dongles",
+            "D": "Hand sanitizer bottles",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q5": {
+        "Type": "Object Counting",
+        "Change Number": 5,
+        "Initial Video": 4,
+        "Final Video": 5,
+        "Question": "Considering 'Whiteboard markers', what specific change occurred in their quantity?",
+        "Multiple Choice": {
+            "A": "Their quantity decreased from 6 to 5.",
+            "B": "Their quantity increased from 5 to 7.",
+            "C": "Their quantity remained unchanged at 5.",
+            "D": "Two new whiteboard markers were added.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "E"
+    },
+    "Q6": {
+        "Type": "Object Counting",
+        "Change Number": 6,
+        "Initial Video": 5,
+        "Final Video": 6,
+        "Question": "What is one specific change to item quantities that was observed in the cubicle?",
+        "Multiple Choice": {
+            "A": "The quantity of hand sanitizer bottles decreased from 3 to 1.",
+            "B": "The quantity of whiteboard markers increased from 1 to 3.",
+            "C": "The quantity of water bottles appeared, with 2 units.",
+            "D": "The quantity of dongles decreased by one.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "E"
+    },
+    "Q7": {
+        "Type": "Object Counting",
+        "Change Number": 7,
+        "Initial Video": 8,
+        "Final Video": 9,
+        "Question": "There's one less of a particular item now, its count dropping from six to five. Which item is it?",
+        "Multiple Choice": {
+            "A": "Whiteboard markers",
+            "B": "Hand sanitizer bottles",
+            "C": "Water bottles",
+            "D": "Chopsticks",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q8": {
+        "Type": "Object Counting",
+        "Change Number": 8,
+        "Initial Video": 9,
+        "Final Video": 10,
+        "Question": "Focusing on 'Water bottles', what happened to their count?",
+        "Multiple Choice": {
+            "A": "Their quantity increased from 0 to 2.",
+            "B": "Their quantity decreased from 2 to 0.",
+            "C": "Their quantity remained unchanged at 0.",
+            "D": "One water bottle was added, making the total 1.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q9": {
+        "Type": "Object Counting",
+        "Change Number": 9,
+        "Initial Video": 10,
+        "Final Video": 11,
+        "Question": "Were there any adjustments to item counts? If so, what was a specific adjustment?",
+        "Multiple Choice": {
+            "A": "The quantity of water bottles increased from 2 to 4.",
+            "B": "The quantity of whiteboard markers decreased from 6 to 5.",
+            "C": "The quantity of chopsticks increased from 0 to 2.",
+            "D": "No changes in item quantities were observed.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q10": {
+        "Type": "Object Counting",
+        "Change Number": 10,
+        "Initial Video": 11,
+        "Final Video": 12,
+        "Question": "Some items appeared for the first time, with their count going from zero to three. Which item was this?",
+        "Multiple Choice": {
+            "A": "Chopsticks",
+            "B": "Water bottles",
+            "C": "Dongles",
+            "D": "iPhones",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q11": {
+        "Type": "Object Counting",
+        "Change Number": 11,
+        "Initial Video": 11,
+        "Final Video": 12,
+        "Question": "How did the quantity of 'Water bottles' change during this period?",
+        "Multiple Choice": {
+            "A": "Their quantity increased from 4 to 5.",
+            "B": "Their quantity decreased from 5 to 4.",
+            "C": "Their quantity increased from 0 to 3.",
+            "D": "Their quantity remained unchanged at 4.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q12": {
+        "Type": "Object Counting",
+        "Change Number": 12,
+        "Initial Video": 13,
+        "Final Video": 14,
+        "Question": "Can you identify a specific change in item quantities that occurred between these scenes?",
+        "Multiple Choice": {
+            "A": "The quantity of chopsticks increased from 3 to 5.",
+            "B": "The quantity of water bottles decreased from 5 to 4.",
+            "C": "The quantity of dongles decreased from 3 to 1.",
+            "D": "No items changed in quantity.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q13": {
+        "Type": "Object Counting",
+        "Change Number": 13,
+        "Initial Video": 14,
+        "Final Video": 15,
+        "Question": "An item's quantity decreased from five to four. Which item was it?",
+        "Multiple Choice": {
+            "A": "Chopsticks",
+            "B": "Whiteboard markers",
+            "C": "iPhones",
+            "D": "Dongles",
+            "E": "None of the above"
+        },
+        "Correct Choice": "E"
+    },
+    "Q14": {
+        "Type": "Object Counting",
+        "Change Number": 14,
+        "Initial Video": 15,
+        "Final Video": 16,
+        "Question": "What can you tell me about the change in the number of 'Dongles'?",
+        "Multiple Choice": {
+            "A": "Their quantity increased from 1 to 3.",
+            "B": "Their quantity decreased from 3 to 1.",
+            "C": "Their quantity remained unchanged at 1.",
+            "D": "One dongle was removed.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q15": {
+        "Type": "Object Counting",
+        "Change Number": 15,
+        "Initial Video": 15,
+        "Final Video": 16,
+        "Question": "Looking at the items, what change in quantity can you identify?",
+        "Multiple Choice": {
+            "A": "The quantity of chopsticks increased from 5 to 6.",
+            "B": "The quantity of dongles decreased from 3 to 1.",
+            "C": "The quantity of water bottles increased by one.",
+            "D": "The quantity of black clamps appeared.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q16": {
+        "Type": "Object Counting",
+        "Change Number": 16,
+        "Initial Video": 16,
+        "Final Video": 17,
+        "Question": "The quantity of an item went up from one to three. Which item was this?",
+        "Multiple Choice": {
+            "A": "Black clamps",
+            "B": "Whiteboard markers",
+            "C": "iPhones",
+            "D": "Dongles",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q17": {
+        "Type": "Object Counting",
+        "Change Number": 17,
+        "Initial Video": 16,
+        "Final Video": 17,
+        "Question": "How did the count of 'Whiteboard markers' change during this observation period?",
+        "Multiple Choice": {
+            "A": "Their quantity decreased from 5 to 2.",
+            "B": "Their quantity increased from 2 to 5.",
+            "C": "Their quantity decreased from 5 to 4.",
+            "D": "Three new whiteboard markers were added.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q18": {
+        "Type": "Object Counting",
+        "Change Number": 18,
+        "Initial Video": 17,
+        "Final Video": 18,
+        "Question": "What changes in the number of items were observed in the cubicle?",
+        "Multiple Choice": {
+            "A": "The quantity of iPhones increased from 0 to 2.",
+            "B": "The quantity of black clamps increased from 1 to 2.",
+            "C": "The quantity of whiteboard markers decreased from 2 to 0.",
+            "D": "One iPhone was removed from the scene.",
+            "E": "No changes in item quantities occurred."
+        },
+        "Correct Choice": "A"
+    },
+    "Q19": {
+        "Type": "Object Counting",
+        "Change Number": 19,
+        "Initial Video": 18,
+        "Final Video": 19,
+        "Question": "The number of a particular electronic device decreased from two to one. Which device was it?",
+        "Multiple Choice": {
+            "A": "iPhones",
+            "B": "Dongles",
+            "C": "Jetson TX2 board",
+            "D": "Water bottles",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q20": {
+        "Type": "Object Counting",
+        "Change Number": 20,
+        "Initial Video": 19,
+        "Final Video": 20,
+        "Question": "Let's talk about 'Water bottles'. What adjustment to their quantity was noted?",
+        "Multiple Choice": {
+            "A": "Their quantity increased from 4 to 6.",
+            "B": "Their quantity decreased from 6 to 4.",
+            "C": "Their quantity increased from 2 to 4.",
+            "D": "Two water bottles were removed.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q21": {
+        "Type": "Object Counting",
+        "Change Number": 21,
+        "Initial Video": 19,
+        "Final Video": 20,
+        "Question": "Between these two views of the cubicle, what is one specific change that occurred to item counts?",
+        "Multiple Choice": {
+            "A": "The quantity of chopsticks increased from 6 to 11.",
+            "B": "The quantity of water bottles decreased from 6 to 4.",
+            "C": "The quantity of hand sanitizer bottles remained at 3.",
+            "D": "The quantity of Jetson TX2 boards increased from 1 to 2.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q22": {
+        "Type": "Object Counting",
+        "Change Number": 22,
+        "Initial Video": 19,
+        "Final Video": 20,
+        "Question": "The count of one item went up by one, from three to four. Which item was it?",
+        "Multiple Choice": {
+            "A": "Hand sanitizer bottles",
+            "B": "Water bottles",
+            "C": "Chopsticks",
+            "D": "Whiteboard markers",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q23": {
+        "Type": "Object Counting",
+        "Change Number": 23,
+        "Initial Video": 19,
+        "Final Video": 20,
+        "Question": "What can you tell me about the change in the number of 'Whiteboard markers' during this period?",
+        "Multiple Choice": {
+            "A": "Their quantity increased from 2 to 4.",
+            "B": "Their quantity decreased from 4 to 2.",
+            "C": "Their quantity increased from 2 to 3.",
+            "D": "Four whiteboard markers were removed.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q24": {
+        "Type": "Object Counting",
+        "Change Number": 24,
+        "Initial Video": 19,
+        "Final Video": 20,
+        "Question": "Were there any decreases in item quantities? If so, what was one specific instance?",
+        "Multiple Choice": {
+            "A": "The quantity of Jetson TX2 board decreased from 2 to 1.",
+            "B": "The quantity of dongles decreased from 2 to 1.",
+            "C": "The quantity of water bottles decreased from 4 to 2.",
+            "D": "No items decreased in quantity.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q25": {
+        "Type": "Object Counting",
+        "Change Number": 25,
+        "Initial Video": 19,
+        "Final Video": 20,
+        "Question": "An electronic component became less numerous, its count dropping from three to two. Which component was it?",
+        "Multiple Choice": {
+            "A": "Dongles",
+            "B": "iPhones",
+            "C": "Jetson TX2 board",
+            "D": "Whiteboard markers",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    }
+}

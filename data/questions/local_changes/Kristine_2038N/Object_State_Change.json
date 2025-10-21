@@ -1,0 +1,377 @@
+{
+    "Q1": {
+        "Type": "Object State Change",
+        "Change Number": 1,
+        "Initial Video": 0,
+        "Final Video": 1,
+        "Question": "The Coffee Cup seems to have changed between the scenes. What happened to it?",
+        "Multiple Choice": {
+            "A": "It went from being closed to open.",
+            "B": "It was positioned upright after being down.",
+            "C": "Its sleeve was removed.",
+            "D": "It toppled over.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q2": {
+        "Type": "Object State Change",
+        "Change Number": 2,
+        "Initial Video": 1,
+        "Final Video": 2,
+        "Question": "An object in the scene changed its orientation from a 'down' position to an 'up' position. Which object was it?",
+        "Multiple Choice": {
+            "A": "Robot Arm",
+            "B": "Coffee Cup",
+            "C": "Monitor",
+            "D": "Teddy Bear",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q3": {
+        "Type": "Object State Change",
+        "Change Number": 3,
+        "Initial Video": 2,
+        "Final Video": 3,
+        "Question": "Was there any change in how objects were oriented or positioned? If so, what change occurred?",
+        "Multiple Choice": {
+            "A": "The Cup, initially facing upwards, was found facing downwards.",
+            "B": "The Monitor rotated from a forward-facing position to a backward-facing one.",
+            "C": "The Robot Arm moved from a lowered to a raised state.",
+            "D": "The Coffee Cup, which was closed, became open.",
+            "E": "No significant state changes were observed."
+        },
+        "Correct Choice": "A"
+    },
+    "Q4": {
+        "Type": "Object State Change",
+        "Change Number": 4,
+        "Initial Video": 3,
+        "Final Video": 4,
+        "Question": "The Monitor in the scene underwent a change. Can you tell me what happened to it?",
+        "Multiple Choice": {
+            "A": "It was reoriented from facing forward to facing backward.",
+            "B": "It rotated from facing backward to facing forward.",
+            "C": "It was knocked over.",
+            "D": "It was opened up.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q5": {
+        "Type": "Object State Change",
+        "Change Number": 5,
+        "Initial Video": 3,
+        "Final Video": 4,
+        "Question": "An object in the scene was turned so it went from facing forward to facing back. Which object are we talking about?",
+        "Multiple Choice": {
+            "A": "Robot Arm",
+            "B": "Coffee Cup",
+            "C": "Tripod",
+            "D": "Red water cup",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q6": {
+        "Type": "Object State Change",
+        "Change Number": 6,
+        "Initial Video": 4,
+        "Final Video": 5,
+        "Question": "The TIm Hortons Box's state seems different now. What exactly changed about it?",
+        "Multiple Choice": {
+            "A": "It transitioned from a closed state to an open state.",
+            "B": "It was initially open and then became closed.",
+            "C": "It got knocked over.",
+            "D": "It was lifted from a lower to a higher position.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q7": {
+        "Type": "Object State Change",
+        "Change Number": 7,
+        "Initial Video": 5,
+        "Final Video": 6,
+        "Question": "An item that was in a 'down' state is now in an 'up' state. Which item underwent this change?",
+        "Multiple Choice": {
+            "A": "Red water cup",
+            "B": "Monitor",
+            "C": "TIm Hortons Box",
+            "D": "Almond can",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q8": {
+        "Type": "Object State Change",
+        "Change Number": 8,
+        "Initial Video": 6,
+        "Final Video": 7,
+        "Question": "What happened to the Red Coffee cup between these two observations?",
+        "Multiple Choice": {
+            "A": "It was initially up and then was found DOwn.",
+            "B": "It was DOwn and then it was up.",
+            "C": "Its sleeve was removed.",
+            "D": "It was opened.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q9": {
+        "Type": "Object State Change",
+        "Change Number": 9,
+        "Initial Video": 7,
+        "Final Video": 8,
+        "Question": "Observing the changes, did any container alter its open/closed status? If so, what specifically?",
+        "Multiple Choice": {
+            "A": "Yes, the White Ball box transitioned from open to closed.",
+            "B": "Yes, the Tripod that was upright, fell over.",
+            "C": "Yes, the TIm Hortons Box was opened.",
+            "D": "Yes, the Red Coffee cup changed from an up to a DOwn position.",
+            "E": "No containers changed their open/closed status."
+        },
+        "Correct Choice": "A"
+    },
+    "Q10": {
+        "Type": "Object State Change",
+        "Change Number": 10,
+        "Initial Video": 7,
+        "Final Video": 8,
+        "Question": "An object that was previously standing 'up' is now 'fallen over'. Which object is this?",
+        "Multiple Choice": {
+            "A": "Tripod",
+            "B": "White Ball box",
+            "C": "Red water cup",
+            "D": "Monitor",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q11": {
+        "Type": "Object State Change",
+        "Change Number": 11,
+        "Initial Video": 8,
+        "Final Video": 9,
+        "Question": "The Red water cup's orientation changed. How did it change?",
+        "Multiple Choice": {
+            "A": "It was in an 'up' position and is now 'down'.",
+            "B": "It was 'down' and is now in an 'up' position.",
+            "C": "It was opened after being closed.",
+            "D": "It was closed after being open.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q12": {
+        "Type": "Object State Change",
+        "Change Number": 12,
+        "Initial Video": 9,
+        "Final Video": 10,
+        "Question": "A container that was 'closed' is now 'open'. Which container are we referring to?",
+        "Multiple Choice": {
+            "A": "Almond can",
+            "B": "Red water cup",
+            "C": "Tripod",
+            "D": "Board game box",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q13": {
+        "Type": "Object State Change",
+        "Change Number": 13,
+        "Initial Video": 10,
+        "Final Video": 11,
+        "Question": "What happened to the Board game box in the scene?",
+        "Multiple Choice": {
+            "A": "It was initially on the desk and was later found pushed over.",
+            "B": "It was opened.",
+            "C": "It was closed.",
+            "D": "It moved from a lower position to a higher one.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q14": {
+        "Type": "Object State Change",
+        "Change Number": 14,
+        "Initial Video": 11,
+        "Final Video": 12,
+        "Question": "Looking at the cubicle, did any object that can be opened or closed change its state? If so, what was one such change?",
+        "Multiple Choice": {
+            "A": "Yes, the Green tea box was opened.",
+            "B": "Yes, the Red water cup was moved from a down to an up position.",
+            "C": "Yes, the Almond can was closed.",
+            "D": "Yes, the Board game box was set upright after being pushed over.",
+            "E": "No such objects changed their state."
+        },
+        "Correct Choice": "A"
+    },
+    "Q15": {
+        "Type": "Object State Change",
+        "Change Number": 15,
+        "Initial Video": 11,
+        "Final Video": 12,
+        "Question": "An item was in a 'down' position and is now 'up'. Which item is it this time?",
+        "Multiple Choice": {
+            "A": "Red water cup",
+            "B": "Green tea box",
+            "C": "Teddy Bear",
+            "D": "Monitor",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q16": {
+        "Type": "Object State Change",
+        "Change Number": 16,
+        "Initial Video": 12,
+        "Final Video": 13,
+        "Question": "The Teddy Bear's posture changed. What can you tell me about it?",
+        "Multiple Choice": {
+            "A": "It was initially upright but later was found fallen over.",
+            "B": "It was Fallen Over and then was set upright.",
+            "C": "It opened.",
+            "D": "It turned to face the back from a forward position.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q17": {
+        "Type": "Object State Change",
+        "Change Number": 17,
+        "Initial Video": 13,
+        "Final Video": 14,
+        "Question": "Between these scenes, was there any alteration to an object's open or closed status? If so, describe one such alteration.",
+        "Multiple Choice": {
+            "A": "Yes, the Water bottle transitioned from an open state to a closed state.",
+            "B": "Yes, the Teddy Bear, which was upright, fell over.",
+            "C": "Yes, the Green tea box, previously open, was found closed.",
+            "D": "Yes, the Monitor rotated to face forward.",
+            "E": "No, there were no changes to any object's open/closed status."
+        },
+        "Correct Choice": "A"
+    },
+    "Q18": {
+        "Type": "Object State Change",
+        "Change Number": 18,
+        "Initial Video": 14,
+        "Final Video": 15,
+        "Question": "An object that had 'Fallen Over' is now 'upright' again. Which object are we talking about?",
+        "Multiple Choice": {
+            "A": "Teddy Bear",
+            "B": "Water bottle",
+            "C": "Monitor",
+            "D": "Tripod",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q19": {
+        "Type": "Object State Change",
+        "Change Number": 19,
+        "Initial Video": 15,
+        "Final Video": 16,
+        "Question": "The Monitor's orientation has shifted again. What is its current state compared to before?",
+        "Multiple Choice": {
+            "A": "It changed from facing backward to facing forward.",
+            "B": "It changed from facing forward to facing backward.",
+            "C": "The Grey Case, which was open, became closed.",
+            "D": "It was knocked over from an upright position.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q20": {
+        "Type": "Object State Change",
+        "Change Number": 20,
+        "Initial Video": 15,
+        "Final Video": 16,
+        "Question": "Were there any significant state changes to objects in the cubicle during this interval? If yes, describe one.",
+        "Multiple Choice": {
+            "A": "Yes, the Grey Case, initially closed, was found open.",
+            "B": "Yes, the Monitor rotated to face the back.",
+            "C": "Yes, the Teddy Bear fell over.",
+            "D": "Yes, the Water bottle was opened.",
+            "E": "No significant state changes occurred."
+        },
+        "Correct Choice": "A"
+    },
+    "Q21": {
+        "Type": "Object State Change",
+        "Change Number": 21,
+        "Initial Video": 16,
+        "Final Video": 17,
+        "Question": "An object that was 'upright' has now 'fallen over'. Can you identify which one?",
+        "Multiple Choice": {
+            "A": "Teddy Bear",
+            "B": "Monitor",
+            "C": "Grey Case",
+            "D": "Red Water cup",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q22": {
+        "Type": "Object State Change",
+        "Change Number": 22,
+        "Initial Video": 17,
+        "Final Video": 18,
+        "Question": "There's been a change with the Red Water cup. What exactly happened to its position?",
+        "Multiple Choice": {
+            "A": "It transitioned from an 'up' state to a 'down' state.",
+            "B": "It moved from a 'down' state to an 'up' state.",
+            "C": "Its sleeve was put on.",
+            "D": "It toppled over from an upright position.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q23": {
+        "Type": "Object State Change",
+        "Change Number": 23,
+        "Initial Video": 18,
+        "Final Video": 19,
+        "Question": "What, if any, notable changes in object states occurred between these two views?",
+        "Multiple Choice": {
+            "A": "The Coffee Cup was moved from a 'down' to an 'up' position.",
+            "B": "The Red Coffee cup had its sleeve put on.",
+            "C": "The Teddy Bear was set upright after falling over.",
+            "D": "The Grey Case was closed.",
+            "E": "Nothing significant changed."
+        },
+        "Correct Choice": "A"
+    },
+    "Q24": {
+        "Type": "Object State Change",
+        "Change Number": 24,
+        "Initial Video": 19,
+        "Final Video": 20,
+        "Question": "The Red Coffee cup looks different. What specific change occurred to it?",
+        "Multiple Choice": {
+            "A": "The sleeve that was on it has been removed.",
+            "B": "A sleeve was put onto it.",
+            "C": "It changed from an 'up' position to a 'DOwn' position.",
+            "D": "The nearby Red Water cup moved from 'down' to 'up'.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q25": {
+        "Type": "Object State Change",
+        "Change Number": 25,
+        "Initial Video": 19,
+        "Final Video": 20,
+        "Question": "Focusing on the objects present, which of the following state transformations accurately reflects what happened?",
+        "Multiple Choice": {
+            "A": "The Red Coffee cup's sleeve was put back on.",
+            "B": "The Teddy Bear fell over again.",
+            "C": "The Grey Case was closed after being open.",
+            "D": "The Coffee Cup was moved from an 'up' to a 'down' position.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "E"
+    }
+}

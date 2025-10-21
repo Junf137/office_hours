@@ -1,0 +1,27 @@
+Episode,Unique Object,Location inside Cubicle,Appear/ Disappear (Change)
+1,aria glasses,left of cubicle,Appear
+2,monitor,next to desktop,Appear
+3,stapler,left of cubicle,Disappear
+3,rubiks cube,left of cubicle,Disappear
+4,paper towel,in front of monitor,Appear
+5,box of gloves,between pile of books and paper towels,Appear
+6,cookie tin,middle of cubicle,Disappear
+6,toolbox,next to aria glasses case,Appear
+7,gpu box,behind the toolbox,Appear
+8,rubiks cube,between table tenis rackets,Appear
+9,aria glasses case,right of toolbox,Disappear
+9,board game,to the right of the desktop,Appear
+10,metal water bottle,left of the head sink,Disappear
+11,champagne glass,on top of left table tenis racket,Appear
+12,toolbox,between aria glasses and infront of gpu box,Disappear
+13,ruler,right of cubicle,Disappear
+13,paper towel,in front of gpu box,Appear
+14,gpu box,middle of cubicle behind ruler,Disappear
+14,blue book,behind aria glasses,Appear
+15,wodden block man,on top of desktop,Appear
+16,champagne glass,behind ruler,Disappear
+17,drone,between duster and aria glasses,Appear
+17,air purifier,in the middle of the cubicle to the left of the monitor,Appear
+18,open book,in front of monitor,Disappear
+19,aria glasses,left of cubicle next to dronw,Disappear
+20,lego bricks,to the left of the cubicle next to the board game box,Appear

@@ -1,0 +1,28 @@
+Episode,Object,Initial State,Final State
+1,Bike helmet,Upside down,Right side up
+1,Textbook,Closed,Open
+2,Goose plush,Seated up,Lying down
+3,Catan,Closed,Open
+4,Jeans,Folded,Unfolded
+4,Painting,Facing towards,Facing away
+5,Goose plush,Lying down,Seated up
+6,Catan,Open,Closed
+7,Goose plush,Facing towards,Facing away
+8,Textbook,Open,Closed
+8,Painting,Facing away,Facing towards
+9,Catan,Facing up,Facing down
+10,Badminton racket,Handle away,Handle towards
+11,Jeans,Unfolded,Folded
+12,Mug,Right side up,Upside down
+12,Small bust,Right side up,Lying down
+13,Deck of cards,Logo up,Logo down
+14,Painting,Right side up,Upside down
+15,Black tea box,Closed,Open
+16,Textbook,Lying down,Standing up
+16,Goose plush,Sitting up,Lying down
+17,Mug,Upside down,Right side up
+18,Black tea box,Open,Closed
+19,Almond can,Closed,Open
+20,Badminton racket,Normal,Flipped
+20,Poster,Right side up,Upside down
+21,Painting,Upside down,Right side up

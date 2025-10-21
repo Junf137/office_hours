@@ -1,0 +1,27 @@
+Episode,Non-unique Object,Initial Count,Final Count
+1,mouse,2,1
+2,black mug,1,3
+3,keyboard,2,3
+3,post card box,0,2
+4,post card box,2,3
+5,black mug,3,2
+6,post card box,3,0
+7,markers,0,2
+8,markers,2,5
+9,tissue box,0,2
+10,tissue box,2,3
+10,markers,5,1
+11,tissue box,3,0
+12,robot arm,1,2
+13,robot arm,2,4
+14,robot arm,4,3
+15,robot arm,3,0
+16,red tim hortons cup,0,4
+17,black mug,2,0
+18,red tim hortons cup,4,2
+19,red tim hortons cup,2,0
+20,keyboard,3,1
+21,white cup lid,0,8
+22,white cup lid,8,3
+23,hand sanitizer gel,0,3
+24,hand sanitizer gel,3,2

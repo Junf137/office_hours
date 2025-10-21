@@ -1,0 +1,26 @@
+Episode,Object,Initial State,Final State
+1,Whiteboard,Blank nothing on it,Has the name Jackson written in green
+2,Right side Monitor,Off (Screen is black),On showing ubuntu background
+3,COUP board game / card game box,Closed,Opened showing the cards inside
+3,Right side Monitor,On showing ubuntu background,Off (Screen is black)
+4,"White book titled ""Linear Algebra""",Closed,Opened showing
+4,COUP board game / card game box,Opened showing the cards inside,Closed
+5,Trash Bin,Full,Empty
+6,Black PC or Computer,ON showing the gpu glowing and fan spinning,Off
+6,Modern Engineering Matematics Book,Closed,Opened
+7,Phone,Off (Screen is black),On
+8,Phone,On,Off (Screen is black)
+9,Black PC or Computer,Off,ON showing the gpu glowing and fan spinning
+9,Whiteboard,Has the name Jackson written in green,Blank nothing on it
+10,Frisbee,Up right,Up side down
+11,Hard-shell Pecil Case,Closed,Open
+12,Stack of Legos,Flat structure,Tall tower with a wide base
+13,Left side Monitor,Off,On
+14,Gian Cow Plush Stuffed Animal,Up Right,Up side down
+14,Stack of Legos,It has One tower,It has two towers
+15,Hard-shell Pecil Case,Open,Close
+16,Bottom Left side drawer,Closed,Open
+17,Book,Open,Closed
+18,Whiteboard,Blank nothing on it,"It says ""Samuel Jackson"""
+18,Bottom Left side drawer,Open,Close
+19,Middle right side drawer,Closed,Open

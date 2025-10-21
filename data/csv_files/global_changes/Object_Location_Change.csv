@@ -1,0 +1,125 @@
+Change Number,Episode,Unique Object,Intial Cubicle,location in cubicle,Final Cubicle,location in cubicle
+1,1,Excel gum,Jack J.,Next to green tea box,Json,Next to Keyboard
+2,1,Tape,Jerry,Next to laptop,Daniel,On top of PC tower
+3,1,Triceratops,Emily,Next to acne patch bag,Jack S,Next to mug beside monitor
+4,1,iPad,Jack S.,In front of monitors,Amy,Next to the PC tower
+5,1,Ping pong cover,Daniel,On top of ping pong paddle,Alana,Edge of the desk
+6,1,Plastic cubicle cap,Frank,Near far corner of cubicle,Jason,Near far corner of cubicle
+7,1,Absolute C++ book,Alex,From between the row of books,Kristine,Near keyboard in front of whiteboard
+8,1,Black Taj Mahal 3D print,Amy,Next to primary monitor,Josh,Next to monitor
+9,1,Ship in a bottle,Alana,Behind white bottle,James,In front of primary monitor
+10,1,Red screwdriver,Eddie,Next to white paper sheet,Jessica,"Next to scissors, tape, screws"
+11,1,Tin of peanuts,Roberto,Near green paper bag,Sherlock Holmes,Near blue bag
+12,1,Yellow highliter,Cecilia,Next to pink marker near monitor,Kristine,Next to white mug
+13,1,"Blue ""Pure Camomile"" tea box",Kristine,"Center right-back of cubicle, near white plastic bag",2008Q,Next to right monitor
+14,1,"""Imprint"" Magazine",Sherlock Holmes,"Near desk edge, in front of tea bag box",Alexandria,"Standing upright, against the cubicle edge"
+15,1,Black styrofoam holder with flower print,Lauren,On top of red-black box near edge of cubicle,Carleton,Next to whiteboard
+16,1,Small gold HDMI converter,Jason,On whiteboard holder,James,On white PC box
+17,1,Chair,James,Main cubicle area,Alexandria,"Main cubicle area, behind existing chair"
+18,1,"White ""Himalayan Neem Scrub""",Carleton,On left front of cubicle,2008R,Next to rolled up poster on the right
+19,1,"White ""Godiva"" mug",Carleton,On left front of cubicle,Josh,Next to monitor at the back
+20,1,Multimeter,Alexandria,Next to grey box,Carleton,In front of green tea box
+21,1,Blue vitamin bottle,Josh,Next to monitor at the back,Emily,In front of PC at the back
+22,1,Mug with toothbrush and toothpaste,Josh,Center right back of cubicle,2008Q,Corner of desk
+23,1,Lysol blue container,2008R,On left side of cubicle desk,Jason,On left side of cubicle desk
+24,1,Black Logitech webcam,2008Q,On top of black PC,Jessica,Next to cardboard box and scissors on right side of cubicle desk
+25,2,Green/white box of japanese tea,Jack J.,Next to black toolbox,Jerry,Near cubicle wall
+26,2,Red scissors,Jessica,Near webcam,Jack. S,On top of black diary
+27,2,Wireless charger,Emily,Near power bar,Daniel,Near power bar
+28,2,"""Otto Motors"" chapstick",Jack S.,In front of monitors,Emily,In front of monitor
+29,2,Cerave lotion bottle,Jerry,Beside monitor against back cubicle wall,Amy,Beside monitor near back cubicle wall
+30,2,HP laptop,Daniel,Near cables,Frank,Near desk edge
+31,2,White charging cable,Frank,Plugged into power bar,Jack. S,In front of Jetson TX2
+32,2,2 Ketchup packets,Amy,In front of white board,Sherlock Holmes,On top of Green box next to Red box of tea bags
+33,2,Headphones,Alex,Near posters,Jack. J,"On desk, above drawers, near blue water bottle"
+34,2,White water bottle,Alana,Near large photographs,Kristine,Near black bookends
+35,2,Expo white board cleaner,Eddie,Near whiteboard,James,Near whiteboard
+36,2,Absolute C++ book,Kristine,Near keyboard in front of whiteboard,Sherlock Holmes,"Upright, leaning against whiteboard"
+37,2,Pink highlighter,Cecilia,Near monitors,Lauren,On whiteboard holder
+38,2,HP wireless mouse,Sherlock Holmes,In front of monitors,Lauren,In front of monitor
+39,2,Box of gloves,Lauren,On the left of monitor,Jason,Next to Lysol wipes
+40,2,2 AAA batteries,James,In front of PC tower,Carleton,Next to multimeter
+41,2,Bottle of Excel gum,Jason,In front of whiteboard,Alexandria,"On top of blue book ""Mosby's dictionary"""
+42,2,Yellow box of Kleenex,Alexandria,In front of grey metal box,Josh,Near black notebook
+43,2,Black metal panels,Carleton,Leaning upright against cubicle wall,Alexandria,"Underneath overhead cabinet, leaning upright against cubicle wall"
+44,2,"White ""Godiva"" mug",Josh,Next to monitor at the back,2008 Q,"In front of monitor next to blue ""Pure camomile"" tea box"
+45,2,Chair,2008R,Main cubicle area,Josh,"Main cubicle area, behind existing chair"
+46,2,Power cable,2008Q,Next to PC tower,2008R,Next to PC tower
+47,2,Mug with toothbrush and toothpaste,,Corner of desk,Josh,Near black notebook
+48,2,"""Blue Almond"" tin with blue lid",Jack. S,In front of whiteboard,Frank,Near coffee cups
+49,2,Champagne flute,Emily,Left side of cubicle,Jerry,Next to keyboard
+50,3,Black toolbox,Jack. J,Near cubicle wall,Jessica,On top of cardboard box near monitor
+51,3,Roll of tape,Jessica,On top of PC tower,Jerry,In front of plastic box in front of whiteboard
+52,3,Meta Aria black glasses,Jack. S,Near black diary,Frank,On top of grey HP laptop
+53,3,Champagne flute,Jerry,Next to keyboard,Jack. S,Next to black mug
+54,3,RTX 2080Ti GPU,Frank,In front of whiteboard,Amy,In front of whiteboard
+55,3,Green dinosaur triceratops toy,Daniel,In front of blue cup,Alana,Near keyboard
+56,3,Monitor ,2008Q ,second monitor from the left,Jack J. ,Standard location
+57,3,Cerave lotion bottle,Amy,Beside monitor near back cubicle wall,Alana,In front of monitor
+58,3,Black mug,Alex,Near red plastic cup,Roberto,Near plastic tupperware
+59,3,Puzzle (1000 piece),2008R,right next to monitor,Sherlock Holmes,right side desk
+60,3,Ping pong cover,Alana,Edge of the desk,Kristine,Near catan
+61,3,White metal water bottle,Eddie,Near cubicle wall,Lauren,In front of whiteboard
+62,3,Chair,Josh,in the cubicle,2008R,in the cubicle
+63,3,Chair,Alexanderia,in the cubicle,Carleton,in the cubicle
+64,3,Tim hortons donuts,Alexanderia,left of cubicle ,Carleton,On the left
+65,3,Wireless tabletop light,Cecilia,Near stack of papers,James,Near monitor
+66,3,White ceramic mug,Kristine,Near yellow highlighter,Cecilia,Near headphones
+67,3,Red box of tea bags,Sherlock Holmes,On top of green/yellow box,Jason,Near Lysol wipes
+68,3,Pink highlighter,Lauren,On whiteboard holder,Cecilia,Near monitors
+69,3,Monopoly Deal green deck,Jason,Near whiteboard markers,Alexandria,"Near blue book ""Mosby's Dictionary"""
+70,3,Monitor ,James,Near PC tower,Carleton,On top of PC lying down flat
+71,3,Scotch tape,Alexandria,On top of metal holder,Carleton,On top of PC lying down flat
+72,3,Yellow Kleenex box,Josh,Near black notebook,2008Q,Near monitor
+73,3,Black Taj Mahal 3D print,Josh,Beneath monitor,James,In front of monitor
+74,3,Jetson Nano Developer Kit box green,2008Q,Leaning against whiteboard,Kristine,Next to black ping pong paddle cover
+75,4,Goose plushy,Jack J.,Next to black box,Emily,Near red paper bag
+76,4,White charging cable,Jack. J.,Plugged into power bar,Emily,Plugged into power bar
+77,4,Logitech webcam,Jessica,Near cardboard box with screws,Jack S.,On top of monitor
+78,4,DSLR camera,Emily,Behind PC tower,Frank,Near laptop
+79,4,Japanese tea green white box,Jerry,Near PC tower,Jack. S,In front of whiteboard
+80,4,Meta Aria black glasses,Frank,On top of grey HP laptop,Emily,On left side near chopsticks
+81,4,Black Diary,Jack S. ,Near the monitors. ,Frank. ,"In front of the whiteboard, near the coffee cups. "
+82,4,Raspberry Pi. ,Jack S. ,"Near the cubicle wall, next to the other embedded system computers. ",Frank,Near the grey HP laptop. 
+83,4,IPad. ,Amy,On top of PC tower. ,Kristine. ,Near the keyboard. 
+84,4,Black bag. ,Alex,On top of PC tower. ,Alana. ,Near the large photo posters. 
+85,4,Red pop can. ,Alana,Against the cubicle wall in the back. ,Kristine. ,Near the cubicle edge. 
+86,4,Chicken broth. ,Roberto. ,Underneath the whiteboard. ,Sherlock Holmes. ,"Near the cubicle wall, "
+87,4,Stapler. ,Eddie ,Next to the hole punch near the back wall. ,Jason. ,On the whiteboard marker holder. 
+88,4,Yellow highlighter. ,Kristine. ,Right part of the desk,Cecilia. ,Near the pink highlighter next to the monitors. 
+89,4,Backpack. ,Lauren. ,On the chair. ,Josh. ,On the chair. 
+90,4,Ketchup packets,Sherlock Holmes. ,Green box near cubicle wall. ,James,On the lid of the metal tin. 
+91,4,Green box. ,Sherlock Holmes. ,Near the cubicle wall. ,Alexandria. ,In front of the whiteboard. 
+92,4,Tiny ship in a bottle. ,James. ,In front of the monitor. ,Carleton. ,In front of the monitor on top of the PC tower lying flat. 
+93,4,Box of Kleenex. ,Jason,Left cubicle wall. ,Alexandria,Near the right edge of the cubicle. 
+94,4,Alexandria. ,Chair. ,Main cubicle area. ,Jason. ,Main cubicle area behind the existing chair. 
+95,4,Carleton,"Yellow, purple plushie. ",Next to the workstation,Josh,Leaning against the cubicle edge next to the toothbrush mug. 
+96,4,Josh. ,"Large, tall hand sanitizer bottle",Next to tall black water bottle. ,2008R,Next to mouse in front of monitor. 
+97,4,2008Q. ,Light blue box of camomile tea. ,Near the monitor. ,Jack S. ,In front of the whiteboard. 
+98,4,Emily. ,Badminton racket. ,Near the PC tower. ,Jack S. ,In front of the embedded system computers. 
+99,4,Jessica,Chair. ,Main cubicle area. ,Jack S. ,Main cubicle area behind the existing chair. 
+100,5,Jack J. ,Rubik's Cube. ,Marker holder on the whiteboard. ,Jerry. ,Between the robot arms. 
+101,5,Jack J. ,PC tower,Corner of the cubicle. ,2008 Q. ,Near the whiteboard. 
+102,5,Emily. ,Half of a mechanical wireless keyboard. ,Keyboard area. ,Jack S. ,Next to the existing keyboard. 
+103,5,Jessica. ,Red screwdriver. ,Near the black screws,Jerry,Inside the roll of clear tape. 
+104,5,Jerry. ,Gray Metallic Hard Drive. ,Left area of cubicle. ,Jack S. ,In front of whiteboard. 
+105,5,Jack S. ,Open Textbook. ,In front of whiteboard,Amy,In front of monitor. 
+106,5,Jack S. ,Chair. ,Main cubicle area behind existing chair. ,Daniel. ,Main cubicle area behind existing chair. 
+107,5,Daniel,Mousepad,Underneath mouse. ,Alex,Underneath mouse. 
+108,5,Alex,Landline phone. ,Near PC tower. ,Cecilia. ,Next to Dixit Card Game. 
+109,5,Amy. ,Purple-green mug. ,Near monitor. ,Roberto,In front of monitor. 
+110,5,Alana. ,Large black bag. ,Near the cubicle wall. ,Kristine,On the chair. 
+111,5,Roberto. ,Chair,Main cubicle area. ,Cecilia. ,Main cubicle area behind existing chair. 
+112,5,Eddie,Hole punch. ,Left side of cubicle near the wall. ,Kristine. ,Right side of cubicle near the wall. 
+113,5,Kristine. ,Bookends. ,Right side near the cubicle wall. ,Lauren. ,In front of the whiteboard. 
+114,5,Cecilia. ,Yellow lemon juice container in the shape of a lemon. ,Near the roll of tape. ,Kristine. ,Left side of cubicle between the posters. 
+115,5,Sherlock Holmes. ,Chicken broth. ,Near the cubicle wall on the right. ,Jason ,In front of the whiteboard. 
+116,5,Jason. ,Red box of tea bags. ,On the left side a cubicle near the wall. ,Alexandria. ,On top of the green box in front of the whiteboard. 
+117,5,James. ,Black Taj Mahal 3D print,Beneath monitor,Alexandria. ,On top of the blue box near the right cubicle wall. 
+118,5,Carleton,Multimeter. ,"On top of a large workstation, lying flat. ",James. ,In front of the whiteboard. 
+119,5,Alexandria. ,Box of Kleenex. ,To the left of the whiteboard. ,Jason,To the left of the cubicle near the wall. 
+120,5,Josh. ,Yellow purple angry plushie. ,To the left of the cubicle near the wall. ,2008 R. ,On the chair. 
+121,5,Josh. ,Mug with toothbrush and toothpaste. ,To the left of the whiteboard. ,2008 R. ,To the right of the cubicle near the edge. 
+122,5,2008Q. ,White Godiva mug with gold dots. ,In front of the PC tower. ,Alexandria. ,To the right of the blue box. 
+123,5,Alexandria. ,White cube Styrofoam box. ,To the left of the cubicle near the wall. ,Eddie. ,Right side of the cubicle near the middle. 
+124,5,Sherlock Holmes. ,Blue Walmart bag,Left side of the cubicle in front of the whiteboard. ,Emily. ,Right side of the cubicle near the edge. 

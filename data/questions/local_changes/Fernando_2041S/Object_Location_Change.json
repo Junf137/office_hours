@@ -1,0 +1,377 @@
+{
+    "Q1": {
+        "Type": "Object Location Change",
+        "Change Number": 1,
+        "Initial Video": 0,
+        "Final Video": 1,
+        "Question": "The Frisbee seems to have been moved between these two episodes. Can you tell me where it ended up?",
+        "Multiple Choice": {
+            "A": "Besides PC on the right side of cubical",
+            "B": "Left side of cubical",
+            "C": "Left side of cubical at the back",
+            "D": "On top of PC on the right side of cubical",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q2": {
+        "Type": "Object Location Change",
+        "Change Number": 2,
+        "Initial Video": 0,
+        "Final Video": 1,
+        "Question": "An item shifted from being near the stack of books on the left side of the cubicle to another spot on the left side, further at the back. Which item was it?",
+        "Multiple Choice": {
+            "A": "Frisbee",
+            "B": "Metal water bottle (Brand YETI) / Tumbler water",
+            "C": "Stack of Books",
+            "D": "Backpack",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q3": {
+        "Type": "Object Location Change",
+        "Change Number": 3,
+        "Initial Video": 1,
+        "Final Video": 2,
+        "Question": "Something significant appears to have moved across the cubicle between these scenes. Which of these options accurately describes what happened?",
+        "Multiple Choice": {
+            "A": "The Stack of Books was moved from the left side of the cubicle to the right side, near the keyboard and monitors.",
+            "B": "The Frisbee was moved from the right side of the cubicle to the top of the PC.",
+            "C": "The Metal water bottle was shifted from the back of the cubicle to near the stack of books.",
+            "D": "The Backpack was taken from below the cubicle and placed on the chair.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q4": {
+        "Type": "Object Location Change",
+        "Change Number": 4,
+        "Initial Video": 2,
+        "Final Video": 3,
+        "Question": "The backpack's position changed in the cubicle from being on the ground. What was its new location?",
+        "Multiple Choice": {
+            "A": "Right side of cubical near keyboard and monitors",
+            "B": "Left side below the cubical on the ground",
+            "C": "Left side on top of the cubical",
+            "D": "On the cubical chair",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q5": {
+        "Type": "Object Location Change",
+        "Change Number": 5,
+        "Initial Video": 3,
+        "Final Video": 4,
+        "Question": "An object previously beside the PC on the right side of the cubicle was relocated to on top of the PC. Which object was it?",
+        "Multiple Choice": {
+            "A": "Backpack",
+            "B": "Left side monitor",
+            "C": "Frisbee",
+            "D": "Stack of Books",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q6": {
+        "Type": "Object Location Change",
+        "Change Number": 6,
+        "Initial Video": 3,
+        "Final Video": 4,
+        "Question": "It looks like the backpack was moved again from the top of the cubicle. Where can it be found now?",
+        "Multiple Choice": {
+            "A": "Left side on top of the cubical",
+            "B": "On top of PC on the right side of cubical",
+            "C": "On the cubical chair",
+            "D": "To the center back of the cubical",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q7": {
+        "Type": "Object Location Change",
+        "Change Number": 7,
+        "Initial Video": 3,
+        "Final Video": 4,
+        "Question": "There were a few items rearranged in this transition. What specific change happened involving computer equipment like a monitor?",
+        "Multiple Choice": {
+            "A": "The Frisbee was placed on top of the PC.",
+            "B": "The PC was moved from the right side to the left side of the cubicle.",
+            "C": "The Backpack was placed on the chair.",
+            "D": "The Left side monitor was repositioned from the left side of the cubicle on the back to the center back of the cubicle.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "D"
+    },
+    "Q8": {
+        "Type": "Object Location Change",
+        "Change Number": 8,
+        "Initial Video": 4,
+        "Final Video": 5,
+        "Question": "An object that was on top of the Black PC has been moved to a spot between the monitors. What object are we talking about?",
+        "Multiple Choice": {
+            "A": "Painting",
+            "B": "Frisbee",
+            "C": "Stack of Legos",
+            "D": "Open Book",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q9": {
+        "Type": "Object Location Change",
+        "Change Number": 9,
+        "Initial Video": 5,
+        "Final Video": 6,
+        "Question": "The painting that was on the whiteboard isn't there anymore. Where did it go?",
+        "Multiple Choice": {
+            "A": "It's still on the whiteboard.",
+            "B": "Between the monitors.",
+            "C": "On top of backpack which is on the chair.",
+            "D": "Left side of cubical.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q10": {
+        "Type": "Object Location Change",
+        "Change Number": 10,
+        "Initial Video": 6,
+        "Final Video": 7,
+        "Question": "I noticed a change regarding an item on the right side of the cubicle, near the PCs. What exactly was altered?",
+        "Multiple Choice": {
+            "A": "The Frisbee was moved from the PC to the left side of the cubicle.",
+            "B": "The Stack of Legos previously behind the PC was placed on top of the smaller PC on the right.",
+            "C": "The Wheel was moved from the desk to beside the PC.",
+            "D": "The main PC was swapped with the smaller PC.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q11": {
+        "Type": "Object Location Change",
+        "Change Number": 11,
+        "Initial Video": 7,
+        "Final Video": 8,
+        "Question": "Something on the left side of the cubicle was repositioned further to the back, right against the corner. What item was it?",
+        "Multiple Choice": {
+            "A": "Wheel",
+            "B": "Stack of Legos",
+            "C": "Open Book",
+            "D": "Backpack",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q12": {
+        "Type": "Object Location Change",
+        "Change Number": 12,
+        "Initial Video": 7,
+        "Final Video": 8,
+        "Question": "The Wheel that was near the monitor in the center of the cubicle has been moved. Where is it now located?",
+        "Multiple Choice": {
+            "A": "Left side of the monitor at the center of the cubical",
+            "B": "Left side of cubical right against the corner at the back",
+            "C": "Left side of the cubical at the front edge",
+            "D": "Right side of the cubical at the right side of the PC",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q13": {
+        "Type": "Object Location Change",
+        "Change Number": 13,
+        "Initial Video": 8,
+        "Final Video": 9,
+        "Question": "Looking at the area around the monitors and the front of the cubicle, did any specific object shift its position?",
+        "Multiple Choice": {
+            "A": "The Wheel was moved from the front edge to between the monitors.",
+            "B": "The Frisbee was relocated from between the monitors to the left side of the cubicle, close to the front.",
+            "C": "The Open Book was shifted from the back corner to a spot between the monitors.",
+            "D": "The Left side monitor was moved closer to the front.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q14": {
+        "Type": "Object Location Change",
+        "Change Number": 14,
+        "Initial Video": 9,
+        "Final Video": 10,
+        "Question": "An object moved from the front edge on the left side of the cubicle to the right side, near the PC. Which object are we discussing?",
+        "Multiple Choice": {
+            "A": "Frisbee",
+            "B": "Backpack",
+            "C": "Wheel",
+            "D": "COUP board game / card game box",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q15": {
+        "Type": "Object Location Change",
+        "Change Number": 15,
+        "Initial Video": 10,
+        "Final Video": 11,
+        "Question": "The backpack was moved from the chair. Which of these describes its new location?",
+        "Multiple Choice": {
+            "A": "On the whiteboard",
+            "B": "Right side of cubical near the PC",
+            "C": "On top of the PC",
+            "D": "It was put back below the cubical on the ground.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "E"
+    },
+    "Q16": {
+        "Type": "Object Location Change",
+        "Change Number": 16,
+        "Initial Video": 10,
+        "Final Video": 11,
+        "Question": "Between these episodes, there was a notable rearrangement. What object previously on the left side of the cubicle found a new spot, and where is it now?",
+        "Multiple Choice": {
+            "A": "The Backpack, previously on the chair, was moved to the whiteboard.",
+            "B": "The Frisbee, previously on the left side, was placed on the whiteboard.",
+            "C": "The COUP board game / card game box, previously on the left side of the cubicle, was moved onto the whiteboard.",
+            "D": "The Wheel, previously on the right side, was put on the whiteboard.",
+            "E": "None of the above changes occurred."
+        },
+        "Correct Choice": "C"
+    },
+    "Q17": {
+        "Type": "Object Location Change",
+        "Change Number": 17,
+        "Initial Video": 11,
+        "Final Video": 12,
+        "Question": "The Left side monitor appears to have shifted from its position near the center on the left. What is its new placement in the cubicle?",
+        "Multiple Choice": {
+            "A": "Left side cubical near center",
+            "B": "To the center back of the cubical",
+            "C": "Right side of cubical near center",
+            "D": "On the whiteboard",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q18": {
+        "Type": "Object Location Change",
+        "Change Number": 18,
+        "Initial Video": 12,
+        "Final Video": 13,
+        "Question": "An item that was on the whiteboard has been moved to the left side of the keyboard. Which item is it?",
+        "Multiple Choice": {
+            "A": "Painting",
+            "B": "Green Triceratops Dinosaur Toy",
+            "C": "COUP board game / card game box",
+            "D": "Gian Cow Plush Stuffed Animal",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q19": {
+        "Type": "Object Location Change",
+        "Change Number": 19,
+        "Initial Video": 13,
+        "Final Video": 14,
+        "Question": "There's a change regarding one of the smaller, decorative items. What happened?",
+        "Multiple Choice": {
+            "A": "The Frisbee was moved from the desk to the shelf.",
+            "B": "The Green Triceratops Dinosaur Toy, previously on the left side of the cubicle, was placed on top of one of the monitors.",
+            "C": "The COUP board game box was taken off the keyboard and put back on the whiteboard.",
+            "D": "The Painting was moved from the chair to the desk.",
+            "E": "No small decorative items were moved."
+        },
+        "Correct Choice": "B"
+    },
+    "Q20": {
+        "Type": "Object Location Change",
+        "Change Number": 20,
+        "Initial Video": 14,
+        "Final Video": 15,
+        "Question": "The Gian Cow Plush Stuffed Animal was moved from the cubicle chair. Where can it be found now?",
+        "Multiple Choice": {
+            "A": "It's still on the cubical chair",
+            "B": "On top of the monitor",
+            "C": "to the back of the cubical on left side",
+            "D": "Below the cubical on the right",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q21": {
+        "Type": "Object Location Change",
+        "Change Number": 21,
+        "Initial Video": 15,
+        "Final Video": 16,
+        "Question": "An object that was at the back of the cubicle on the left side has now been placed below the cubicle on the right. What is this object?",
+        "Multiple Choice": {
+            "A": "Open Book",
+            "B": "Gian Cow Plush Stuffed Animal",
+            "C": "Trash bin",
+            "D": "Backpack",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q22": {
+        "Type": "Object Location Change",
+        "Change Number": 22,
+        "Initial Video": 15,
+        "Final Video": 16,
+        "Question": "Several items were rearranged in the cubicle. Which of the following accurately describes a change that occurred?",
+        "Multiple Choice": {
+            "A": "The Gian Cow Plush Stuffed Animal moved from the left side to the cubicle chair.",
+            "B": "The Open Book shifted from the left back corner to the left front edge of the cubicle.",
+            "C": "The Trash bin was moved from under the desk to the top of the PC.",
+            "D": "The Frisbee was taken from the monitor and placed on the left side.",
+            "E": "None of the above accurately describe a change."
+        },
+        "Correct Choice": "B"
+    },
+    "Q23": {
+        "Type": "Object Location Change",
+        "Change Number": 23,
+        "Initial Video": 16,
+        "Final Video": 17,
+        "Question": "The trash bin's location has changed from under the left side of the cubicle. Where is it now?",
+        "Multiple Choice": {
+            "A": "Below the left side of cubical",
+            "B": "Below the cubical on the right",
+            "C": "On top of the chair",
+            "D": "Right side of keyboard",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q24": {
+        "Type": "Object Location Change",
+        "Change Number": 24,
+        "Initial Video": 17,
+        "Final Video": 18,
+        "Question": "A piece of computer hardware, initially on the left side of the PC, was moved to the right side of the keyboard. Which component was it?",
+        "Multiple Choice": {
+            "A": "Left side monitor",
+            "B": "GPU Nvidia RTX 2080 Ti",
+            "C": "Stack of Legos",
+            "D": "Wheel",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q25": {
+        "Type": "Object Location Change",
+        "Change Number": 25,
+        "Initial Video": 18,
+        "Final Video": 19,
+        "Question": "There's been a shift in the cubicle concerning an everyday office item. Which of these statements correctly identifies a change?",
+        "Multiple Choice": {
+            "A": "The GPU Nvidia RTX 2080 Ti was moved from the right side of the keyboard back to the left of the PC.",
+            "B": "The Backpack was taken from the left side of the cubicle and placed on the chair.",
+            "C": "The Trash bin, which was on the chair, was relocated to below the cubical on the right side.",
+            "D": "The Left side monitor was moved to the center of the desk.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "C"
+    }
+}

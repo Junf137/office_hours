@@ -1,0 +1,362 @@
+{
+    "Q1": {
+        "Type": "Object Location Change",
+        "Change Number": 1,
+        "Initial Video": 0,
+        "Final Video": 1,
+        "Question": "The Keyboard appears to have been moved between the scenes. Can you tell me where it is now?",
+        "Multiple Choice": {
+            "A": "On keyboard holder",
+            "B": "In front of the monitor",
+            "C": "Right side beneath cupboard, next to badminton racket",
+            "D": "Near the left whiteboard",
+            "E": "It was removed from the cubicle"
+        },
+        "Correct Choice": "A"
+    },
+    "Q2": {
+        "Type": "Object Location Change",
+        "Change Number": 2,
+        "Initial Video": 0,
+        "Final Video": 1,
+        "Question": "An item that was initially near the left whiteboard has been relocated. What is this item and where did it move?",
+        "Multiple Choice": {
+            "A": "The Green, white Japanese Tea box, to in front of the monitor",
+            "B": "The Keyboard, to the keyboard holder",
+            "C": "The Meta aria black glasses, to the left side of the table",
+            "D": "The 3D printed grey elephant, to the left monitor stand",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q3": {
+        "Type": "Object Location Change",
+        "Change Number": 3,
+        "Initial Video": 1,
+        "Final Video": 2,
+        "Question": "Something was taken out of its case and placed elsewhere in the cubicle. What item are we talking about and what's its new spot?",
+        "Multiple Choice": {
+            "A": "The Meta aria black glasses, now on the left side of the table",
+            "B": "The 3D printed grey elephant, now on the left monitor stand",
+            "C": "The Badminton racket, now leaning upright",
+            "D": "The Keyboard, now on its holder",
+            "E": "No such change occurred"
+        },
+        "Correct Choice": "A"
+    },
+    "Q4": {
+        "Type": "Object Location Change",
+        "Change Number": 4,
+        "Initial Video": 1,
+        "Final Video": 2,
+        "Question": "The 3D printed grey elephant seems to have hopped from one spot to another. Where did it land?",
+        "Multiple Choice": {
+            "A": "On the left monitor stand",
+            "B": "On the right monitor stand",
+            "C": "Leftside on table",
+            "D": "Inside a black case",
+            "E": "It remained in the same place"
+        },
+        "Correct Choice": "A"
+    },
+    "Q5": {
+        "Type": "Object Location Change",
+        "Change Number": 5,
+        "Initial Video": 2,
+        "Final Video": 3,
+        "Question": "An object previously lying on the right side of the table was repositioned. Which object was it?",
+        "Multiple Choice": {
+            "A": "Badminton racket",
+            "B": "Raspberry Pi",
+            "C": "Green mechanical pencil",
+            "D": "Black 3D printed skull",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q6": {
+        "Type": "Object Location Change",
+        "Change Number": 6,
+        "Initial Video": 3,
+        "Final Video": 4,
+        "Question": "I noticed the Raspberry Pi was adjusted. What specifically changed about its location?",
+        "Multiple Choice": {
+            "A": "It was moved closer to the other Raspberry Pi",
+            "B": "It was moved to the left monitor stand",
+            "C": "It was placed near the whiteboard",
+            "D": "It was moved from the right side of the table to the left",
+            "E": "It was not moved"
+        },
+        "Correct Choice": "A"
+    },
+    "Q7": {
+        "Type": "Object Location Change",
+        "Change Number": 7,
+        "Initial Video": 3,
+        "Final Video": 4,
+        "Question": "Focusing on the area around the monitors, did any small items change their position? If so, what was the change?",
+        "Multiple Choice": {
+            "A": "The Green mechanical pencil was moved from near a whiteboard to the left monitor stand",
+            "B": "The Raspberry Pi was moved closer to another Pi",
+            "C": "The Webcam was mounted on a monitor",
+            "D": "The 3D printed grey elephant moved between monitor stands",
+            "E": "No small items near the monitors were moved"
+        },
+        "Correct Choice": "A"
+    },
+    "Q8": {
+        "Type": "Object Location Change",
+        "Change Number": 8,
+        "Initial Video": 4,
+        "Final Video": 5,
+        "Question": "An object moved from the left side of the cubicle, near the wheel, to a new spot. Where is it now?",
+        "Multiple Choice": {
+            "A": "On the keyboard stand next to the keyboard",
+            "B": "Next to the wheel on the left side of the cubicle",
+            "C": "In front of the right whiteboard",
+            "D": "On the chair's right armrest",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q9": {
+        "Type": "Object Location Change",
+        "Change Number": 9,
+        "Initial Video": 5,
+        "Final Video": 6,
+        "Question": "The Champagne flute has been relocated. Can you tell me its new position within the cubicle?",
+        "Multiple Choice": {
+            "A": "Next to the wheel on the left side of the cubicle",
+            "B": "Beside the right monitor",
+            "C": "On the keyboard stand",
+            "D": "On the right side of the monitor",
+            "E": "It was taken out of the cubicle"
+        },
+        "Correct Choice": "A"
+    },
+    "Q10": {
+        "Type": "Object Location Change",
+        "Change Number": 10,
+        "Initial Video": 6,
+        "Final Video": 7,
+        "Question": "There were a couple of adjustments in the cubicle. One involved an item moving between whiteboards, and another involved an item moving on the chair. What moved near the whiteboards?",
+        "Multiple Choice": {
+            "A": "The Hand sanitizer bottle, from in front of the left to in front of the right whiteboard.",
+            "B": "The Goose plushy, from the left armrest to the right armrest.",
+            "C": "A Green whiteboard marker, from one whiteboard to another.",
+            "D": "The Black diary, from one whiteboard to the other.",
+            "E": "No items were moved near the whiteboards."
+        },
+        "Correct Choice": "A"
+    },
+    "Q11": {
+        "Type": "Object Location Change",
+        "Change Number": 11,
+        "Initial Video": 6,
+        "Final Video": 7,
+        "Question": "Something on the chair shifted from one armrest to the other. What item was it?",
+        "Multiple Choice": {
+            "A": "Goose plushy",
+            "B": "Hand sanitizer bottle",
+            "C": "Black diary",
+            "D": "Small white USB to HDMI dongle",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q12": {
+        "Type": "Object Location Change",
+        "Change Number": 12,
+        "Initial Video": 7,
+        "Final Video": 8,
+        "Question": "A small connector or dongle changed its general location from one side of the cubicle to the other. Which item was it and what was the move?",
+        "Multiple Choice": {
+            "A": "The Small white USB to HDMI dongle, from the right side to the left side.",
+            "B": "The Laptop dongle, from the left side to the right side.",
+            "C": "The Green whiteboard marker, from an open diary to the right monitor stand.",
+            "D": "The Raspberry Pi, from the right side towards another Pi.",
+            "E": "No such specific dongle movement occurred."
+        },
+        "Correct Choice": "A"
+    },
+    "Q13": {
+        "Type": "Object Location Change",
+        "Change Number": 13,
+        "Initial Video": 7,
+        "Final Video": 8,
+        "Question": "The Green whiteboard marker was on an open diary. Where was it placed afterwards?",
+        "Multiple Choice": {
+            "A": "On the right monitor stand",
+            "B": "On the open diary on the right side",
+            "C": "On the left side of the cubicle",
+            "D": "Near the left whiteboard",
+            "E": "It was put away"
+        },
+        "Correct Choice": "A"
+    },
+    "Q14": {
+        "Type": "Object Location Change",
+        "Change Number": 14,
+        "Initial Video": 8,
+        "Final Video": 9,
+        "Question": "The Goose plushy, which was on the chair's right armrest, found a new resting place. Where is it now?",
+        "Multiple Choice": {
+            "A": "On top of a grey case",
+            "B": "On the chair's right armrest",
+            "C": "On the chair's left armrest",
+            "D": "On the right monitor stand",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q15": {
+        "Type": "Object Location Change",
+        "Change Number": 15,
+        "Initial Video": 9,
+        "Final Video": 10,
+        "Question": "A piece of computing hardware, along with its packaging, was relocated from one distinct area of the cubicle to another. Can you identify this change?",
+        "Multiple Choice": {
+            "A": "The Jetson Nano board and box, from the right corner to the left side in front of a whiteboard.",
+            "B": "The Raspberry Pi, from the right side of the table to the left side.",
+            "C": "The Laptop, from the left side to on top of a book.",
+            "D": "The Webcam and its box, from the left monitor to the right.",
+            "E": "No such combined hardware and packaging move occurred."
+        },
+        "Correct Choice": "A"
+    },
+    "Q16": {
+        "Type": "Object Location Change",
+        "Change Number": 16,
+        "Initial Video": 10,
+        "Final Video": 11,
+        "Question": "Between these scenes, was there any change to equipment mounted on the monitors? If so, what was it?",
+        "Multiple Choice": {
+            "A": "The Webcam was moved from the top of the left monitor to the top of the right monitor",
+            "B": "The Black diary was moved to beside the right monitor",
+            "C": "A new monitor was added",
+            "D": "The Black 3d printed eiffel tower was placed on a monitor",
+            "E": "No equipment on the monitors was moved"
+        },
+        "Correct Choice": "A"
+    },
+    "Q17": {
+        "Type": "Object Location Change",
+        "Change Number": 17,
+        "Initial Video": 10,
+        "Final Video": 11,
+        "Question": "An item initially on the right side of the cubicle, in front of a whiteboard, was relocated. What was this item and where is it now?",
+        "Multiple Choice": {
+            "A": "The Black diary, now beside the right monitor",
+            "B": "The Webcam, now on top of the right monitor",
+            "C": "The Hand sanitizer bottle, now in front of the right whiteboard",
+            "D": "The Jetson Nano board, now on the left side in front of a whiteboard",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q18": {
+        "Type": "Object Location Change",
+        "Change Number": 18,
+        "Initial Video": 12,
+        "Final Video": 13,
+        "Question": "The 3D printed skull, previously seen beside the keyboard, has been moved. Where can it be found now?",
+        "Multiple Choice": {
+            "A": "On the right side of the cubicle near the corner",
+            "B": "Beside the keyboard",
+            "C": "On the keyboard stand next to the keyboard",
+            "D": "On top of the left monitor",
+            "E": "It was removed"
+        },
+        "Correct Choice": "A"
+    },
+    "Q19": {
+        "Type": "Object Location Change",
+        "Change Number": 19,
+        "Initial Video": 13,
+        "Final Video": 14,
+        "Question": "An object that was on the left monitor stand was shifted to a new position. What was the object and where did it go?",
+        "Multiple Choice": {
+            "A": "The Black 3d printed eiffel tower, to on top of the left monitor",
+            "B": "The 3D printed skull, to the right side of the cubicle",
+            "C": "The Green mechanical pencil, to the left monitor stand",
+            "D": "The Webcam, to the top of the right monitor",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q20": {
+        "Type": "Object Location Change",
+        "Change Number": 20,
+        "Initial Video": 14,
+        "Final Video": 15,
+        "Question": "Considering items like the 'Keyboard' or 'Raspberry Pi', did any of them switch entirely from the left side of the cubicle to the right, or vice-versa, between these two episodes?",
+        "Multiple Choice": {
+            "A": "Yes, the Keyboard moved from the right side to the left side.",
+            "B": "Yes, the Raspberry Pi moved from the right side to the left side.",
+            "C": "Yes, the Small white USB to HDMI dongle moved from the left side to the right side.",
+            "D": "Yes, the Black 3D printed skull moved from the left side to the right side.",
+            "E": "None of the above correctly describes such a movement for the mentioned items in this specific transition."
+        },
+        "Correct Choice": "E"
+    },
+    "Q21": {
+        "Type": "Object Location Change",
+        "Change Number": 21,
+        "Initial Video": 15,
+        "Final Video": 16,
+        "Question": "The Champagne flute has been moved yet again. What is its current placement?",
+        "Multiple Choice": {
+            "A": "On the right side of the monitor",
+            "B": "On the left side of the cubicle",
+            "C": "Next to the wheel on the left side of the cubicle",
+            "D": "Beside the right monitor",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q22": {
+        "Type": "Object Location Change",
+        "Change Number": 22,
+        "Initial Video": 16,
+        "Final Video": 17,
+        "Question": "An item was taken from the left side of the cubicle and placed on the left monitor stand. Which item was this?",
+        "Multiple Choice": {
+            "A": "Black meta aria glasses",
+            "B": "Champagne flute",
+            "C": "Laptop dongle",
+            "D": "Green mechanical pencil",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q23": {
+        "Type": "Object Location Change",
+        "Change Number": 23,
+        "Initial Video": 17,
+        "Final Video": 18,
+        "Question": "The Laptop's position was adjusted. Where is it located now?",
+        "Multiple Choice": {
+            "A": "On top of a blue book",
+            "B": "On the left side of the cubicle",
+            "C": "In front of the left whiteboard",
+            "D": "On the keyboard holder",
+            "E": "It was closed and put away."
+        },
+        "Correct Choice": "A"
+    },
+    "Q24": {
+        "Type": "Object Location Change",
+        "Change Number": 24,
+        "Initial Video": 18,
+        "Final Video": 19,
+        "Question": "Did any decorative items previously on a monitor get repositioned to be on top of other objects on the desk?",
+        "Multiple Choice": {
+            "A": "Yes, the Black 3d printed eiffel tower moved from the top of the left monitor to on top of the laptop.",
+            "B": "Yes, the 3D printed grey elephant moved from a monitor stand to the desk.",
+            "C": "Yes, the Webcam was taken off a monitor and placed on a book.",
+            "D": "No, decorative items on monitors remained in place.",
+            "E": "Yes, the Goose plushy moved from a monitor to the chair."
+        },
+        "Correct Choice": "A"
+    }
+}

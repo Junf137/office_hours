@@ -1,0 +1,377 @@
+{
+    "Q1": {
+        "Type": "Object Detection",
+        "Change Number": 1,
+        "Initial Video": 0,
+        "Final Video": 1,
+        "Question": "The pair of shoes is no longer in the cubicle. Where was it located before it disappeared?",
+        "Multiple Choice": {
+            "A": "Under the table on the right hand side",
+            "B": "Left of cubical, on the table",
+            "C": "Right of the cubical against the wall",
+            "D": "On the chair",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q2": {
+        "Type": "Object Detection",
+        "Change Number": 2,
+        "Initial Video": 1,
+        "Final Video": 2,
+        "Question": "A new item appeared on the table to the left of the cubicle. What was it?",
+        "Multiple Choice": {
+            "A": "glasses box",
+            "B": "lilac craft box",
+            "C": "tea bag",
+            "D": "photo stand",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q3": {
+        "Type": "Object Detection",
+        "Change Number": 3,
+        "Initial Video": 1,
+        "Final Video": 2,
+        "Question": "Were there any new items introduced to the cubicle in these scenes? If so, what was one of them that appeared on the right side against the wall?",
+        "Multiple Choice": {
+            "A": "lilac craft box",
+            "B": "pair of shoes",
+            "C": "tea bag",
+            "D": "photo stand",
+            "E": "No new items fitting that description were introduced."
+        },
+        "Correct Choice": "A"
+    },
+    "Q4": {
+        "Type": "Object Detection",
+        "Change Number": 4,
+        "Initial Video": 2,
+        "Final Video": 3,
+        "Question": "I noticed a tea bag showed up. Can you tell me where it appeared in the cubicle?",
+        "Multiple Choice": {
+            "A": "Middle of cubical, underneath white board",
+            "B": "On the chair",
+            "C": "Under the table on the right hand side",
+            "D": "Left side of table",
+            "E": "None of the above"
+        },
+        "Correct Choice": "E"
+    },
+    "Q5": {
+        "Type": "Object Detection",
+        "Change Number": 5,
+        "Initial Video": 3,
+        "Final Video": 4,
+        "Question": "An object appeared in the middle of the cubicle, underneath the white board. What object was it?",
+        "Multiple Choice": {
+            "A": "photo stand",
+            "B": "green jacket",
+            "C": "yellow hat",
+            "D": "pair of chopsticks",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q6": {
+        "Type": "Object Detection",
+        "Change Number": 6,
+        "Initial Video": 4,
+        "Final Video": 5,
+        "Question": "A green jacket appeared in the cubicle. Where was it placed?",
+        "Multiple Choice": {
+            "A": "On the chair",
+            "B": "On the table",
+            "C": "Left side of table",
+            "D": "Right side of cubical, against the wall",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q7": {
+        "Type": "Object Detection",
+        "Change Number": 7,
+        "Initial Video": 4,
+        "Final Video": 5,
+        "Question": "There was some activity in the cubicle between these two video segments. Can you identify one of the items that was newly introduced?",
+        "Multiple Choice": {
+            "A": "A yellow hat appeared on the table.",
+            "B": "A green jacket disappeared from the chair.",
+            "C": "A pair of shoes appeared under the table.",
+            "D": "A tea bag disappeared from the right side of the table.",
+            "E": "Nothing significant changed."
+        },
+        "Correct Choice": "A"
+    },
+    "Q8": {
+        "Type": "Object Detection",
+        "Change Number": 8,
+        "Initial Video": 5,
+        "Final Video": 6,
+        "Question": "Something new was spotted on the left side of the table. What object appeared there?",
+        "Multiple Choice": {
+            "A": "pair of chopsticks",
+            "B": "sandwich",
+            "C": "headphone",
+            "D": "white jacket",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q9": {
+        "Type": "Object Detection",
+        "Change Number": 9,
+        "Initial Video": 6,
+        "Final Video": 7,
+        "Question": "A sandwich popped up in the scene. Where exactly did it appear?",
+        "Multiple Choice": {
+            "A": "Left side of table",
+            "B": "Right side of cubical, on the table",
+            "C": "On the office chair",
+            "D": "Middle of cubical, underneath white board",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q10": {
+        "Type": "Object Detection",
+        "Change Number": 10,
+        "Initial Video": 6,
+        "Final Video": 7,
+        "Question": "Regarding the headphones that appeared, where were they placed in the cubicle?",
+        "Multiple Choice": {
+            "A": "Right side of cubical, on the table",
+            "B": "Left side of table",
+            "C": "On top of tote bag",
+            "D": "In front of the monitor",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q11": {
+        "Type": "Object Detection",
+        "Change Number": 11,
+        "Initial Video": 7,
+        "Final Video": 8,
+        "Question": "An item of clothing appeared on the office chair. What was it?",
+        "Multiple Choice": {
+            "A": "white jacket",
+            "B": "tote bag",
+            "C": "lip balm",
+            "D": "green jacket",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q12": {
+        "Type": "Object Detection",
+        "Change Number": 12,
+        "Initial Video": 7,
+        "Final Video": 8,
+        "Question": "Between these two video segments, what object-related event occurred on the right side of the cubicle, on the table?",
+        "Multiple Choice": {
+            "A": "A white jacket appeared there.",
+            "B": "A headphone disappeared from there.",
+            "C": "A lip balm appeared there.",
+            "D": "A tote bag disappeared from there.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "E"
+    },
+    "Q13": {
+        "Type": "Object Detection",
+        "Change Number": 13,
+        "Initial Video": 8,
+        "Final Video": 9,
+        "Question": "A lip balm was introduced to the scene. Can you point out its location?",
+        "Multiple Choice": {
+            "A": "Left of cubical, on the table",
+            "B": "Right side of cubical, on the table",
+            "C": "Middle of cubical, underneath white board",
+            "D": "On top of tote bag",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q14": {
+        "Type": "Object Detection",
+        "Change Number": 14,
+        "Initial Video": 8,
+        "Final Video": 9,
+        "Question": "An item appeared on the right side of the cubicle, on the table. What was this newly added object?",
+        "Multiple Choice": {
+            "A": "hand sanitizer",
+            "B": "lip balm",
+            "C": "laptop",
+            "D": "bandana",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q15": {
+        "Type": "Object Detection",
+        "Change Number": 15,
+        "Initial Video": 9,
+        "Final Video": 10,
+        "Question": "A laptop made its appearance in the cubicle. Where was it situated?",
+        "Multiple Choice": {
+            "A": "Middle of cubical, underneath white board",
+            "B": "On top of tote bag",
+            "C": "Right side of cubical, on the table",
+            "D": "Left side of table",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q16": {
+        "Type": "Object Detection",
+        "Change Number": 16,
+        "Initial Video": 10,
+        "Final Video": 11,
+        "Question": "Looking at the changes between these episodes, what specific event involving an object appearing can you identify?",
+        "Multiple Choice": {
+            "A": "A bandana appeared on top of the tote bag.",
+            "B": "A laptop disappeared from the middle of the cubicle.",
+            "C": "A ship in a bottle appeared on the right side of the table.",
+            "D": "A tote bag disappeared from the right side of the cubicle.",
+            "E": "No objects appeared."
+        },
+        "Correct Choice": "A"
+    },
+    "Q17": {
+        "Type": "Object Detection",
+        "Change Number": 17,
+        "Initial Video": 11,
+        "Final Video": 12,
+        "Question": "A decorative item appeared on the right side of the cubicle, on the table. What was this item?",
+        "Multiple Choice": {
+            "A": "ship in a bottle",
+            "B": "laptop",
+            "C": "hair pin",
+            "D": "badminton handle cover",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q18": {
+        "Type": "Object Detection",
+        "Change Number": 18,
+        "Initial Video": 12,
+        "Final Video": 13,
+        "Question": "The laptop vanished from the cubicle. Where was it located before it disappeared?",
+        "Multiple Choice": {
+            "A": "Middle of cubical",
+            "B": "Middle of cubical, underneath white board",
+            "C": "Left side of table",
+            "D": "Right side of cubical, on the table",
+            "E": "It did not disappear."
+        },
+        "Correct Choice": "A"
+    },
+    "Q19": {
+        "Type": "Object Detection",
+        "Change Number": 19,
+        "Initial Video": 14,
+        "Final Video": 15,
+        "Question": "A small personal item showed up on the left side of the table. What was it?",
+        "Multiple Choice": {
+            "A": "hair pin",
+            "B": "badminton handle cover",
+            "C": "standing robot",
+            "D": "red book",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q20": {
+        "Type": "Object Detection",
+        "Change Number": 20,
+        "Initial Video": 14,
+        "Final Video": 15,
+        "Question": "A badminton handle cover was newly observed in the scene. Where did it appear?",
+        "Multiple Choice": {
+            "A": "Right side of cubical, on the table",
+            "B": "Left side of table",
+            "C": "Center of the cubical",
+            "D": "In front of the monitor",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q21": {
+        "Type": "Object Detection",
+        "Change Number": 21,
+        "Initial Video": 15,
+        "Final Video": 16,
+        "Question": "Was there any new decorative or toy-like item added to the cubicle in these episodes? If so, what was it and where did it appear?",
+        "Multiple Choice": {
+            "A": "A standing robot appeared in the center of the cubicle.",
+            "B": "A red book appeared on the left side of the table.",
+            "C": "A ship in a bottle disappeared from the right side of the table.",
+            "D": "A hair pin disappeared from the left side of the table.",
+            "E": "No such items were added."
+        },
+        "Correct Choice": "A"
+    },
+    "Q22": {
+        "Type": "Object Detection",
+        "Change Number": 22,
+        "Initial Video": 16,
+        "Final Video": 17,
+        "Question": "A red book made an appearance in the cubicle. Can you tell me where it was placed?",
+        "Multiple Choice": {
+            "A": "Left side of table",
+            "B": "In front of the monitor",
+            "C": "Middle of the table",
+            "D": "Center of the cubical",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q23": {
+        "Type": "Object Detection",
+        "Change Number": 23,
+        "Initial Video": 17,
+        "Final Video": 18,
+        "Question": "An item commonly used for drinking appeared in front of the monitor. What was it?",
+        "Multiple Choice": {
+            "A": "cup",
+            "B": "hair elastic",
+            "C": "tea bag",
+            "D": "pair of shoes",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q24": {
+        "Type": "Object Detection",
+        "Change Number": 24,
+        "Initial Video": 18,
+        "Final Video": 19,
+        "Question": "Regarding the hair elastic that showed up, where was it found in the cubicle?",
+        "Multiple Choice": {
+            "A": "Left side of table",
+            "B": "Middle of the table",
+            "C": "In front of the monitor",
+            "D": "On the chair",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q25": {
+        "Type": "Object Detection",
+        "Change Number": 25,
+        "Initial Video": 19,
+        "Final Video": 20,
+        "Question": "Towards the end of the observations, did any small item vanish from the table area?",
+        "Multiple Choice": {
+            "A": "Yes, a tea bag disappeared from the middle of the table.",
+            "B": "No, nothing disappeared from the table.",
+            "C": "Yes, a cup disappeared from in front of the monitor.",
+            "D": "Yes, a hair elastic disappeared from the left side of the table.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    }
+}

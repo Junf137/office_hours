@@ -1,0 +1,362 @@
+{
+    "Q1": {
+        "Type": "Object Location Change",
+        "Change Number": 1,
+        "Initial Video": 0,
+        "Final Video": 1,
+        "Question": "I noticed the 'Tooth Paste (Colgate)' wasn't in the same spot. Where did it end up?",
+        "Multiple Choice": {
+            "A": "Very right of desk",
+            "B": "Middle of cubicle, in front of power bar",
+            "C": "Center Left, on right of water bottles",
+            "D": "Far Left, on left of water bottles",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q2": {
+        "Type": "Object Location Change",
+        "Change Number": 2,
+        "Initial Video": 1,
+        "Final Video": 2,
+        "Question": "An 'IPad/Laptop' that was open with its screen and keyboard visible was shifted from its position on the center left, to the right of some water bottles. What's its new position?",
+        "Multiple Choice": {
+            "A": "Far Left, on left of water bottles",
+            "B": "Center Left, on right of water bottles",
+            "C": "Very right of desk",
+            "D": "Center of cubicle",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q3": {
+        "Type": "Object Location Change",
+        "Change Number": 3,
+        "Initial Video": 2,
+        "Final Video": 3,
+        "Question": "The 'Ravensburg Puzzle' box seems to have been moved. What happened to it?",
+        "Multiple Choice": {
+            "A": "It moved from the center-right of the cubicle, in front of the monitor, to the center of the cubicle.",
+            "B": "It moved from the center of the cubicle to the center-right, in front of the monitor.",
+            "C": "It was taken out of the cubicle.",
+            "D": "The Legos were placed on top of it.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q4": {
+        "Type": "Object Location Change",
+        "Change Number": 4,
+        "Initial Video": 3,
+        "Final Video": 4,
+        "Question": "Something previously on the center left of the cubicle was relocated to the far right, in front of a water bottle. Which item are we talking about?",
+        "Multiple Choice": {
+            "A": "Legos",
+            "B": "IPad/Laptop",
+            "C": "Tooth Paste (Colgate)",
+            "D": "Ravensburg Puzzle box",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q5": {
+        "Type": "Object Location Change",
+        "Change Number": 5,
+        "Initial Video": 3,
+        "Final Video": 4,
+        "Question": "It looks like a few things were rearranged in the cubicle. Can you pinpoint one of the changes that occurred?",
+        "Multiple Choice": {
+            "A": "The IPad/Laptop moved from the far left of the cubicle to the center left of the cubicle.",
+            "B": "The Legos moved from the center left to the center of the cubicle.",
+            "C": "The Ravensburg Puzzle box moved to the far right.",
+            "D": "The Tooth Paste was moved from the far left to the center left.",
+            "E": "No items were moved in this episode."
+        },
+        "Correct Choice": "A"
+    },
+    "Q6": {
+        "Type": "Object Location Change",
+        "Change Number": 6,
+        "Initial Video": 4,
+        "Final Video": 5,
+        "Question": "The 'Duracell' pack of batteries has a new spot. Where can it be found now?",
+        "Multiple Choice": {
+            "A": "On the right of the cubicle, right of the computer monitor.",
+            "B": "In the Center Left of the cubicle.",
+            "C": "On the far right of the cubicle, in front of a water bottle.",
+            "D": "In the center of the cubicle.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q7": {
+        "Type": "Object Location Change",
+        "Change Number": 7,
+        "Initial Video": 5,
+        "Final Video": 6,
+        "Question": "The 'Ravensburg Puzzle' game was moved from the center of the cubicle. Where did it go?",
+        "Multiple Choice": {
+            "A": "To the Far Left.",
+            "B": "To the Center of the cubicle.",
+            "C": "To the Right of the cubicle, beside the computer monitor.",
+            "D": "To the Far Right.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q8": {
+        "Type": "Object Location Change",
+        "Change Number": 8,
+        "Initial Video": 6,
+        "Final Video": 7,
+        "Question": "What happened to the 'Butter cookies' metallic box between these scenes?",
+        "Multiple Choice": {
+            "A": "It was moved from the center right, where it was in front of a battery pack, to the center left of the cubicle.",
+            "B": "It was moved from the center left to the center right, in front of a battery pack.",
+            "C": "The Legos were placed inside it.",
+            "D": "It was moved to the Far Left.",
+            "E": "It was not moved."
+        },
+        "Correct Choice": "A"
+    },
+    "Q9": {
+        "Type": "Object Location Change",
+        "Change Number": 9,
+        "Initial Video": 6,
+        "Final Video": 7,
+        "Question": "There was some activity in the cubicle. Which of these accurately describes an object's movement?",
+        "Multiple Choice": {
+            "A": "The Legos were shifted from the far right of the cubicle to the center of the cubicle.",
+            "B": "The Butter cookies box moved from the center of the cubicle to the far right.",
+            "C": "The Ravensburg Puzzle game was moved from the far right to the center.",
+            "D": "Both the Legos and the Butter cookies box were moved to the Far Left.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q10": {
+        "Type": "Object Location Change",
+        "Change Number": 10,
+        "Initial Video": 7,
+        "Final Video": 8,
+        "Question": "A bottle of birdies was initially on the center right, in front of the monitor. Where is it now?",
+        "Multiple Choice": {
+            "A": "On the far right of the cubicle.",
+            "B": "Still on the center right, in front of the monitor.",
+            "C": "In the center left of the cubicle.",
+            "D": "In the center of the cubicle.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q11": {
+        "Type": "Object Location Change",
+        "Change Number": 11,
+        "Initial Video": 8,
+        "Final Video": 9,
+        "Question": "The 'Bottle of birdies' moved again! What's its current location after this most recent shift?",
+        "Multiple Choice": {
+            "A": "On the far right of the cubicle.",
+            "B": "On the center right, in front of the monitor.",
+            "C": "In the center of the cubicle.",
+            "D": "On the far left of the cubicle.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "E"
+    },
+    "Q12": {
+        "Type": "Object Location Change",
+        "Change Number": 12,
+        "Initial Video": 9,
+        "Final Video": 10,
+        "Question": "An item shifted from the far left to the far right of the cubicle. Which item was it?",
+        "Multiple Choice": {
+            "A": "Bottle of Lysol wipes",
+            "B": "Bottle of birdies",
+            "C": "Legos",
+            "D": "Duracell batteries",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q13": {
+        "Type": "Object Location Change",
+        "Change Number": 13,
+        "Initial Video": 10,
+        "Final Video": 11,
+        "Question": "Regarding the 'Bottle of Lysol wipes', what change occurred to its position this time?",
+        "Multiple Choice": {
+            "A": "It moved from the far left of the cubicle to the center of the cubicle.",
+            "B": "It moved from the far right of the cubicle to the center of the cubicle.",
+            "C": "It moved from the center of the cubicle to the far left.",
+            "D": "It was refilled.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q14": {
+        "Type": "Object Location Change",
+        "Change Number": 14,
+        "Initial Video": 11,
+        "Final Video": 12,
+        "Question": "The 'Duracell' batteries, which were on the center right, have been relocated. Where are they now?",
+        "Multiple Choice": {
+            "A": "In the center left of the cubicle.",
+            "B": "Still on the center right.",
+            "C": "On the far right of the cubicle.",
+            "D": "In the center of the cubicle.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q15": {
+        "Type": "Object Location Change",
+        "Change Number": 15,
+        "Initial Video": 12,
+        "Final Video": 13,
+        "Question": "The 'Moisturizer bottle' has been moved. Can you tell me its new spot?",
+        "Multiple Choice": {
+            "A": "Far left.",
+            "B": "Center right.",
+            "C": "Center left of cubicle.",
+            "D": "Center right of cubicle, in front of monitor and keyboard.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q16": {
+        "Type": "Object Location Change",
+        "Change Number": 16,
+        "Initial Video": 12,
+        "Final Video": 13,
+        "Question": "Several items seem to have shifted. Which of the following accurately describes a change that took place?",
+        "Multiple Choice": {
+            "A": "The 'Butter cookies' box moved from the center left of the cubicle to the center right of the cubicle, in front of the monitor and keyboard.",
+            "B": "The Moisturizer bottle moved from the center right to the center of the cubicle.",
+            "C": "The Stapler was moved to the far left.",
+            "D": "Both the Moisturizer bottle and the Butter cookies box moved to the Far Left.",
+            "E": "No items changed their location."
+        },
+        "Correct Choice": "A"
+    },
+    "Q17": {
+        "Type": "Object Location Change",
+        "Change Number": 17,
+        "Initial Video": 13,
+        "Final Video": 14,
+        "Question": "An object was moved from the far right of the cubicle to the center left, in front of the whiteboard. Which object was it?",
+        "Multiple Choice": {
+            "A": "Stapler",
+            "B": "Moisturizer bottle",
+            "C": "Butter cookies box",
+            "D": "Lysol wipes bottle",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q18": {
+        "Type": "Object Location Change",
+        "Change Number": 18,
+        "Initial Video": 13,
+        "Final Video": 14,
+        "Question": "What happened to the 'Moisturizer bottle' in this particular transition?",
+        "Multiple Choice": {
+            "A": "It was moved from the far left to the far right.",
+            "B": "It was moved from the far right to the far left.",
+            "C": "The Stapler was placed on top of it.",
+            "D": "It was moved to the center left, in front of the whiteboard.",
+            "E": "It remained in the same place."
+        },
+        "Correct Choice": "A"
+    },
+    "Q19": {
+        "Type": "Object Location Change",
+        "Change Number": 19,
+        "Initial Video": 14,
+        "Final Video": 15,
+        "Question": "The 'Plant pot with feather' was relocated from the center right. What is its new position?",
+        "Multiple Choice": {
+            "A": "Far left, left of whiteboard.",
+            "B": "Still at the center right.",
+            "C": "In the center of the cubicle.",
+            "D": "On the far right of the cubicle.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q20": {
+        "Type": "Object Location Change",
+        "Change Number": 20,
+        "Initial Video": 15,
+        "Final Video": 16,
+        "Question": "I'm trying to track the 'Bottle of Lysol wipes'. Where did it move to from the center of the cubicle?",
+        "Multiple Choice": {
+            "A": "To the far right of the cubicle.",
+            "B": "To the center of the cubicle.",
+            "C": "To the far left, left of the whiteboard.",
+            "D": "To the center left.",
+            "E": "It was thrown away."
+        },
+        "Correct Choice": "A"
+    },
+    "Q21": {
+        "Type": "Object Location Change",
+        "Change Number": 21,
+        "Initial Video": 16,
+        "Final Video": 17,
+        "Question": "An item previously in the center of the cubicle is now on the far left of the cubicle. Which item are we referring to?",
+        "Multiple Choice": {
+            "A": "Wheel",
+            "B": "Drone",
+            "C": "Plant pot with feather",
+            "D": "Stapler",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q22": {
+        "Type": "Object Location Change",
+        "Change Number": 22,
+        "Initial Video": 17,
+        "Final Video": 18,
+        "Question": "The 'Drone' appears to have shifted. Can you describe its movement?",
+        "Multiple Choice": {
+            "A": "It moved from the center left, on the right side of the whiteboard, to the far left, on the left side of the whiteboard.",
+            "B": "It moved from the far left, on the left side of the whiteboard, to the center left, on the right side of the whiteboard.",
+            "C": "It flew out of the cubicle.",
+            "D": "The Wheel was attached to it.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q23": {
+        "Type": "Object Location Change",
+        "Change Number": 23,
+        "Initial Video": 18,
+        "Final Video": 19,
+        "Question": "The 'Tim Hortons red box' was moved from its spot on the center right, in front of the monitor and keyboard. Where is it now?",
+        "Multiple Choice": {
+            "A": "Center left.",
+            "B": "Still on the center right, in front of the monitor and keyboard.",
+            "C": "Far left, on the left side of the whiteboard.",
+            "D": "Center of the cubicle.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q24": {
+        "Type": "Object Location Change",
+        "Change Number": 24,
+        "Initial Video": 19,
+        "Final Video": 20,
+        "Question": "Looking at the cubicle between these two views, was there any object that changed its position? If so, what was it and how did it move?",
+        "Multiple Choice": {
+            "A": "Yes, the Plant pot with feather moved from the far left to the center.",
+            "B": "Yes, the Red box (tim hortons) moved from the center left to the center right.",
+            "C": "Yes, the Drone moved from the far left to the center.",
+            "D": "No, all objects remained in their original positions.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    }
+}

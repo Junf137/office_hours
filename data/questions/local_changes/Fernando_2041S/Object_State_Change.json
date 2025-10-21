@@ -1,0 +1,377 @@
+{
+    "Q1": {
+        "Type": "Object State Change",
+        "Change Number": 1,
+        "Initial Video": 0,
+        "Final Video": 1,
+        "Question": "It looks like something changed on the whiteboard between the first two scenes. What was it?",
+        "Multiple Choice": {
+            "A": "The name \"Jackson\" was written on it in green.",
+            "B": "It was completely erased.",
+            "C": "The name \"Samuel Jackson\" appeared on it.",
+            "D": "A drawing of a cow appeared on it.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q2": {
+        "Type": "Object State Change",
+        "Change Number": 2,
+        "Initial Video": 1,
+        "Final Video": 2,
+        "Question": "One of the electronic devices in the cubicle was turned on. Which one are we talking about?",
+        "Multiple Choice": {
+            "A": "The Left side Monitor.",
+            "B": "The Right side Monitor.",
+            "C": "The Black PC.",
+            "D": "The Phone.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "B"
+    },
+    "Q3": {
+        "Type": "Object State Change",
+        "Change Number": 3,
+        "Initial Video": 2,
+        "Final Video": 3,
+        "Question": "The COUP board game / card game box seems different now. What happened to it?",
+        "Multiple Choice": {
+            "A": "It was closed.",
+            "B": "It was opened, showing the cards inside.",
+            "C": "It was moved to the top of the Black PC.",
+            "D": "It was flipped upside down.",
+            "E": "All of the above."
+        },
+        "Correct Choice": "B"
+    },
+    "Q4": {
+        "Type": "Object State Change",
+        "Change Number": 4,
+        "Initial Video": 2,
+        "Final Video": 3,
+        "Question": "What was the change concerning the Right side Monitor during this interval?",
+        "Multiple Choice": {
+            "A": "It was turned on.",
+            "B": "Its background changed from Ubuntu to a blank screen.",
+            "C": "It was turned off.",
+            "D": "It switched to showing a Windows background.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "C"
+    },
+    "Q5": {
+        "Type": "Object State Change",
+        "Change Number": 5,
+        "Initial Video": 3,
+        "Final Video": 4,
+        "Question": "A book in the cubicle was opened. Can you tell me which one?",
+        "Multiple Choice": {
+            "A": "The \"Modern Engineering Matematics Book\".",
+            "B": "A generic notebook.",
+            "C": "The \"White book titled \\\"Linear Algebra\\\"\".",
+            "D": "The Hard-shell Pecil Case.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "C"
+    },
+    "Q6": {
+        "Type": "Object State Change",
+        "Change Number": 6,
+        "Initial Video": 3,
+        "Final Video": 4,
+        "Question": "Between these two clips, an item that was previously open is now closed. What item is it?",
+        "Multiple Choice": {
+            "A": "The Hard-shell Pecil Case.",
+            "B": "The \"White book titled \\\"Linear Algebra\\\"\".",
+            "C": "The COUP board game / card game box.",
+            "D": "The Bottom Left side drawer.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "C"
+    },
+    "Q7": {
+        "Type": "Object State Change",
+        "Change Number": 7,
+        "Initial Video": 4,
+        "Final Video": 5,
+        "Question": "The Trash Bin's state has changed. How so?",
+        "Multiple Choice": {
+            "A": "It went from empty to full.",
+            "B": "It was moved to a different location.",
+            "C": "A lid was placed on it while it was full.",
+            "D": "More trash was added to it, making it overflow.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "E"
+    },
+    "Q8": {
+        "Type": "Object State Change",
+        "Change Number": 8,
+        "Initial Video": 5,
+        "Final Video": 6,
+        "Question": "The Black PC or Computer, which was on with its GPU glowing and fan spinning, underwent a change. What is its current state?",
+        "Multiple Choice": {
+            "A": "It's still on, but the GPU is no longer glowing.",
+            "B": "It has been turned off.",
+            "C": "It was put into sleep mode.",
+            "D": "It was turned on from an off state.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "B"
+    },
+    "Q9": {
+        "Type": "Object State Change",
+        "Change Number": 9,
+        "Initial Video": 5,
+        "Final Video": 6,
+        "Question": "A book was found open, though it was closed before. Which book are we referring to?",
+        "Multiple Choice": {
+            "A": "The \"White book titled \\\"Linear Algebra\\\"\".",
+            "B": "The \"Modern Engineering Matematics Book\".",
+            "C": "The COUP board game / card game box.",
+            "D": "A generic \"Book\".",
+            "E": "All of the above."
+        },
+        "Correct Choice": "B"
+    },
+    "Q10": {
+        "Type": "Object State Change",
+        "Change Number": 10,
+        "Initial Video": 6,
+        "Final Video": 7,
+        "Question": "How did the Phone's screen change during this segment?",
+        "Multiple Choice": {
+            "A": "It went from on to off.",
+            "B": "It remained off.",
+            "C": "It went from off (black screen) to on.",
+            "D": "Its screen cracked.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "C"
+    },
+    "Q11": {
+        "Type": "Object State Change",
+        "Change Number": 11,
+        "Initial Video": 7,
+        "Final Video": 8,
+        "Question": "A small electronic device that was previously on is now off. Which device is it?",
+        "Multiple Choice": {
+            "A": "The Right side Monitor.",
+            "B": "The Phone.",
+            "C": "The Black PC or Computer.",
+            "D": "The Left side Monitor.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "B"
+    },
+    "Q12": {
+        "Type": "Object State Change",
+        "Change Number": 12,
+        "Initial Video": 8,
+        "Final Video": 9,
+        "Question": "The Black PC or Computer, which was previously off, is now on. Which of the following describes its current ON state?",
+        "Multiple Choice": {
+            "A": "The GPU is glowing.",
+            "B": "The fan is spinning.",
+            "C": "It is actively powered on and showing the GPU glowing and fan spinning.",
+            "D": "All of the above.",
+            "E": "It is on but the screen remains black."
+        },
+        "Correct Choice": "D"
+    },
+    "Q13": {
+        "Type": "Object State Change",
+        "Change Number": 13,
+        "Initial Video": 8,
+        "Final Video": 9,
+        "Question": "The whiteboard had 'Jackson' written in green on it. What does it look like now?",
+        "Multiple Choice": {
+            "A": "It still has 'Jackson' written, but in a different color.",
+            "B": "It is now blank.",
+            "C": "It now says 'Samuel Jackson'.",
+            "D": "More text was added below 'Jackson'.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "B"
+    },
+    "Q14": {
+        "Type": "Object State Change",
+        "Change Number": 14,
+        "Initial Video": 9,
+        "Final Video": 10,
+        "Question": "One of the objects in the scene was flipped over. Which object was it?",
+        "Multiple Choice": {
+            "A": "The Gian Cow Plush Stuffed Animal.",
+            "B": "The Frisbee.",
+            "C": "The \"White book titled \\\"Linear Algebra\\\"\".",
+            "D": "The COUP board game / card game box.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "B"
+    },
+    "Q15": {
+        "Type": "Object State Change",
+        "Change Number": 15,
+        "Initial Video": 10,
+        "Final Video": 11,
+        "Question": "The Hard-shell Pecil Case underwent a transformation. Which of these describes what happened?",
+        "Multiple Choice": {
+            "A": "It was closed more securely.",
+            "B": "Its contents were emptied out while it remained closed.",
+            "C": "It was moved from the desk to a drawer.",
+            "D": "It was turned upside down.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "E"
+    },
+    "Q16": {
+        "Type": "Object State Change",
+        "Change Number": 16,
+        "Initial Video": 11,
+        "Final Video": 12,
+        "Question": "The Stack of Legos was previously a flat structure. How has it been reconfigured?",
+        "Multiple Choice": {
+            "A": "It was built into a tall tower.",
+            "B": "The new structure has a wide base.",
+            "C": "It is no longer a flat structure.",
+            "D": "All of the above.",
+            "E": "It was dismantled into individual Lego pieces."
+        },
+        "Correct Choice": "D"
+    },
+    "Q17": {
+        "Type": "Object State Change",
+        "Change Number": 17,
+        "Initial Video": 12,
+        "Final Video": 13,
+        "Question": "A monitor which was previously off is now displaying an image. Which monitor is this?",
+        "Multiple Choice": {
+            "A": "The Right side Monitor.",
+            "B": "The screen of the Black PC or Computer itself.",
+            "C": "The Left side Monitor.",
+            "D": "The Phone's screen.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "C"
+    },
+    "Q18": {
+        "Type": "Object State Change",
+        "Change Number": 18,
+        "Initial Video": 13,
+        "Final Video": 14,
+        "Question": "The Gian Cow Plush Stuffed Animal's orientation changed. How is it positioned now?",
+        "Multiple Choice": {
+            "A": "It is still upright.",
+            "B": "It is now upside down.",
+            "C": "It is lying on its side.",
+            "D": "It has been propped up against the monitor.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "B"
+    },
+    "Q19": {
+        "Type": "Object State Change",
+        "Change Number": 19,
+        "Initial Video": 13,
+        "Final Video": 14,
+        "Question": "A construction made of blocks underwent a modification, resulting in an increase in its major structural elements. What specifically changed?",
+        "Multiple Choice": {
+            "A": "The Stack of Legos changed from a flat structure to one tower.",
+            "B": "The Stack of Legos changed from having one tower to two towers.",
+            "C": "The Stack of Legos was dismantled into loose pieces.",
+            "D": "A single Lego tower became taller.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "B"
+    },
+    "Q20": {
+        "Type": "Object State Change",
+        "Change Number": 20,
+        "Initial Video": 14,
+        "Final Video": 15,
+        "Question": "An item that was open is now closed. Which item is it?",
+        "Multiple Choice": {
+            "A": "The \"White book titled \\\"Linear Algebra\\\"\".",
+            "B": "The Bottom Left side drawer.",
+            "C": "The Hard-shell Pecil Case.",
+            "D": "The COUP board game / card game box.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "C"
+    },
+    "Q21": {
+        "Type": "Object State Change",
+        "Change Number": 21,
+        "Initial Video": 15,
+        "Final Video": 16,
+        "Question": "What change occurred with the Bottom Left side drawer?",
+        "Multiple Choice": {
+            "A": "It was closed.",
+            "B": "It was opened.",
+            "C": "It was removed entirely.",
+            "D": "Its contents were reorganized.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "B"
+    },
+    "Q22": {
+        "Type": "Object State Change",
+        "Change Number": 22,
+        "Initial Video": 16,
+        "Final Video": 17,
+        "Question": "There's a book that was open and is now closed. Can you identify which specific book this refers to based on the records?",
+        "Multiple Choice": {
+            "A": "The \"White book titled \\\"Linear Algebra\\\"\".",
+            "B": "The \"Modern Engineering Matematics Book\".",
+            "C": "A generic \"Book\".",
+            "D": "The Hard-shell Pecil Case.",
+            "E": "All books in the scene were closed."
+        },
+        "Correct Choice": "C"
+    },
+    "Q23": {
+        "Type": "Object State Change",
+        "Change Number": 23,
+        "Initial Video": 17,
+        "Final Video": 18,
+        "Question": "The whiteboard's surface changed again after being blank. What new information, if any, is visible on it now?",
+        "Multiple Choice": {
+            "A": "It has \"Jackson\" written in green.",
+            "B": "It is still blank.",
+            "C": "It now says \"Samuel Jackson\".",
+            "D": "A complex diagram was drawn on it.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "C"
+    },
+    "Q24": {
+        "Type": "Object State Change",
+        "Change Number": 24,
+        "Initial Video": 17,
+        "Final Video": 18,
+        "Question": "A drawer that was open has now been closed. Which drawer is it?",
+        "Multiple Choice": {
+            "A": "The Middle right side drawer.",
+            "B": "The Hard-shell Pecil Case.",
+            "C": "The Bottom Left side drawer.",
+            "D": "The \"White book titled \\\"Linear Algebra\\\"\".",
+            "E": "None of the above."
+        },
+        "Correct Choice": "C"
+    },
+    "Q25": {
+        "Type": "Object State Change",
+        "Change Number": 25,
+        "Initial Video": 18,
+        "Final Video": 19,
+        "Question": "Observe the changes in the cubicle. Did any storage compartment alter its state from closed to open in this last interval?",
+        "Multiple Choice": {
+            "A": "The Bottom Left side drawer was opened.",
+            "B": "The Middle right side drawer was opened.",
+            "C": "The COUP board game / card game box was opened.",
+            "D": "The Hard-shell Pecil Case was opened.",
+            "E": "No such change occurred for a storage compartment."
+        },
+        "Correct Choice": "B"
+    }
+}

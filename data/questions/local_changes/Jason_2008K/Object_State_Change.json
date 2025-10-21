@@ -1,0 +1,407 @@
+{
+    "Q1": {
+        "Type": "Object State Change",
+        "Change Number": 1,
+        "Initial Video": 0,
+        "Final Video": 1,
+        "Question": "Was there a change in how any object was oriented or set up between the episodes? If yes, what was one such key change?",
+        "Multiple Choice": {
+            "A": "The Bike helmet went from upside down to right side up.",
+            "B": "The Textbook remained closed.",
+            "C": "The Goose plush was seated up from a lying position.",
+            "D": "The Catan box was opened.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q2": {
+        "Type": "Object State Change",
+        "Change Number": 2,
+        "Initial Video": 0,
+        "Final Video": 1,
+        "Question": "An object that was previously closed is now open. Which object are we talking about?",
+        "Multiple Choice": {
+            "A": "Catan",
+            "B": "Textbook",
+            "C": "Black tea box",
+            "D": "Jeans",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q3": {
+        "Type": "Object State Change",
+        "Change Number": 3,
+        "Initial Video": 1,
+        "Final Video": 2,
+        "Question": "Looking at the scene, did any object change how it was positioned or set? If so, what was one such change?",
+        "Multiple Choice": {
+            "A": "The Goose plush went from lying down to seated up.",
+            "B": "The Catan box was closed.",
+            "C": "The Goose plush went from seated up to lying down.",
+            "D": "The Textbook was opened.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q4": {
+        "Type": "Object State Change",
+        "Change Number": 4,
+        "Initial Video": 2,
+        "Final Video": 3,
+        "Question": "What alteration to an object's condition was observed in the cubicle?",
+        "Multiple Choice": {
+            "A": "The Catan box was opened.",
+            "B": "The Jeans were folded.",
+            "C": "The Painting was turned to face away.",
+            "D": "The Goose plush was laid down.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q5": {
+        "Type": "Object State Change",
+        "Change Number": 5,
+        "Initial Video": 3,
+        "Final Video": 4,
+        "Question": "An item in the cubicle was initially folded and is now unfolded. Can you identify this item?",
+        "Multiple Choice": {
+            "A": "Textbook",
+            "B": "Painting",
+            "C": "Goose plush",
+            "D": "Bike helmet",
+            "E": "None of the above"
+        },
+        "Correct Choice": "E"
+    },
+    "Q6": {
+        "Type": "Object State Change",
+        "Change Number": 6,
+        "Initial Video": 3,
+        "Final Video": 4,
+        "Question": "Did the scene reveal any adjustments to how objects were facing or displayed? If so, what specific change relating to an object's orientation can you identify?",
+        "Multiple Choice": {
+            "A": "The Painting was turned from facing towards to facing away.",
+            "B": "The Jeans were folded.",
+            "C": "The Bike helmet was turned upside down.",
+            "D": "The Catan box was closed.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q7": {
+        "Type": "Object State Change",
+        "Change Number": 7,
+        "Initial Video": 4,
+        "Final Video": 5,
+        "Question": "An item that was lying down is now seated up. Which item are we referring to?",
+        "Multiple Choice": {
+            "A": "Small bust",
+            "B": "Goose plush",
+            "C": "Textbook",
+            "D": "Catan",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q8": {
+        "Type": "Object State Change",
+        "Change Number": 8,
+        "Initial Video": 5,
+        "Final Video": 6,
+        "Question": "Considering the changes between the two scenes, what specific alteration to an object's state occurred?",
+        "Multiple Choice": {
+            "A": "The Catan box was changed from closed to open.",
+            "B": "The Textbook in the scene was opened.",
+            "C": "The Jeans on the chair were unfolded.",
+            "D": "The Goose plush was adjusted from a lying to a seated position.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "E"
+    },
+    "Q9": {
+        "Type": "Object State Change",
+        "Change Number": 9,
+        "Initial Video": 6,
+        "Final Video": 7,
+        "Question": "The goose plush seems to have been reoriented. What happened to it?",
+        "Multiple Choice": {
+            "A": "It went from facing away to facing towards.",
+            "B": "It went from seated up to lying down.",
+            "C": "It went from facing towards to facing away.",
+            "D": "It was turned upside down.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q10": {
+        "Type": "Object State Change",
+        "Change Number": 10,
+        "Initial Video": 7,
+        "Final Video": 8,
+        "Question": "An object transitioned from an open state to a closed state. Which object was it?",
+        "Multiple Choice": {
+            "A": "Catan",
+            "B": "Black tea box",
+            "C": "Textbook",
+            "D": "Almond can",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q11": {
+        "Type": "Object State Change",
+        "Change Number": 11,
+        "Initial Video": 7,
+        "Final Video": 8,
+        "Question": "There's been a change with the painting. How was its orientation altered?",
+        "Multiple Choice": {
+            "A": "It went from facing towards to facing away.",
+            "B": "It went from facing away to facing towards.",
+            "C": "It was turned upside down.",
+            "D": "It went from upside down to right side up.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q12": {
+        "Type": "Object State Change",
+        "Change Number": 12,
+        "Initial Video": 8,
+        "Final Video": 9,
+        "Question": "Between the two scenes, was there a noticeable alteration in how any object was placed or oriented? If so, what was it?",
+        "Multiple Choice": {
+            "A": "The Catan box was opened.",
+            "B": "The Catan box went from facing up to facing down.",
+            "C": "The Deck of cards went from logo up to logo down.",
+            "D": "The Painting was turned to face towards the camera.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q13": {
+        "Type": "Object State Change",
+        "Change Number": 13,
+        "Initial Video": 9,
+        "Final Video": 10,
+        "Question": "The badminton racket's handle was repositioned. What was the change?",
+        "Multiple Choice": {
+            "A": "It changed from handle towards to handle away.",
+            "B": "It changed from handle away to handle towards.",
+            "C": "It was flipped from normal to upside down.",
+            "D": "It was disassembled.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q14": {
+        "Type": "Object State Change",
+        "Change Number": 14,
+        "Initial Video": 10,
+        "Final Video": 11,
+        "Question": "An item that was unfolded is now folded. Which item is this?",
+        "Multiple Choice": {
+            "A": "Textbook",
+            "B": "Painting",
+            "C": "Jeans",
+            "D": "Goose plush",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q15": {
+        "Type": "Object State Change",
+        "Change Number": 15,
+        "Initial Video": 11,
+        "Final Video": 12,
+        "Question": "I noticed a change with the mug. What exactly happened to it?",
+        "Multiple Choice": {
+            "A": "It went from upside down to right side up.",
+            "B": "It was moved from the desk to the shelf.",
+            "C": "It was closed.",
+            "D": "It was filled with a beverage.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "E"
+    },
+    "Q16": {
+        "Type": "Object State Change",
+        "Change Number": 16,
+        "Initial Video": 11,
+        "Final Video": 12,
+        "Question": "Considering the objects, what specific change in an object's state can you identify from this interval?",
+        "Multiple Choice": {
+            "A": "The Mug was turned right side up.",
+            "B": "The Small bust went from lying down to right side up.",
+            "C": "The Small bust went from right side up to lying down.",
+            "D": "The Goose plush was seated up.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q17": {
+        "Type": "Object State Change",
+        "Change Number": 17,
+        "Initial Video": 12,
+        "Final Video": 13,
+        "Question": "The deck of cards seems different. How was its orientation changed?",
+        "Multiple Choice": {
+            "A": "It was opened.",
+            "B": "It went from logo down to logo up.",
+            "C": "It went from logo up to logo down.",
+            "D": "It was closed.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q18": {
+        "Type": "Object State Change",
+        "Change Number": 18,
+        "Initial Video": 13,
+        "Final Video": 14,
+        "Question": "An object that was right side up is now upside down. Which object underwent this change?",
+        "Multiple Choice": {
+            "A": "Mug",
+            "B": "Bike helmet",
+            "C": "Painting",
+            "D": "Poster",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q19": {
+        "Type": "Object State Change",
+        "Change Number": 19,
+        "Initial Video": 14,
+        "Final Video": 15,
+        "Question": "Were there any changes to the state of containers or boxes? If so, what happened?",
+        "Multiple Choice": {
+            "A": "The Catan box was closed.",
+            "B": "The Black tea box went from open to closed.",
+            "C": "The Black tea box went from closed to open.",
+            "D": "The Almond can was closed.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q20": {
+        "Type": "Object State Change",
+        "Change Number": 20,
+        "Initial Video": 15,
+        "Final Video": 16,
+        "Question": "The textbook's state has been altered. How is it positioned now compared to before?",
+        "Multiple Choice": {
+            "A": "It went from standing up to lying down.",
+            "B": "It went from closed to open.",
+            "C": "It went from lying down to standing up.",
+            "D": "It went from open to closed.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q21": {
+        "Type": "Object State Change",
+        "Change Number": 21,
+        "Initial Video": 15,
+        "Final Video": 16,
+        "Question": "An item changed from a sitting up position to lying down. Which item was it?",
+        "Multiple Choice": {
+            "A": "Small bust",
+            "B": "Goose plush",
+            "C": "Bike helmet",
+            "D": "Textbook",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q22": {
+        "Type": "Object State Change",
+        "Change Number": 22,
+        "Initial Video": 16,
+        "Final Video": 17,
+        "Question": "What adjustment was made to the mug's orientation?",
+        "Multiple Choice": {
+            "A": "It went from right side up to upside down.",
+            "B": "It was laid on its side.",
+            "C": "It went from upside down to right side up.",
+            "D": "It was polished.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q23": {
+        "Type": "Object State Change",
+        "Change Number": 23,
+        "Initial Video": 17,
+        "Final Video": 18,
+        "Question": "An object that was open is now closed. Which object are we talking about?",
+        "Multiple Choice": {
+            "A": "Textbook",
+            "B": "Catan",
+            "C": "Black tea box",
+            "D": "Almond can",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q24": {
+        "Type": "Object State Change",
+        "Change Number": 24,
+        "Initial Video": 18,
+        "Final Video": 19,
+        "Question": "The almond can has been interacted with. What is its current state compared to its initial state?",
+        "Multiple Choice": {
+            "A": "It went from open to closed.",
+            "B": "It was moved from the shelf to the desk.",
+            "C": "It went from closed to open.",
+            "D": "It was turned upside down.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q25": {
+        "Type": "Object State Change",
+        "Change Number": 25,
+        "Initial Video": 19,
+        "Final Video": 20,
+        "Question": "Describe a distinct change in an object's physical state or configuration that occurred.",
+        "Multiple Choice": {
+            "A": "The Badminton racket's handle was pointed towards the viewer.",
+            "B": "The Badminton racket went from a flipped position to normal.",
+            "C": "The Badminton racket went from its normal orientation to being flipped.",
+            "D": "The Poster remained right side up.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q26": {
+        "Type": "Object State Change",
+        "Change Number": 26,
+        "Initial Video": 19,
+        "Final Video": 20,
+        "Question": "An item that was initially right side up is now upside down. What is this item?",
+        "Multiple Choice": {
+            "A": "Painting",
+            "B": "Mug",
+            "C": "Poster",
+            "D": "Bike helmet",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q27": {
+        "Type": "Object State Change",
+        "Change Number": 27,
+        "Initial Video": 20,
+        "Final Video": 21,
+        "Question": "The painting's orientation has changed again. What is its current state relative to its prior one?",
+        "Multiple Choice": {
+            "A": "It is now facing away.",
+            "B": "It went from right side up to upside down.",
+            "C": "It went from upside down to right side up.",
+            "D": "It is now folded.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    }
+}

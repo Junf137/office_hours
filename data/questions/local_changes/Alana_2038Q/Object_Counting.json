@@ -1,0 +1,377 @@
+{
+    "Q1": {
+        "Type": "Object Counting",
+        "Change Number": 1,
+        "Initial Video": 0,
+        "Final Video": 1,
+        "Question": "It appears the quantity of an item increased between the first two scenes. Which item saw its count go up, and what were the initial and final numbers?",
+        "Multiple Choice": {
+            "A": "Pencils, increased from 3 to 4.",
+            "B": "Board erasers, decreased from 2 to 1.",
+            "C": "Pencils, increased from 2 to 3.",
+            "D": "Keyboards, increased from 1 to 2.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q2": {
+        "Type": "Object Counting",
+        "Change Number": 2,
+        "Initial Video": 0,
+        "Final Video": 1,
+        "Question": "Between the first and second scene, there was a change involving board erasers. What exactly happened to their quantity?",
+        "Multiple Choice": {
+            "A": "One board eraser was removed.",
+            "B": "One board eraser was added, changing the count from 1 to 2.",
+            "C": "The number of board erasers doubled from 2 to 4.",
+            "D": "The number of pencils also increased in this episode.",
+            "E": "No change occurred with board erasers."
+        },
+        "Correct Choice": "B"
+    },
+    "Q3": {
+        "Type": "Object Counting",
+        "Change Number": 3,
+        "Initial Video": 1,
+        "Final Video": 2,
+        "Question": "How did the count of board erasers change between these two episodes?",
+        "Multiple Choice": {
+            "A": "Increased from 2 to 3.",
+            "B": "Decreased from 3 to 2.",
+            "C": "Increased from 1 to 2.",
+            "D": "Their count remained at 2.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q4": {
+        "Type": "Object Counting",
+        "Change Number": 4,
+        "Initial Video": 2,
+        "Final Video": 3,
+        "Question": "Looking at these two views of the cubicle, did the number of any items change? If so, can you tell me what happened?",
+        "Multiple Choice": {
+            "A": "Yes, a keyboard was removed.",
+            "B": "Yes, an additional keyboard appeared, making the total 2.",
+            "C": "Yes, the number of posters decreased.",
+            "D": "No, all item counts remained the same.",
+            "E": "Yes, two keyboards were added."
+        },
+        "Correct Choice": "B"
+    },
+    "Q5": {
+        "Type": "Object Counting",
+        "Change Number": 5,
+        "Initial Video": 3,
+        "Final Video": 4,
+        "Question": "One type of item became more numerous in this transition. Which item are we observing, and how did its quantity change?",
+        "Multiple Choice": {
+            "A": "Markers, increased from 2 to 3.",
+            "B": "Posters, increased from 2 to 3.",
+            "C": "Keyboards, decreased from 2 to 1.",
+            "D": "Posters, increased from 1 to 2.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q6": {
+        "Type": "Object Counting",
+        "Change Number": 6,
+        "Initial Video": 4,
+        "Final Video": 5,
+        "Question": "There's a change in the quantity of markers. Can you describe this change?",
+        "Multiple Choice": {
+            "A": "The number of markers doubled, from 2 to 4.",
+            "B": "The number of markers halved, from 4 to 2.",
+            "C": "One marker was added.",
+            "D": "The number of tea bags increased.",
+            "E": "The number of markers remained unchanged."
+        },
+        "Correct Choice": "A"
+    },
+    "Q7": {
+        "Type": "Object Counting",
+        "Change Number": 7,
+        "Initial Video": 5,
+        "Final Video": 6,
+        "Question": "What adjustment was made to the number of tea bags between these scenes?",
+        "Multiple Choice": {
+            "A": "The count increased from 1 to 3.",
+            "B": "The count decreased from 3 to 1.",
+            "C": "The count increased from 1 to 2.",
+            "D": "The count remained at 1.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q8": {
+        "Type": "Object Counting",
+        "Change Number": 8,
+        "Initial Video": 6,
+        "Final Video": 7,
+        "Question": "The quantity of an item went up. Which item was it, and how did its count change?",
+        "Multiple Choice": {
+            "A": "Chopsticks, from 1 to 3.",
+            "B": "Markers, from 2 to 4.",
+            "C": "Chopsticks, from 1 to 2.",
+            "D": "Tea bags, from 1 to 3.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q9": {
+        "Type": "Object Counting",
+        "Change Number": 9,
+        "Initial Video": 7,
+        "Final Video": 8,
+        "Question": "It seems the number of chopsticks has changed again. What's the latest update on their count?",
+        "Multiple Choice": {
+            "A": "They increased from 3 to 4.",
+            "B": "They decreased from 4 to 3.",
+            "C": "They remained at 3.",
+            "D": "They increased from 1 to 3.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q10": {
+        "Type": "Object Counting",
+        "Change Number": 10,
+        "Initial Video": 8,
+        "Final Video": 9,
+        "Question": "What change occurred to the quantity of markers between these two scenes?",
+        "Multiple Choice": {
+            "A": "The number of markers increased from 3 to 4.",
+            "B": "Two markers were added.",
+            "C": "The number of markers remained at 4.",
+            "D": "The number of markers decreased from 4 to 2.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "E"
+    },
+    "Q11": {
+        "Type": "Object Counting",
+        "Change Number": 11,
+        "Initial Video": 9,
+        "Final Video": 10,
+        "Question": "What can you tell me about the chopsticks count between these two video segments?",
+        "Multiple Choice": {
+            "A": "All chopsticks were removed, count changed from 4 to 0.",
+            "B": "The number of chopsticks decreased from 4 to 1.",
+            "C": "The number of markers also decreased in this episode.",
+            "D": "One chopstick was removed.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q12": {
+        "Type": "Object Counting",
+        "Change Number": 12,
+        "Initial Video": 9,
+        "Final Video": 10,
+        "Question": "An item's quantity was reduced. Which item are we referring to, and what was its new count compared to its old one?",
+        "Multiple Choice": {
+            "A": "Chopsticks, new count 0 from 4.",
+            "B": "Markers, new count 2 from 3.",
+            "C": "Markers, new count 1 from 3.",
+            "D": "Pencils, new count 3 from 4.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q13": {
+        "Type": "Object Counting",
+        "Change Number": 13,
+        "Initial Video": 10,
+        "Final Video": 11,
+        "Question": "How did the number of pencils change from one scene to the next?",
+        "Multiple Choice": {
+            "A": "Decreased from 4 to 1.",
+            "B": "Increased from 1 to 4.",
+            "C": "Decreased from 4 to 3.",
+            "D": "Stayed the same at 4.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q14": {
+        "Type": "Object Counting",
+        "Change Number": 14,
+        "Initial Video": 10,
+        "Final Video": 11,
+        "Question": "Were there any adjustments to the quantities of items in the cubicle between these two views? If so, what's one specific change you noticed concerning board erasers?",
+        "Multiple Choice": {
+            "A": "Yes, the number of pencils increased.",
+            "B": "Yes, one board eraser was removed, count changed from 3 to 2.",
+            "C": "Yes, a keyboard was added.",
+            "D": "No, all item counts remained stable.",
+            "E": "Yes, all board erasers were removed."
+        },
+        "Correct Choice": "B"
+    },
+    "Q15": {
+        "Type": "Object Counting",
+        "Change Number": 15,
+        "Initial Video": 12,
+        "Final Video": 13,
+        "Question": "What happened to the keyboards in the cubicle during this interval?",
+        "Multiple Choice": {
+            "A": "One keyboard was added, making it 2.",
+            "B": "One keyboard was removed, leaving 1.",
+            "C": "The number of keyboards remained at 2.",
+            "D": "All keyboards were removed.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q16": {
+        "Type": "Object Counting",
+        "Change Number": 16,
+        "Initial Video": 12,
+        "Final Video": 13,
+        "Question": "The count of an item dropped. Which item was it, and what was the change in its quantity?",
+        "Multiple Choice": {
+            "A": "Keyboard, final count 1 from 2.",
+            "B": "Tea bags, final count 1 from 3.",
+            "C": "Tea bags, final count 2 from 3.",
+            "D": "Pencils, final count 1 from 4.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q17": {
+        "Type": "Object Counting",
+        "Change Number": 17,
+        "Initial Video": 13,
+        "Final Video": 14,
+        "Question": "How did the quantity of board erasers change between these two points in time?",
+        "Multiple Choice": {
+            "A": "Increased from 1 to 2.",
+            "B": "Decreased from 2 to 0 (all removed).",
+            "C": "Two board erasers were added.",
+            "D": "The count remained at 2.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "E"
+    },
+    "Q18": {
+        "Type": "Object Counting",
+        "Change Number": 18,
+        "Initial Video": 14,
+        "Final Video": 15,
+        "Question": "Observing the cubicle before and after, which of the following statements accurately describes a change in item quantities?",
+        "Multiple Choice": {
+            "A": "The number of monitors increased from 1 to 2.",
+            "B": "All chopsticks were removed from the scene.",
+            "C": "Three chopsticks were taken, reducing their count from 4 to 1.",
+            "D": "The number of pencils changed.",
+            "E": "No item counts changed during this particular transition."
+        },
+        "Correct Choice": "C"
+    },
+    "Q19": {
+        "Type": "Object Counting",
+        "Change Number": 19,
+        "Initial Video": 14,
+        "Final Video": 15,
+        "Question": "There was a reduction in the number of a certain large office item. Which item was it, and how many were left?",
+        "Multiple Choice": {
+            "A": "Chopsticks, 1 left.",
+            "B": "Monitors, 1 left from an initial 2.",
+            "C": "Keyboards, 1 left.",
+            "D": "Monitors, 2 left.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q20": {
+        "Type": "Object Counting",
+        "Change Number": 20,
+        "Initial Video": 15,
+        "Final Video": 16,
+        "Question": "What can you say about the number of posters after observing the change between the two scenes?",
+        "Multiple Choice": {
+            "A": "One poster was removed, changing the count from 3 to 2.",
+            "B": "One poster was added.",
+            "C": "The number of posters increased from 2 to 3.",
+            "D": "All posters were removed.",
+            "E": "The number of posters did not change."
+        },
+        "Correct Choice": "A"
+    },
+    "Q21": {
+        "Type": "Object Counting",
+        "Change Number": 21,
+        "Initial Video": 16,
+        "Final Video": 17,
+        "Question": "There's a noticeable increase in the quantity of books. Can you specify this change?",
+        "Multiple Choice": {
+            "A": "The count of books increased from 1 to 4.",
+            "B": "The count of books increased from 0 to 3.",
+            "C": "One book was added.",
+            "D": "The number of board erasers also increased in this episode.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q22": {
+        "Type": "Object Counting",
+        "Change Number": 22,
+        "Initial Video": 16,
+        "Final Video": 17,
+        "Question": "Something's count went up by one. What item are we talking about, and what was its initial count?",
+        "Multiple Choice": {
+            "A": "Book, initial count 1.",
+            "B": "Board erasers, initial count 1.",
+            "C": "Pencils, initial count 3.",
+            "D": "Board erasers, initial count 2.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q23": {
+        "Type": "Object Counting",
+        "Change Number": 23,
+        "Initial Video": 17,
+        "Final Video": 18,
+        "Question": "How did the quantity of pencils evolve between these two observations?",
+        "Multiple Choice": {
+            "A": "Pencils decreased from 2 to 1.",
+            "B": "Pencils increased from 1 to 3.",
+            "C": "Two pencils were added.",
+            "D": "The number of pencils remained at 1.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "E"
+    },
+    "Q24": {
+        "Type": "Object Counting",
+        "Change Number": 24,
+        "Initial Video": 18,
+        "Final Video": 19,
+        "Question": "It looks like another cup appeared. What was the initial quantity of cups before this change?",
+        "Multiple Choice": {
+            "A": "Initially there was 1 cup.",
+            "B": "Initially there were 0 cups.",
+            "C": "Initially there were 2 cups.",
+            "D": "The number of board erasers changed during this time.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q25": {
+        "Type": "Object Counting",
+        "Change Number": 25,
+        "Initial Video": 19,
+        "Final Video": 20,
+        "Question": "Between the penultimate and final observation, was there any fluctuation in the number of items? If yes, please describe one such change.",
+        "Multiple Choice": {
+            "A": "Yes, an additional board eraser was introduced.",
+            "B": "Yes, one board eraser was taken away, reducing the count from 2 to 1.",
+            "C": "No, the item counts were consistent.",
+            "D": "Yes, the number of cups decreased.",
+            "E": "Yes, all board erasers were removed."
+        },
+        "Correct Choice": "B"
+    }
+}

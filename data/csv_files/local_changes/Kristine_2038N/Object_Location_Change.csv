@@ -1,0 +1,26 @@
+Episode,Unique Object,Initial Location Inside Cubicle,Final Location Inside Cubicle
+1,Motor,Left Side of the Table,Right side of the table
+2,Calculator,Center,Right side of the table
+2,Wrist Ball,Center,Left side of the table
+3,Calculator,Right side,Left side of the table
+3,Robot,Left side of the Table,Center-left of the table
+4,Red Water Cup,Right side of the table,Center-left of the table
+5,Coffee cup,Center Left,RIght side of the table
+6,Coffee cup,Right side,Left side of the table
+7,White Ball box,Center,Right side of the table
+8,Almonds can,Center,Left side of the table
+9,White Ball Box,Right side of the table,RIght side of the table
+10,Green tea box,Center,Right side of the table
+11,Green tea box,Right,Center of the table
+11,Red Water Cup,Center-left of the table,Right side of the table
+12,Grey Case,Center,Left side of the table
+13,Red Water Cup,Right side of the table,Center-left of the table
+14,Teddy Bear,Center,Right side of the table
+15,Green tea box,Center,Right side of the table
+15,Grey case,Left,Right side of the table
+16,Coffee cup,Left,Right side of the table
+17,Grey Elephant,Left,Right side of the table
+18,Teddy Bear,Right,Left side of the table
+19,White Ball Box,Left,Right side of the table
+19,Teddy Bear,Left,Center
+20,White Ball Box,Right,Center

@@ -1,0 +1,332 @@
+{
+    "Q1": {
+        "Type": "Object State Change",
+        "Change Number": 1,
+        "Initial Video": 0,
+        "Final Video": 1,
+        "Question": "An object that was initially standing at the left corner is now laying at the left side of the cubicle. Which object underwent this change?",
+        "Multiple Choice": {
+            "A": "Poster",
+            "B": "Tim Hortons instant coffee",
+            "C": "Blue cup",
+            "D": "Black keyboard on left side of cubicle",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q2": {
+        "Type": "Object State Change",
+        "Change Number": 2,
+        "Initial Video": 1,
+        "Final Video": 2,
+        "Question": "The Tim Hortons instant coffee container experienced a change. What happened to it?",
+        "Multiple Choice": {
+            "A": "Its cap went from closed to opened.",
+            "B": "Its cap went from opened to closed.",
+            "C": "It changed from standing to laying on the desk.",
+            "D": "It was folded.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q3": {
+        "Type": "Object State Change",
+        "Change Number": 3,
+        "Initial Video": 2,
+        "Final Video": 3,
+        "Question": "I noticed an object's orientation was completely flipped. What specifically happened?",
+        "Multiple Choice": {
+            "A": "The poster went from laying down to standing up.",
+            "B": "The Tim Hortons instant coffee cap was closed.",
+            "C": "The blue cup was flipped from right side up to upside down.",
+            "D": "The black keyboard was moved from standing against the white board to laying flat on the desk.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q4": {
+        "Type": "Object State Change",
+        "Change Number": 4,
+        "Initial Video": 3,
+        "Final Video": 4,
+        "Question": "An object went from laying on the desk to standing against the white board. Which object made this change?",
+        "Multiple Choice": {
+            "A": "Black keyboard on left side of cubicle",
+            "B": "White yogurt cup",
+            "C": "Robot arm on top of computer case",
+            "D": "Sun glasses on top of black box",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q5": {
+        "Type": "Object State Change",
+        "Change Number": 5,
+        "Initial Video": 4,
+        "Final Video": 5,
+        "Question": "The white yogurt cup's state changed. What specific change occurred?",
+        "Multiple Choice": {
+            "A": "Its cap was closed.",
+            "B": "Its cap was opened.",
+            "C": "It was changed from right side up to upside down.",
+            "D": "It was moved from laying on the desk to standing right side up.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q6": {
+        "Type": "Object State Change",
+        "Change Number": 6,
+        "Initial Video": 5,
+        "Final Video": 6,
+        "Question": "Something that previously had its cap open is now observed with its cap closed. What object is this referring to?",
+        "Multiple Choice": {
+            "A": "Tim Hortons instant coffee",
+            "B": "White yogurt cup",
+            "C": "Robot arm on top of computer case",
+            "D": "Red covered book",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q7": {
+        "Type": "Object State Change",
+        "Change Number": 7,
+        "Initial Video": 6,
+        "Final Video": 7,
+        "Question": "I noticed the robot arm on top of the computer case looks different. What changed about its state?",
+        "Multiple Choice": {
+            "A": "It went from a folded state to an unfolded state.",
+            "B": "It went from an unfolded state to a folded state.",
+            "C": "It was closed (e.g., like a box).",
+            "D": "It was stood upright from a laying position.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q8": {
+        "Type": "Object State Change",
+        "Change Number": 8,
+        "Initial Video": 7,
+        "Final Video": 8,
+        "Question": "An item seemed to transition from an extended or open state to a more compact or closed one. If this happened, what was the specific change?",
+        "Multiple Choice": {
+            "A": "The robot arm on top of the computer case was unfolded.",
+            "B": "The Tim Hortons instant coffee cap was opened.",
+            "C": "The white yogurt cup's cap was opened.",
+            "D": "The red covered book was opened.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "E"
+    },
+    "Q9": {
+        "Type": "Object State Change",
+        "Change Number": 9,
+        "Initial Video": 8,
+        "Final Video": 9,
+        "Question": "An object that was standing on the desk is now laying on the desk. What is this object?",
+        "Multiple Choice": {
+            "A": "Glass soda bottle",
+            "B": "iPad",
+            "C": "Black rog box",
+            "D": "Tim Hortons donut box",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q10": {
+        "Type": "Object State Change",
+        "Change Number": 10,
+        "Initial Video": 10,
+        "Final Video": 11,
+        "Question": "The iPad's orientation changed. Can you tell me how it changed?",
+        "Multiple Choice": {
+            "A": "It went from laying besides the white board to standing besides the white board.",
+            "B": "It went from standing beside the white board to laying beside the white board.",
+            "C": "It was folded.",
+            "D": "Its cap was removed.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q11": {
+        "Type": "Object State Change",
+        "Change Number": 11,
+        "Initial Video": 11,
+        "Final Video": 12,
+        "Question": "Was there any alteration in how an object was positioned, specifically from a horizontal to a more vertical orientation on the left side of the cubicle?",
+        "Multiple Choice": {
+            "A": "The black rog box, which was laying, is now standing on the left side.",
+            "B": "The iPad was laid flat from a standing position.",
+            "C": "The glass soda bottle was stood up from a laying position.",
+            "D": "The poster was moved from standing to laying.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q12": {
+        "Type": "Object State Change",
+        "Change Number": 12,
+        "Initial Video": 12,
+        "Final Video": 13,
+        "Question": "An item that was standing right side up is now laying on the desk. Which item is it?",
+        "Multiple Choice": {
+            "A": "White yogurt cup",
+            "B": "Tim Hortons donut box",
+            "C": "Poster",
+            "D": "Outlet",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q13": {
+        "Type": "Object State Change",
+        "Change Number": 13,
+        "Initial Video": 13,
+        "Final Video": 14,
+        "Question": "The Tim Hortons donut box underwent a state change. Can you describe what happened to it?",
+        "Multiple Choice": {
+            "A": "It was closed after having been open.",
+            "B": "It was changed from standing upright to laying flat.",
+            "C": "It was folded into a smaller shape.",
+            "D": "It was turned upside down.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "E"
+    },
+    "Q14": {
+        "Type": "Object State Change",
+        "Change Number": 14,
+        "Initial Video": 14,
+        "Final Video": 15,
+        "Question": "I recall something on the right side of the cubicle changing its orientation. Can you describe what happened?",
+        "Multiple Choice": {
+            "A": "The poster went from laying on the right side to standing against the right side.",
+            "B": "The black rog box on the left side was laid down from a standing position.",
+            "C": "The white yogurt cup was stood upright from a laying position.",
+            "D": "The Tim Hortons donut box was closed.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q15": {
+        "Type": "Object State Change",
+        "Change Number": 15,
+        "Initial Video": 16,
+        "Final Video": 17,
+        "Question": "There's an object that was previously laying on the desk and is now standing against the cubicle wall. What object is it?",
+        "Multiple Choice": {
+            "A": "Outlet",
+            "B": "Red covered book",
+            "C": "White paper piles",
+            "D": "Red marker",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q16": {
+        "Type": "Object State Change",
+        "Change Number": 16,
+        "Initial Video": 17,
+        "Final Video": 18,
+        "Question": "The red covered book seems different. What changed about it?",
+        "Multiple Choice": {
+            "A": "It was opened.",
+            "B": "It was closed.",
+            "C": "It was changed from laying to standing.",
+            "D": "Its cap was removed.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q17": {
+        "Type": "Object State Change",
+        "Change Number": 17,
+        "Initial Video": 18,
+        "Final Video": 19,
+        "Question": "Did any object transition from an open state to a closed state in this interval?",
+        "Multiple Choice": {
+            "A": "Yes, the red covered book went from opened to closed.",
+            "B": "Yes, the Tim Hortons donut box went from opened to closed.",
+            "C": "Yes, the sun glasses were folded.",
+            "D": "No, nothing changed from an open to a closed state.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q18": {
+        "Type": "Object State Change",
+        "Change Number": 18,
+        "Initial Video": 19,
+        "Final Video": 20,
+        "Question": "An item previously seen laying on the right side of the cubicle is now standing against the right side. Which item is this?",
+        "Multiple Choice": {
+            "A": "Red marker",
+            "B": "White mug",
+            "C": "Shuttlecock tube",
+            "D": "Outlet",
+            "E": "None of the above"
+        },
+        "Correct Choice": "E"
+    },
+    "Q19": {
+        "Type": "Object State Change",
+        "Change Number": 19,
+        "Initial Video": 20,
+        "Final Video": 21,
+        "Question": "The red marker underwent a change. Can you tell me what happened to its cap?",
+        "Multiple Choice": {
+            "A": "Its cap was taken off.",
+            "B": "Its cap was put on.",
+            "C": "It was changed from standing to laying.",
+            "D": "It was folded.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q20": {
+        "Type": "Object State Change",
+        "Change Number": 20,
+        "Initial Video": 21,
+        "Final Video": 22,
+        "Question": "I noticed a subtle change in how some items were arranged, perhaps involving items being grouped or separated. What specific change related to this occurred?",
+        "Multiple Choice": {
+            "A": "The white mug went from being stacked to unstacked.",
+            "B": "The red marker's cap was put back on.",
+            "C": "The white paper piles were spread out flat from a standing position.",
+            "D": "The shuttlecock tube had its cap put on.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q21": {
+        "Type": "Object State Change",
+        "Change Number": 21,
+        "Initial Video": 22,
+        "Final Video": 23,
+        "Question": "An object changed from standing beside the white board to laying in front of it. Which object was this?",
+        "Multiple Choice": {
+            "A": "Shuttlecock tube",
+            "B": "White mug",
+            "C": "Red marker",
+            "D": "Poster",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q22": {
+        "Type": "Object State Change",
+        "Change Number": 22,
+        "Initial Video": 23,
+        "Final Video": 24,
+        "Question": "The shuttlecock tube's state was altered. What specific change occurred?",
+        "Multiple Choice": {
+            "A": "It went from 'cup on' to 'cap off'.",
+            "B": "Its cap was put on (it went from 'cap off' to 'cup on').",
+            "C": "It was moved from laying to standing.",
+            "D": "It was folded.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    }
+}

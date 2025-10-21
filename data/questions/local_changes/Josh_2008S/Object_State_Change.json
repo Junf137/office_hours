@@ -1,0 +1,362 @@
+{
+    "Q1": {
+        "Type": "Object State Change",
+        "Change Number": 1,
+        "Initial Video": 0,
+        "Final Video": 1,
+        "Question": "The IPad changed from being closed to open. What details describe its new state?",
+        "Multiple Choice": {
+            "A": "Its keyboard became visible.",
+            "B": "Its screen became visible.",
+            "C": "It appeared ready for use.",
+            "D": "It was no longer in its most compact, folded form.",
+            "E": "All of the above."
+        },
+        "Correct Choice": "E"
+    },
+    "Q2": {
+        "Type": "Object State Change",
+        "Change Number": 2,
+        "Initial Video": 1,
+        "Final Video": 2,
+        "Question": "An item that was previously closed was found open with its cap off. Which item underwent this change?",
+        "Multiple Choice": {
+            "A": "Tooth Paste (Colgate)",
+            "B": "Moisturizer bottle",
+            "C": "Bottle of Lysol wipes",
+            "D": "Circular metallic box (Butter cookies)",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q3": {
+        "Type": "Object State Change",
+        "Change Number": 3,
+        "Initial Video": 2,
+        "Final Video": 3,
+        "Question": "The arrangement of some small construction pieces was altered significantly. What happened to them?",
+        "Multiple Choice": {
+            "A": "The Lego blocks changed from a tall tower to a flattened block.",
+            "B": "The \"Board game \\\"Ravensburger Puzzle\\\"\" pieces were assembled into a picture.",
+            "C": "The Pack of batteries was taken apart and the cells were lined up.",
+            "D": "The Drone was disassembled into its component parts.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q4": {
+        "Type": "Object State Change",
+        "Change Number": 4,
+        "Initial Video": 2,
+        "Final Video": 3,
+        "Question": "The IPad, which was open with its keyboard and screen visible, changed. What was its new state?",
+        "Multiple Choice": {
+            "A": "It was closed.",
+            "B": "It was turned off.",
+            "C": "Its screen brightness was maximized.",
+            "D": "It was placed on a charger.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q5": {
+        "Type": "Object State Change",
+        "Change Number": 5,
+        "Initial Video": 3,
+        "Final Video": 4,
+        "Question": "A box that was previously closed is now open, with its contents visible. Which item is this?",
+        "Multiple Choice": {
+            "A": "Board game \"Ravensburger Puzzle\"",
+            "B": "Red box (tim hortons)",
+            "C": "Circular metallic box (Butter cookies)",
+            "D": "Backpack",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q6": {
+        "Type": "Object State Change",
+        "Change Number": 6,
+        "Initial Video": 4,
+        "Final Video": 5,
+        "Question": "A container of entertainment items was open, but then its state changed. What happened to this specific container?",
+        "Multiple Choice": {
+            "A": "The \"Board game \\\"Ravensburger Puzzle\\\"\" box, which was open with puzzles visible, was closed.",
+            "B": "The Red box (tim hortons) had its lid closed.",
+            "C": "The Circular metallic box (Butter cookies) was sealed.",
+            "D": "The IPad was put into a protective case.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q7": {
+        "Type": "Object State Change",
+        "Change Number": 7,
+        "Initial Video": 6,
+        "Final Video": 7,
+        "Question": "A cleaning supply container went from being closed to having an open lid. Which item was it?",
+        "Multiple Choice": {
+            "A": "Bottle of Lysol wipes",
+            "B": "Tooth Paste (Colgate)",
+            "C": "Moisturizer bottle",
+            "D": "Stapler",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q8": {
+        "Type": "Object State Change",
+        "Change Number": 8,
+        "Initial Video": 6,
+        "Final Video": 7,
+        "Question": "The 'Board game \"Ravensburger Puzzle\"' was observed in a new configuration. What was this new state?",
+        "Multiple Choice": {
+            "A": "Its box was open with puzzles visible.",
+            "B": "Its box was closed and sealed.",
+            "C": "Its puzzle pieces were found scattered outside the box.",
+            "D": "It was put away on a high shelf.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q9": {
+        "Type": "Object State Change",
+        "Change Number": 9,
+        "Initial Video": 7,
+        "Final Video": 8,
+        "Question": "There was a change to a container often used for storing treats. What specifically happened to its lid?",
+        "Multiple Choice": {
+            "A": "The lid of the Circular metallic box (Butter cookies) was opened.",
+            "B": "The lid of the Red box (tim hortons) was closed.",
+            "C": "The cap of the Moisturizer bottle was opened.",
+            "D": "The Bottle of Lysol wipes had its lid secured.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q10": {
+        "Type": "Object State Change",
+        "Change Number": 10,
+        "Initial Video": 8,
+        "Final Video": 9,
+        "Question": "The Moisturizer bottle's orientation changed. How was it repositioned?",
+        "Multiple Choice": {
+            "A": "It was moved from an upright position to being placed sideways.",
+            "B": "It was moved from a sideways position to being placed upright.",
+            "C": "Its cap was opened.",
+            "D": "It was refilled.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q11": {
+        "Type": "Object State Change",
+        "Change Number": 11,
+        "Initial Video": 8,
+        "Final Video": 9,
+        "Question": "An item that previously had its lid open was found with its lid closed. Which item was it?",
+        "Multiple Choice": {
+            "A": "Circular metallic box (Butter cookies)",
+            "B": "Red box (tim hortons)",
+            "C": "Bottle of Lysol wipes",
+            "D": "Stapler",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q12": {
+        "Type": "Object State Change",
+        "Change Number": 12,
+        "Initial Video": 9,
+        "Final Video": 10,
+        "Question": "The stapler's state was altered. What change occurred to it?",
+        "Multiple Choice": {
+            "A": "It was opened from a closed state.",
+            "B": "It was closed from an open state.",
+            "C": "Staples were added to it.",
+            "D": "It was used to staple a stack of papers.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q13": {
+        "Type": "Object State Change",
+        "Change Number": 13,
+        "Initial Video": 10,
+        "Final Video": 11,
+        "Question": "An object that was typically placed upright is now flipped upside down. What is this object?",
+        "Multiple Choice": {
+            "A": "Wine glass",
+            "B": "Moisturizer bottle",
+            "C": "Plant pot with feather",
+            "D": "Drone",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q14": {
+        "Type": "Object State Change",
+        "Change Number": 14,
+        "Initial Video": 10,
+        "Final Video": 11,
+        "Question": "An item used for personal care, previously lying on its side, was adjusted. What was its new orientation?",
+        "Multiple Choice": {
+            "A": "The Moisturizer bottle was changed from lying sideways to an upright position.",
+            "B": "The Tooth Paste (Colgate) was stood on its cap.",
+            "C": "The Wine glass was moved from upside down to upright.",
+            "D": "The Plant pot with feather was tilted further to one side.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q15": {
+        "Type": "Object State Change",
+        "Change Number": 15,
+        "Initial Video": 11,
+        "Final Video": 12,
+        "Question": "Considering the stapler, what happened to its state if it was previously open?",
+        "Multiple Choice": {
+            "A": "It was closed.",
+            "B": "It was opened further.",
+            "C": "It ran out of staples.",
+            "D": "It was moved off the desk.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q16": {
+        "Type": "Object State Change",
+        "Change Number": 16,
+        "Initial Video": 12,
+        "Final Video": 13,
+        "Question": "An object that was upright is now on its side, with a distinctive feature pointing to the left. Which object matches this description?",
+        "Multiple Choice": {
+            "A": "Plant pot with feather",
+            "B": "Moisturizer bottle",
+            "C": "Wine glass",
+            "D": "Drone",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q17": {
+        "Type": "Object State Change",
+        "Change Number": 17,
+        "Initial Video": 13,
+        "Final Video": 14,
+        "Question": "An ornamental item was adjusted from a tilted position. What specifically changed about its orientation?",
+        "Multiple Choice": {
+            "A": "The Plant pot with feather was moved from lying sideways (feather pointing left) to an upright position.",
+            "B": "The Wine glass was set upright from being upside down.",
+            "C": "The Drone was righted after being on its side.",
+            "D": "The Lego blocks were rebuilt from a flat state into a tower.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q18": {
+        "Type": "Object State Change",
+        "Change Number": 18,
+        "Initial Video": 14,
+        "Final Video": 15,
+        "Question": "An item's contents became hidden due to a change in its orientation. What specific event occurred?",
+        "Multiple Choice": {
+            "A": "The Pack of batteries was flipped from its back (cells visible) to upside down (batteries not visible).",
+            "B": "The IPad's screen was turned off, hiding the display.",
+            "C": "The \"Board game \\\"Ravensburger Puzzle\\\"\" box was closed, hiding the puzzles.",
+            "D": "The Wine glass was turned upright from an upside-down position, preparing it for use.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q19": {
+        "Type": "Object State Change",
+        "Change Number": 19,
+        "Initial Video": 15,
+        "Final Video": 16,
+        "Question": "A device that was standing upright on all its supports is now flipped sideways to its left, leaning. Which device is this?",
+        "Multiple Choice": {
+            "A": "Drone",
+            "B": "Plant pot with feather",
+            "C": "Stapler",
+            "D": "Wine glass",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q20": {
+        "Type": "Object State Change",
+        "Change Number": 20,
+        "Initial Video": 16,
+        "Final Video": 17,
+        "Question": "The Red box (tim hortons) had its state altered. If it was closed before, what was the change?",
+        "Multiple Choice": {
+            "A": "Its lid went from closed to open.",
+            "B": "Its lid remained closed but was taped shut.",
+            "C": "It was emptied of its contents.",
+            "D": "It was crushed slightly.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q21": {
+        "Type": "Object State Change",
+        "Change Number": 21,
+        "Initial Video": 16,
+        "Final Video": 17,
+        "Question": "The Drone, which was already leaning on its left side, underwent another change in its orientation. What was this adjustment?",
+        "Multiple Choice": {
+            "A": "It shifted from leaning on its left side to leaning on its right side.",
+            "B": "It was set back to an upright position on all four legs.",
+            "C": "It was flipped completely upside down.",
+            "D": "Its propellers were activated.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q22": {
+        "Type": "Object State Change",
+        "Change Number": 22,
+        "Initial Video": 17,
+        "Final Video": 18,
+        "Question": "A box that previously had its lid open is now observed with its lid closed. Which box is it?",
+        "Multiple Choice": {
+            "A": "Red box (tim hortons)",
+            "B": "Circular metallic box (Butter cookies)",
+            "C": "Board game \"Ravensburger Puzzle\"",
+            "D": "Pack of batteries",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q23": {
+        "Type": "Object State Change",
+        "Change Number": 23,
+        "Initial Video": 18,
+        "Final Video": 19,
+        "Question": "A personal care item underwent a change related to its closure. Which of the following descriptions accurately reflects a different object's state change from the available items?",
+        "Multiple Choice": {
+            "A": "The Tooth Paste (Colgate) was squeezed, and some paste came out.",
+            "B": "The Bottle of Lysol wipes was refilled.",
+            "C": "The IPad was switched from portrait to landscape mode.",
+            "D": "The Stapler was used to bind papers together.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "E"
+    },
+    "Q24": {
+        "Type": "Object State Change",
+        "Change Number": 24,
+        "Initial Video": 19,
+        "Final Video": 20,
+        "Question": "The backpack's condition changed from having all zips closed. What was specifically observed about it?",
+        "Multiple Choice": {
+            "A": "Its main zipper was now open, and brown clothing inside was visible.",
+            "B": "All its zippers were found to be more securely closed.",
+            "C": "It was completely emptied of its contents.",
+            "D": "A new patch was added to its exterior.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    }
+}

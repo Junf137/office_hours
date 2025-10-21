@@ -1,0 +1,23 @@
+Episode,Object,Initial State,Final State
+1,poster,standing at the left corner,laying at the left side of cubcle
+2,tim hortons instant coffee,cap closed,cap opened
+3,blue cup,right side up,up side down
+4,black keyboard on left side of cubicle,laying on the desk,standing against the white board
+5,white yogurt cup,cap closed,cap opened
+6,tim hortons instant coffee,cap opened,cap closed
+7,robot arm on top of computer case,folded,unfolded
+8,sun glasses on top of black box,unfolded,folded
+9,glass soda bottle,standing on the desk,laying on the desk
+11,ipad,laying besides the white board,standing besides the white board
+12,black rog box,laying on the left side of the cubicle,standing on the left side of the cubicle
+13,white yogurt cup,standing right side up,laying on the desk
+14,tim hortons donut box,closed,opened
+15,poster,laying on the right side of the cubicle,standing against the right side of the cubicle
+17,outlet,laying on the desk,standing against the cubicle wall
+18,red covered book,closed,opened
+19,red covered book,opened,closed
+20,white paper piles,laying on the right side of the cubicle,standing against the right side of the cubicle
+21,red marker,cap on,cap off
+22,white mug,stacked,unstacked
+23,shuttlecock tube,standing besides the white board,laying in front of the white board
+24,shuttlecock tube,cup on,cap off

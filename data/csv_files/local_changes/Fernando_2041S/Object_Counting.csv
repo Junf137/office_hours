@@ -1,0 +1,25 @@
+Episode,Non-unique Object,Initial Count,Final Count
+1,Books,8,5
+2,Computer Mouse,1,2
+3,Books,5,2
+4,Keyboards,1,2
+4,Computer Mouse,2,2
+5,Books,2,1
+6,Smartphones,2,1
+7,Keyboards,2,1
+7,Computer Mouse,2,1
+8,Markers,2,1
+9,Ping Pong Balls,0,3
+10,Markers,1,3
+10,Phones,1,2
+11,Ping Pong Balls,3,2
+12,Pencils,0,6
+13,Pencils,6,4
+14,Monitors which are ON,1,2
+15,Monitors which are ON,2,0
+15,Ping Pong Balls,2,1
+16,Ping Pong Balls,1,7
+17,Computer Mouse,1,3
+18,Books,1,5
+19,Keyboards,1,2
+19,Ping Pong Balls,7,5

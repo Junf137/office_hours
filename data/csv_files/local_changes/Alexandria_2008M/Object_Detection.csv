@@ -1,0 +1,27 @@
+Episode,Unique Object,Location inside Cubicle,Appear/ Disappear (Change)
+1,Eiffel tower toy,right corner,Appear
+2,camera,middle left,Appear
+2,funko pop,middle right,Appear
+3,coup game,right corner,Appear
+3,plushie,left corner,Appear
+4,cooling fan,middle left,Appear
+5,cooling fan,middle left,Disappear
+6,Triceratops toy,middle right,Disappear
+6,cooling fan,right corner,Appear
+7,Triceratops toy,left corner,Appear
+8,tape dispenser,left corner,Appear
+9,funko pop,far left corner,Disappear
+10,funko pop,left corner,Appear
+11,Eiffel tower toy,right corner,Disappear
+12,Eiffel tower toy,middle right,Appear
+12,playing cards,left corner,Disappear
+13,coup game,left corner,Disappear
+14,playing cards,middle,Appear
+14,coup game,left corner,Appear
+15,plushie,right corner,Disappear
+16,plushie,left corner,Appear
+17,coup game,right corner,Disappear
+18,coup game,left corner,Appear
+18,cooling fan,left corner,Disappear
+19,coup game,middle,Appear
+20,camera,right corner,Disappear

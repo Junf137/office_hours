@@ -1,0 +1,26 @@
+Episode,Object,Initial State,Final State
+1,Coffee Cup,Closed,Open
+2,Robot Arm,Down,Up
+3,Cup,Facing up,Facing Down
+4,Monitor,Facing forward,Facing back
+4,Robot Arm,Facing forward,Facing back
+5,TIm Hortons Box,Closed,Open
+6,Red water cup,Down,Up
+7,Red Coffee cup,Up,DOwn
+8,White Ball box,Open,Closed
+8,Tripod,Up,Fallen over
+9,Red water cup,Up,Down
+10,Almond can,Closed,Open
+11,Board game box,On the desk,Pushed over
+12,Green tea box,Closed,Open
+12,Red water cup,Down,Up
+13,Teddy Bear,Upright,Fallen over
+14,Water bottle,Open,Closed
+15,Teddy Bear,Fallen Over,Upright
+16,Monitor,Facing Back,Facing forward
+16,Grey Case,Closed,Open
+17,Teddy Bear,Upright,Fallen over
+18,Red Water cup,Up,Down
+19,Coffee Cup,Down,Up
+20,Red Coffee cup,Sleeve on,Sleeve off
+20,Red Water cup,Down,Up

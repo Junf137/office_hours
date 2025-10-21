@@ -1,0 +1,26 @@
+Episode,Non-unique Object,Initial Count,Final Count
+1,pencil,3,4
+1,board erasers,1,2
+2,board erasers,2,3
+3,keyboard,1,2
+4,poster,2,3
+5,markers,2,4
+6,tea bags,1,3
+7,chopsticks,1,3
+8,chopsticks,3,4
+9,markers,4,3
+10,chopsticks,4,0
+10,markers,3,2
+11,pencil,4,1
+11,board erasers,3,2
+13,keyboard,2,1
+13,tea bags,3,1
+14,board erasers,2,1
+15,chopsticks,4,1
+15,monitors,2,1
+16,poster,3,2
+17,book,1,4
+17,board erasers,1,2
+18,pencil,1,2
+19,cup,1,2
+20,board erasers,2,1

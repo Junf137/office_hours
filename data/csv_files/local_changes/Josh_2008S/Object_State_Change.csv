@@ -1,0 +1,25 @@
+Episode,Object,Initial State,Final State
+1,IPad,Closed,Open (keyboard and screen visible)
+2,Tooth Paste (Colgate),Closed,"Open, with cap off"
+3,Lego blocks,Tall tower of legos,"Flat block of legos, tower has been flattened"
+3,IPad,Open (keyboard and screen visible),Closed
+4,"Board game ""Ravensburger Puzzle""",Closed Box,"Box open, puzzles visible"
+5,"Board game ""Ravensburger Puzzle""","Box open, puzzles visible",Closed Box
+7,Bottle of Lysol wipes,Closed,Open lid
+7,"Board game ""Ravensburger Puzzle""",,"Box open, puzzles visible"
+8,Circular metallic box (Butter cookies),Lid closed,Lid open
+9,Moisturizer bottle,Placed upright,Placed sideways
+9,Circular metallic box (Butter cookies),Lid open,Lid closed
+10,Stapler,Closed,Open
+11,Wine glass,Placed upright,Flipped upside down
+11,Moisturizer bottle,Placed sideways,Placed upright
+12,Stapler,Open,Closed
+13,Plant pot with feather,Upright,Placed sideways (feather pointing to left)
+14,Plant pot with feather,Placed sideways (feather pointing to left),Upright
+15,Pack of batteries,"Placed on back, cells visible","Flipped upside down, batteries not visible"
+16,Drone,Upright standing on all four legs,"Flipped sideways to left, leaning on 2 legs and 2 arms"
+17,Red box (tim hortons),Lid closed,Lid open
+17,Drone,"Flipped sideways to left, leaning on 2 legs and 2 arms","Flipped sideways to right, leaning on 2 legs and 2 arms"
+18,Red box (tim hortons),Lid open,Lid closed
+19,Moisturizer bottle,Cap closed,Cap open
+20,Backpack,All zips closed,"Main zipper open, brown clothing inside is visible"

@@ -1,0 +1,377 @@
+{
+    "Q1": {
+        "Type": "Object Counting",
+        "Change Number": 1,
+        "Initial Video": 0,
+        "Final Video": 1,
+        "Question": "I noticed a change regarding the Red Water Cups. What exactly happened with their quantity between the first two scenes?",
+        "Multiple Choice": {
+            "A": "The quantity of Red Water Cups went up.",
+            "B": "The quantity of Red Water Cups went down.",
+            "C": "The quantity of Pencils changed.",
+            "D": "There were no Red Water Cups initially.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q2": {
+        "Type": "Object Counting",
+        "Change Number": 2,
+        "Initial Video": 1,
+        "Final Video": 2,
+        "Question": "An item's quantity was reduced in the cubicle. Which item are we talking about?",
+        "Multiple Choice": {
+            "A": "Pencil",
+            "B": "Red Water Cup",
+            "C": "Robotic Arm",
+            "D": "Markers",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q3": {
+        "Type": "Object Counting",
+        "Change Number": 3,
+        "Initial Video": 2,
+        "Final Video": 3,
+        "Question": "Were there any changes in the number of items between these two scenes? If so, what happened?",
+        "Multiple Choice": {
+            "A": "Some Pencils appeared in the scene.",
+            "B": "The number of Red Water Cups decreased.",
+            "C": "The number of Markers increased.",
+            "D": "There were no changes in item counts.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q4": {
+        "Type": "Object Counting",
+        "Change Number": 4,
+        "Initial Video": 3,
+        "Final Video": 4,
+        "Question": "What can you tell me about the quantity of Pencils between the scenes?",
+        "Multiple Choice": {
+            "A": "More Pencils were added.",
+            "B": "Some Pencils were taken away.",
+            "C": "The number of Chopsticks increased.",
+            "D": "The Pencil count didn't change.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q5": {
+        "Type": "Object Counting",
+        "Change Number": 5,
+        "Initial Video": 4,
+        "Final Video": 5,
+        "Question": "The quantity of an item decreased significantly. Which item are we talking about?",
+        "Multiple Choice": {
+            "A": "Robotic Arm",
+            "B": "Pencil",
+            "C": "Markers",
+            "D": "Red Water Cup",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q6": {
+        "Type": "Object Counting",
+        "Change Number": 6,
+        "Initial Video": 4,
+        "Final Video": 5,
+        "Question": "What change occurred regarding the Robotic Arms in the scene during this observation period?",
+        "Multiple Choice": {
+            "A": "Their number increased.",
+            "B": "Their number decreased.",
+            "C": "The number of Pencils also increased.",
+            "D": "No change was observed for Robotic Arms.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q7": {
+        "Type": "Object Counting",
+        "Change Number": 7,
+        "Initial Video": 5,
+        "Final Video": 6,
+        "Question": "Looking at the cubicle, did the count of any items change between these episodes? If so, what was it?",
+        "Multiple Choice": {
+            "A": "The number of Pencils decreased.",
+            "B": "Some Markers were newly added to the scene.",
+            "C": "The number of Robotic Arms increased.",
+            "D": "All item counts remained the same.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q8": {
+        "Type": "Object Counting",
+        "Change Number": 8,
+        "Initial Video": 6,
+        "Final Video": 7,
+        "Question": "The number of a certain writing utensil decreased. Which one was it?",
+        "Multiple Choice": {
+            "A": "Markers",
+            "B": "Pencil",
+            "C": "Chopsticks",
+            "D": "Robotic Arm",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q9": {
+        "Type": "Object Counting",
+        "Change Number": 9,
+        "Initial Video": 7,
+        "Final Video": 8,
+        "Question": "What change was observed regarding Chopsticks in the cubicle?",
+        "Multiple Choice": {
+            "A": "Several Chopsticks were introduced.",
+            "B": "Chopsticks were removed from the scene.",
+            "C": "The number of Pencils increased.",
+            "D": "No change was observed for Chopsticks.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q10": {
+        "Type": "Object Counting",
+        "Change Number": 10,
+        "Initial Video": 8,
+        "Final Video": 9,
+        "Question": "Were there any shifts in the quantities of items? If yes, what kind of shift occurred involving Pencils?",
+        "Multiple Choice": {
+            "A": "Yes, the quantity of Pencils went up.",
+            "B": "Yes, the quantity of Markers went down.",
+            "C": "Yes, the quantity of Pencils decreased.",
+            "D": "No, the Pencil count stayed the same.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q11": {
+        "Type": "Object Counting",
+        "Change Number": 11,
+        "Initial Video": 8,
+        "Final Video": 9,
+        "Question": "Besides Pencils, another type of item saw an increase in its count. Which item was it?",
+        "Multiple Choice": {
+            "A": "Chopsticks",
+            "B": "Red Water Cup",
+            "C": "Markers",
+            "D": "Robotic Arm",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q12": {
+        "Type": "Object Counting",
+        "Change Number": 12,
+        "Initial Video": 9,
+        "Final Video": 10,
+        "Question": "What happened with the Chopsticks in the cubicle?",
+        "Multiple Choice": {
+            "A": "The number of Chopsticks increased.",
+            "B": "The number of Chopsticks decreased.",
+            "C": "The number of Pencils decreased.",
+            "D": "The Chopsticks were completely removed.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q13": {
+        "Type": "Object Counting",
+        "Change Number": 13,
+        "Initial Video": 10,
+        "Final Video": 11,
+        "Question": "The count of an eating utensil was reduced. Which utensil are we talking about?",
+        "Multiple Choice": {
+            "A": "Pencil",
+            "B": "Markers",
+            "C": "Chopsticks",
+            "D": "Red Water Cup",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q14": {
+        "Type": "Object Counting",
+        "Change Number": 14,
+        "Initial Video": 11,
+        "Final Video": 12,
+        "Question": "Did any items disappear completely from the scene in this interval? If so, which ones?",
+        "Multiple Choice": {
+            "A": "Yes, all the Markers were removed.",
+            "B": "Yes, all the Pencils were removed.",
+            "C": "No, but the number of Chopsticks increased.",
+            "D": "No items were completely removed.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q15": {
+        "Type": "Object Counting",
+        "Change Number": 15,
+        "Initial Video": 12,
+        "Final Video": 13,
+        "Question": "What became of the Robotic Arms between these two observations?",
+        "Multiple Choice": {
+            "A": "More Robotic Arms were introduced.",
+            "B": "All Robotic Arms were taken out of the scene.",
+            "C": "One Robotic Arm was removed.",
+            "D": "The number of Markers decreased.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q16": {
+        "Type": "Object Counting",
+        "Change Number": 16,
+        "Initial Video": 12,
+        "Final Video": 13,
+        "Question": "While some items were removed, the quantity of another item increased. What was it?",
+        "Multiple Choice": {
+            "A": "Robotic Arm",
+            "B": "Markers",
+            "C": "Chopsticks",
+            "D": "Pencil",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q17": {
+        "Type": "Object Counting",
+        "Change Number": 17,
+        "Initial Video": 13,
+        "Final Video": 14,
+        "Question": "Regarding the Chopsticks, what change in their quantity was observed?",
+        "Multiple Choice": {
+            "A": "Their number increased.",
+            "B": "They were completely removed from the scene.",
+            "C": "One pair of Chopsticks was removed.",
+            "D": "The number of Pencils increased.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q18": {
+        "Type": "Object Counting",
+        "Change Number": 18,
+        "Initial Video": 14,
+        "Final Video": 15,
+        "Question": "Were there any notable changes in the counts of items present? If so, what was one such change?",
+        "Multiple Choice": {
+            "A": "A number of Markers appeared.",
+            "B": "Chopsticks were added back.",
+            "C": "The quantity of Pencils decreased.",
+            "D": "No items changed count.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q19": {
+        "Type": "Object Counting",
+        "Change Number": 19,
+        "Initial Video": 15,
+        "Final Video": 16,
+        "Question": "The quantity of a writing tool was reduced. Which tool was it?",
+        "Multiple Choice": {
+            "A": "Markers",
+            "B": "Pencil",
+            "C": "Chopsticks",
+            "D": "Robotic Arm",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q20": {
+        "Type": "Object Counting",
+        "Change Number": 20,
+        "Initial Video": 16,
+        "Final Video": 17,
+        "Question": "What happened to the Markers in this interval?",
+        "Multiple Choice": {
+            "A": "The quantity of Markers increased.",
+            "B": "One Marker was removed.",
+            "C": "All Markers were removed.",
+            "D": "The quantity of Pencils increased.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q21": {
+        "Type": "Object Counting",
+        "Change Number": 21,
+        "Initial Video": 16,
+        "Final Video": 17,
+        "Question": "In addition to the Markers, another item also saw a reduction in its count. Which item was it?",
+        "Multiple Choice": {
+            "A": "Markers",
+            "B": "Chopsticks",
+            "C": "Pencil",
+            "D": "Robotic Arm",
+            "E": "None of the above"
+        },
+        "Correct Choice": "C"
+    },
+    "Q22": {
+        "Type": "Object Counting",
+        "Change Number": 22,
+        "Initial Video": 17,
+        "Final Video": 18,
+        "Question": "Did any particular set of items disappear entirely from view between these two scenes?",
+        "Multiple Choice": {
+            "A": "Yes, all the Pencils vanished.",
+            "B": "Yes, the Robotic Arms were all gone.",
+            "C": "Yes, the Chopsticks were completely removed.",
+            "D": "Yes, the Red Water Cups were taken out.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "E"
+    },
+    "Q23": {
+        "Type": "Object Counting",
+        "Change Number": 23,
+        "Initial Video": 18,
+        "Final Video": 19,
+        "Question": "What happened to the last Pencil in the scene?",
+        "Multiple Choice": {
+            "A": "More Pencils were added.",
+            "B": "The last Pencil was removed.",
+            "C": "It remained in the scene.",
+            "D": "The number of Markers increased.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q24": {
+        "Type": "Object Counting",
+        "Change Number": 24,
+        "Initial Video": 19,
+        "Final Video": 20,
+        "Question": "Some new recreational items appeared. Which of these items were newly introduced?",
+        "Multiple Choice": {
+            "A": "Pencils",
+            "B": "Ping Pong Paddles",
+            "C": "Markers",
+            "D": "Chopsticks",
+            "E": "None of the above"
+        },
+        "Correct Choice": "B"
+    },
+    "Q25": {
+        "Type": "Object Counting",
+        "Change Number": 25,
+        "Initial Video": 19,
+        "Final Video": 20,
+        "Question": "Were there any overall changes to the types or quantities of items in the scene? If so, can you describe one?",
+        "Multiple Choice": {
+            "A": "Yes, Ping Pong Balls were introduced.",
+            "B": "Yes, Ping Pong Paddles were removed.",
+            "C": "Yes, Pencils reappeared in the scene.",
+            "D": "No, the types and quantities of all items remained exactly as they were.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    }
+}

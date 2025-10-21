@@ -1,0 +1,347 @@
+{
+    "Q1": {
+        "Type": "Object Counting",
+        "Change Number": 1,
+        "Initial Video": 0,
+        "Final Video": 1,
+        "Question": "I noticed the number of markers changed. Can you tell me what happened with them?",
+        "Multiple Choice": {
+            "A": "Their count went up from 1 to 3.",
+            "B": "Their count went down from 3 to 1.",
+            "C": "Their count went up from 0 to 2.",
+            "D": "They were removed entirely.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q2": {
+        "Type": "Object Counting",
+        "Change Number": 2,
+        "Initial Video": 0,
+        "Final Video": 1,
+        "Question": "Something became less numerous in the scene. What was it and how did its quantity change?",
+        "Multiple Choice": {
+            "A": "The number of Water Bottles decreased from 4 to 3.",
+            "B": "The number of Markers decreased from 3 to 1.",
+            "C": "The number of Water Bottles increased from 3 to 4.",
+            "D": "The number of Books decreased from 4 to 3.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q3": {
+        "Type": "Object Counting",
+        "Change Number": 3,
+        "Initial Video": 1,
+        "Final Video": 2,
+        "Question": "What happened to the markers in the cubicle between these two views?",
+        "Multiple Choice": {
+            "A": "All 3 markers were removed, going from 3 to 0.",
+            "B": "One marker was added.",
+            "C": "The number of markers decreased from 3 to 1.",
+            "D": "The number of markers increased from 0 to 3.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q4": {
+        "Type": "Object Counting",
+        "Change Number": 4,
+        "Initial Video": 3,
+        "Final Video": 4,
+        "Question": "Was there any change in the quantity of items present? If so, what was it?",
+        "Multiple Choice": {
+            "A": "The count of Water Bottles was reduced from 3 to 1.",
+            "B": "The count of Markers increased.",
+            "C": "The count of Red coffee cups (Tim Hortons) decreased.",
+            "D": "No items changed in quantity.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q5": {
+        "Type": "Object Counting",
+        "Change Number": 5,
+        "Initial Video": 3,
+        "Final Video": 4,
+        "Question": "Some items of a particular kind appeared in the scene, going from zero to three. Can you identify them?",
+        "Multiple Choice": {
+            "A": "Red coffee cups (Tim Hortons).",
+            "B": "Water Bottles.",
+            "C": "Markers.",
+            "D": "Books.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q6": {
+        "Type": "Object Counting",
+        "Change Number": 6,
+        "Initial Video": 4,
+        "Final Video": 5,
+        "Question": "Regarding the Red coffee cups (Tim Hortons), how did their quantity change?",
+        "Multiple Choice": {
+            "A": "They decreased from 3 to 1.",
+            "B": "They increased from 1 to 3.",
+            "C": "They were all removed (from 3 to 0).",
+            "D": "One more was added (from 3 to 4).",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q7": {
+        "Type": "Object Counting",
+        "Change Number": 7,
+        "Initial Video": 4,
+        "Final Video": 5,
+        "Question": "There was an increase in the number of a certain item, from 1 to 5. Which item became more plentiful?",
+        "Multiple Choice": {
+            "A": "Water Bottles.",
+            "B": "Red coffee cups (Tim Hortons).",
+            "C": "Markers.",
+            "D": "Books.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q8": {
+        "Type": "Object Counting",
+        "Change Number": 8,
+        "Initial Video": 5,
+        "Final Video": 6,
+        "Question": "The number of Water Bottles changed. What was the specific change?",
+        "Multiple Choice": {
+            "A": "The count dropped from 5 to 3.",
+            "B": "The count increased from 3 to 5.",
+            "C": "The count dropped from 5 to 0.",
+            "D": "The count remained at 5.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q9": {
+        "Type": "Object Counting",
+        "Change Number": 9,
+        "Initial Video": 6,
+        "Final Video": 7,
+        "Question": "Did the scene show any items becoming fewer? If yes, what was it?",
+        "Multiple Choice": {
+            "A": "Yes, the number of Water Bottles decreased from 3 to 2.",
+            "B": "Yes, several Markers were removed.",
+            "C": "No, all item quantities remained the same or increased.",
+            "D": "Yes, some Books were removed.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q10": {
+        "Type": "Object Counting",
+        "Change Number": 10,
+        "Initial Video": 7,
+        "Final Video": 8,
+        "Question": "An item was completely removed from the scene, its count going from 2 to 0. Which item was it?",
+        "Multiple Choice": {
+            "A": "Water Bottles.",
+            "B": "Markers.",
+            "C": "Red coffee cups (Tim Hortons).",
+            "D": "Books.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q11": {
+        "Type": "Object Counting",
+        "Change Number": 11,
+        "Initial Video": 8,
+        "Final Video": 9,
+        "Question": "I see Books are now present. How did their quantity change?",
+        "Multiple Choice": {
+            "A": "They appeared, going from 0 to 4.",
+            "B": "They were already there, and one was added (e.g., 3 to 4).",
+            "C": "They decreased from 4 to 0.",
+            "D": "A few were present, and the count doubled (e.g., 2 to 4).",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q12": {
+        "Type": "Object Counting",
+        "Change Number": 12,
+        "Initial Video": 9,
+        "Final Video": 10,
+        "Question": "Were there any quantitative adjustments to items in the cubicle? If so, what happened?",
+        "Multiple Choice": {
+            "A": "The quantity of Books was reduced from 4 to 2.",
+            "B": "The quantity of Water Bottles increased.",
+            "C": "The quantity of Markers stayed the same.",
+            "D": "Screw drivers appeared.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q13": {
+        "Type": "Object Counting",
+        "Change Number": 13,
+        "Initial Video": 10,
+        "Final Video": 11,
+        "Question": "Some items were entirely cleared out, their count changing from 2 to 0. What were they?",
+        "Multiple Choice": {
+            "A": "Books.",
+            "B": "Water Bottles.",
+            "C": "Markers.",
+            "D": "Screw drivers.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q14": {
+        "Type": "Object Counting",
+        "Change Number": 14,
+        "Initial Video": 11,
+        "Final Video": 12,
+        "Question": "There are Screw drivers now. What was the change regarding them?",
+        "Multiple Choice": {
+            "A": "They were newly introduced, with a count changing from 0 to 3.",
+            "B": "One was present, and two more were added.",
+            "C": "They were removed from the scene.",
+            "D": "Their count decreased from 3 to 0.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q15": {
+        "Type": "Object Counting",
+        "Change Number": 15,
+        "Initial Video": 11,
+        "Final Video": 12,
+        "Question": "Along with other changes, a new set of items appeared, going from none to three. What were these specific items?",
+        "Multiple Choice": {
+            "A": "Tissue boxes.",
+            "B": "Markers.",
+            "C": "Books.",
+            "D": "Red coffee cups (Tim Hortons).",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q16": {
+        "Type": "Object Counting",
+        "Change Number": 16,
+        "Initial Video": 12,
+        "Final Video": 13,
+        "Question": "What change occurred with the Tissue boxes?",
+        "Multiple Choice": {
+            "A": "One was removed, their count going from 3 to 2.",
+            "B": "One was added, making it 4.",
+            "C": "All were removed.",
+            "D": "Their count remained unchanged.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q17": {
+        "Type": "Object Counting",
+        "Change Number": 17,
+        "Initial Video": 13,
+        "Final Video": 14,
+        "Question": "Between these observations, did the number of any tools change? If so, how?",
+        "Multiple Choice": {
+            "A": "Yes, the number of Screw drivers decreased from 3 to 1.",
+            "B": "Yes, the number of Markers increased.",
+            "C": "No, the tool counts remained stable.",
+            "D": "Yes, the number of Tissue boxes increased.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q18": {
+        "Type": "Object Counting",
+        "Change Number": 18,
+        "Initial Video": 14,
+        "Final Video": 15,
+        "Question": "One fewer of a certain item is now visible, its count changing from 2 to 1. Which item is it?",
+        "Multiple Choice": {
+            "A": "Tissue boxes.",
+            "B": "Screw drivers.",
+            "C": "Books.",
+            "D": "Water Bottles.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q19": {
+        "Type": "Object Counting",
+        "Change Number": 19,
+        "Initial Video": 15,
+        "Final Video": 16,
+        "Question": "How did the quantity of Screw drivers change?",
+        "Multiple Choice": {
+            "A": "It decreased from 2 to 1.",
+            "B": "It increased from 0 to 1.",
+            "C": "It remained at 1.",
+            "D": "It increased from 2 to 3.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "E"
+    },
+    "Q20": {
+        "Type": "Object Counting",
+        "Change Number": 20,
+        "Initial Video": 16,
+        "Final Video": 17,
+        "Question": "The count of an item went up by one, from 1 to 2. Which item was it?",
+        "Multiple Choice": {
+            "A": "Tissue boxes.",
+            "B": "Screw drivers.",
+            "C": "Books.",
+            "D": "Water Bottles.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q21": {
+        "Type": "Object Counting",
+        "Change Number": 21,
+        "Initial Video": 17,
+        "Final Video": 18,
+        "Question": "Regarding the Screw drivers, what adjustment was made to their number?",
+        "Multiple Choice": {
+            "A": "Their count increased from 2 to 3.",
+            "B": "Their count decreased from 3 to 2.",
+            "C": "Their count increased from 1 to 3.",
+            "D": "They were all removed.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q22": {
+        "Type": "Object Counting",
+        "Change Number": 22,
+        "Initial Video": 17,
+        "Final Video": 18,
+        "Question": "Were there any overall changes to the number of items in the scene? If so, what was one such change?",
+        "Multiple Choice": {
+            "A": "The number of Tissue boxes increased from 2 to 3.",
+            "B": "The number of Screw drivers decreased.",
+            "C": "The number of Water Bottles increased.",
+            "D": "No items changed in quantity.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q23": {
+        "Type": "Object Counting",
+        "Change Number": 23,
+        "Initial Video": 18,
+        "Final Video": 19,
+        "Question": "The quantity of a certain tool was reduced from 3 to 1. Which tool was it?",
+        "Multiple Choice": {
+            "A": "Screw drivers.",
+            "B": "Tissue boxes.",
+            "C": "Markers.",
+            "D": "Books.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    }
+}

@@ -1,0 +1,392 @@
+{
+    "Q1": {
+        "Type": "Object Counting",
+        "Change Number": 1,
+        "Initial Video": 0,
+        "Final Video": 1,
+        "Question": "I noticed the number of dominos changed. What can you tell me about that?",
+        "Multiple Choice": {
+            "A": "Their count decreased from 4 to 2.",
+            "B": "Their count increased from 2 to 4.",
+            "C": "Their count decreased from 4 to 0.",
+            "D": "The number of pencils changed, not dominos.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q2": {
+        "Type": "Object Counting",
+        "Change Number": 2,
+        "Initial Video": 1,
+        "Final Video": 2,
+        "Question": "Some items appeared in the scene that weren't there before, going from none to several. Which items were these?",
+        "Multiple Choice": {
+            "A": "Pencils, with 5 appearing.",
+            "B": "Dominos, with 5 appearing.",
+            "C": "Jellies, with 3 appearing.",
+            "D": "Pencils, with 2 appearing.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q3": {
+        "Type": "Object Counting",
+        "Change Number": 3,
+        "Initial Video": 2,
+        "Final Video": 3,
+        "Question": "Was there any shift in the quantity of items between these two observations? If so, what happened?",
+        "Multiple Choice": {
+            "A": "Yes, one more domino was added.",
+            "B": "Yes, the number of pencils decreased.",
+            "C": "No, the quantities of all items remained the same.",
+            "D": "Yes, one domino was removed.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q4": {
+        "Type": "Object Counting",
+        "Change Number": 4,
+        "Initial Video": 3,
+        "Final Video": 4,
+        "Question": "It looks like there are fewer pencils now. What was the exact change?",
+        "Multiple Choice": {
+            "A": "The count of pencils dropped from 5 to 2.",
+            "B": "The count of pencils dropped from 4 to 3.",
+            "C": "Two dominos were removed.",
+            "D": "One pencil was removed, leaving 4.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "E"
+    },
+    "Q5": {
+        "Type": "Object Counting",
+        "Change Number": 5,
+        "Initial Video": 4,
+        "Final Video": 5,
+        "Question": "A type of item completely disappeared from the scene. Which item was it, and how many were there initially?",
+        "Multiple Choice": {
+            "A": "Dominos, and there were 3 of them.",
+            "B": "Pencils, and there were 3 of them.",
+            "C": "Dominos, and there were 2 of them.",
+            "D": "Jellies, and there were 3 of them.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q6": {
+        "Type": "Object Counting",
+        "Change Number": 6,
+        "Initial Video": 4,
+        "Final Video": 5,
+        "Question": "Apart from other changes, what happened to the number of pencils in this interval?",
+        "Multiple Choice": {
+            "A": "The number of pencils decreased from 3 to 1.",
+            "B": "The number of pencils increased from 1 to 3.",
+            "C": "All pencils were removed.",
+            "D": "The number of pencils remained at 3.",
+            "E": "The number of dominos decreased from 3 to 1."
+        },
+        "Correct Choice": "A"
+    },
+    "Q7": {
+        "Type": "Object Counting",
+        "Change Number": 7,
+        "Initial Video": 5,
+        "Final Video": 6,
+        "Question": "Some new items showed up in the scene. What were they and how many appeared?",
+        "Multiple Choice": {
+            "A": "Jellies; 3 of them appeared.",
+            "B": "Pencils; 3 of them appeared.",
+            "C": "Dominos; 3 of them appeared.",
+            "D": "Jellies; 5 of them appeared.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q8": {
+        "Type": "Object Counting",
+        "Change Number": 8,
+        "Initial Video": 6,
+        "Final Video": 7,
+        "Question": "There's a change concerning dominos. What was it?",
+        "Multiple Choice": {
+            "A": "Four dominos were introduced, where there were none before.",
+            "B": "Four dominos were removed, leaving none.",
+            "C": "The number of dominos increased from 2 to 4.",
+            "D": "The number of pencils increased to 4.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q9": {
+        "Type": "Object Counting",
+        "Change Number": 9,
+        "Initial Video": 7,
+        "Final Video": 8,
+        "Question": "Between these observations, did the count of any particular item significantly increase?",
+        "Multiple Choice": {
+            "A": "Yes, the number of pencils went up from 1 to 5.",
+            "B": "Yes, the number of dominos went up from 1 to 5.",
+            "C": "No, all item counts either decreased or stayed the same.",
+            "D": "Yes, the number of jellies increased by 4.",
+            "E": "All of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q10": {
+        "Type": "Object Counting",
+        "Change Number": 10,
+        "Initial Video": 8,
+        "Final Video": 9,
+        "Question": "The quantity of one type of item significantly increased. Which item are we talking about?",
+        "Multiple Choice": {
+            "A": "Jellies.",
+            "B": "Dominos.",
+            "C": "Pencils.",
+            "D": "All items increased in quantity.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q11": {
+        "Type": "Object Counting",
+        "Change Number": 11,
+        "Initial Video": 8,
+        "Final Video": 9,
+        "Question": "Focusing on the dominos, what change occurred to their count during this period?",
+        "Multiple Choice": {
+            "A": "The count of dominos decreased from 4 to 2.",
+            "B": "The count of dominos increased from 2 to 4.",
+            "C": "All dominos were removed.",
+            "D": "The count of jellies decreased from 4 to 2.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q12": {
+        "Type": "Object Counting",
+        "Change Number": 12,
+        "Initial Video": 9,
+        "Final Video": 10,
+        "Question": "Looking at the scene, did any group of items become fewer in number? If so, which one and by how much?",
+        "Multiple Choice": {
+            "A": "Yes, two pencils were removed, leaving three.",
+            "B": "Yes, the number of dominos decreased by two.",
+            "C": "No, all item quantities either increased or stayed the same.",
+            "D": "Yes, five pencils were removed, leaving none.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q13": {
+        "Type": "Object Counting",
+        "Change Number": 13,
+        "Initial Video": 10,
+        "Final Video": 11,
+        "Question": "What happened to the number of jellies between these two video captures?",
+        "Multiple Choice": {
+            "A": "One jelly was added, so their count went from 7 to 8.",
+            "B": "Their count decreased from 8 to 6.",
+            "C": "The number of pencils decreased by one.",
+            "D": "The number of jellies remained unchanged.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "E"
+    },
+    "Q14": {
+        "Type": "Object Counting",
+        "Change Number": 14,
+        "Initial Video": 11,
+        "Final Video": 12,
+        "Question": "A certain type of item, previously present, is now completely gone. Which item disappeared?",
+        "Multiple Choice": {
+            "A": "Pencils.",
+            "B": "Dominos.",
+            "C": "Jellies.",
+            "D": "All items disappeared.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q15": {
+        "Type": "Object Counting",
+        "Change Number": 15,
+        "Initial Video": 12,
+        "Final Video": 13,
+        "Question": "Regarding the jellies, was there a change in their quantity, and if so, what was it?",
+        "Multiple Choice": {
+            "A": "Yes, their quantity decreased from 7 to 6.",
+            "B": "Yes, their quantity increased from 6 to 7.",
+            "C": "No, the quantity of jellies stayed the same.",
+            "D": "Yes, their quantity decreased from 7 to 5.",
+            "E": "Yes, all jellies were removed."
+        },
+        "Correct Choice": "A"
+    },
+    "Q16": {
+        "Type": "Object Counting",
+        "Change Number": 16,
+        "Initial Video": 12,
+        "Final Video": 13,
+        "Question": "Observing the cubicle, did the count of any objects change? If so, what was one such change?",
+        "Multiple Choice": {
+            "A": "The two dominos that were present were removed.",
+            "B": "The number of jellies increased from 6 to 7.",
+            "C": "All objects remained at the same count.",
+            "D": "Two pencils were added.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q17": {
+        "Type": "Object Counting",
+        "Change Number": 17,
+        "Initial Video": 13,
+        "Final Video": 14,
+        "Question": "Some items that were not there before have now appeared. Which items are these, and how many are there now?",
+        "Multiple Choice": {
+            "A": "Pencils; two of them appeared.",
+            "B": "Dominos; two of them appeared.",
+            "C": "Jellies; two of them appeared.",
+            "D": "Pencils; five of them appeared.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q18": {
+        "Type": "Object Counting",
+        "Change Number": 18,
+        "Initial Video": 14,
+        "Final Video": 15,
+        "Question": "I see a domino now. Were there any before, and what's the current situation?",
+        "Multiple Choice": {
+            "A": "No, there were no dominos, and now there is 1.",
+            "B": "Yes, there was 1 domino, and now there are 2.",
+            "C": "No, there were no dominos, and now there are 2.",
+            "D": "A pencil appeared, not a domino.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q19": {
+        "Type": "Object Counting",
+        "Change Number": 19,
+        "Initial Video": 15,
+        "Final Video": 16,
+        "Question": "Was there a subtle change in the number of any items? If so, what was it?",
+        "Multiple Choice": {
+            "A": "Yes, one more pencil was added, bringing the total to three.",
+            "B": "Yes, one domino was removed.",
+            "C": "No, all item counts remained exactly the same.",
+            "D": "Yes, the number of jellies increased by one.",
+            "E": "All of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q20": {
+        "Type": "Object Counting",
+        "Change Number": 20,
+        "Initial Video": 16,
+        "Final Video": 17,
+        "Question": "The number of a certain item increased from one to two. Which item was this?",
+        "Multiple Choice": {
+            "A": "Dominos.",
+            "B": "Pencils.",
+            "C": "Jellies.",
+            "D": "All items increased by one.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q21": {
+        "Type": "Object Counting",
+        "Change Number": 21,
+        "Initial Video": 16,
+        "Final Video": 17,
+        "Question": "Besides other changes, what specifically happened to the quantity of jellies?",
+        "Multiple Choice": {
+            "A": "Their quantity decreased from 6 to 5.",
+            "B": "Their quantity increased from 5 to 6.",
+            "C": "Their quantity remained unchanged at 6.",
+            "D": "Their quantity decreased from 6 to 4.",
+            "E": "The number of dominos decreased from 6 to 5."
+        },
+        "Correct Choice": "A"
+    },
+    "Q22": {
+        "Type": "Object Counting",
+        "Change Number": 22,
+        "Initial Video": 17,
+        "Final Video": 18,
+        "Question": "Did you notice any items increasing in number in this scene comparison?",
+        "Multiple Choice": {
+            "A": "Yes, one pencil was added, making it four in total.",
+            "B": "Yes, the number of dominos increased by one.",
+            "C": "No, all items either decreased or stayed the same in count.",
+            "D": "Yes, one jelly was added.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q23": {
+        "Type": "Object Counting",
+        "Change Number": 23,
+        "Initial Video": 18,
+        "Final Video": 19,
+        "Question": "How did the count of jellies change between these two observations?",
+        "Multiple Choice": {
+            "A": "It went down by one, from 5 to 4.",
+            "B": "It went up by one, from 4 to 5.",
+            "C": "It decreased from 5 to 3.",
+            "D": "The number of pencils decreased from 5 to 4.",
+            "E": "It remained the same."
+        },
+        "Correct Choice": "A"
+    },
+    "Q24": {
+        "Type": "Object Counting",
+        "Change Number": 24,
+        "Initial Video": 19,
+        "Final Video": 20,
+        "Question": "There were some jellies before, but now they're all gone. How many were there initially?",
+        "Multiple Choice": {
+            "A": "There were 4 jellies.",
+            "B": "There were 5 jellies.",
+            "C": "There were 3 jellies.",
+            "D": "There was 1 jelly.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q25": {
+        "Type": "Object Counting",
+        "Change Number": 25,
+        "Initial Video": 20,
+        "Final Video": 21,
+        "Question": "Were any items introduced to the scene in a noticeable quantity? If so, what?",
+        "Multiple Choice": {
+            "A": "Yes, six jellies were introduced.",
+            "B": "Yes, four pencils were introduced.",
+            "C": "No, item quantities only decreased or stayed the same.",
+            "D": "Yes, six dominos were introduced.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q26": {
+        "Type": "Object Counting",
+        "Change Number": 26,
+        "Initial Video": 20,
+        "Final Video": 21,
+        "Question": "Alongside other changes, what happened to the pencils in this final transition?",
+        "Multiple Choice": {
+            "A": "All four pencils that were present were removed.",
+            "B": "The number of pencils increased from 0 to 4.",
+            "C": "Two pencils were removed, leaving two.",
+            "D": "The number of jellies decreased from 4 to 0.",
+            "E": "The pencils remained untouched."
+        },
+        "Correct Choice": "A"
+    }
+}

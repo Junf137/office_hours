@@ -1,0 +1,26 @@
+Episode,Unique Object,Initial Location Inside Cubicle,Final Location Inside Cubicle
+1,metal water bottle,left of cubicle,right of cubicle
+2,rubiks cube,right of cubicle,left of cubicle
+2,table tenis racket,left of cubicle,middle of cubicle
+3,book,middle of subicle,left of cubicle
+4,table tenis racket,in front of cookie tin,nex to pile of books
+4,computer fan,next to computer,next to metal water bottle
+5,aria glasses,between table tenis rackets and pile of books,behind paper towels
+6,monitor,right of desktop,left of desktop
+7,book,left of monitor,top of pile
+8,glove box,next to aria glasses,left of left table tenis racket
+9,pencil,left of board game box,left of heat sink
+10,paper towels,middle of cubicle in front of the aria glasses,right of the head sink
+11,rubiks cube,between table tenis rackets,on top of desktop
+11,aria glasses,betwen gpu box and board game box,between toolbox and heat sink
+12,heat sink,right of cubicle,left of cubicle
+13,rubiks cube,top of desktop,right of cubicle
+14,glove box,left of cubicle,next to rubiks cube
+15,aria glasses,next to blue book,to the left of the monitor
+15,champagne glass,on top of table tenis racket,behind ruler
+16,monitor,left of desktop,behind the open book
+17,ruler,infront of monitor and air purifier,behind duster and infront of the desktop
+18,funkopop,left of cubicle next to table tenis racker,right of cubicle behind rubiks cube
+19,rubiks cube,to the right of the glove box and infront of a funkopop,ontop of the humidifier
+19,board game box,to the left of the air purifier,to the left of the drone
+20,drone,to the right of the board game box and in front of the desktop,to the left of the air purifier and in front of the paper cups

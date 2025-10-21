@@ -1,0 +1,362 @@
+{
+    "Q1": {
+        "Type": "Object Detection",
+        "Change Number": 1,
+        "Initial Video": 0,
+        "Final Video": 1,
+        "Question": "Something new showed up in the cubicle. What object made its appearance on the left side of the monitor?",
+        "Multiple Choice": {
+            "A": "tim hortons instant coffee",
+            "B": "kit kat snack bag",
+            "C": "green yoshi painting",
+            "D": "black rog box",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q2": {
+        "Type": "Object Detection",
+        "Change Number": 2,
+        "Initial Video": 1,
+        "Final Video": 2,
+        "Question": "Between the initial scene and the next, did any snack items appear or disappear, and if so, where was this change observed?",
+        "Multiple Choice": {
+            "A": "A kit kat snack bag appeared besides the keyboard, left side of the cubicle.",
+            "B": "A tim hortons instant coffee disappeared from the left side of the monitor.",
+            "C": "A jellies box appeared on the right side of the cubicle.",
+            "D": "A plushie disappeared from the chair.",
+            "E": "No snack items changed."
+        },
+        "Correct Choice": "A"
+    },
+    "Q3": {
+        "Type": "Object Detection",
+        "Change Number": 3,
+        "Initial Video": 3,
+        "Final Video": 4,
+        "Question": "The green yoshi painting is no longer in the cubicle. From which spot did it vanish?",
+        "Multiple Choice": {
+            "A": "besides the black computer case",
+            "B": "left corner of the cubicle",
+            "C": "besides the white board",
+            "D": "on top of the black box",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q4": {
+        "Type": "Object Detection",
+        "Change Number": 4,
+        "Initial Video": 4,
+        "Final Video": 5,
+        "Question": "Focusing on the cubicle's corners, what specific object appearance or disappearance occurred in one of them?",
+        "Multiple Choice": {
+            "A": "A black rog box appeared in the left corner of the cubicle.",
+            "B": "A green yoshi painting disappeared from beside the black computer case.",
+            "C": "An ipad appeared besides the white board.",
+            "D": "sun glasses appeared on top of the black box.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q5": {
+        "Type": "Object Detection",
+        "Change Number": 5,
+        "Initial Video": 5,
+        "Final Video": 6,
+        "Question": "Was there any change in objects beside the white board between these two scenes? If so, what was it?",
+        "Multiple Choice": {
+            "A": "An ipad appeared.",
+            "B": "A plushie disappeared.",
+            "C": "sun glasses appeared.",
+            "D": "A black rog box disappeared.",
+            "E": "No change occurred beside the white board."
+        },
+        "Correct Choice": "A"
+    },
+    "Q6": {
+        "Type": "Object Detection",
+        "Change Number": 6,
+        "Initial Video": 6,
+        "Final Video": 7,
+        "Question": "Something new popped up on top of the black box. What was it?",
+        "Multiple Choice": {
+            "A": "sun glasses",
+            "B": "jellies box",
+            "C": "ping pong paddle case",
+            "D": "red tim hortons donut box",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q7": {
+        "Type": "Object Detection",
+        "Change Number": 7,
+        "Initial Video": 7,
+        "Final Video": 8,
+        "Question": "A plushie made an appearance in the cubicle. Where did it show up?",
+        "Multiple Choice": {
+            "A": "on the chair",
+            "B": "right side of the cubicle",
+            "C": "in front of the monitor",
+            "D": "laying on top of the ipad",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q8": {
+        "Type": "Object Detection",
+        "Change Number": 8,
+        "Initial Video": 8,
+        "Final Video": 9,
+        "Question": "On the right side of the cubicle, a new item was spotted. Which item appeared there?",
+        "Multiple Choice": {
+            "A": "jellies box",
+            "B": "tim hortons instant coffee",
+            "C": "kit kat snack bag",
+            "D": "green yoshi painting",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q9": {
+        "Type": "Object Detection",
+        "Change Number": 9,
+        "Initial Video": 9,
+        "Final Video": 10,
+        "Question": "Considering items typically found on or near furniture or desks, what change involving a soft, toy-like object took place and where?",
+        "Multiple Choice": {
+            "A": "A plushie disappeared from in front of the monitor.",
+            "B": "A plushie appeared on the chair.",
+            "C": "A jellies box appeared on the right side of the cubicle.",
+            "D": "A ping pong paddle case disappeared from on top of the ipad.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q10": {
+        "Type": "Object Detection",
+        "Change Number": 10,
+        "Initial Video": 9,
+        "Final Video": 10,
+        "Question": "The ping pong paddle case vanished from the scene. Can you recall where it was before it disappeared?",
+        "Multiple Choice": {
+            "A": "laying on top of the ipad",
+            "B": "in front of the monitor",
+            "C": "on top of the black computer case",
+            "D": "besides the white board",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q11": {
+        "Type": "Object Detection",
+        "Change Number": 11,
+        "Initial Video": 10,
+        "Final Video": 11,
+        "Question": "What item related to beverages vanished from its spot on a piece of computer equipment?",
+        "Multiple Choice": {
+            "A": "A tim hortons instant coffee disappeared from on top of the black computer case.",
+            "B": "A kit kat snack bag disappeared from in front of the monitor.",
+            "C": "A red tim hortons donut box appeared on the left side of the cubicle.",
+            "D": "A blue cup disappeared from beside the white board.",
+            "E": "No such beverage-related item change occurred on computer equipment."
+        },
+        "Correct Choice": "A"
+    },
+    "Q12": {
+        "Type": "Object Detection",
+        "Change Number": 12,
+        "Initial Video": 11,
+        "Final Video": 12,
+        "Question": "The kit kat snack bag is no longer present. Where was it last seen before it vanished?",
+        "Multiple Choice": {
+            "A": "in front of the monitor",
+            "B": "left side of cubicle",
+            "C": "besides the monitor",
+            "D": "right side of the cubicle",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q13": {
+        "Type": "Object Detection",
+        "Change Number": 13,
+        "Initial Video": 12,
+        "Final Video": 13,
+        "Question": "Regarding the changes on the left side of the cubicle during this transition, which of these specific items disappeared?",
+        "Multiple Choice": {
+            "A": "black rog box",
+            "B": "tim hortons instant coffee",
+            "C": "green yoshi painting",
+            "D": "kit kat snack bag",
+            "E": "None of the above items disappeared from the left side; something appeared."
+        },
+        "Correct Choice": "E"
+    },
+    "Q14": {
+        "Type": "Object Detection",
+        "Change Number": 14,
+        "Initial Video": 13,
+        "Final Video": 14,
+        "Question": "I noticed a red scisser appeared in the scene. Where did it show up?",
+        "Multiple Choice": {
+            "A": "besides the monitor",
+            "B": "in front of the monitor",
+            "C": "left side of the cubicle",
+            "D": "besides the white board",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q15": {
+        "Type": "Object Detection",
+        "Change Number": 15,
+        "Initial Video": 14,
+        "Final Video": 15,
+        "Question": "Between these two video clips, did anything change near the monitor? If so, what was it?",
+        "Multiple Choice": {
+            "A": "A pink box disappeared from beside the monitor.",
+            "B": "A red scisser appeared beside the monitor.",
+            "C": "A red covered book appeared in front of the monitor.",
+            "D": "A shuttlecock tube disappeared from in front of the monitor.",
+            "E": "No, nothing changed near the monitor."
+        },
+        "Correct Choice": "A"
+    },
+    "Q16": {
+        "Type": "Object Detection",
+        "Change Number": 16,
+        "Initial Video": 15,
+        "Final Video": 16,
+        "Question": "Something vanished from the left side of the cubicle. What object disappeared?",
+        "Multiple Choice": {
+            "A": "black rog box",
+            "B": "white mug stacked together",
+            "C": "white paper towel",
+            "D": "blue cup",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q17": {
+        "Type": "Object Detection",
+        "Change Number": 17,
+        "Initial Video": 16,
+        "Final Video": 17,
+        "Question": "A red covered book has now appeared in the cubicle. Where can it be found?",
+        "Multiple Choice": {
+            "A": "in front of the monitor",
+            "B": "standing on top of the black computer case",
+            "C": "right side of the cubicle, besides the black computer case",
+            "D": "besides the white board",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q18": {
+        "Type": "Object Detection",
+        "Change Number": 18,
+        "Initial Video": 17,
+        "Final Video": 18,
+        "Question": "Observing the cubicle from one video to the next, was there any object that was present and then gone from the left side?",
+        "Multiple Choice": {
+            "A": "Yes, the red tim hortons donut box disappeared from the left side.",
+            "B": "Yes, a black rog box appeared on the left side.",
+            "C": "No, nothing changed on the left side.",
+            "D": "Yes, a poster disappeared from the right side.",
+            "E": "None of the above captures the change accurately."
+        },
+        "Correct Choice": "A"
+    },
+    "Q19": {
+        "Type": "Object Detection",
+        "Change Number": 19,
+        "Initial Video": 18,
+        "Final Video": 19,
+        "Question": "An object newly appeared in front of the monitor. What is it?",
+        "Multiple Choice": {
+            "A": "shuttlecock tube",
+            "B": "poster",
+            "C": "white mug stacked together",
+            "D": "white paper towel",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q20": {
+        "Type": "Object Detection",
+        "Change Number": 20,
+        "Initial Video": 19,
+        "Final Video": 20,
+        "Question": "The poster that was in the cubicle seems to be missing now. Where was it located before it disappeared?",
+        "Multiple Choice": {
+            "A": "right side of the cubicle",
+            "B": "in front of the monitor",
+            "C": "besides the monitor",
+            "D": "on the chair",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q21": {
+        "Type": "Object Detection",
+        "Change Number": 21,
+        "Initial Video": 20,
+        "Final Video": 21,
+        "Question": "On the right side of the cubicle, beside the black computer case, a new item was observed. What was it?",
+        "Multiple Choice": {
+            "A": "white mug stacked together",
+            "B": "blue cup",
+            "C": "ipad",
+            "D": "tim hortons instant coffee",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q22": {
+        "Type": "Object Detection",
+        "Change Number": 22,
+        "Initial Video": 21,
+        "Final Video": 22,
+        "Question": "A white paper towel has made an appearance. Where in the cubicle did it show up?",
+        "Multiple Choice": {
+            "A": "besides the white board",
+            "B": "standing on top of the black computer case",
+            "C": "left side of monitor",
+            "D": "besides the keyboard, left side of the cubicle",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q23": {
+        "Type": "Object Detection",
+        "Change Number": 23,
+        "Initial Video": 22,
+        "Final Video": 23,
+        "Question": "Did any items disappear from the area beside the white board between these two episodes? If yes, what was it?",
+        "Multiple Choice": {
+            "A": "Yes, a blue cup disappeared.",
+            "B": "Yes, an ipad disappeared.",
+            "C": "No, nothing disappeared from there; something appeared.",
+            "D": "Yes, a white paper towel disappeared.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q24": {
+        "Type": "Object Detection",
+        "Change Number": 24,
+        "Initial Video": 23,
+        "Final Video": 24,
+        "Question": "The 'ipad ' has vanished. Where was it positioned before it disappeared?",
+        "Multiple Choice": {
+            "A": "standing on top of the black computer case",
+            "B": "besides the white board",
+            "C": "on top of the black box",
+            "D": "laying on top of the ipad",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    }
+}

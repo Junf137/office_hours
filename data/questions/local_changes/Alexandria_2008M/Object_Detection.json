@@ -1,0 +1,392 @@
+{
+    "Q1": {
+        "Type": "Object Detection",
+        "Change Number": 1,
+        "Initial Video": 0,
+        "Final Video": 1,
+        "Question": "A new object was spotted in the right corner of the cubicle. Which item made its appearance?",
+        "Multiple Choice": {
+            "A": "Eiffel tower toy",
+            "B": "camera",
+            "C": "funko pop",
+            "D": "coup game",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q2": {
+        "Type": "Object Detection",
+        "Change Number": 2,
+        "Initial Video": 1,
+        "Final Video": 2,
+        "Question": "The camera made an appearance in the cubicle. Can you recall where it was placed?",
+        "Multiple Choice": {
+            "A": "In the middle left area.",
+            "B": "In the right corner.",
+            "C": "In the middle right area.",
+            "D": "On the left corner.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q3": {
+        "Type": "Object Detection",
+        "Change Number": 3,
+        "Initial Video": 1,
+        "Final Video": 2,
+        "Question": "Between these two observations of the cubicle, was there any change involving items appearing or disappearing? If yes, what was one specific change?",
+        "Multiple Choice": {
+            "A": "A funko pop appeared in the middle right.",
+            "B": "A camera disappeared from the middle left.",
+            "C": "An Eiffel tower toy appeared in the right corner.",
+            "D": "A cooling fan appeared in the middle left.",
+            "E": "No items appeared or disappeared."
+        },
+        "Correct Choice": "A"
+    },
+    "Q4": {
+        "Type": "Object Detection",
+        "Change Number": 4,
+        "Initial Video": 2,
+        "Final Video": 3,
+        "Question": "An item popped up in the right corner of the cubicle. What was this new object?",
+        "Multiple Choice": {
+            "A": "coup game",
+            "B": "plushie",
+            "C": "cooling fan",
+            "D": "Triceratops toy",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q5": {
+        "Type": "Object Detection",
+        "Change Number": 5,
+        "Initial Video": 2,
+        "Final Video": 3,
+        "Question": "A plushie was newly observed in the cubicle. Where did it appear?",
+        "Multiple Choice": {
+            "A": "In the left corner.",
+            "B": "In the right corner.",
+            "C": "In the middle left.",
+            "D": "In the middle right.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q6": {
+        "Type": "Object Detection",
+        "Change Number": 6,
+        "Initial Video": 3,
+        "Final Video": 4,
+        "Question": "Looking at the cubicle from one point in time to the next, did anything materialize or vanish? If so, what change occurred?",
+        "Multiple Choice": {
+            "A": "A cooling fan appeared in the middle left.",
+            "B": "A coup game disappeared from the right corner.",
+            "C": "A plushie disappeared from the left corner.",
+            "D": "A Triceratops toy appeared in the middle right.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q7": {
+        "Type": "Object Detection",
+        "Change Number": 7,
+        "Initial Video": 4,
+        "Final Video": 5,
+        "Question": "An item was no longer present in the middle left of the cubicle. Which object disappeared?",
+        "Multiple Choice": {
+            "A": "cooling fan",
+            "B": "Triceratops toy",
+            "C": "tape dispenser",
+            "D": "funko pop",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q8": {
+        "Type": "Object Detection",
+        "Change Number": 8,
+        "Initial Video": 5,
+        "Final Video": 6,
+        "Question": "The Triceratops toy vanished from the scene. From which location did it disappear?",
+        "Multiple Choice": {
+            "A": "From the middle right.",
+            "B": "From the left corner.",
+            "C": "From the right corner.",
+            "D": "From the middle left.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q9": {
+        "Type": "Object Detection",
+        "Change Number": 9,
+        "Initial Video": 5,
+        "Final Video": 6,
+        "Question": "Were there any shifts in the objects present in the cubicle during this interval? If yes, describe one such shift.",
+        "Multiple Choice": {
+            "A": "A cooling fan appeared in the right corner.",
+            "B": "A Triceratops toy appeared in the middle right.",
+            "C": "A tape dispenser disappeared from the left corner.",
+            "D": "A funko pop appeared in the far left corner.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q10": {
+        "Type": "Object Detection",
+        "Change Number": 10,
+        "Initial Video": 6,
+        "Final Video": 7,
+        "Question": "Something new was spotted in the left corner. What object made its appearance there?",
+        "Multiple Choice": {
+            "A": "Triceratops toy",
+            "B": "tape dispenser",
+            "C": "funko pop",
+            "D": "Eiffel tower toy",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q11": {
+        "Type": "Object Detection",
+        "Change Number": 11,
+        "Initial Video": 7,
+        "Final Video": 8,
+        "Question": "A tape dispenser was added to the items in the cubicle. Where was it placed?",
+        "Multiple Choice": {
+            "A": "In the left corner.",
+            "B": "In the far left corner.",
+            "C": "In the right corner.",
+            "D": "In the middle.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q12": {
+        "Type": "Object Detection",
+        "Change Number": 12,
+        "Initial Video": 8,
+        "Final Video": 9,
+        "Question": "Between these two views of the cubicle, did any object get removed or added? If yes, what was it?",
+        "Multiple Choice": {
+            "A": "The funko pop disappeared from the far left corner.",
+            "B": "The tape dispenser appeared in the left corner.",
+            "C": "The funko pop appeared in the left corner.",
+            "D": "The Eiffel tower toy disappeared from the right corner.",
+            "E": "No changes occurred."
+        },
+        "Correct Choice": "A"
+    },
+    "Q13": {
+        "Type": "Object Detection",
+        "Change Number": 13,
+        "Initial Video": 9,
+        "Final Video": 10,
+        "Question": "An item seemed to reappear, or perhaps it's a new one, in the left corner. What object was it?",
+        "Multiple Choice": {
+            "A": "funko pop",
+            "B": "Eiffel tower toy",
+            "C": "playing cards",
+            "D": "coup game",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q14": {
+        "Type": "Object Detection",
+        "Change Number": 14,
+        "Initial Video": 10,
+        "Final Video": 11,
+        "Question": "The Eiffel tower toy, which was in the right corner, underwent a change. What specific change occurred to it there?",
+        "Multiple Choice": {
+            "A": "It appeared in the right corner.",
+            "B": "It moved from the right corner to the middle right.",
+            "C": "It was joined by a funko pop in the right corner.",
+            "D": "Its design changed but it remained in the right corner.",
+            "E": "None of the above."
+        },
+        "Correct Choice": "E"
+    },
+    "Q15": {
+        "Type": "Object Detection",
+        "Change Number": 15,
+        "Initial Video": 11,
+        "Final Video": 12,
+        "Question": "What, if any, items changed their presence in the cubicle? Describe one such event.",
+        "Multiple Choice": {
+            "A": "The Eiffel tower toy appeared in the middle right.",
+            "B": "Playing cards appeared in the left corner.",
+            "C": "The coup game disappeared from the left corner.",
+            "D": "The funko pop disappeared from the left corner.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q16": {
+        "Type": "Object Detection",
+        "Change Number": 16,
+        "Initial Video": 11,
+        "Final Video": 12,
+        "Question": "An item vanished from the left corner of the cubicle. Which object was it?",
+        "Multiple Choice": {
+            "A": "playing cards",
+            "B": "coup game",
+            "C": "plushie",
+            "D": "camera",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q17": {
+        "Type": "Object Detection",
+        "Change Number": 17,
+        "Initial Video": 12,
+        "Final Video": 13,
+        "Question": "The coup game went missing from the cubicle. From what spot did it disappear?",
+        "Multiple Choice": {
+            "A": "From the left corner.",
+            "B": "From the middle.",
+            "C": "From the right corner.",
+            "D": "From beside the monitor.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q18": {
+        "Type": "Object Detection",
+        "Change Number": 18,
+        "Initial Video": 13,
+        "Final Video": 14,
+        "Question": "Observing the cubicle over time, were there any objects that newly appeared or were taken away? Tell me about one.",
+        "Multiple Choice": {
+            "A": "Playing cards appeared in the middle.",
+            "B": "The coup game disappeared from the left corner.",
+            "C": "The plushie disappeared from the right corner.",
+            "D": "The camera appeared in the right corner.",
+            "E": "No objects appeared or disappeared."
+        },
+        "Correct Choice": "A"
+    },
+    "Q19": {
+        "Type": "Object Detection",
+        "Change Number": 19,
+        "Initial Video": 13,
+        "Final Video": 14,
+        "Question": "An object showed up in the left corner. What was it?",
+        "Multiple Choice": {
+            "A": "coup game",
+            "B": "plushie",
+            "C": "cooling fan",
+            "D": "camera",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q20": {
+        "Type": "Object Detection",
+        "Change Number": 20,
+        "Initial Video": 14,
+        "Final Video": 15,
+        "Question": "The plushie was gone from the cubicle. Where was it located before it vanished?",
+        "Multiple Choice": {
+            "A": "In the right corner.",
+            "B": "In the left corner.",
+            "C": "In the middle.",
+            "D": "On the main desk surface.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q21": {
+        "Type": "Object Detection",
+        "Change Number": 21,
+        "Initial Video": 15,
+        "Final Video": 16,
+        "Question": "I'm trying to track what items come and go. What's one thing that changed its presence between these scenes?",
+        "Multiple Choice": {
+            "A": "The plushie appeared in the left corner.",
+            "B": "The coup game disappeared from the right corner.",
+            "C": "The cooling fan disappeared from the left corner.",
+            "D": "The camera disappeared from the right corner.",
+            "E": "All of the above."
+        },
+        "Correct Choice": "A"
+    },
+    "Q22": {
+        "Type": "Object Detection",
+        "Change Number": 22,
+        "Initial Video": 16,
+        "Final Video": 17,
+        "Question": "An item was removed from the right corner. Which object was taken away?",
+        "Multiple Choice": {
+            "A": "coup game",
+            "B": "cooling fan",
+            "C": "camera",
+            "D": "tape dispenser",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q23": {
+        "Type": "Object Detection",
+        "Change Number": 23,
+        "Initial Video": 17,
+        "Final Video": 18,
+        "Question": "The coup game made a reappearance. In which part of the cubicle did it show up?",
+        "Multiple Choice": {
+            "A": "In the left corner.",
+            "B": "In the middle.",
+            "C": "In the right corner.",
+            "D": "Next to the funko pop.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q24": {
+        "Type": "Object Detection",
+        "Change Number": 24,
+        "Initial Video": 17,
+        "Final Video": 18,
+        "Question": "Looking at the cubicle before and after, did anything new show up or go missing? If so, can you point out one instance?",
+        "Multiple Choice": {
+            "A": "The cooling fan disappeared from the left corner.",
+            "B": "The coup game disappeared from the left corner.",
+            "C": "The coup game appeared in the middle.",
+            "D": "The camera disappeared from the right corner.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q25": {
+        "Type": "Object Detection",
+        "Change Number": 25,
+        "Initial Video": 18,
+        "Final Video": 19,
+        "Question": "A new item was placed in the middle of the area. What object appeared there?",
+        "Multiple Choice": {
+            "A": "coup game",
+            "B": "camera",
+            "C": "Eiffel tower toy",
+            "D": "funko pop",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    },
+    "Q26": {
+        "Type": "Object Detection",
+        "Change Number": 26,
+        "Initial Video": 19,
+        "Final Video": 20,
+        "Question": "The camera was no longer visible in the cubicle. From where did it disappear?",
+        "Multiple Choice": {
+            "A": "From the right corner.",
+            "B": "From the left corner.",
+            "C": "From the middle.",
+            "D": "From the middle left.",
+            "E": "None of the above"
+        },
+        "Correct Choice": "A"
+    }
+}
