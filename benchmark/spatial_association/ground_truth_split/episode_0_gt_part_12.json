@@ -1,0 +1,28 @@
+{
+  "count": 13,
+  "cubicles": [
+    {"id": "2038Q", "name": "Alana"},
+    {"id": "2038K", "name": "Alex"},
+    {"id": "2008M", "name": "Alexandria"},
+    {"id": "2038R", "name": "Amy"},
+    {"id": "2008R", "name": "Brunce Wayne"},
+    {"id": "2008L", "name": "Carleton"},
+    {"id": "2038M", "name": "Cecilia"},
+    {"id": "2038Y", "name": "Daniel"},
+    {"id": "2038L", "name": "Eddie"},
+    {"id": "2038U", "name": "Emily"},
+    {"id": "2038S", "name": "Frank"},
+    {"id": "N/A", "name": "Jack J"},
+    {"id": "2038T", "name": "Jack S"},
+    {"id": "N/A", "name": "James"},
+    {"id": "N/A", "name": "Jason"},
+    {"id": "2038X", "name": "Jerry"},
+    {"id": "2038W", "name": "Jessica"},
+    {"id": "2008S", "name": "Josh"},
+    {"id": "2038N", "name": "Kristine"},
+    {"id": "2008J", "name": "Lauren"},
+    {"id": "2008Q", "name": "Mart Scott"},
+    {"id": "2038P", "name": "Roberto"},
+    {"id": "2008P", "name": "Sherlock Homes"}
+  ]
+}

@@ -25,44 +25,42 @@ GEMIMI_MODEL = "gemini-2.5-pro"
 
 # --- Constants ---
 NUM_EPISODES = 6
-GROUND_TRUTH_DIR = "benchmark/spatial_association/ground_truth"  # files: episode_{i}_gt.json
-OUT_DIR = "output" 
+SPLIT = True  # whether to use split videos and ground truth
+if SPLIT:
+    NUM_EPISODES = 24
+    GROUND_TRUTH_DIR = "benchmark/spatial_association/ground_truth_split"  # files: episode_{i}_gt.json
+else:
+    GROUND_TRUTH_DIR = "benchmark/spatial_association/ground_truth"  # files: episode_{i}_gt.json
 
-# --- Allowed relations ---
-ALLOWED_REL = {"left_of", "right_of"}
+OUT_DIR = "output" 
+os.makedirs(OUT_DIR, exist_ok=True)
 
 # --- Pydantic schemas to structure VLM output ---
 class CubiclePair(BaseModel):
     id: str
     name: str
 
-class SimpleEdge(BaseModel):
-    source: str   # owner name string (e.g., "Amy")
-    target: str   # owner name string (e.g., "Jason")
-    relation: str # "left_of" or "right_of"
+class NeighborItem(BaseModel):
+    name: str                # owner name on this cubicle
+    neighbors: List[str]     # list of neighbor owner names (strings)
 
 class CombinedResponse(BaseModel):
     count: int                # number of cubicles with readable names
     cubicles: List[CubiclePair]  # list of id<->name pairs (only include cubicles that have readable names)
-    edges: List[SimpleEdge]      # left_of / right_of relations between names
+    neighbors: List[NeighborItem]       # neighbor lists per cubicle (names)
 
 # ---------------------------
 # Prompt
 # ---------------------------
-# TODO: Decide if to keep (yes for now): "count" must equal the number of entries in "cubicles"
-# TODO: Add some hinting for the direction (e.g., left_of means source is to the left of target from camera POV)
-# TODO: Adjacency (ie just neighbors) or all pairs?
-# TODO: Allow left_of, right_of and across from
-# TODO: Try with different resolution and framerate videos
 PROMPT = """
 You are given a video surveying an office with multiple cubicles.
-Produce ONE strict JSON object (no commentary) with exactly three keys: "count", "cubicles", and "edges".
+Produce ONE strict JSON object (no commentary) with exactly three keys: "count", "cubicles", and "neighbors".
 
 Schema:
 {
   "count": <integer>,
   "cubicles": [ {"id":"2008M","name":"Amy"}, ... ],
-  "edges": [ {"source":"Amy","target":"Jason","relation":"left_of"}, ... ]
+  "neighbors": [ {"name":"Amy","neighbors":["Jason","Lauren"]}, ... ]
 }
 
 Rules:
@@ -71,16 +69,18 @@ Rules:
     - Use the visible cubicle ID if the cubicle has one assigned (e.g., "2008M").
     - If a cubicle does not have any ID shown or assigned in the video, set "id": "N/A".
 - "count" must equal the number of entries in "cubicles".
-- "cubicles" must include ONLY cubicles for which a readable owner name appears in the video. Each entry must contain an id (visible id like 2008 M) and the exact visible name string.
-- "edges" must reference the owner names exactly as they appear in "cubicles".
-- Use ONLY the relations "left_of" or "right_of".
+- "cubicles" must include ONLY cubicles for which a readable owner name appears in the video. Each entry must contain an id (like 2008 M or N/A if not present) and the exact visible name string.
+- "neighbors" must list direct neighboring cubicles by owner name (only include neighbors whose names appear in "cubicles").
 """
 
 # ---------------------------
 # Metric helpers
 # ---------------------------
 def load_gt_for_episode(i: int) -> Dict:
-    path = os.path.join(GROUND_TRUTH_DIR, f"episode_{i}_gt.json")
+    if SPLIT:
+        path = os.path.join(GROUND_TRUTH_DIR, f"episode_0_gt_part_{i}.json")
+    else:
+        path = os.path.join(GROUND_TRUTH_DIR, f"episode_{i}_gt.json")
     if not os.path.exists(path):
         return {}
     return json.load(open(path, "r"))
@@ -208,7 +208,10 @@ if __name__ == "__main__":
     os.makedirs(out_dir, exist_ok=True)
 
     for i in range(num_episodes):
-        episode_path = f"data/global_changes_videos/episode_{i}_720p_10fps.mp4"
+        if SPLIT:
+            episode_path = f"benchmark/spatial_association/split_videos/episode_0_720p_10fps_part_{i}.mp4"
+        else:
+            episode_path = f"data/global_changes_videos/episode_{i}_720p_10fps.mp4"
         if not os.path.exists(episode_path):
             print("Missing file:", episode_path)
             continue
@@ -234,7 +237,10 @@ if __name__ == "__main__":
         )
 
         # save raw response
-        raw_path = os.path.join(out_dir, f"episode_{i}_raw.txt")
+        if SPLIT:
+            raw_path = os.path.join(out_dir, f"episode_0_720p_10fps_part_{i}_raw.txt")
+        else:
+            raw_path = os.path.join(out_dir, f"episode_{i}_raw.txt")
         with open(raw_path, "w") as f:
             f.write(resp.text)
         print("Saved raw response to", raw_path)
@@ -250,18 +256,6 @@ if __name__ == "__main__":
         # basic checks
         if parsed.count != len(parsed.cubicles):
             print(f"Warning: count ({parsed.count}) != number of cubicles returned ({len(parsed.cubicles)}).")
-
-        bad_rels = [e for e in parsed.edges if e.relation not in ALLOWED_REL]
-        if bad_rels:
-            print("Warning: unsupported relations found:", {e.relation for e in bad_rels})
-
-        # check edge references exist in cubicle names
-        cubicle_names = {c.name for c in parsed.cubicles}
-        missing_refs = [e for e in parsed.edges if e.source not in cubicle_names or e.target not in cubicle_names]
-        if missing_refs:
-            print("Warning: some edges reference names not present in cubicles list:")
-            for e in missing_refs:
-                print(f"  {e.source} -> {e.target} ({e.relation})")
 
         # ---------------------------
         # Metrics (if GT available)
@@ -289,7 +283,10 @@ if __name__ == "__main__":
             }
 
             # save metrics
-            metrics_path = os.path.join(out_dir, f"episode_{i}_metrics.json")
+            if SPLIT:
+                metrics_path = os.path.join(out_dir, f"episode_0_720p_10fps_part_{i}_metrics.json")
+            else:
+                metrics_path = os.path.join(out_dir, f"episode_{i}_metrics.json")
             save_json(metrics_path, metrics)
         else:
             print("No ground-truth file found; skipping metrics.")
@@ -298,20 +295,13 @@ if __name__ == "__main__":
         out = {
             "count": parsed.count,
             "cubicles": [c.model_dump() for c in parsed.cubicles],
-            "edges": [e.model_dump() for e in parsed.edges],
+            "neighbors": [n.model_dump() for n in parsed.neighbors],
         }
-        save_path = os.path.join(out_dir, f"episode_{i}_combined.json")
+        if SPLIT:
+            save_path = os.path.join(out_dir, f"episode_0_720p_10fps_part_{i}_combined.json")
+        else:
+            save_path = os.path.join(out_dir, f"episode_{i}_combined.json")
         save_json(save_path, out)
-
-        # concise summary
-        print(f"Episode {i}: named cubicles = {parsed.count}; edges = {len(parsed.edges)}")
-        if gt:
-            print("Metrics (summary):", {k: metrics[k] for k in metrics})
-        for c in parsed.cubicles:
-            print(f"  {c.id} : {c.name}")
-        for e in parsed.edges:
-            print(f"  {e.source} -> {e.target} : {e.relation}")
-        print("-" * 60)
 
     # ---------------------------
     # Final aggregation across episodes
@@ -323,7 +313,10 @@ if __name__ == "__main__":
 
     # Attempt to load per-episode metric files in out_dir as a fallback
     for i in range(num_episodes):
-        metrics_path = os.path.join(out_dir, f"episode_{i}_metrics.json")
+        if SPLIT:
+            metrics_path = os.path.join(out_dir, f"episode_0_720p_10fps_part_{i}_metrics.json")
+        else:
+            metrics_path = os.path.join(out_dir, f"episode_{i}_metrics.json")
         if os.path.exists(metrics_path):
             try:
                 m = json.load(open(metrics_path, "r"))
