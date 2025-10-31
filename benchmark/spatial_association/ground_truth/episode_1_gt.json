@@ -25,5 +25,30 @@
     {"id": "2008Q", "name": "Lena Marwood"},
     {"id": "2038P", "name": "Roberto"},
     {"id": "2008P", "name": "Sherlock Homes"}
+  ],
+  "neighbors": [
+    {"name": "Alana", "neighbors": ["Amy", "Roberto"]},
+    {"name": "Alex", "neighbors": []},
+    {"name": "Alexandria", "neighbors": ["James"]},
+    {"name": "Amy", "neighbors": ["Alana"]},
+    {"name": "Carleton", "neighbors": ["Jason"]},
+    {"name": "Cecilia", "neighbors": ["Eddie"]},
+    {"name": "Daniel", "neighbors": ["Jerry"]},
+    {"name": "Eddie", "neighbors": ["Cecilia"]},
+    {"name": "Emily", "neighbors": ["Jack S", "Jack J"]},
+    {"name": "Frank", "neighbors": ["Jack S"]},
+    {"name": "Jack J", "neighbors": ["Emily"]},
+    {"name": "Jack S", "neighbors": ["Frank", "Emily"]},
+    {"name": "James", "neighbors": ["Sherlock Homes", "Alexandria"]},
+    {"name": "Jason", "neighbors": ["Lauren", "Carleton"]},
+    {"name": "Jerry", "neighbors": ["Daniel", "Jessica"]},
+    {"name": "Jessica", "neighbors": ["Jerry"]},
+    {"name": "Josh", "neighbors": ["Kai Throne"]},
+    {"name": "Kai Throne", "neighbors": ["Lena Marwood", "Josh"]},
+    {"name": "Kristine", "neighbors": ["Roberto"]},
+    {"name": "Lauren", "neighbors": ["Jason"]},
+    {"name": "Lena Marwood", "neighbors": ["Kai Throne"]},
+    {"name": "Roberto", "neighbors": ["Alana", "Kristine"]},
+    {"name": "Sherlock Homes", "neighbors": ["James"]}
   ]
 }

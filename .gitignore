@@ -2,6 +2,7 @@ data/global_changes_videos/
 data/local_changes_videos/
 output*/
 .vscode/
+*.mp4
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

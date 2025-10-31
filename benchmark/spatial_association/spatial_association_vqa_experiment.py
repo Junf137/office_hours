@@ -25,14 +25,14 @@ GEMIMI_MODEL = "gemini-2.5-pro"
 
 # --- Constants ---
 NUM_EPISODES = 6
-SPLIT = True  # whether to use split videos and ground truth
+SPLIT = False  # whether to use split videos and ground truth
 if SPLIT:
     NUM_EPISODES = 24
     GROUND_TRUTH_DIR = "benchmark/spatial_association/ground_truth_split"  # files: episode_{i}_gt.json
 else:
     GROUND_TRUTH_DIR = "benchmark/spatial_association/ground_truth"  # files: episode_{i}_gt.json
 
-OUT_DIR = "output" 
+OUT_DIR = "output/4_neigh_metrics" 
 os.makedirs(OUT_DIR, exist_ok=True)
 
 # --- Pydantic schemas to structure VLM output ---
@@ -71,6 +71,7 @@ Rules:
 - "count" must equal the number of entries in "cubicles".
 - "cubicles" must include ONLY cubicles for which a readable owner name appears in the video. Each entry must contain an id (like 2008 M or N/A if not present) and the exact visible name string.
 - "neighbors" must list direct neighboring cubicles by owner name (only include neighbors whose names appear in "cubicles").
+    - Neighbor relationships must be bidirectional and consistent. If Jason is listed as a neighbor of Amy, then Amy MUST be listed as a neighbor of Jason. Ensure all neighbor relationships are symmetric.
 """
 
 # ---------------------------
@@ -99,6 +100,88 @@ def _name_sim(a: str, b: str) -> float:
     if a is None or b is None:
         return 0.0
     return difflib.SequenceMatcher(None, a.lower(), b.lower()).ratio()
+
+def compute_neighbor_metrics(gt_neighbors: List[Dict], pred_neighbors: List[Dict], name_threshold: float = 0.85) -> Dict:
+    """
+    Compute metrics for neighbor relationships.
+    For each person, we compare their neighbor list to the ground truth.
+    Returns precision, recall, f1 for the neighbor relationships.
+    """
+    # Build dictionaries for easier lookup
+    gt_dict = {item["name"]: set(item["neighbors"]) for item in gt_neighbors}
+    pred_dict = {item["name"]: set(item["neighbors"]) for item in pred_neighbors}
+    
+    # Track metrics
+    total_tp = 0
+    total_fp = 0
+    total_fn = 0
+    
+    per_person_metrics = []
+    
+    # Get all unique names from both GT and predictions
+    all_names = set(gt_dict.keys()) | set(pred_dict.keys())
+    
+    for name in all_names:
+        gt_neighbors_set = gt_dict.get(name, set())
+        pred_neighbors_set = pred_dict.get(name, set())
+        
+        # Use fuzzy matching for neighbor names
+        matched_pred = set()
+        tp_local = 0
+        
+        for gt_neighbor in gt_neighbors_set:
+            matched = False
+            for pred_neighbor in pred_neighbors_set:
+                if pred_neighbor not in matched_pred:
+                    similarity = _name_sim(gt_neighbor, pred_neighbor)
+                    if similarity >= name_threshold:
+                        tp_local += 1
+                        matched_pred.add(pred_neighbor)
+                        matched = True
+                        break
+            
+            if not matched:
+                # This GT neighbor was not found in predictions
+                pass
+        
+        fp_local = len(pred_neighbors_set) - tp_local
+        fn_local = len(gt_neighbors_set) - tp_local
+        
+        total_tp += tp_local
+        total_fp += fp_local
+        total_fn += fn_local
+        
+        # Per-person metrics for debugging
+        person_precision = tp_local / (tp_local + fp_local) if (tp_local + fp_local) > 0 else 0.0
+        person_recall = tp_local / (tp_local + fn_local) if (tp_local + fn_local) > 0 else 0.0
+        person_f1 = 2 * person_precision * person_recall / (person_precision + person_recall) if (person_precision + person_recall) > 0 else 0.0
+        
+        per_person_metrics.append({
+            "name": name,
+            "tp": tp_local,
+            "fp": fp_local,
+            "fn": fn_local,
+            "precision": person_precision,
+            "recall": person_recall,
+            "f1": person_f1,
+            "gt_neighbors": list(gt_neighbors_set),
+            "pred_neighbors": list(pred_neighbors_set),
+        })
+    
+    # Overall metrics
+    precision = total_tp / (total_tp + total_fp) if (total_tp + total_fp) > 0 else 0.0
+    recall = total_tp / (total_tp + total_fn) if (total_tp + total_fn) > 0 else 0.0
+    f1 = 2 * precision * recall / (precision + recall) if (precision + recall) > 0 else 0.0
+    
+    return {
+        "precision": precision,
+        "recall": recall,
+        "f1": f1,
+        "tp": total_tp,
+        "fp": total_fp,
+        "fn": total_fn,
+        "per_person": per_person_metrics,
+    }
 
 def compute_cubicle_prf(gt_list: List[Dict], pred_list: List[Dict], name_threshold: float = 0.85) -> Dict:
     """
@@ -282,6 +365,22 @@ if __name__ == "__main__":
                 "unmatched_pred": cub_metrics["unmatched_preds"],
             }
 
+            # Compute neighbor metrics if GT has neighbor data
+            gt_neighbors = gt.get("neighbors", [])
+            if gt_neighbors:
+                pred_neighbors = [n.model_dump() for n in parsed.neighbors]
+                neighbor_metrics = compute_neighbor_metrics(gt_neighbors, pred_neighbors, name_threshold=0.85)
+                metrics["neighbors"] = {
+                    "precision": neighbor_metrics["precision"],
+                    "recall": neighbor_metrics["recall"],
+                    "f1": neighbor_metrics["f1"],
+                    "tp": neighbor_metrics["tp"],
+                    "fp": neighbor_metrics["fp"],
+                    "fn": neighbor_metrics["fn"],
+                    # include per-person metrics for debugging
+                    "per_person": neighbor_metrics["per_person"],
+                }
+
             # save metrics
             if SPLIT:
                 metrics_path = os.path.join(out_dir, f"episode_0_720p_10fps_part_{i}_metrics.json")
@@ -349,6 +448,20 @@ if __name__ == "__main__":
         total_fp = sum(c.get("fp", 0) for c in cub_entries)
         total_fn = sum(c.get("fn", 0) for c in cub_entries)
 
+        # aggregate neighbor metrics if available
+        neighbor_entries = [m["neighbors"] for m in metrics_list if "neighbors" in m]
+        neighbor_precision_vals = [n["precision"] for n in neighbor_entries if "precision" in n]
+        neighbor_recall_vals = [n["recall"] for n in neighbor_entries if "recall" in n]
+        neighbor_f1_vals = [n["f1"] for n in neighbor_entries if "f1" in n]
+
+        avg_neighbor_precision = sum(neighbor_precision_vals) / len(neighbor_precision_vals) if neighbor_precision_vals else None
+        avg_neighbor_recall = sum(neighbor_recall_vals) / len(neighbor_recall_vals) if neighbor_recall_vals else None
+        avg_neighbor_f1 = sum(neighbor_f1_vals) / len(neighbor_f1_vals) if neighbor_f1_vals else None
+
+        total_neighbor_tp = sum(n.get("tp", 0) for n in neighbor_entries)
+        total_neighbor_fp = sum(n.get("fp", 0) for n in neighbor_entries)
+        total_neighbor_fn = sum(n.get("fn", 0) for n in neighbor_entries)
+
         final_metrics = {
             "episodes_aggregated": len(metrics_list),
             "count_mape": {
@@ -368,13 +481,39 @@ if __name__ == "__main__":
             },
         }
 
+        # Add neighbor metrics to final output if available
+        if neighbor_entries:
+            final_metrics["neighbors"] = {
+                "per_episode_precision": neighbor_precision_vals,
+                "per_episode_recall": neighbor_recall_vals,
+                "per_episode_f1": neighbor_f1_vals,
+                "average_precision": avg_neighbor_precision,
+                "average_recall": avg_neighbor_recall,
+                "average_f1": avg_neighbor_f1,
+                "total_tp": total_neighbor_tp,
+                "total_fp": total_neighbor_fp,
+                "total_fn": total_neighbor_fn,
+            }
+
         final_path = os.path.join(out_dir, "final_metrics.json")
         save_json(final_path, final_metrics)
         print("Final aggregated metrics saved to", final_path)
-        print("Summary:", {
+        
+        summary = {
             "episodes": final_metrics["episodes_aggregated"],
             "avg_count_mape_percent": final_metrics["count_mape"]["average_percent"],
-            "avg_precision": final_metrics["cubicles"]["average_precision"],
-            "avg_recall": final_metrics["cubicles"]["average_recall"],
-            "avg_f1": final_metrics["cubicles"]["average_f1"],
-        })
+            "cubicles": {
+                "avg_precision": final_metrics["cubicles"]["average_precision"],
+                "avg_recall": final_metrics["cubicles"]["average_recall"],
+                "avg_f1": final_metrics["cubicles"]["average_f1"],
+            }
+        }
+        
+        if "neighbors" in final_metrics:
+            summary["neighbors"] = {
+                "avg_precision": final_metrics["neighbors"]["average_precision"],
+                "avg_recall": final_metrics["neighbors"]["average_recall"],
+                "avg_f1": final_metrics["neighbors"]["average_f1"],
+            }
+        
+        print("Summary:", summary)

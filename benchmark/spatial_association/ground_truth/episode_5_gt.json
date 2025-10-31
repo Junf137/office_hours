@@ -24,5 +24,30 @@
     {"id": "2008J", "name": "Lauren"},
     {"id": "2038P", "name": "Roberto"},
     {"id": "2008P", "name": "Sherlock Homes"}
+  ],
+  "neighbors": [
+    {"name": "Alana", "neighbors": ["Amy", "Roberto"]},
+    {"name": "Alex", "neighbors": []},
+    {"name": "Alexandria", "neighbors": ["James"]},
+    {"name": "Amy", "neighbors": ["Alana"]},
+    {"name": "Carleton", "neighbors": ["Jason"]},
+    {"name": "Cecilia", "neighbors": ["Eddie"]},
+    {"name": "Daniel", "neighbors": ["Jerry"]},
+    {"name": "Darian Vox", "neighbors": ["Elira Nyx"]},
+    {"name": "Eddie", "neighbors": ["Cecilia"]},
+    {"name": "Elira Nyx", "neighbors": ["Darian Vox", "Josh"]},
+    {"name": "Emily", "neighbors": ["Jack S", "Jack J"]},
+    {"name": "Frank", "neighbors": ["Jack S"]},
+    {"name": "Jack J", "neighbors": ["Emily"]},
+    {"name": "Jack S", "neighbors": ["Frank", "Emily"]},
+    {"name": "James", "neighbors": ["Sherlock Homes", "Alexandria"]},
+    {"name": "Jason", "neighbors": ["Lauren", "Carleton"]},
+    {"name": "Jerry", "neighbors": ["Daniel", "Jessica"]},
+    {"name": "Jessica", "neighbors": ["Jerry"]},
+    {"name": "Josh", "neighbors": ["Elira Nyx"]},
+    {"name": "Kristine", "neighbors": ["Roberto"]},
+    {"name": "Lauren", "neighbors": ["Jason"]},
+    {"name": "Roberto", "neighbors": ["Alana", "Kristine"]},
+    {"name": "Sherlock Homes", "neighbors": ["James"]}
   ]
 }
