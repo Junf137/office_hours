@@ -1,9 +1,7 @@
 import os
-import time
 import json
 import argparse
 from typing import List, Dict
-from google import genai
 from pydantic import BaseModel
 from dotenv import load_dotenv
 from evaluation_utils import (
@@ -13,33 +11,38 @@ from evaluation_utils import (
     load_metrics_from_dir,
     save_json,
 )
+from model_interface import create_model
 
 load_dotenv()
 
-#  --- Gemini client setup ---
-client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
-# Determine which model to use
-# print("List of models that support generateContent:\n")
-# for m in client.models.list():
-#     for action in m.supported_actions:
-#         if action == "generateContent":
-#             print(m.name)
-
-# GEMIMI_MODEL = "gemini-2.5-flash-lite"
-# GEMIMI_MODEL = "gemini-2.5-flash"
-GEMIMI_MODEL = "gemini-2.5-pro"
-
 # --- Constants ---
-NUM_EPISODES = 6
 SPLIT = False  # whether to use split videos and ground truth
 if SPLIT:
     NUM_EPISODES = 24
-    GROUND_TRUTH_DIR = "benchmark/spatial_association/ground_truth_split"  # files: episode_{i}_gt.json
+    GROUND_TRUTH_DIR = "benchmark/spatial_association/ground_truth_split"  # files: episode_0_gt_part_{i}.json
 else:
+    NUM_EPISODES = 6
     GROUND_TRUTH_DIR = "benchmark/spatial_association/ground_truth"  # files: episode_{i}_gt.json
 
 OUT_DIR = "output/4_neigh_metrics" 
 os.makedirs(OUT_DIR, exist_ok=True)
+
+# --- Model Configuration ---
+# Supported models: "gemini", "gpt4o"
+MODEL_PROVIDER = "gemini"
+
+# Provider-specific model names
+MODEL_CONFIGS = {
+    "gemini": {
+        "model_name": "gemini-2.5-pro",
+        "temperature": 0.0,
+    },
+    "gpt4o": {
+        "model_name": "gpt-4o",
+        "temperature": 0.0,
+        "num_frames": 10,  # Use -1 for all frames, or specify a number (it will be uniformly sampled)
+    }
+}
 
 # --- Pydantic schemas to structure VLM output ---
 class CubiclePair(BaseModel):
@@ -80,8 +83,6 @@ Rules:
     - Neighbor relationships must be bidirectional and consistent. If Jason is listed as a neighbor of Amy, then Amy MUST be listed as a neighbor of Jason. Ensure all neighbor relationships are symmetric.
 """
 
-
-
 # ---------------------------
 # Main loop: prompting & evaluation
 # ---------------------------
@@ -91,12 +92,21 @@ if __name__ == "__main__":
                         help="Number of episodes to process (default: %(default)s)")
     parser.add_argument("-o", "--out-dir", type=str, default=OUT_DIR,
                         help="Output directory for results (default: %(default)s)")
+    parser.add_argument("-m", "--model", type=str, default=MODEL_PROVIDER,
+                        choices=["gemini", "gpt4o"],
+                        help="Model provider to use (default: %(default)s)")
     args = parser.parse_args()
 
     out_dir = args.out_dir
     num_episodes = args.num_episodes
+    model_provider = args.model
 
     os.makedirs(out_dir, exist_ok=True)
+
+    # Initialize the model
+    model_config = MODEL_CONFIGS.get(model_provider, MODEL_CONFIGS[MODEL_PROVIDER])
+    model = create_model(model_provider, **model_config)
+    print(f"Using model: {model.get_model_name()}")
 
     for i in range(num_episodes):
         if SPLIT:
@@ -107,25 +117,9 @@ if __name__ == "__main__":
             print("Missing file:", episode_path)
             continue
 
-        print("Uploading", episode_path)
-        myfile = client.files.upload(file=episode_path)
-
-        # Wait until the file is processed
-        while not myfile.state or myfile.state.name != "ACTIVE":
-            print("Waiting for file processing... state:", myfile.state)
-            time.sleep(3)
-            myfile = client.files.get(name=myfile.name)
-
-        # end request prompt for the episode
-        resp = client.models.generate_content(
-            model=GEMIMI_MODEL,
-            contents=[myfile, PROMPT],
-            config={
-                "temperature": 0.0,
-                "response_mime_type": "application/json",
-                "response_schema": CombinedResponse,
-            },
-        )
+        # Generate response using the model interface
+        print(f"Processing episode {i}...")
+        resp_text = model.generate_response(episode_path, PROMPT, CombinedResponse)
 
         # save raw response
         if SPLIT:
@@ -133,15 +127,15 @@ if __name__ == "__main__":
         else:
             raw_path = os.path.join(out_dir, f"episode_{i}_raw.txt")
         with open(raw_path, "w") as f:
-            f.write(resp.text)
+            f.write(resp_text)
         print("Saved raw response to", raw_path)
 
         # validate & parse
         try:
-            parsed = CombinedResponse.model_validate_json(resp.text)
+            parsed = CombinedResponse.model_validate_json(resp_text)
         except Exception as e:
             print("Validation failed:", e)
-            print("Raw response:\n", resp.text)
+            print("Raw response:\n", resp_text)
             continue
 
         # basic checks
