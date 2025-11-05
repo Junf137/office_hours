@@ -64,7 +64,7 @@
     "Change Number": 5,
     "Initial Video": 0,
     "Final Video": 1,
-    "Question": "Where has the Ping pong cover been moved to, it was last seen in Daniel's cubicle, where is it now?",
+    "Question": "Where has the ping pong cover been moved to, it was last seen in Daniel's cubicle, where is it now?",
     "Multiple Choice": {
       "A": "Daniel's cubicle, on top of the ping pong paddle.",
       "B": "Alana's cubicle, on top of the PC tower.",
@@ -79,7 +79,7 @@
     "Change Number": 6,
     "Initial Video": 0,
     "Final Video": 1,
-    "Question": "Where has the Plastic cubicle cap been moved to, it was last seen in Frank's cubicle, where is it now?",
+    "Question": "Where has the plastic cubicle cap been moved to, it was last seen in Frank's cubicle, where is it now?",
     "Multiple Choice": {
       "A": "Jason's cubicle, near the far corner of the cubicle.",
       "B": "Alex's cubicle, near the keyboard in front of the whiteboard.",
@@ -94,7 +94,7 @@
     "Change Number": 7,
     "Initial Video": 0,
     "Final Video": 1,
-    "Question": "Where has the Absolute C++ book been moved to, it was last seen in Alex's cubicle, where is it now?",
+    "Question": "Where has the \"Absolute C++\" book been moved to, it was last seen in Alex's cubicle, where is it now?",
     "Multiple Choice": {
       "A": "Josh's cubicle, from between the row of books.",
       "B": "Kristine's cubicle, near the keyboard in front of the whiteboard.",
@@ -199,7 +199,7 @@
     "Change Number": 14,
     "Initial Video": 0,
     "Final Video": 1,
-    "Question": "Where has the \"Imprint\" Magazine been moved to, it was last seen in Sherlock Holmes's cubicle, where is it now?",
+    "Question": "Where has the \"Imprint\" magazine been moved to, it was last seen in Sherlock Holmes's cubicle, where is it now?",
     "Multiple Choice": {
       "A": "James's cubicle, near the desk edge, in front of the tea bag box.",
       "B": "2008R's cubicle, next to the whiteboard.",
@@ -229,7 +229,7 @@
     "Change Number": 16,
     "Initial Video": 0,
     "Final Video": 1,
-    "Question": "Where has the Small gold HDMI converter been moved to, it was last seen in Jason's cubicle, where is it now?",
+    "Question": "Where has the small gold HDMI converter been moved to, it was last seen in Jason's cubicle, where is it now?",
     "Multiple Choice": {
       "A": "Alexandria's cubicle, on the whiteboard holder.",
       "B": "James's cubicle, on the white PC box.",

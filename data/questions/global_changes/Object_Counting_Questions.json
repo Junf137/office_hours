@@ -19,7 +19,7 @@
     "Change Number": 2,
     "Initial Video": 0,
     "Final Video": 1,
-    "Question": "In Frank's cubicle, how did the quantity of Black PNY box change?",
+    "Question": "In Frank's cubicle, how did the quantity of Black PNY boxes change?",
     "Multiple Choice": {
       "A": "From 0 to 2",
       "B": "From 2 to 0",
@@ -109,7 +109,7 @@
     "Change Number": 8,
     "Initial Video": 0,
     "Final Video": 1,
-    "Question": "In Alex's cubicle, how did the quantity of small brown box change?",
+    "Question": "In Alex's cubicle, how did the quantity of small brown boxes change?",
     "Multiple Choice": {
       "A": "From 2 to 0",
       "B": "From 0 to 1",
@@ -139,7 +139,7 @@
     "Change Number": 10,
     "Initial Video": 0,
     "Final Video": 1,
-    "Question": "In Alana's cubicle, how did the quantity of keyboard change?",
+    "Question": "In Alana's cubicle, how did the quantity of keyboards change?",
     "Multiple Choice": {
       "A": "From 2 to 1",
       "B": "From 1 to 1",
@@ -169,10 +169,10 @@
     "Change Number": 12,
     "Initial Video": 0,
     "Final Video": 1,
-    "Question": "In Kristine's cubicle, how did the quantity of bobble head toy \"Pop\" change?",
+    "Question": "In Kristine's cubicle, how did the quantity of bobble head toys \"Pop\" change?",
     "Multiple Choice": {
       "A": "From 2 to 1",
-      "B": "bobble head toy \"Pop\" from 1 to 2",
+      "B": "From 1 to 2",
       "C": "From 1 to 3",
       "D": "From 1 to 1",
       "E": "None of the above"
@@ -277,9 +277,9 @@
     "Question": "In Carleton's cubicle, what object's quantity has been changed?",
     "Multiple Choice": {
       "A": "books from 1 to 4",
-      "B": "graphics card from 2 to 0",
+      "B": "graphics cards from 2 to 0",
       "C": "hand sanitizer from 1 to 2",
-      "D": "graphics card from 0 to 2",
+      "D": "graphics cards from 0 to 2",
       "E": "None of the above"
     },
     "Correct Choice": "D"
@@ -319,7 +319,7 @@
     "Change Number": 22,
     "Initial Video": 0,
     "Final Video": 1,
-    "Question": "In 2008R's cubicle, how did the quantity of red box change?",
+    "Question": "In 2008R's cubicle, how did the quantity of red boxes change?",
     "Multiple Choice": {
       "A": "From 1 to 2",
       "B": "From 2 to 1",
@@ -379,7 +379,7 @@
     "Change Number": 26,
     "Initial Video": 1,
     "Final Video": 2,
-    "Question": "In Daniel's cubicle, how did the quantity of ping pong paddle change?",
+    "Question": "In Daniel's cubicle, how did the quantity of ping pong paddle changed?",
     "Multiple Choice": {
       "A": "From 1 to 2",
       "B": "From 2 to 1",
@@ -394,7 +394,7 @@
     "Change Number": 27,
     "Initial Video": 1,
     "Final Video": 2,
-    "Question": "In Frank's cubicle, what object's quantity has been changed?",
+    "Question": "In Frank's cubicle, what object's quantity has been change?",
     "Multiple Choice": {
       "A": "Black and yellow uphara box from 2 to 1",
       "B": "coffee cup (Red) from 1 to 2",
@@ -409,7 +409,7 @@
     "Change Number": 28,
     "Initial Video": 1,
     "Final Video": 2,
-    "Question": "In Jack.J's cubicle, how did the quantity of Black and yellow uphara box change?",
+    "Question": "In Jack.J's cubicle, how did the quantity of Black and yellow uphara boxes change?",
     "Multiple Choice": {
       "A": "From 1 to 2",
       "B": "From 2 to 0",
@@ -424,7 +424,7 @@
     "Change Number": 29,
     "Initial Video": 1,
     "Final Video": 2,
-    "Question": "In Emily's cubicle, what object's quantity has been changed?",
+    "Question": "In Emily's cubicle, what object's quantity has been change?",
     "Multiple Choice": {
       "A": "posters from 2 to 4",
       "B": "plastic water bottle from 2 to 3",
@@ -499,7 +499,7 @@
     "Change Number": 34,
     "Initial Video": 1,
     "Final Video": 2,
-    "Question": "In Amy's cubicle, how did the quantity of computer mouse change?",
+    "Question": "In Amy's cubicle, how did the quantity of computer mice change?",
     "Multiple Choice": {
       "A": "From 3 to 2",
       "B": "From 2 to 1",
@@ -516,10 +516,10 @@
     "Final Video": 2,
     "Question": "In Alana's cubicle, what object's quantity has been changed?",
     "Multiple Choice": {
-      "A": "notebook from 1 to 3",
-      "B": "keyboard from 3 to 2",
-      "C": "bobble head toy \"Pop\" from 2 to 3",
-      "D": "keyboard from 2 to 4",
+      "A": "notebooks from 1 to 3",
+      "B": "keyboards from 3 to 2",
+      "C": "bobble head toys \"Pop\" from 2 to 3",
+      "D": "keyboards from 2 to 4",
       "E": "None of the above"
     },
     "Correct Choice": "E"
@@ -529,15 +529,15 @@
     "Change Number": 36,
     "Initial Video": 1,
     "Final Video": 2,
-    "Question": "In Roberto's cubicle, how did the quantity of notebook change?",
+    "Question": "In Roberto's cubicle, how did the quantity of notebooks change?",
     "Multiple Choice": {
-      "A": "From 1 to 3",
+      "A": "From 1 to 4",
       "B": "From 3 to 1",
       "C": "From 1 to 2",
       "D": "It tripled",
       "E": "None of the above"
     },
-    "Correct Choice": "A"
+    "Correct Choice": "D"
   },
   "Q37": {
     "Type": "Object Counting",
@@ -547,8 +547,8 @@
     "Question": "In Kristine's cubicle, what object's quantity has been changed?",
     "Multiple Choice": {
       "A": "dominoes from 0 to 6",
-      "B": "bobble head toy \"Pop\" from 2 to 3",
-      "C": "bobble head toy \"Pop\" from 3 to 2",
+      "B": "bobble head toys \"Pop\" from 2 to 3",
+      "C": "bobble head toys \"Pop\" from 3 to 2",
       "D": "black boxes from 2 to 1",
       "E": "None of the above"
     },
@@ -578,8 +578,8 @@
     "Multiple Choice": {
       "A": "markers from 4 to 5",
       "B": "black boxes from 1 to 2",
-      "C": "lined paper from 2 to 3",
-      "D": "black boxes from 2 to 1",
+      "C": "lined paper from 2 to 3 and black boxes from 1 to 2",
+      "D": "black boxes from 2 to 1 and markers from 4 to 5 ",
       "E": "None of the above"
     },
     "Correct Choice": "D"
@@ -697,8 +697,8 @@
     "Question": "In 2008R's cubicle, what object's quantity has been changed?",
     "Multiple Choice": {
       "A": "white board erasers from 1 to 4",
-      "B": "red box from 1 to 2",
-      "C": "red box from 2 to 1",
+      "B": "red boxes from 1 to 2",
+      "C": "red boxes from 2 to 1",
       "D": "dominoes from 4 to 2",
       "E": "None of the above"
     },
@@ -726,10 +726,10 @@
     "Final Video": 2,
     "Question": "In Jason's cubicle, what object's quantity has been changed?",
     "Multiple Choice": {
-      "A": "ping pong paddle from 3 to 2",
-      "B": "dominoes from 2 to 4",
+      "A": "ping pong paddle from 3 to 5",
+      "B": "dominoes from 2 to 4 and ping pong paddle from 3 to 2",
       "C": "puzzle box from 0 to 1",
-      "D": "dominoes from 4 to 2",
+      "D": "dominoes from 4 to 2 and ping pong paddle from 3 to 2",
       "E": "None of the above"
     },
     "Correct Choice": "D"
@@ -769,7 +769,7 @@
     "Change Number": 52,
     "Initial Video": 2,
     "Final Video": 3,
-    "Question": "In Daniel's cubicle, how did the quantity of ping pong paddle change?",
+    "Question": "In Daniel's cubicle, how did the quantity of ping pong paddles change?",
     "Multiple Choice": {
       "A": "From 1 to 2",
       "B": "From 2 to 1",
@@ -817,9 +817,9 @@
     "Question": "In Emily's cubicle, what object's quantity has been changed?",
     "Multiple Choice": {
       "A": "posters from 4 to 6",
-      "B": "plastic water bottle from 3 to 2",
-      "C": "lego from 5 to 2",
-      "D": "plastic water bottle from 2 to 4",
+      "B": "plastic water bottles from 3 to 2",
+      "C": "legos from 5 to 2",
+      "D": "plastic water bottles from 2 to 4",
       "E": "None of the above"
     },
     "Correct Choice": "E"
@@ -847,9 +847,9 @@
     "Question": "In Jerry's cubicle, what object's quantity has been changed?",
     "Multiple Choice": {
       "A": "led pencils from 3 to 5",
-      "B": "lego from 5 to 2",
-      "C": "lego from 2 to 5",
-      "D": "small brown box from 1 to 2",
+      "B": "legos from 5 to 2",
+      "C": "legos from 2 to 5",
+      "D": "small brown boxes from 1 to 2",
       "E": "None of the above"
     },
     "Correct Choice": "B"
@@ -876,10 +876,10 @@
     "Final Video": 3,
     "Question": "In Alex's cubicle, what object's quantity has been changed?",
     "Multiple Choice": {
-      "A": "computer mouse from 3 to 2",
-      "B": "small brown box from 2 to 1",
-      "C": "keyboard from 3 to 2",
-      "D": "small brown box from 1 to 2",
+      "A": "computer mice from 3 to 2",
+      "B": "small brown boxes from 2 to 1",
+      "C": "keyboards from 3 to 2",
+      "D": "small brown boxes from 1 to 2",
       "E": "None of the above"
     },
     "Correct Choice": "D"
@@ -889,12 +889,12 @@
     "Change Number": 60,
     "Initial Video": 2,
     "Final Video": 3,
-    "Question": "In Amy's cubicle, how did the quantity of computer mouse change?",
+    "Question": "In Amy's cubicle, how did the quantity of computer mice change?",
     "Multiple Choice": {
       "A": "From 2 to 3",
       "B": "From 3 to 1",
       "C": "From 1 to 2",
-      "D": "It was removed",
+      "D": "It was reduced by 3",
       "E": "None of the above"
     },
     "Correct Choice": "E"
@@ -906,10 +906,10 @@
     "Final Video": 3,
     "Question": "In Alana's cubicle, what object's quantity has been changed?",
     "Multiple Choice": {
-      "A": "keyboard from 3 to 2",
-      "B": "notebook from 3 to 1",
-      "C": "keyboard from 2 to 3",
-      "D": "bobble head toy \"Pop\" from 3 to 2",
+      "A": "keyboards from 3 to 2",
+      "B": "notebooks from 3 to 1",
+      "C": "keyboards from 2 to 3",
+      "D": "bobble head toys \"Pop\" from 3 to 2",
       "E": "None of the above"
     },
     "Correct Choice": "A"
@@ -919,7 +919,7 @@
     "Change Number": 62,
     "Initial Video": 2,
     "Final Video": 3,
-    "Question": "In Roberto's cubicle, how did the quantity of notebook change?",
+    "Question": "In Roberto's cubicle, how did the quantity of notebooks change?",
     "Multiple Choice": {
       "A": "From 1 to 3",
       "B": "From 3 to 1",
@@ -937,8 +937,8 @@
     "Question": "In Kristine's cubicle, what object's quantity has been changed?",
     "Multiple Choice": {
       "A": "dominoes from 6 to 4",
-      "B": "bobble head toy \"Pop\" from 2 to 3",
-      "C": "bobble head toy \"Pop\" from 3 to 2",
+      "B": "bobble head toys \"Pop\" from 2 to 3",
+      "C": "bobble head toys \"Pop\" from 3 to 2",
       "D": "computer fans from 0 to 2",
       "E": "None of the above"
     },
@@ -966,10 +966,10 @@
     "Final Video": 3,
     "Question": "In Sherlock Holmes' cubicle, what object's quantity has been changed?",
     "Multiple Choice": {
-      "A": "markers from 5 to 1",
+      "A": "markers from 5 to 1 and computer fans from 0 to 1 ",
       "B": "computer fans from 2 to 0",
       "C": "lined paper from 3 to 2",
-      "D": "computer fans from 0 to 1",
+      "D": "computer fans from 0 to 1 and markers 1 to 5",
       "E": "None of the above"
     },
     "Correct Choice": "E"
@@ -1087,8 +1087,8 @@
     "Question": "In Josh's cubicle, what object's quantity has been changed?",
     "Multiple Choice": {
       "A": "white board erasers from 4 to 2",
-      "B": "vaseline lotion from 2 to 0",
-      "C": "vaseline lotion from 0 to 2",
+      "B": "vaseline lotions from 2 to 0",
+      "C": "vaseline lotions from 0 to 2",
       "D": "dominoes from 2 to 4",
       "E": "None of the above"
     },
@@ -1104,10 +1104,10 @@
       "A": "From 2 to 4",
       "B": "From 4 to 1",
       "C": "It halved",
-      "D": "From 4 to 2",
+      "D": "From 4 to 3",
       "E": "None of the above"
     },
-    "Correct Choice": "D"
+    "Correct Choice": "C"
   },
   "Q75": {
     "Type": "Object Counting",
@@ -1116,9 +1116,9 @@
     "Final Video": 3,
     "Question": "In Jason's cubicle, what object's quantity has been changed?",
     "Multiple Choice": {
-      "A": "ping pong paddle from 2 to 3",
+      "A": "ping pong paddles from 5 to 3",
       "B": "dominoes from 4 to 2",
-      "C": "teddy bear from 0 to 2",
+      "C": "teddy bears from 0 to 2",
       "D": "dominoes from 2 to 3",
       "E": "None of the above"
     },
@@ -1146,10 +1146,10 @@
     "Final Video": 4,
     "Question": "In Daniel's cubicle, what object's quantity has been changed?",
     "Multiple Choice": {
-      "A": "Coffee cup (Red) from 2 to 3",
-      "B": "teddy bear from 0 to 2",
-      "C": "teddy bear from 2 to 0",
-      "D": "Red plastic cup from 0 to 2",
+      "A": "Coffee cups (Red) from 2 to 3",
+      "B": "Teddy bears from 0 to 2",
+      "C": "Teddy bears from 2 to 0",
+      "D": "Red plastic cups from 0 to 2",
       "E": "None of the above"
     },
     "Correct Choice": "B"
@@ -1159,7 +1159,7 @@
     "Change Number": 78,
     "Initial Video": 3,
     "Final Video": 4,
-    "Question": "In Frank's cubicle, how did the quantity of Coffee cup (Red) change?",
+    "Question": "In Frank's cubicle, how did the quantity of coffee cups (Red) change?",
     "Multiple Choice": {
       "A": "From 3 to 2",
       "B": "From 2 to 1",
@@ -1176,9 +1176,9 @@
     "Final Video": 4,
     "Question": "In Jack.J's cubicle, what object's quantity has been changed?",
     "Multiple Choice": {
-      "A": "plastic water bottle from 3 to 1",
+      "A": "Plastic water bottle from 3 to 1",
       "B": "Red plastic cup from 2 to 0",
-      "C": "posters from 6 to 2",
+      "C": "Posters from 6 to 2",
       "D": "Red plastic cup from 0 to 2",
       "E": "None of the above"
     },
@@ -1189,7 +1189,7 @@
     "Change Number": 80,
     "Initial Video": 3,
     "Final Video": 4,
-    "Question": "In Emily's cubicle, how did the quantity of plastic water bottle change?",
+    "Question": "In Emily's cubicle, how did the quantity of plastic water bottles change?",
     "Multiple Choice": {
       "A": "From 1 to 3",
       "B": "From 3 to 0",
@@ -1206,10 +1206,10 @@
     "Final Video": 4,
     "Question": "In Jessica's cubicle, what object's quantity has been changed?",
     "Multiple Choice": {
-      "A": "posters from 6 to 2",
-      "B": "lego from 2 to 5",
-      "C": "posters from 2 to 6",
-      "D": "led pencils from 5 to 2",
+      "A": "Posters from 6 to 2",
+      "B": "Lego from 2 to 5",
+      "C": "Posters from 2 to 6",
+      "D": "Led pencils from 5 to 2",
       "E": "None of the above"
     },
     "Correct Choice": "A"
@@ -1236,10 +1236,10 @@
     "Final Video": 4,
     "Question": "In Jack.S' cubicle, what object's quantity has been changed?",
     "Multiple Choice": {
-      "A": "dominoes from 0 to 5",
-      "B": "led pencils from 2 to 5",
-      "C": "led pencils from 5 to 2",
-      "D": "notebook from 0 to 2",
+      "A": "Dominoes from 0 to 5",
+      "B": "Led pencils from 2 to 5",
+      "C": "Led pencils from 5 to 2",
+      "D": "Notebook from 0 to 2",
       "E": "None of the above"
     },
     "Correct Choice": "C"
@@ -1266,10 +1266,10 @@
     "Final Video": 4,
     "Question": "In Amy's cubicle, what object's quantity has been changed?",
     "Multiple Choice": {
-      "A": "computer mouse from 2 to 0",
-      "B": "notebook from 2 to 0",
-      "C": "screw driver from 0 to 2",
-      "D": "notebook from 0 to 1",
+      "A": "Computer mice from 3 to 0",
+      "B": "Notebooks from 2 to 0",
+      "C": "Screw drivers from 0 to 2",
+      "D": "Notebooks from 0 to 1",
       "E": "None of the above"
     },
     "Correct Choice": "E"
@@ -1279,7 +1279,7 @@
     "Change Number": 86,
     "Initial Video": 3,
     "Final Video": 4,
-    "Question": "In Amy's cubicle, how did the quantity of computer mouse change?",
+    "Question": "In Amy's cubicle, how did the quantity of computer mice change?",
     "Multiple Choice": {
       "A": "From 2 to 0",
       "B": "From 0 to 2",
@@ -1296,10 +1296,10 @@
     "Final Video": 4,
     "Question": "In eddie's cubicle, what object's quantity has been changed?",
     "Multiple Choice": {
-      "A": "posters from 0 to 5",
-      "B": "screw driver from 0 to 2",
-      "C": "screw driver from 2 to 0",
-      "D": "dominoes from 4 to 1",
+      "A": "Posters from 0 to 5",
+      "B": "Screw drivers from 0 to 2",
+      "C": "Screw drivers from 2 to 0",
+      "D": "Dominoes from 4 to 1",
       "E": "None of the above"
     },
     "Correct Choice": "B"
@@ -1326,10 +1326,10 @@
     "Final Video": 4,
     "Question": "In Cecilia's cubicle, what object's quantity has been changed?",
     "Multiple Choice": {
-      "A": "led pencils from 0 to 4",
-      "B": "dominoes from 1 to 4",
-      "C": "white board erasers from 0 to 3",
-      "D": "dominoes from 4 to 1",
+      "A": "Led pencils from 0 to 4",
+      "B": "Dominoes from 1 to 4",
+      "C": "White board erasers from 0 to 3",
+      "D": "Dominoes from 4 to 1",
       "E": "None of the above"
     },
     "Correct Choice": "D"
@@ -1386,10 +1386,10 @@
     "Final Video": 4,
     "Question": "In James' cubicle, what object's quantity has been changed?",
     "Multiple Choice": {
-      "A": "books from 0 to 2",
-      "B": "posters from 1 to 2",
-      "C": "posters from 2 to 1",
-      "D": "monitors from 1 to 2",
+      "A": "Books from 0 to 2",
+      "B": "Posters from 1 to 2",
+      "C": "Posters from 2 to 1",
+      "D": "Monitors from 1 to 2",
       "E": "None of the above"
     },
     "Correct Choice": "C"
@@ -1416,10 +1416,10 @@
     "Final Video": 4,
     "Question": "In Carleton's cubicle, what object's quantity has been changed?",
     "Multiple Choice": {
-      "A": "books from 4 to 1",
-      "B": "monitors from 2 to 1",
-      "C": "hand sanitizer from 1 to 4",
-      "D": "monitors from 1 to 3",
+      "A": "Books from 4 to 1",
+      "B": "Monitors from 2 to 1",
+      "C": "Hand sanitizer from 1 to 4",
+      "D": "Monitors from 1 to 3",
       "E": "None of the above"
     },
     "Correct Choice": "E"
@@ -1446,10 +1446,10 @@
     "Final Video": 4,
     "Question": "In Josh's cubicle, what object's quantity has been changed?",
     "Multiple Choice": {
-      "A": "vaseline lotion from 2 to 1",
-      "B": "hand sanitizer from 1 to 4",
-      "C": "hand sanitizer from 4 to 1",
-      "D": "Medical Alcohol Bottle (Alcol Isopropylique) from 0 to 3",
+      "A": "Vaseline lotions from 2 to 1",
+      "B": "Hand sanitizers from 1 to 4",
+      "C": "Hand sanitizers from 4 to 1",
+      "D": "Medical alcohol bottles (Alcol Isopropylique) from 0 to 3",
       "E": "None of the above"
     },
     "Correct Choice": "B"
@@ -1476,10 +1476,10 @@
     "Final Video": 4,
     "Question": "In 2008Q's cubicle, what object's quantity has been changed?",
     "Multiple Choice": {
-      "A": "plastic water bottle from 0 to 3",
-      "B": "Medical Alcohol Bottle (Alcol Isopropylique) from 3 to 0",
-      "C": "ping pong paddle from 3 to 0",
-      "D": "Medical Alcohol Bottle (Alcol Isopropylique) from 0 to 3",
+      "A": "Plastic water bottle from 0 to 3",
+      "B": "Medical alcohol bottles (Alcol Isopropylique) from 3 to 0",
+      "C": "Ping pong paddles from 3 to 0",
+      "D": "Medical alcohol bottles (Alcol Isopropylique) from 0 to 3",
       "E": "None of the above"
     },
     "Correct Choice": "D"
@@ -1489,12 +1489,12 @@
     "Change Number": 100,
     "Initial Video": 3,
     "Final Video": 4,
-    "Question": "In Eddie's cubicle, how did the quantity of plastic water bottle change?",
+    "Question": "In Eddie's cubicle, how did the quantity of plastic water bottles change?",
     "Multiple Choice": {
       "A": "From 3 to 0",
       "B": "From 0 to 2",
       "C": "From 1 to 3",
-      "D": "It appeared",
+      "D": "It increased by 1",
       "E": "None of the above"
     },
     "Correct Choice": "E"
@@ -1506,10 +1506,10 @@
     "Final Video": 4,
     "Question": "In Jason's cubicle, what object's quantity has been changed?",
     "Multiple Choice": {
-      "A": "ping pong paddle from 3 to 0",
-      "B": "teddy bear from 2 to 1",
-      "C": "ping pong paddle from 0 to 3",
-      "D": "Coffee cup (Red) from 3 to 1",
+      "A": "Ping pong paddles from 3 to 0",
+      "B": "Teddy bears from 2 to 1",
+      "C": "Ping pong paddles from 0 to 3",
+      "D": "Coffee cups (Red) from 3 to 1",
       "E": "None of the above"
     },
     "Correct Choice": "A"
@@ -1519,7 +1519,7 @@
     "Change Number": 102,
     "Initial Video": 4,
     "Final Video": 5,
-    "Question": "In Daniel's cubicle, how did the quantity of teddy bear change?",
+    "Question": "In Daniel's cubicle, how did the quantity of teddy bears change?",
     "Multiple Choice": {
       "A": "From 1 to 2",
       "B": "From 2 to 1",
@@ -1537,8 +1537,8 @@
     "Question": "In Frank's cubicle, what object's quantity has been changed?",
     "Multiple Choice": {
       "A": "Laptop from 2 to 5",
-      "B": "Coffee cup (Red) from 1 to 3",
-      "C": "Coffee cup (Red) from 3 to 1",
+      "B": "Coffee cups (Red) from 1 to 3",
+      "C": "Coffee cups (Red) from 3 to 1 and laptop from 2 to 5",
       "D": "robot arms from 2 to 4",
       "E": "None of the above"
     },
@@ -1566,10 +1566,10 @@
     "Final Video": 5,
     "Question": "In Jerry's cubicle, what object's quantity has been changed?",
     "Multiple Choice": {
-      "A": "posters from 2 to 0",
-      "B": "robot arms from 4 to 2",
-      "C": "lego from 5 to 1",
-      "D": "robot arms from 2 to 3",
+      "A": "Posters from 2 to 0",
+      "B": "Robot arms from 4 to 2",
+      "C": "Lego from 5 to 1",
+      "D": "Robot arms from 2 to 3",
       "E": "None of the above"
     },
     "Correct Choice": "E"
@@ -1596,10 +1596,10 @@
     "Final Video": 5,
     "Question": "In Jerry's cubicle, what object's quantity has been changed?",
     "Multiple Choice": {
-      "A": "led pencils from 2 to 1",
-      "B": "lego from 5 to 1",
-      "C": "lego from 1 to 5",
-      "D": "dominoes from 5 to 2",
+      "A": "Led pencils from 2 to 1",
+      "B": "Legos from 5 to 1",
+      "C": "Legos from 1 to 5",
+      "D": "Dominoes from 5 to 2",
       "E": "None of the above"
     },
     "Correct Choice": "B"
@@ -1626,10 +1626,10 @@
     "Final Video": 5,
     "Question": "In Alex's cubicle, what object's quantity has been changed?",
     "Multiple Choice": {
-      "A": "monitor from 2 to 1",
-      "B": "dominoes from 2 to 5",
-      "C": "chopsticks in wrapper from 0 to 4",
-      "D": "dominoes from 5 to 2",
+      "A": "Monitors from 2 to 1",
+      "B": "Dominoes from 2 to 5",
+      "C": "Chopsticks in wrapper from 0 to 4",
+      "D": "Dominoes from 5 to 2",
       "E": "None of the above"
     },
     "Correct Choice": "D"
@@ -1656,10 +1656,10 @@
     "Final Video": 5,
     "Question": "In Alana's cubicle, what object's quantity has been changed?",
     "Multiple Choice": {
-      "A": "chopsticks in wrapper from 0 to 4",
-      "B": "screw driver from 2 to 1",
-      "C": "chopsticks in wrapper from 4 to 0",
-      "D": "posters from 5 to 3",
+      "A": "Chopsticks in wrapper from 0 to 4",
+      "B": "Screw drivers from 2 to 1",
+      "C": "Chopsticks in wrapper from 4 to 0",
+      "D": "Posters from 5 to 3",
       "E": "None of the above"
     },
     "Correct Choice": "A"
@@ -1669,7 +1669,7 @@
     "Change Number": 112,
     "Initial Video": 4,
     "Final Video": 5,
-    "Question": "In eddie's cubicle, how did the quantity of screw driver change?",
+    "Question": "In eddie's cubicle, how did the quantity of screw drivers change?",
     "Multiple Choice": {
       "A": "From 1 to 2",
       "B": "From 2 to 1",
@@ -1686,10 +1686,10 @@
     "Final Video": 5,
     "Question": "In Kristine's cubicle, what object's quantity has been changed?",
     "Multiple Choice": {
-      "A": "dominoes from 1 to 3",
-      "B": "posters from 3 to 5",
-      "C": "posters from 5 to 3",
-      "D": "led pencils from 4 to 8",
+      "A": "Dominoes from 1 to 3",
+      "B": "Posters from 3 to 5",
+      "C": "Posters from 5 to 3",
+      "D": "Led pencils from 4 to 8",
       "E": "None of the above"
     },
     "Correct Choice": "C"
@@ -1716,10 +1716,10 @@
     "Final Video": 5,
     "Question": "In Sherlock Holmes' cubicle, what object's quantity has been changed?",
     "Multiple Choice": {
-      "A": "white board erasers from 3 to 2",
-      "B": "led pencils from 8 to 4",
-      "C": "custard soft cakes (snacks) from 0 to 7",
-      "D": "led pencils from 4 to 7",
+      "A": "White board erasers from 3 to 2",
+      "B": "Led pencils from 8 to 4",
+      "C": "Custard soft cakes (snacks) from 0 to 7",
+      "D": "Led pencils from 4 to 7",
       "E": "None of the above"
     },
     "Correct Choice": "E"
@@ -1746,10 +1746,10 @@
     "Final Video": 5,
     "Question": "In Jason's cubicle, what object's quantity has been changed?",
     "Multiple Choice": {
-      "A": "ping pong balls from 0 to 6",
-      "B": "custard soft cakes (snacks) from 0 to 7",
-      "C": "custard soft cakes (snacks) from 7 to 0",
-      "D": "books from 2 to 1",
+      "A": "Ping pong balls from 0 to 6",
+      "B": "Custard soft cakes (snacks) from 0 to 7",
+      "C": "Custard soft cakes (snacks) from 7 to 0",
+      "D": "Books from 2 to 1",
       "E": "None of the above"
     },
     "Correct Choice": "B"
@@ -1806,10 +1806,10 @@
     "Final Video": 5,
     "Question": "In Alexandria's cubicle, what object's quantity has been changed?",
     "Multiple Choice": {
-      "A": "markers from 1 to 3",
-      "B": "hand sanitizer from 4 to 3",
-      "C": "markers from 3 to 1",
-      "D": "vaseline lotion from 1 to 2",
+      "A": "Markers from 1 to 3",
+      "B": "Hand sanitizers from 4 to 3",
+      "C": "Markers from 3 to 1",
+      "D": "Vaseline lotions from 1 to 2",
       "E": "None of the above"
     },
     "Correct Choice": "A"
@@ -1836,9 +1836,9 @@
     "Final Video": 5,
     "Question": "In Josh's cubicle, what object's quantity has been changed?",
     "Multiple Choice": {
-      "A": "Medical Alcohol Bottle (Alcol Isopropylique) from 3 to 2",
-      "B": "vaseline lotion from 2 to 1",
-      "C": "vaseline lotion from 1 to 2",
+      "A": "Medical alcohol bottles (Alcol Isopropylique) from 3 to 2",
+      "B": "vaseline lotions from 2 to 1",
+      "C": "vaseline lotions from 1 to 2",
       "D": "plastic water bottle from 3 to 2",
       "E": "None of the above"
     },
@@ -1849,7 +1849,7 @@
     "Change Number": 124,
     "Initial Video": 4,
     "Final Video": 5,
-    "Question": "In 2008Q's cubicle, how did the quantity of Medical Alcohol Bottle (Alcol Isopropylique) change?",
+    "Question": "In 2008Q's cubicle, how did the quantity of medical alcohol bottle (Alcol Isopropylique) change?",
     "Multiple Choice": {
       "A": "From 2 to 3",
       "B": "From 3 to 1",
@@ -1866,10 +1866,10 @@
     "Final Video": 5,
     "Question": "In Eddie's cubicle, what object's quantity has been changed?",
     "Multiple Choice": {
-      "A": "whiteboard eraser from 1 to 2",
-      "B": "plastic water bottle from 2 to 3",
-      "C": "Medical Alcohol Bottle (Alcol Isopropylique) from 3 to 2",
-      "D": "plastic water bottle from 3 to 1",
+      "A": "Whiteboard eraser from 1 to 2",
+      "B": "Plastic water bottle from 2 to 3",
+      "C": "Medical alcohol bottle (Alcol Isopropylique) from 3 to 2",
+      "D": "Plastic water bottle from 3 to 1",
       "E": "None of the above"
     },
     "Correct Choice": "E"
