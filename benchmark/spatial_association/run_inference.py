@@ -15,11 +15,7 @@ from model_interface import create_model
 load_dotenv()
 
 # --- Constants ---
-SPLIT = False  # whether to use split videos and ground truth
-if SPLIT:
-    NUM_EPISODES = 24
-else:
-    NUM_EPISODES = 6
+NUM_EPISODES = 6
 
 OUT_DIR = "output/4_neigh_metrics" 
 os.makedirs(OUT_DIR, exist_ok=True)
@@ -37,7 +33,7 @@ MODEL_CONFIGS = {
     "gpt4o": {
         "model_name": "gpt-4o",
         "temperature": 0.0,
-        "num_frames": 10,  # Use -1 for all frames, or specify a number (it will be uniformly sampled)
+        "num_frames": 35,  # Use -1 for all frames, or specify a number (it will be uniformly sampled)
     }
 }
 
@@ -238,7 +234,7 @@ if __name__ == "__main__":
         out_dir=args.out_dir,
         model_provider=args.model,
         model_config=MODEL_CONFIGS.get(args.model, MODEL_CONFIGS[MODEL_PROVIDER]),
-        split=args.split or SPLIT,
+        split=args.split,
         video_dir=args.video_dir,
         prompt=PROMPT,
         response_schema=CombinedResponse,

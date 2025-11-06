@@ -18,13 +18,8 @@ from evaluation_utils import (
 )
 
 # --- Constants ---
-SPLIT = False  # whether to use split videos and ground truth
-if SPLIT:
-    NUM_EPISODES = 24
-    GROUND_TRUTH_DIR = "benchmark/spatial_association/ground_truth_split"  # files: episode_0_gt_part_{i}.json
-else:
-    NUM_EPISODES = 6
-    GROUND_TRUTH_DIR = "benchmark/spatial_association/ground_truth"  # files: episode_{i}_gt.json
+NUM_EPISODES = 6
+GROUND_TRUTH_DIR = "benchmark/spatial_association/ground_truth"  # files: episode_{i}_gt.json
 
 INFERENCE_DIR = "output/4_neigh_metrics"  # Directory containing inference outputs
 OUT_DIR = "output/4_neigh_metrics"  # Directory for evaluation outputs
@@ -199,7 +194,7 @@ if __name__ == "__main__":
         inference_dir=args.inference_dir,
         out_dir=args.out_dir,
         ground_truth_dir=args.ground_truth_dir,
-        split=args.split or SPLIT,
+        split=args.split,
         name_threshold=args.name_threshold,
         verbose=True,
     )

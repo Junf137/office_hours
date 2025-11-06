@@ -7,13 +7,8 @@ from run_evaluation import run_evaluation
 load_dotenv()
 
 # --- Constants ---
-SPLIT = False  # whether to use split videos and ground truth
-if SPLIT:
-    NUM_EPISODES = 24
-    GROUND_TRUTH_DIR = "benchmark/spatial_association/ground_truth_split"  # files: episode_0_gt_part_{i}.json
-else:
-    NUM_EPISODES = 6
-    GROUND_TRUTH_DIR = "benchmark/spatial_association/ground_truth"  # files: episode_{i}_gt.json
+NUM_EPISODES = 6
+GROUND_TRUTH_DIR = "benchmark/spatial_association/ground_truth"  # files: episode_{i}_gt.json
 
 OUT_DIR = "output/4_neigh_metrics" 
 MODEL_PROVIDER = "gemini"
@@ -45,13 +40,11 @@ if __name__ == "__main__":
     parser.add_argument("--skip-evaluation", action="store_true",
                         help="Skip evaluation and only run inference")
     args = parser.parse_args()
-
-    split = args.split or SPLIT
     
     print("="*60)
     print("SPATIAL ASSOCIATION VQA FULL PIPELINE")
     print("="*60)
-    print(f"Mode: {'Split' if split else 'Full'} videos")
+    print(f"Mode: {'Split' if args.split else 'Full'} videos")
     print(f"Episodes: {args.num_episodes}")
     print(f"Output directory: {args.out_dir}")
     print(f"Model: {args.model}")
@@ -77,7 +70,7 @@ if __name__ == "__main__":
             out_dir=args.out_dir,
             model_provider=args.model,
             model_config=model_config,
-            split=split,
+            split=args.split,
             video_dir=args.video_dir,
             prompt=PROMPT,
             response_schema=CombinedResponse,
@@ -104,7 +97,7 @@ if __name__ == "__main__":
             inference_dir=args.out_dir,
             out_dir=args.out_dir,
             ground_truth_dir=args.ground_truth_dir,
-            split=split,
+            split=args.split,
             name_threshold=args.name_threshold,
             verbose=True,
         )

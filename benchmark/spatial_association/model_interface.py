@@ -13,7 +13,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-
 class VLMInterface(ABC):
     """Abstract base class for Vision Language Model interfaces."""
     
@@ -81,7 +80,9 @@ class GeminiModel(VLMInterface):
         """Return the Gemini model name."""
         return self.model_name
 
-
+# Testing flag to switch between Completions API and Responses API for GPT-4o
+# From my experiments, outputs are equivalent in both modes
+COMPLETIONS_API = True
 class GPT4oModel(VLMInterface):
     """OpenAI GPT-4o model interface."""
     
@@ -149,44 +150,77 @@ class GPT4oModel(VLMInterface):
     def generate_response(self, video_path: str, prompt: str, response_schema: BaseModel) -> str:
         """Generate response using GPT-4o model."""
         frames = self._extract_frames_from_video(video_path, num_frames=self.num_frames)
-        
-        # Build message content with frames
-        content = [
-            {
-                "type": "text",
-                "text": prompt
-            }
-        ]
-        
-        # Add frames as images
-        for frame in frames:
-            content.append({
-                "type": "image_url",
-                "image_url": {
-                    "url": f"data:image/jpeg;base64,{frame}",
-                    "detail": "high"
-                }
-            })
-        
-        print(f"Sending {len(frames)} frames to GPT-4o...")
-        
-        # For structured output, we need to use response_format (if available)
-        # or parse the JSON from the response
-        response = self.client.chat.completions.create(
-            model=self.model_name,
-            messages=[
+
+        if COMPLETIONS_API: # Completions API
+            # Build message content with frames
+            content = [
                 {
-                    "role": "user",
-                    "content": content
+                    "type": "text",
+                    "text": prompt
                 }
-            ],
-            temperature=self.temperature,
-            max_tokens=self.max_tokens,
-            response_format={"type": "json_object"}  # Enforce JSON output
-        )
-        
-        return response.choices[0].message.content
-    
+            ]
+            
+            # Add frames as images
+            for frame in frames:
+                content.append({
+                    "type": "image_url",
+                    "image_url": {
+                        "url": f"data:image/jpeg;base64,{frame}",
+                        "detail": "high"
+                    }
+                })
+            
+            print(f"Sending {len(frames)} frames to GPT-4o...")
+            
+            # For structured output, we need to use response_format
+            response = self.client.chat.completions.parse(
+                model=self.model_name,
+                messages=[
+                    {
+                        "role": "user",
+                        "content": content
+                    }
+                ],
+                temperature=self.temperature,
+                max_tokens=self.max_tokens,
+                response_format=response_schema
+            )
+            
+            return response.choices[0].message.content
+        else: # Responses API
+            # Build message content with frames
+            content = [
+                {
+                    "type": "input_text",
+                    "text": prompt
+                }
+            ]
+            
+            # Add frames as images
+            for frame in frames:
+                content.append({
+                    "type": "input_image",
+                    "image_url": f"data:image/jpeg;base64,{frame}",
+                    "detail": "high"
+                })
+            
+            print(f"Sending {len(frames)} frames to GPT-4o...")
+            
+            # For structured output, we need to use response_format
+            response = self.client.responses.parse(
+                model=self.model_name,
+                input=[
+                    {
+                        "role": "user",
+                        "content": content
+                    }
+                ],
+                temperature=self.temperature,
+                text_format=response_schema
+            )
+
+            return response.output_text
+
     def get_model_name(self) -> str:
         """Return the GPT-4o model name."""
         return self.model_name
