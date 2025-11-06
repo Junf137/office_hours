@@ -1,7 +1,6 @@
 {
   "count": 23,
   "cubicles": [
-    {"id": "GT IDs", "name": "GT Names"},
     {"id": "2038Q", "name": "Alana"},
     {"id": "2038K", "name": "Alex"},
     {"id": "2008M", "name": "Alexandria"},
