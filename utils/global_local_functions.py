@@ -5,6 +5,7 @@ import json
 import enum
 import tenacity
 from google import genai
+from pydantic import BaseModel
 
 
 class MultipleChoice(enum.Enum):
@@ -14,11 +15,11 @@ class MultipleChoice(enum.Enum):
     D = "D"
     E = "E"
 
-class AnswerItem(TypedDict):
+class AnswerItem(BaseModel):
     question: str
-    answer: MultipleChoice
+    answer: str  # Changed from MultipleChoice enum to str for flexibility
 
-class QuestionAnswers(TypedDict):
+class QuestionAnswers(BaseModel):
     answers: List[AnswerItem]
 
 
