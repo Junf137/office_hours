@@ -66,14 +66,26 @@ Schema:
 }
 
 Rules:
-- Include ONLY cubicles where an owner name appears in the video.
-- Each cubicle entry must contain both an "id" and "name":
-    - Use the visible cubicle ID if the cubicle has one assigned (e.g., "2008M").
-    - If a cubicle does not have any ID shown or assigned in the video, set "id": "N/A".
-- "count" must equal the number of entries in "cubicles".
-- "cubicles" must include ONLY cubicles for which a readable owner name appears in the video. Each entry must contain an id (like 2008 M or N/A if not present) and the exact visible name string.
-- "neighbors" must list direct neighboring cubicles by owner name (only include neighbors whose names appear in "cubicles").
-    - Neighbor relationships must be bidirectional and consistent. If Jason is listed as a neighbor of Amy, then Amy MUST be listed as a neighbor of Jason. Ensure all neighbor relationships are symmetric.
+1. Only consider cubicles that are PROMINENTLY FEATURED in the video (i.e., the camera moves close to them, focuses on them, or spends significant time near them). Ignore distant background cubicles.
+
+2. For each prominently featured cubicle, create an entry in "cubicles":
+    a. NAME field:
+        - Use the visible owner name if readable (e.g., "Amy")
+        - If no owner name is visible, use "Unreadable"
+    b. ID field:
+        - Use the visible cubicle ID if readable (e.g., "2008M")
+        - If you can see there IS an ID but cannot read it, use "Unreadable"
+        - If there is clearly NO ID present on the cubicle, use "noID"
+
+3. "count" must equal the total number of prominently featured cubicles (the length of the "cubicles" array).
+
+4. "neighbors" must list direct neighboring cubicles:
+    a. For cubicles with visible names, use the name (e.g., "Amy")
+    b. For cubicles with "Unreadable" names:
+        - If they have a readable ID, use the ID (e.g., "2008M")
+        - If they have an unreadable ID, use "Unreadable-" followed by a position descriptor (e.g., "Unreadable-LeftCorner")
+        - If they have no ID present, use "NoID-" followed by a position descriptor (e.g., "NoID-NorthWall")
+    c. Neighbor relationships MUST be bidirectional and consistent (if Jason lists Amy as a neighbor, Amy MUST list Jason as a neighbor).
 """
 
 # ---------------------------

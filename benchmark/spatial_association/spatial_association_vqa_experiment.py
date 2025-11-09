@@ -1,3 +1,6 @@
+"""
+python benchmark/spatial_association/spatial_association_vqa_experiment.py -m gemini -n 1-o output/gemini/prompt/1_baseline
+"""
 import os
 import argparse
 from dotenv import load_dotenv

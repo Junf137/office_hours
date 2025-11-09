@@ -101,6 +101,7 @@ def run_evaluation(
         # Save metrics
         if split:
             metrics_path = os.path.join(out_dir, f"episode_0_720p_10fps_part_{i}_metrics.json")
+            # metrics_path = os.path.join(out_dir, f"episode_0_720p_10fps_part_0_metrics.json") # Single Cubicle Experiment
         else:
             metrics_path = os.path.join(out_dir, f"episode_{i}_metrics.json")
         save_json(metrics_path, metrics)
