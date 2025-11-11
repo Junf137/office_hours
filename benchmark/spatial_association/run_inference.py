@@ -18,7 +18,6 @@ load_dotenv()
 NUM_EPISODES = 6
 
 OUT_DIR = "output/4_neigh_metrics" 
-os.makedirs(OUT_DIR, exist_ok=True)
 
 # --- Model Configuration ---
 # Supported models: "gemini", "gpt4o"
@@ -39,17 +38,18 @@ MODEL_CONFIGS = {
 
 # --- Pydantic schemas to structure VLM output ---
 class CubiclePair(BaseModel):
-    id: str
-    name: str
+    internal_id: str         # model-assigned unique identifier (e.g., "C1", "C2", ...)
+    id: str                  # actual cubicle ID from video (or "Unreadable"/"noID")
+    name: str                # owner name (or "Unknown")
 
 class NeighborItem(BaseModel):
-    name: str                # owner name on this cubicle
-    neighbors: List[str]     # list of neighbor owner names (strings)
+    internal_id: str                # internal_id of this cubicle
+    neighbors: List[str]            # list of neighbor internal_ids
 
 class CombinedResponse(BaseModel):
-    count: int                # number of cubicles with readable names
-    cubicles: List[CubiclePair]  # list of id<->name pairs (only include cubicles that have readable names)
-    neighbors: List[NeighborItem]       # neighbor lists per cubicle (names)
+    count: int                      # number of prominently featured cubicles
+    cubicles: List[CubiclePair]     # list of cubicles with internal_id, id, name
+    neighbors: List[NeighborItem]   # neighbor lists using internal_ids
 
 # ---------------------------
 # Prompt
@@ -61,31 +61,31 @@ Produce ONE strict JSON object (no commentary) with exactly three keys: "count",
 Schema:
 {
   "count": <integer>,
-  "cubicles": [ {"id":"2008M","name":"Amy"}, ... ],
-  "neighbors": [ {"name":"Amy","neighbors":["Jason","Lauren"]}, ... ]
+  "cubicles": [ {"internal_id":"C1","id":"2008M","name":"Amy"}, {"internal_id":"C2","id":"N/A","name":"Unknown"}, ... ],
+  "neighbors": [ {"internal_id":"C1","neighbors":["C2","C3"]}, ... ]
 }
 
 Rules:
 1. Only consider cubicles that are PROMINENTLY FEATURED in the video (i.e., the camera moves close to them, focuses on them, or spends significant time near them). Ignore distant background cubicles.
 
 2. For each prominently featured cubicle, create an entry in "cubicles":
-    a. NAME field:
+    a. "internal_id" field:
+        - Assign a unique identifier in sequential order (e.g., "C1", "C2", "C3", ...)
+        - Use these internal IDs consistently throughout the response
+    b. "name" field:
         - Use the visible owner name if readable (e.g., "Amy")
-        - If no owner name is visible, use "Unreadable"
-    b. ID field:
+        - If no owner name is visible, use "Unknown"
+    c. "id" field:
         - Use the visible cubicle ID if readable (e.g., "2008M")
-        - If you can see there IS an ID but cannot read it, use "Unreadable"
-        - If there is clearly NO ID present on the cubicle, use "noID"
+        - If you can see there IS an ID sign but cannot read it, use "Unreadable"
+        - If there is clearly NO ID sign present on the cubicle, use "noID"
 
 3. "count" must equal the total number of prominently featured cubicles (the length of the "cubicles" array).
 
-4. "neighbors" must list direct neighboring cubicles:
-    a. For cubicles with visible names, use the name (e.g., "Amy")
-    b. For cubicles with "Unreadable" names:
-        - If they have a readable ID, use the ID (e.g., "2008M")
-        - If they have an unreadable ID, use "Unreadable-" followed by a position descriptor (e.g., "Unreadable-LeftCorner")
-        - If they have no ID present, use "NoID-" followed by a position descriptor (e.g., "NoID-NorthWall")
-    c. Neighbor relationships MUST be bidirectional and consistent (if Jason lists Amy as a neighbor, Amy MUST list Jason as a neighbor).
+4. "neighbors" must list direct neighboring cubicles using their internal_ids:
+    a. Each entry must have an "internal_id" matching one from the "cubicles" array
+    b. The "neighbors" list contains the internal_ids of adjacent cubicles
+    c. Neighbor relationships MUST be bidirectional and consistent (if C1 lists C2 as a neighbor, C2 MUST list C1 as a neighbor).
 """
 
 # ---------------------------

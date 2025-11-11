@@ -62,97 +62,253 @@ def _name_sim(a: str, b: str) -> float:
     return difflib.SequenceMatcher(None, a.lower(), b.lower()).ratio()
 
 
+def build_internal_id_mapping(
+    parsed_response: Dict,
+    ground_truth: Dict,
+    name_threshold: float = 0.85
+) -> Dict[str, Dict]:
+    """
+    Build mapping from internal_id to ground truth cubicle.
+    
+    Strategy:
+    1. Try exact ID match (if readable)
+    2. Try name fuzzy match (if readable)
+    3. If both unreadable/noID, mark as "unmatched" but preserve in mapping
+    
+    Args:
+        parsed_response: Model output with internal_ids
+        ground_truth: Ground truth data
+        name_threshold: Similarity threshold for name matching
+        
+    Returns:
+        Dict mapping internal_id -> {
+            "gt_cubicle": matched GT cubicle or None,
+            "match_type": "id" | "name" | "unmatched",
+            "pred_cubicle": the predicted cubicle data
+        }
+    """
+    mapping = {}
+    gt_cubicles = ground_truth.get("cubicles", [])
+    gt_used = [False] * len(gt_cubicles)  # Track which GT cubicles have been matched
+    
+    pred_cubicles = parsed_response.get("cubicles", [])
+    
+    ## Try ID matches first (highest confidence)
+    for pred_cubicle in pred_cubicles:
+        internal_id = pred_cubicle["internal_id"]
+        pred_id = pred_cubicle["id"]
+        pred_name = pred_cubicle["name"]
+        
+        matched_gt = None
+        match_type = "unmatched"
+        
+        # Try exact ID match (if ID is readable and not noID)
+        if pred_id not in ["Unreadable", "noID", ""]:
+            for idx, gt_cubicle in enumerate(gt_cubicles):
+                if not gt_used[idx] and gt_cubicle["id"] == pred_id:
+                    matched_gt = gt_cubicle
+                    match_type = "id"
+                    gt_used[idx] = True
+                    break
+        
+        mapping[internal_id] = {
+            "gt_cubicle": matched_gt,
+            "match_type": match_type,
+            "pred_cubicle": pred_cubicle,
+        }
+
+    ## Try name matches for remaining unmatched predictions
+    for internal_id, match_info in mapping.items():
+        if match_info["match_type"] != "unmatched":
+            continue
+        
+        pred_cubicle = match_info["pred_cubicle"]
+        pred_name = pred_cubicle["name"]
+        
+        # Try name matching (if name is readable)
+        if pred_name not in ["Unknown", "Unreadable", ""]:
+            best_match_idx = None
+            best_similarity = 0.0
+            
+            for idx, gt_cubicle in enumerate(gt_cubicles):
+                if gt_used[idx]:
+                    continue
+                
+                gt_name = gt_cubicle["name"]
+                similarity = _name_sim(pred_name, gt_name)
+                
+                if similarity >= name_threshold and similarity > best_similarity:
+                    best_match_idx = idx
+                    best_similarity = similarity
+            
+            if best_match_idx is not None:
+                match_info["gt_cubicle"] = gt_cubicles[best_match_idx]
+                match_info["match_type"] = "name"
+                gt_used[best_match_idx] = True
+    
+    return mapping
+
+
 def compute_neighbor_metrics(
-    gt_neighbors: List[Dict], 
-    pred_neighbors: List[Dict], 
+    parsed_response: Dict,
+    ground_truth: Dict,
     name_threshold: float = 0.85
 ) -> Dict:
     """
-    Compute metrics for neighbor relationships.
-    For each person, we compare their neighbor list to the ground truth.
+    Compute neighbor relationship metrics.
+    
+    Evaluates ALL predicted neighbors, including those from unmatched cubicles:
+    - Neighbors of matched cubicles are evaluated against GT
+    - Neighbors of unmatched cubicles are counted as false positives
+    - Missing GT cubicles contribute to false negatives for their neighbor relationships
     
     Args:
-        gt_neighbors: Ground truth neighbor data
-        pred_neighbors: Predicted neighbor data
+        parsed_response: Model output with internal_id-based neighbors
+        ground_truth: Ground truth data
         name_threshold: Similarity threshold for fuzzy name matching
         
     Returns:
-        Dictionary containing precision, recall, f1, and per-person metrics
+        Dictionary containing precision, recall, f1, and detailed metrics
     """
-    # Build dictionaries for easier lookup
-    gt_dict = {item["name"]: set(item["neighbors"]) for item in gt_neighbors}
-    pred_dict = {item["name"]: set(item["neighbors"]) for item in pred_neighbors}
+    # Build mapping from internal_id to GT
+    internal_id_mapping = build_internal_id_mapping(
+        parsed_response, ground_truth, name_threshold
+    )
     
-    # Track metrics
-    total_tp = 0
-    total_fp = 0
-    total_fn = 0
+    # Separate matched vs unmatched cubicles
+    matched_mappings = {
+        iid: info for iid, info in internal_id_mapping.items()
+        if info["match_type"] in ["id", "name"]
+    }
+    unmatched_mappings = {
+        iid: info for iid, info in internal_id_mapping.items()
+        if info["match_type"] == "unmatched"
+    }
     
-    per_person_metrics = []
+    # Get ground truth neighbors indexed by cubicle name
+    gt_neighbors = {}
+    for neighbor_entry in ground_truth.get("neighbors", []):
+        name = neighbor_entry["name"]
+        neighbors = set(neighbor_entry.get("neighbors", []))
+        gt_neighbors[name] = neighbors
     
-    # Get all unique names from both GT and predictions
-    all_names = set(gt_dict.keys()) | set(pred_dict.keys())
+    # Process ALL predicted neighbors
+    tp = 0
+    fp = 0
+    fn = 0
     
-    for name in all_names:
-        gt_neighbors_set = gt_dict.get(name, set())
-        pred_neighbors_set = pred_dict.get(name, set())
+    # Track which GT cubicles had predictions evaluated
+    gt_cubicles_with_predictions = set()
+    
+    for neighbor_entry in parsed_response.get("neighbors", []):
+        source_internal_id = neighbor_entry["internal_id"]
+        neighbor_internal_ids = neighbor_entry["neighbors"]
         
-        # Use fuzzy matching for neighbor names
+        # Check if source cubicle exists in our mapping
+        if source_internal_id not in internal_id_mapping:
+            # Invalid internal_id reference - count all neighbors as FP
+            fp += len(neighbor_internal_ids)
+            continue
+        
+        source_info = internal_id_mapping[source_internal_id]
+        
+        # If source cubicle is unmatched (hallucinated), all its neighbors are FP
+        if source_info["match_type"] == "unmatched":
+            fp += len(neighbor_internal_ids)
+            continue
+        
+        # Source cubicle is matched - evaluate its neighbors against GT
+        source_gt = source_info["gt_cubicle"]
+        source_name = source_gt["name"]
+        gt_neighbor_set = gt_neighbors.get(source_name, set())
+        gt_cubicles_with_predictions.add(source_name)
+        
+        # Translate predicted neighbors to GT names, counting FPs for invalid/unmatched neighbors
+        pred_neighbor_set = set()
+        for neighbor_id in neighbor_internal_ids:
+            if neighbor_id not in internal_id_mapping:
+                # Invalid neighbor reference - count as FP
+                fp += 1
+                continue
+            
+            neighbor_info = internal_id_mapping[neighbor_id]
+            if neighbor_info["match_type"] == "unmatched":
+                # Neighbor is unmatched/hallucinated - count as FP
+                fp += 1
+            else:
+                # Neighbor is matched - add to prediction set for comparison with GT
+                neighbor_gt = neighbor_info["gt_cubicle"]
+                pred_neighbor_set.add(neighbor_gt["name"])
+        
+        # Count matches using fuzzy name matching
         matched_pred = set()
-        tp_local = 0
-        
-        for gt_neighbor in gt_neighbors_set:
+        for gt_neighbor in gt_neighbor_set:
             matched = False
-            for pred_neighbor in pred_neighbors_set:
+            for pred_neighbor in pred_neighbor_set:
                 if pred_neighbor not in matched_pred:
                     similarity = _name_sim(gt_neighbor, pred_neighbor)
                     if similarity >= name_threshold:
-                        tp_local += 1
+                        tp += 1
                         matched_pred.add(pred_neighbor)
                         matched = True
                         break
-            
             if not matched:
-                # This GT neighbor was not found in predictions
-                pass
+                fn += 1
         
-        fp_local = len(pred_neighbors_set) - tp_local
-        fn_local = len(gt_neighbors_set) - tp_local
-        
-        total_tp += tp_local
-        total_fp += fp_local
-        total_fn += fn_local
-        
-        # Per-person metrics for debugging
-        person_precision = tp_local / (tp_local + fp_local) if (tp_local + fp_local) > 0 else 0.0
-        person_recall = tp_local / (tp_local + fn_local) if (tp_local + fn_local) > 0 else 0.0
-        person_f1 = 2 * person_precision * person_recall / (person_precision + person_recall) if (person_precision + person_recall) > 0 else 0.0
-        
-        per_person_metrics.append({
-            "name": name,
-            "tp": tp_local,
-            "fp": fp_local,
-            "fn": fn_local,
-            "precision": person_precision,
-            "recall": person_recall,
-            "f1": person_f1,
-            "gt_neighbors": list(gt_neighbors_set),
-            "pred_neighbors": list(pred_neighbors_set),
-        })
+        # Unmatched predictions are FPs
+        fp += len(pred_neighbor_set - matched_pred)
     
-    # Overall metrics
-    precision = total_tp / (total_tp + total_fp) if (total_tp + total_fp) > 0 else 0.0
-    recall = total_tp / (total_tp + total_fn) if (total_tp + total_fn) > 0 else 0.0
+    # Add FN for GT cubicles that were matched but had no neighbor predictions
+    all_matched_gt_names = set()
+    for info in matched_mappings.values():
+        all_matched_gt_names.add(info["gt_cubicle"]["name"])
+    
+    for gt_name in all_matched_gt_names:
+        if gt_name not in gt_cubicles_with_predictions:
+            # This GT cubicle was identified but no neighbors were predicted
+            # All its GT neighbors are false negatives
+            gt_neighbor_set = gt_neighbors.get(gt_name, set())
+            fn += len(gt_neighbor_set)
+    
+    # Add FN for GT cubicles that were completely missed (not in matched_mappings)
+    gt_cubicle_names = set(gt_neighbors.keys())
+    missed_gt_cubicles = gt_cubicle_names - all_matched_gt_names
+    for gt_name in missed_gt_cubicles:
+        # This GT cubicle was not identified at all
+        # All its GT neighbors are false negatives
+        gt_neighbor_set = gt_neighbors.get(gt_name, set())
+        fn += len(gt_neighbor_set)
+    
+    # Compute precision, recall, F1
+    precision = tp / (tp + fp) if (tp + fp) > 0 else 0.0
+    recall = tp / (tp + fn) if (tp + fn) > 0 else 0.0
     f1 = 2 * precision * recall / (precision + recall) if (precision + recall) > 0 else 0.0
+    
+    # Track unmatched cubicles that have neighbor predictions (for debugging)
+    unmatched_with_neighbors = []
+    for neighbor_entry in parsed_response.get("neighbors", []):
+        iid = neighbor_entry["internal_id"]
+        if iid in unmatched_mappings:
+            cubicle_info = unmatched_mappings[iid]["pred_cubicle"]
+            unmatched_with_neighbors.append({
+                "internal_id": iid,
+                "name": cubicle_info.get("name"),
+                "id": cubicle_info.get("id"),
+                "neighbor_count": len(neighbor_entry["neighbors"]),
+            })
     
     return {
         "precision": precision,
         "recall": recall,
         "f1": f1,
-        "tp": total_tp,
-        "fp": total_fp,
-        "fn": total_fn,
-        "per_person": per_person_metrics,
+        "tp": tp,
+        "fp": fp,
+        "fn": fn,
+        "matched_cubicles_evaluated": len(matched_mappings),
+        "total_cubicles_in_gt": len(ground_truth.get("cubicles", [])),
+        "total_cubicles_in_prediction": len(internal_id_mapping),
+        "unmatched_cubicles": len(unmatched_mappings),
+        "unmatched_cubicles_with_neighbors": unmatched_with_neighbors,
     }
 
 
@@ -290,11 +446,10 @@ def compute_episode_metrics(
         "unmatched_pred": cub_metrics["unmatched_preds"],
     }
     
-    # Neighbor metrics if GT has neighbor data
+    # Neighbor metrics if GT has neighbor data - use internal_id mapping
     gt_neighbors = gt.get("neighbors", [])
     if gt_neighbors:
-        pred_neighbors = parsed_response.get("neighbors", [])
-        neighbor_metrics = compute_neighbor_metrics(gt_neighbors, pred_neighbors, name_threshold=name_threshold)
+        neighbor_metrics = compute_neighbor_metrics(parsed_response, gt, name_threshold=name_threshold)
         metrics["neighbors"] = {
             "precision": neighbor_metrics["precision"],
             "recall": neighbor_metrics["recall"],
@@ -302,8 +457,11 @@ def compute_episode_metrics(
             "tp": neighbor_metrics["tp"],
             "fp": neighbor_metrics["fp"],
             "fn": neighbor_metrics["fn"],
-            # include per-person metrics for debugging
-            "per_person": neighbor_metrics["per_person"],
+            "matched_cubicles_evaluated": neighbor_metrics["matched_cubicles_evaluated"],
+            "total_cubicles_in_gt": neighbor_metrics["total_cubicles_in_gt"],
+            "total_cubicles_in_prediction": neighbor_metrics["total_cubicles_in_prediction"],
+            "unmatched_cubicles": neighbor_metrics["unmatched_cubicles"],
+            "unmatched_cubicles_with_neighbors": neighbor_metrics["unmatched_cubicles_with_neighbors"],
         }
     
     return metrics
