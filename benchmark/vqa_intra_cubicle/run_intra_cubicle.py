@@ -47,10 +47,10 @@ class AnswersResponse(BaseModel):
 # ---------------------------
 if __name__ == "__main__":
 
-    questions_file = "data/questions/global_changes/Object_State_Questions.json"
+    questions_file = "data/questions/global_changes/Object_Counting_Questions.json"
     
 
-    model_provider = "gpt4o"
+    model_provider = "gemini"
 
     log_filename = setup_logger(questions_file)
     logging.info("Logger initialized")

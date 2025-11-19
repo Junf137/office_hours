@@ -80,6 +80,12 @@ class GeminiModel(VLMInterface):
             },
         )
         
+        # Check if response is empty
+        if not resp.text or resp.text.strip() == "":
+            print(f"Empty response received from {self.model_name}")
+            print(f"Response object: {resp}")
+            return None
+        
         return resp.text
     
     def get_model_name(self) -> str:

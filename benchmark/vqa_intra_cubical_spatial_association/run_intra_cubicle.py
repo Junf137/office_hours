@@ -6,7 +6,7 @@ import time
 from pydantic import BaseModel
 from dotenv import load_dotenv
 import logging
-from utils import setup_logger, generate_questions, save_results, load_questions
+from utils import setup_logger, generate_questions, save_results, load_questions, load_results
 
 from model_interface import create_model
 
@@ -48,10 +48,14 @@ class AnswersResponse(BaseModel):
 # ---------------------------
 if __name__ == "__main__":
 
-    questions_file = "data\questions\global_changes\Object_State_intra_cubcile_sp.json"
+    questions_file = "data\questions\global_changes\Object_Detection_intra_cubicle_sp.json"
     
+    resume_from = None
 
     model_provider = "gpt4o"
+
+    if resume_from is not None:
+        results = load_results(resume_from)
 
     log_filename = setup_logger(questions_file)
     logging.info("Logger initialized")
@@ -66,11 +70,21 @@ if __name__ == "__main__":
     questions_dict = load_questions(questions_file)
     logging.info(f"Loaded {len(questions_dict)} questions from {questions_file}")
 
-    initial_video = 0
+    if resume_from is not None:
+        key = list(results["answers"].keys())[-1]
+        initial_video = results["questions"][key]["Video"]
+    else:
+        initial_video = 0
+
     final_video = questions_dict[list(questions_dict.keys())[-1]]["Video"]
     logging.info(f"Processing videos from {initial_video} to {final_video}")
 
-    dict_answers = {}
+    if resume_from is not None:
+        dict_answers = results["answers"]
+    else:
+        dict_answers = {}
+
+    status= "completed"
     for i in range(initial_video, final_video+1):
         logging.info(f"Processing video {i}")
 
@@ -91,14 +105,16 @@ if __name__ == "__main__":
 
         if not resp_text:
             logging.error(f"Empty response received from {model.get_model_name()}")
-            raise ValueError(f"Empty response from {model.get_model_name()}")
+            status = "not completed"
+            break
         try:
             answers_json = json.loads(resp_text)
             logging.info(f"Successfully parsed JSON response: {answers_json}")
         except json.JSONDecodeError as e:
             logging.error(f"Failed to parse JSON response: {e}")
             logging.error(f"Raw response that failed to parse: {resp_text}")
-            raise
+            status = "not completed"
+            break
 
         for answer in answers_json['answers']:
             dict_answers[answer['question']] = answer['answer']
@@ -108,16 +124,19 @@ if __name__ == "__main__":
 
     logging.info("Completed processing all video pairs")
     logging.info(f"Final answers dictionary: {dict_answers}")
+    
 
     total_correct = 0
     total_questions = 0
 
-    for question in questions_dict:
-        total_questions += 1
-        if questions_dict[question]["Correct Choice"] == dict_answers[question]:
-            total_correct += 1
+    if status == "completed":
+        for question in questions_dict:
+            total_questions += 1
 
-    logging.info(f"Scoring complete: {total_correct} correct out of {total_questions} questions")
+            if questions_dict[question]["Correct Choice"] == dict_answers[question]:
+                total_correct += 1
+
+        logging.info(f"Scoring complete: {total_correct} correct out of {total_questions} questions")
 
     # Save all results
     save_results(
@@ -128,6 +147,7 @@ if __name__ == "__main__":
         total_correct=total_correct,
         total_questions=total_questions,
         model_name=model_provider,
-        temperature=MODEL_CONFIGS[model_provider]["temperature"]
+        temperature=MODEL_CONFIGS[model_provider]["temperature"],
+        status=status
     )
     logging.info("Benchmark execution completed successfully")

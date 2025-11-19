@@ -4,6 +4,7 @@ Supports multiple providers: Gemini, GPT-4o, etc.
 """
 import os
 import time
+import random
 from abc import ABC, abstractmethod
 from typing import Dict, Any, Optional
 from pydantic import BaseModel
@@ -53,29 +54,82 @@ class GeminiModel(VLMInterface):
         self.model_name = model_name
         self.temperature = temperature
     
-    def generate_response(self, video_path_1: str, prompt: str, response_schema: BaseModel) -> str:
-        """Generate response using Gemini model."""
-        print(f"Uploading {video_path_1} to Gemini...")
-        myfile_1 = self.client.files.upload(file=video_path_1)
+    def generate_response(self, video_path_1: str, prompt: str, response_schema: BaseModel, max_retries: int = 10, initial_delay: int = 10, exponential_base: int = 2, jitter: float = 0.1) -> str:
+        """Generate response using Gemini model with exponential backoff retry."""
+
+        # Retry with exponential backoff
+        num_retries = 0
+        delay = initial_delay
         
-        # Wait until the files are processed
-        while not myfile_1.state or myfile_1.state.name != "ACTIVE":
-            print("Waiting for file processing... state:", myfile_1.state)
-            time.sleep(3)
-            myfile_1 = self.client.files.get(name=myfile_1.name)
+        while True:
+            try:
+                print(f"Uploading {video_path_1} to Gemini...")
+                myfile_1 = self.client.files.upload(file=video_path_1)
+                
+                # Wait until the files are processed
+                while not myfile_1.state or myfile_1.state.name != "ACTIVE":
+                    print("Waiting for file processing... state:", myfile_1.state)
+                    time.sleep(3)
+                    myfile_1 = self.client.files.get(name=myfile_1.name)
         
-        # Generate content
-        resp = self.client.models.generate_content(
-            model=self.model_name,
-            contents=[myfile_1, prompt],
-            config={
-                "temperature": self.temperature,
-                "response_mime_type": "application/json",
-                "response_schema": response_schema,
-            },
-        )
+                # Generate content
+                resp = self.client.models.generate_content(
+                    model=self.model_name,
+                    contents=[myfile_1, prompt],
+                    config={
+                        "temperature": self.temperature,
+                        "response_mime_type": "application/json",
+                        "response_schema": response_schema,
+                        "max_output_tokens": 16384,  # Set high enough for large responses
+                    },
+                )
+                
+                # Print usage information for debugging
+                if hasattr(resp, 'usage_metadata'):
+                    print(f"Usage metadata: {resp.usage_metadata}")
+                
+                # Check if response is empty
+                if not resp.text or resp.text.strip() == "":
+                    print(f"Empty response received from {self.model_name}")
+                    print(f"Response object: {resp}")
+                    if hasattr(resp, 'usage_metadata'):
+                        print(f"Token usage: {resp.usage_metadata}")
+                    raise ValueError(f"Empty response received from {self.model_name}")
+                
+                return resp.text
+                
+            except Exception as e:
+                # Check for retryable errors
+                if ("rate limit" in str(e).lower() or "timed out" in str(e).lower() or 
+                    "quota" in str(e).lower() or "Too Many Requests" in str(e) or 
+                    "Forbidden for url" in str(e) or "internal" in str(e).lower() or 
+                    "503" in str(e) or "502" in str(e) or "429" in str(e) or 
+                    "Empty response received from" in str(e) or
+                    "ConnectError" in str(e) or "getaddrinfo failed" in str(e) or  # ADD THIS
+                    "connection" in str(e).lower()):
+                    
+                    print(e)
+                    # Increment retries
+                    num_retries += 1
+                    
+                    # Check if max retries has been reached
+                    if num_retries > max_retries:
+                        print(f"Max retries ({max_retries}) reached. Exiting.")
+                        return None
+                    
+                    # Calculate delay with exponential backoff and jitter
+                    delay = delay * exponential_base * (1 + jitter * random.random())
+                    print(f"Retrying in {delay:.2f} seconds for error: {str(e)}...")
+                    
+                    # Sleep for the delay
+                    time.sleep(delay)
+                else:
+                    # Non-retryable error
+                    print(f"Non-retryable error occurred: {str(e)}")
+                    raise e
+
+
         
-        return resp.text
     
     def get_model_name(self) -> str:
         """Return the Gemini model name."""
@@ -146,8 +200,8 @@ class GPT4oModel(VLMInterface):
         print(f"Successfully extracted {len(frames)} frames")
         return frames
     
-    def generate_response(self, video_path_1: str, prompt: str, response_schema: BaseModel, num_frames: int = -1, max_retries: int = 10) -> str:
-        """Generate response using GPT-4o model."""
+    def generate_response(self, video_path_1: str, prompt: str, response_schema: BaseModel, num_frames: int = -1, max_retries: int = 10, initial_delay: int = 10, exponential_base: int = 2, jitter: float = 0.1) -> str:
+        """Generate response using GPT-4o model with exponential backoff retry."""
 
         if num_frames == -1:
             num_frames = self.num_frames
@@ -177,10 +231,11 @@ class GPT4oModel(VLMInterface):
         
         print(f"Sending {len(frames_1)} frames to GPT-4o...")
         
-        # For structured output, we need to use response_format (if available)
-        # or parse the JSON from the response
-
-        for attempt in range(max_retries):
+        # Retry with exponential backoff
+        num_retries = 0
+        delay = initial_delay
+        
+        while True:
             try:
                 response = self.client.chat.completions.create(
                     model=self.model_name,
@@ -194,7 +249,6 @@ class GPT4oModel(VLMInterface):
                     max_tokens=self.max_tokens,
                     response_format={"type": "json_object"}  # Enforce JSON output
                 )
-            
             
                 choice = response.choices[0]
                 msg = choice.message
@@ -211,18 +265,35 @@ class GPT4oModel(VLMInterface):
                     print(f"Response: {response}")
 
                     print("We will try again by reducing the number of frames by 1")
-                    print(f"Number of frames: {self.num_frames-1}")
-                    resp_text = self.generate_response(video_path_1, prompt, response_schema, num_frames=self.num_frames-1)
+                    print(f"Number of frames: {num_frames-1}")
+                    resp_text = self.generate_response(video_path_1, prompt, response_schema, num_frames=num_frames-1)
 
                 return resp_text
+                
             except Exception as e:
-                # Catches rate limits, connection errors, and anything else
-                print(f"Error on attempt {attempt + 1}/{max_retries}: {e}")
-                if attempt < max_retries - 1:
-                    print(f"Waiting {5*60} seconds before retry...")
-                    time.sleep(5*60)
+                # Check for retryable errors
+                if ("rate limit" in str(e).lower() or "timed out" in str(e).lower() or "connection"
+                    "Too Many Requests" in str(e) or "Forbidden for url" in str(e) or 
+                    "internal" in str(e).lower() or "503" in str(e) or "502" in str(e)):
+                    
+                    # Increment retries
+                    num_retries += 1
+                    
+                    # Check if max retries has been reached
+                    if num_retries > max_retries:
+                        print(f"Max retries ({max_retries}) reached. Exiting.")
+                        return None
+                    
+                    # Calculate delay with exponential backoff and jitter
+                    delay = delay * exponential_base * (1 + jitter * random.random())
+                    print(f"Retrying in {delay:.2f} seconds for error: {str(e)}...")
+                    
+                    # Sleep for the delay
+                    time.sleep(delay)
                 else:
-                    raise  # Re-raise after max retries
+                    # Non-retryable error
+                    print(f"Non-retryable error occurred: {str(e)}")
+                    return None
 
        
     

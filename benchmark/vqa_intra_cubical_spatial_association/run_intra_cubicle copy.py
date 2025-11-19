@@ -6,7 +6,7 @@ import time
 from pydantic import BaseModel
 from dotenv import load_dotenv
 import logging
-from utils import setup_logger, generate_questions, save_results, load_questions
+from utils import setup_logger, generate_question, save_results_single_question, load_questions, load_results
 
 from model_interface import create_model
 
@@ -48,10 +48,14 @@ class AnswersResponse(BaseModel):
 # ---------------------------
 if __name__ == "__main__":
 
-    questions_file = "data/questions/global_changes/Object_Counting_intra_cubicle_sp.json"
+    questions_file = "data\questions\global_changes\Object_State_intra_cubcile_sp.json"
     
+    resume_from = "results/vqa_intra_cubical_spatial_association_single_question/gpt4o/Object_State_intra_cubcile_sp_20251110_173233_results.json"
 
     model_provider = "gpt4o"
+
+    if resume_from is not None:
+        results = load_results(resume_from)
 
     log_filename = setup_logger(questions_file)
     logging.info("Logger initialized")
@@ -66,23 +70,35 @@ if __name__ == "__main__":
     questions_dict = load_questions(questions_file)
     logging.info(f"Loaded {len(questions_dict)} questions from {questions_file}")
 
-    initial_video = 0
-    final_video = questions_dict[list(questions_dict.keys())[-1]]["Video"]
-    logging.info(f"Processing videos from {initial_video} to {final_video}")
+    if resume_from is not None:
+        dict_answers = results["answers"]
+        # Get list of already processed questions
+        processed_questions = set(dict_answers.keys())
+        logging.info(f"Resuming from previous run. Already processed {len(processed_questions)} questions.")
+    else:
+        dict_answers = {}
+        processed_questions = set()
 
-    dict_answers = {}
-    for i in range(initial_video, final_video+1):
-        logging.info(f"Processing video {i}")
+    status = "completed"
+    for question in questions_dict:
+        # Skip already processed questions
+        if question in processed_questions:
+            logging.info(f"Skipping already processed question {question}")
+            continue
+            
+        video_number = questions_dict[question]["Video"]    
+        logging.info(f"Processing Question {question} for video {video_number}")
 
 
-        episode_path_1 = f"data/global_changes_videos/episode_{i}_720p_10fps.mp4"
+
+        episode_path_1 = f"data/global_changes_videos/episode_{video_number}_720p_10fps.mp4"
         assert os.path.exists(episode_path_1), "Missing file:" + episode_path_1
 
-        prompt = generate_questions(questions_dict, i)
+        prompt = generate_question(questions_dict, question)
         logging.info("Generated questions prompt")
         logging.info(f"Prompt being sent to model :\n{prompt}")
         # Generate response using the model interface
-        logging.info(f"Processing episode {i}...")
+        logging.info(f"Processing question {question}...")
         resp_text = model.generate_response(episode_path_1, prompt, AnswersResponse)
 
         logging.info(f"Received response from {model.get_model_name()}")
@@ -91,36 +107,41 @@ if __name__ == "__main__":
 
         if not resp_text:
             logging.error(f"Empty response received from {model.get_model_name()}")
-            raise ValueError(f"Empty response from {model.get_model_name()}")
+            status = "not completed"
+            break
         try:
             answers_json = json.loads(resp_text)
             logging.info(f"Successfully parsed JSON response: {answers_json}")
         except json.JSONDecodeError as e:
             logging.error(f"Failed to parse JSON response: {e}")
             logging.error(f"Raw response that failed to parse: {resp_text}")
-            raise
+            status = "not completed"
+            break
 
         for answer in answers_json['answers']:
             dict_answers[answer['question']] = answer['answer']
-        logging.info(f"Sleeping for 20 seconds")
-        time.sleep(20)
+        logging.info(f"Sleeping for 10 seconds")
+        time.sleep(10)
     
 
-    logging.info("Completed processing all video pairs")
+    logging.info("Completed processing all questions")
     logging.info(f"Final answers dictionary: {dict_answers}")
+    
 
     total_correct = 0
     total_questions = 0
 
-    for question in questions_dict:
-        total_questions += 1
-        if questions_dict[question]["Correct Choice"] == dict_answers[question]:
-            total_correct += 1
+    if status == "completed":
+        for question in questions_dict:
+            total_questions += 1
 
-    logging.info(f"Scoring complete: {total_correct} correct out of {total_questions} questions")
+            if questions_dict[question]["Correct Choice"] == dict_answers[question]:
+                total_correct += 1
+
+        logging.info(f"Scoring complete: {total_correct} correct out of {total_questions} questions")
 
     # Save all results
-    save_results(
+    save_results_single_question(
         questions_file=questions_file,
         prompt=prompt,
         questions_dict=questions_dict,
@@ -128,6 +149,7 @@ if __name__ == "__main__":
         total_correct=total_correct,
         total_questions=total_questions,
         model_name=model_provider,
-        temperature=MODEL_CONFIGS[model_provider]["temperature"]
+        temperature=MODEL_CONFIGS[model_provider]["temperature"],
+        status=status
     )
     logging.info("Benchmark execution completed successfully")
